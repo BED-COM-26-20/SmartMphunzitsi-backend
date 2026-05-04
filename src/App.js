@@ -78,9 +78,49 @@ try {
 // Root
 app.get('/', (req, res) => {
   res.json({
-    message: '🎓 Smart Mphunzitsi API is running',
+    message: ' Smart Mphunzitsi API is running',
     version: '1.0.0',
     status: 'OK'
+  });
+});
+
+// API info 
+app.get('/api', (req, res) => {
+  res.json({
+    message: 'Smart Mphunzitsi API',
+    version: '1.0.0',
+    endpoints: {
+      auth: {
+        register: 'POST /api/auth/register',
+        login: 'POST /api/auth/login',
+        me: 'GET /api/auth/me'
+      },
+      users: {
+        profile: 'GET /api/users/profile',
+        updateProfile: 'PUT /api/users/profile',
+        changePassword: 'PUT /api/users/change-password',
+        dashboard: 'GET /api/users/dashboard',
+        deleteAccount: 'DELETE /api/users/account'
+      },
+      lessons: {
+        bySubject: 'GET /api/lessons/subject/:subject',
+        bySubjectAndForm: 'GET /api/lessons/subject/:subject?form=Form 1',
+        topics: 'GET /api/lessons/topics/:subject/:form',
+        single: 'GET /api/lessons/:subject/:lessonId',
+        mySubjects: 'GET /api/lessons/my-subjects'
+      },
+      progress: {
+        complete: 'POST /api/progress/complete',
+        bySubject: 'GET /api/progress/:subject',
+        overview: 'GET /api/progress/overview/all'
+      },
+      chat: {
+        message: 'POST /api/chat'
+      },
+      quiz: {
+        generate: 'POST /api/quiz/generate'
+      }
+    }
   });
 });
 
