@@ -11529,476 +11529,476 @@ Remember: Hooke's Law: F = kx (force proportional to extension). k = spring cons
 }
 ,
 
-// // ======================================================================
-// // CHEMISTRY FORM 4 (REMAINING)
-// // ======================================================================
+// ======================================================================
+// CHEMISTRY FORM 4 (REMAINING)
+// ======================================================================
 
-// // Topic: Electrolysis (2 lessons)
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 4',
-//   topic: 'Electrolysis',
-//   lessonNumber: 1,
-//   lessonTitle: 'Principles of Electrolysis',
-//   lessonId: 'chemistry-f4-electrolysis-1',
-//   order: 85,
-//   learningObjectives: [
-//     'Define electrolysis',
-//     'Identify components of an electrolytic cell',
-//     'Explain the process of electrolysis',
-//     'Predict products of electrolysis for molten compounds'
-//   ],
-//   introduction: 'Hello, electrochemist! Have you ever seen metal objects plated with shiny chrome? Or copper purified? These are done by ELECTROLYSIS – using electricity to cause chemical reactions. Today, you will learn how electrolysis works and how to predict what products form when you pass electricity through different substances.',
-//   keyPoints: [
-//     'Electrolysis: decomposition of a compound by passing electricity through it',
-//     'Electrolytic cell components: electrodes (cathode, anode), electrolyte, power supply',
-//     'Cathode: negative electrode (attracts positive ions)',
-//     'Anode: positive electrode (attracts negative ions)',
-//     'Cations (+) move to cathode and gain electrons (reduction)',
-//     'Anions (-) move to anode and lose electrons (oxidation)'
-//   ],
-//   detailedContent: `Let me explain ELECTROLYSIS.
-
-// WHAT IS ELECTROLYSIS?
-
-// Electrolysis is the decomposition of a compound (electrolyte) when electricity is passed through it.
-
-// COMPONENTS OF AN ELECTROLYTIC CELL:
-
-// | Component | Description |
-// |-----------|-------------|
-// | Electrolyte | Liquid containing ions (molten ionic compound or solution) |
-// | Cathode | Negative electrode (attracts positive ions) |
-// | Anode | Positive electrode (attracts negative ions) |
-// | Power supply | Provides DC electricity |
-// | Bulb/ammeter | Shows current flowing |
-
-// HOW ELECTROLYSIS WORKS:
-
-// 1. Positive ions (cations) are attracted to the CATHODE (negative)
-//    - They GAIN electrons: REDUCTION
-//    - Cation + e⁻ → Metal (or hydrogen)
-
-// 2. Negative ions (anions) are attracted to the ANODE (positive)
-//    - They LOSE electrons: OXIDATION
-//    - Anion → element + e⁻
-
-// ELECTROLYSIS OF MOLTEN COMPOUNDS (no water present):
-
-// The products are the elements from the compound.
-
-// Example 1: Molten Lead(II) Bromide (PbBr₂)
-
-// Ions: Pb²⁺ and Br⁻
-
-// At CATHODE (-): Pb²⁺ + 2e⁻ → Pb (silver liquid metal)
-
-// At ANODE (+): 2Br⁻ → Br₂ + 2e⁻ (brown gas)
-
-// Overall: PbBr₂ → Pb + Br₂
+// Topic: Electrolysis (2 lessons)
+{
+  subject: 'Chemistry',
+  form: 'Form 4',
+  topic: 'Electrolysis',
+  lessonNumber: 1,
+  lessonTitle: 'Principles of Electrolysis',
+  lessonId: 'chemistry-f4-electrolysis-1',
+  order: 85,
+  learningObjectives: [
+    'Define electrolysis',
+    'Identify components of an electrolytic cell',
+    'Explain the process of electrolysis',
+    'Predict products of electrolysis for molten compounds'
+  ],
+  introduction: 'Hello, electrochemist! Have you ever seen metal objects plated with shiny chrome? Or copper purified? These are done by ELECTROLYSIS – using electricity to cause chemical reactions. Today, you will learn how electrolysis works and how to predict what products form when you pass electricity through different substances.',
+  keyPoints: [
+    'Electrolysis: decomposition of a compound by passing electricity through it',
+    'Electrolytic cell components: electrodes (cathode, anode), electrolyte, power supply',
+    'Cathode: negative electrode (attracts positive ions)',
+    'Anode: positive electrode (attracts negative ions)',
+    'Cations (+) move to cathode and gain electrons (reduction)',
+    'Anions (-) move to anode and lose electrons (oxidation)'
+  ],
+  detailedContent: `Let me explain ELECTROLYSIS.
+
+WHAT IS ELECTROLYSIS?
+
+Electrolysis is the decomposition of a compound (electrolyte) when electricity is passed through it.
+
+COMPONENTS OF AN ELECTROLYTIC CELL:
+
+| Component | Description |
+|-----------|-------------|
+| Electrolyte | Liquid containing ions (molten ionic compound or solution) |
+| Cathode | Negative electrode (attracts positive ions) |
+| Anode | Positive electrode (attracts negative ions) |
+| Power supply | Provides DC electricity |
+| Bulb/ammeter | Shows current flowing |
+
+HOW ELECTROLYSIS WORKS:
+
+1. Positive ions (cations) are attracted to the CATHODE (negative)
+   - They GAIN electrons: REDUCTION
+   - Cation + e⁻ → Metal (or hydrogen)
+
+2. Negative ions (anions) are attracted to the ANODE (positive)
+   - They LOSE electrons: OXIDATION
+   - Anion → element + e⁻
+
+ELECTROLYSIS OF MOLTEN COMPOUNDS (no water present):
+
+The products are the elements from the compound.
+
+Example 1: Molten Lead(II) Bromide (PbBr₂)
+
+Ions: Pb²⁺ and Br⁻
+
+At CATHODE (-): Pb²⁺ + 2e⁻ → Pb (silver liquid metal)
+
+At ANODE (+): 2Br⁻ → Br₂ + 2e⁻ (brown gas)
+
+Overall: PbBr₂ → Pb + Br₂
 
-// Example 2: Molten Sodium Chloride (NaCl)
+Example 2: Molten Sodium Chloride (NaCl)
 
-// Ions: Na⁺ and Cl⁻
+Ions: Na⁺ and Cl⁻
 
-// At CATHODE: Na⁺ + e⁻ → Na (silver metal)
+At CATHODE: Na⁺ + e⁻ → Na (silver metal)
 
-// At ANODE: 2Cl⁻ → Cl₂ + 2e⁻ (green gas)
+At ANODE: 2Cl⁻ → Cl₂ + 2e⁻ (green gas)
 
-// Overall: 2NaCl → 2Na + Cl₂
+Overall: 2NaCl → 2Na + Cl₂
 
-// Example 3: Molten Copper(II) Chloride (CuCl₂)
+Example 3: Molten Copper(II) Chloride (CuCl₂)
 
-// At CATHODE: Cu²⁺ + 2e⁻ → Cu (red-brown metal)
+At CATHODE: Cu²⁺ + 2e⁻ → Cu (red-brown metal)
 
-// At ANODE: 2Cl⁻ → Cl₂ + 2e⁻
+At ANODE: 2Cl⁻ → Cl₂ + 2e⁻
 
-// INDUSTRIAL APPLICATIONS:
+INDUSTRIAL APPLICATIONS:
 
-// - EXTRACTION OF METALS: Aluminium from molten bauxite
-// - PURIFICATION OF COPPER impure copper → pure copper
-// - ELECTROPLATING: coating metal with a thin layer (chrome, silver, gold)
-// - PRODUCTION OF CHLORINE, HYDROGEN, SODIUM HYDROXIDE
+- EXTRACTION OF METALS: Aluminium from molten bauxite
+- PURIFICATION OF COPPER impure copper → pure copper
+- ELECTROPLATING: coating metal with a thin layer (chrome, silver, gold)
+- PRODUCTION OF CHLORINE, HYDROGEN, SODIUM HYDROXIDE
 
-// In Malawi, electrolysis is used in:
-// - Battery charging (car batteries)
-// - Electroplating (repair shops)
-// - Water treatment (chlorine production)
+In Malawi, electrolysis is used in:
+- Battery charging (car batteries)
+- Electroplating (repair shops)
+- Water treatment (chlorine production)
 
-// A PROTIP: Remember: Reduction occurs at the Cathode (RCC or Red Cat – Reduction at Cathode). Oxidation occurs at the Anode (Oxy An – Oxidation at Anode).
+A PROTIP: Remember: Reduction occurs at the Cathode (RCC or Red Cat – Reduction at Cathode). Oxidation occurs at the Anode (Oxy An – Oxidation at Anode).
 
-// Remember: Electrolysis decomposes compounds using electricity. Cations (+) go to cathode and are reduced (gain electrons). Anions (-) go to anode and are oxidised (lose electrons). For molten compounds, products are the elements.`,
-//   summary: 'Electrolysis decomposes compounds using electricity. Cations (+) go to cathode and gain electrons (reduction). Anions (-) go to anode and lose electrons (oxidation). For molten compounds, products are the elements (e.g., Pb and Br₂ from PbBr₂).',
-//   estimatedTime: '20 mins',
-//   malawiExamples: [
-//     { title: 'Battery Charging', description: 'Car batteries are recharged using electrolysis.' },
-//     { title: 'Chrome Plating', description: 'Some shops electroplate metal parts to prevent rust.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What is attracted to the cathode?', answer: 'Positive ions (cations)', hint: 'Opposites attract' },
-//     { question: 'What happens to cations at the cathode?', answer: 'They gain electrons (reduction)', hint: 'RCC – Reduction at Cathode' }
-//   ]
-// },
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 4',
-//   topic: 'Electrolysis',
-//   lessonNumber: 2,
-//   lessonTitle: 'Electrolysis of Aqueous Solutions and Uses',
-//   lessonId: 'chemistry-f4-electrolysis-2',
-//   order: 86,
-//   learningObjectives: [
-//     'Predict products of electrolysis for aqueous solutions',
-//     'Explain preferential discharge',
-//     'Describe the electrolysis of water',
-//     'Describe uses of electrolysis'
-//   ],
-//   introduction: 'Welcome back! When the electrolyte contains WATER (aqueous solution), the products can be different because water also contains H⁺ and OH⁻ ions. Some ions are discharged (react) preferentially. Today, you will learn how to predict products in water and the important industrial uses of electrolysis.',
-//   keyPoints: [
-//     'In aqueous solutions, water produces H⁺ and OH⁻ ions',
-//     'Preferential discharge: which ion reacts first depends on position in reactivity series',
-//     'Cathode: metal ions below hydrogen are discharged; above hydrogen, H⁺ discharges to form H₂',
-//     'Anode: if halide present, halogen is discharged; if not, OH⁻ discharges to form O₂',
-//     'Electrolysis used in: purification of copper, electroplating, production of hydrogen, chlorine, sodium hydroxide'
-//   ],
-//   detailedContent: `Let me explain ELECTROLYSIS OF AQUEOUS SOLUTIONS.
+Remember: Electrolysis decomposes compounds using electricity. Cations (+) go to cathode and are reduced (gain electrons). Anions (-) go to anode and are oxidised (lose electrons). For molten compounds, products are the elements.`,
+  summary: 'Electrolysis decomposes compounds using electricity. Cations (+) go to cathode and gain electrons (reduction). Anions (-) go to anode and lose electrons (oxidation). For molten compounds, products are the elements (e.g., Pb and Br₂ from PbBr₂).',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Battery Charging', description: 'Car batteries are recharged using electrolysis.' },
+    { title: 'Chrome Plating', description: 'Some shops electroplate metal parts to prevent rust.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is attracted to the cathode?', answer: 'Positive ions (cations)', hint: 'Opposites attract' },
+    { question: 'What happens to cations at the cathode?', answer: 'They gain electrons (reduction)', hint: 'RCC – Reduction at Cathode' }
+  ]
+},
+{
+  subject: 'Chemistry',
+  form: 'Form 4',
+  topic: 'Electrolysis',
+  lessonNumber: 2,
+  lessonTitle: 'Electrolysis of Aqueous Solutions and Uses',
+  lessonId: 'chemistry-f4-electrolysis-2',
+  order: 86,
+  learningObjectives: [
+    'Predict products of electrolysis for aqueous solutions',
+    'Explain preferential discharge',
+    'Describe the electrolysis of water',
+    'Describe uses of electrolysis'
+  ],
+  introduction: 'Welcome back! When the electrolyte contains WATER (aqueous solution), the products can be different because water also contains H⁺ and OH⁻ ions. Some ions are discharged (react) preferentially. Today, you will learn how to predict products in water and the important industrial uses of electrolysis.',
+  keyPoints: [
+    'In aqueous solutions, water produces H⁺ and OH⁻ ions',
+    'Preferential discharge: which ion reacts first depends on position in reactivity series',
+    'Cathode: metal ions below hydrogen are discharged; above hydrogen, H⁺ discharges to form H₂',
+    'Anode: if halide present, halogen is discharged; if not, OH⁻ discharges to form O₂',
+    'Electrolysis used in: purification of copper, electroplating, production of hydrogen, chlorine, sodium hydroxide'
+  ],
+  detailedContent: `Let me explain ELECTROLYSIS OF AQUEOUS SOLUTIONS.
 
-// In aqueous solutions, we have more than just the ions from the compound – we also have H⁺ and OH⁻ from water.
+In aqueous solutions, we have more than just the ions from the compound – we also have H⁺ and OH⁻ from water.
 
-// H₂O ⇌ H⁺ + OH⁻
+H₂O ⇌ H⁺ + OH⁻
 
-// Which ion discharges (reacts) at each electrode depends on:
+Which ion discharges (reacts) at each electrode depends on:
 
-// CATHODE (reduction – gain electrons):
+CATHODE (reduction – gain electrons):
 
-// - If the metal is below HYDROGEN in reactivity series (Cu, Ag, Au), the metal discharges (forms metal)
-// - If the metal is above HYDROGEN (Na, Mg, Al, Zn, Fe), H⁺ discharges to form HYDROGEN GAS
+- If the metal is below HYDROGEN in reactivity series (Cu, Ag, Au), the metal discharges (forms metal)
+- If the metal is above HYDROGEN (Na, Mg, Al, Zn, Fe), H⁺ discharges to form HYDROGEN GAS
 
-// Reactivity Series (simplified):
-// Potassium (K), Sodium (Na), Calcium (Ca), Magnesium (Mg), Aluminium (Al), Carbon, Zinc (Zn), Iron (Fe), Tin (Sn), Lead (Pb), HYDROGEN, Copper (Cu), Silver (Ag), Gold (Au)
-
-// ANODE (oxidation – lose electrons):
-
-// - If HALIDE ions (Cl⁻, Br⁻, I⁻) are present, they discharge (form Cl₂, Br₂, I₂)
-// - If no halides, OH⁻ discharges to form OXYGEN GAS (O₂)
-
-// EXAMPLES:
-
-// Example 1: Sodium chloride solution (NaCl in water)
-// Ions: Na⁺, Cl⁻, H⁺, OH⁻
-
-// Cathode: Na is above hydrogen → H⁺ discharges → H₂ gas (bubbles)
-// 2H⁺ + 2e⁻ → H₂
-
-// Anode: Cl⁻ present → Cl₂ gas (green, bleach smell)
-// 2Cl⁻ → Cl₂ + 2e⁻
-
-// Overall products: H₂ gas + Cl₂ gas + NaOH solution (Na⁺ and OH⁻ left in solution)
-
-// This is how chlorine, hydrogen, and sodium hydroxide are produced industrially.
-
-// Example 2: Copper(II) chloride solution (CuCl₂ in water)
-// Ions: Cu²⁺, Cl⁻, H⁺, OH⁻
-
-// Cathode: Cu is below hydrogen → Cu²⁺ discharges → Cu metal (red layer)
-// Cu²⁺ + 2e⁻ → Cu
-
-// Anode: Cl⁻ present → Cl₂ gas
-
-// Overall: copper metal deposits, chlorine gas released
-
-// This is used in PURIFICATION OF COPPER.
-
-// Example 3: Copper(II) sulphate solution (CuSO₄ in water) with inert electrodes
-// Ions: Cu²⁺, SO₄²⁻, H⁺, OH⁻
-
-// Cathode: Cu²⁺ discharges → Cu metal
-
-// Anode: no halides → OH⁻ discharges → O₂ gas
-// 4OH⁻ → 2H₂O + O₂ + 4e⁻
-
-// Overall: copper deposits, oxygen gas.
-
-// Example 4: Electrolysis of water (using dilute H₂SO₄ or NaOH to conduct electricity)
-// Ions: H⁺, OH⁻ (plus SO₄²⁻ or Na⁺ which do not discharge)
-
-// Cathode: H⁺ discharges → 2H₂ (hydrogen gas)
-// Anode: OH⁻ discharges → O₂ (oxygen gas)
-
-// 2H₂O → 2H₂ + O₂
-
-// Electrolysis of water produces hydrogen (used as fuel) and oxygen.
-
-// ELECTROPLATING:
-
-// Electroplating uses electrolysis to coat a metal with a thin layer of another metal.
-
-// Example: Chrome plating (car parts)
-// - Cathode: object to be plated (steel)
-// - Anode: chromium
-// - Electrolyte: chromium salt solution
-
-// During electrolysis, chromium from the anode dissolves and deposits on the cathode object.
-
-// USES OF ELECTROLYSIS IN MALAWI:
-
-// | Use | Example |
-// |-----|---------|
-// | Purifying copper | Copper wire production |
-// | Electroplating | Preventing rust on metal parts |
-// | Battery charging | Recharging car batteries |
-// | Producing chlorine | Water treatment (disinfection) |
-
-// A PROTIP: If you ever see green gas (chlorine) or smell bleach during an experiment, it likely came from electrolysis of chloride solution.
-
-// Remember: In aqueous solutions, fight for ions at electrodes. Preferential discharge: metals below hydrogen discharge; above hydrogen, H⁺ discharges → hydrogen gas. Halides discharge at anode; if no halides, OH⁻ discharges → oxygen gas. Electrolysis is used for metal purification, electroplating, and producing gases.`,
-//   summary: 'In aqueous solutions, water provides H⁺ and OH⁻ ions. CATHODE: metals below hydrogen discharge; above hydrogen, H⁺ discharges to H₂. ANODE: halides discharge (Cl₂, Br₂, I₂); if no halides, OH⁻ discharges to O₂. Uses: copper purification, electroplating, production of H₂, Cl₂, NaOH.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Water Treatment', description: 'Chlorine produced by electrolysis is used to disinfect drinking water.' },
-//     { title: 'Car Batteries', description: 'Lead-acid batteries are recharged using electrolysis.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'In electrolysis of NaCl solution, what gas forms at the anode?', answer: 'Chlorine (Cl₂)', hint: 'Halide present' },
-//     { question: 'If you electrolyse water, what gases are produced?', answer: 'Hydrogen (H₂) and oxygen (O₂)', hint: '2H₂O → 2H₂ + O₂' }
-//   ]
-// },
+Reactivity Series (simplified):
+Potassium (K), Sodium (Na), Calcium (Ca), Magnesium (Mg), Aluminium (Al), Carbon, Zinc (Zn), Iron (Fe), Tin (Sn), Lead (Pb), HYDROGEN, Copper (Cu), Silver (Ag), Gold (Au)
+
+ANODE (oxidation – lose electrons):
+
+- If HALIDE ions (Cl⁻, Br⁻, I⁻) are present, they discharge (form Cl₂, Br₂, I₂)
+- If no halides, OH⁻ discharges to form OXYGEN GAS (O₂)
+
+EXAMPLES:
+
+Example 1: Sodium chloride solution (NaCl in water)
+Ions: Na⁺, Cl⁻, H⁺, OH⁻
+
+Cathode: Na is above hydrogen → H⁺ discharges → H₂ gas (bubbles)
+2H⁺ + 2e⁻ → H₂
+
+Anode: Cl⁻ present → Cl₂ gas (green, bleach smell)
+2Cl⁻ → Cl₂ + 2e⁻
+
+Overall products: H₂ gas + Cl₂ gas + NaOH solution (Na⁺ and OH⁻ left in solution)
+
+This is how chlorine, hydrogen, and sodium hydroxide are produced industrially.
+
+Example 2: Copper(II) chloride solution (CuCl₂ in water)
+Ions: Cu²⁺, Cl⁻, H⁺, OH⁻
+
+Cathode: Cu is below hydrogen → Cu²⁺ discharges → Cu metal (red layer)
+Cu²⁺ + 2e⁻ → Cu
+
+Anode: Cl⁻ present → Cl₂ gas
+
+Overall: copper metal deposits, chlorine gas released
+
+This is used in PURIFICATION OF COPPER.
+
+Example 3: Copper(II) sulphate solution (CuSO₄ in water) with inert electrodes
+Ions: Cu²⁺, SO₄²⁻, H⁺, OH⁻
+
+Cathode: Cu²⁺ discharges → Cu metal
+
+Anode: no halides → OH⁻ discharges → O₂ gas
+4OH⁻ → 2H₂O + O₂ + 4e⁻
+
+Overall: copper deposits, oxygen gas.
+
+Example 4: Electrolysis of water (using dilute H₂SO₄ or NaOH to conduct electricity)
+Ions: H⁺, OH⁻ (plus SO₄²⁻ or Na⁺ which do not discharge)
+
+Cathode: H⁺ discharges → 2H₂ (hydrogen gas)
+Anode: OH⁻ discharges → O₂ (oxygen gas)
+
+2H₂O → 2H₂ + O₂
+
+Electrolysis of water produces hydrogen (used as fuel) and oxygen.
+
+ELECTROPLATING:
+
+Electroplating uses electrolysis to coat a metal with a thin layer of another metal.
+
+Example: Chrome plating (car parts)
+- Cathode: object to be plated (steel)
+- Anode: chromium
+- Electrolyte: chromium salt solution
+
+During electrolysis, chromium from the anode dissolves and deposits on the cathode object.
+
+USES OF ELECTROLYSIS IN MALAWI:
+
+| Use | Example |
+|-----|---------|
+| Purifying copper | Copper wire production |
+| Electroplating | Preventing rust on metal parts |
+| Battery charging | Recharging car batteries |
+| Producing chlorine | Water treatment (disinfection) |
+
+A PROTIP: If you ever see green gas (chlorine) or smell bleach during an experiment, it likely came from electrolysis of chloride solution.
+
+Remember: In aqueous solutions, fight for ions at electrodes. Preferential discharge: metals below hydrogen discharge; above hydrogen, H⁺ discharges → hydrogen gas. Halides discharge at anode; if no halides, OH⁻ discharges → oxygen gas. Electrolysis is used for metal purification, electroplating, and producing gases.`,
+  summary: 'In aqueous solutions, water provides H⁺ and OH⁻ ions. CATHODE: metals below hydrogen discharge; above hydrogen, H⁺ discharges to H₂. ANODE: halides discharge (Cl₂, Br₂, I₂); if no halides, OH⁻ discharges to O₂. Uses: copper purification, electroplating, production of H₂, Cl₂, NaOH.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Water Treatment', description: 'Chlorine produced by electrolysis is used to disinfect drinking water.' },
+    { title: 'Car Batteries', description: 'Lead-acid batteries are recharged using electrolysis.' }
+  ],
+  practiceQuestions: [
+    { question: 'In electrolysis of NaCl solution, what gas forms at the anode?', answer: 'Chlorine (Cl₂)', hint: 'Halide present' },
+    { question: 'If you electrolyse water, what gases are produced?', answer: 'Hydrogen (H₂) and oxygen (O₂)', hint: '2H₂O → 2H₂ + O₂' }
+  ]
+},
 
-// // Topic: Organic Chemistry - Introduction (2 lessons)
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 4',
-//   topic: 'Organic Chemistry',
-//   lessonNumber: 1,
-//   lessonTitle: 'Introduction to Organic Chemistry',
-//   lessonId: 'chemistry-f4-organic-1',
-//   order: 87,
-//   learningObjectives: [
-//     'Define organic chemistry',
-//     'Explain why carbon is special',
-//     'Draw and name alkanes (up to C₁₀)',
-//     'Distinguish between alkanes and alkenes'
-//   ],
-//   introduction: 'Hello, organic chemist! Organic chemistry is the study of carbon compounds. Carbon is unique – it can form millions of different compounds, from the fuel in your car to the DNA in your body. Today, you will learn the basics of naming and drawing organic molecules.',
-//   keyPoints: [
-//     'Organic chemistry: study of carbon compounds (excluding simple compounds like CO₂, carbonates)',
-//     'Carbon forms four bonds, can bond to itself, and forms chains and rings',
-//     'Alkanes: single bonds only (saturated hydrocarbons)',
-//     'General formula for alkanes: CₙH₂ₙ₊₂',
-//     'Alkenes: contain carbon-carbon double bond (unsaturated)',
-//     'General formula for alkenes: CₙH₂ₙ'
-//   ],
-//   detailedContent: `Let me explain ORGANIC CHEMISTRY.
-
-// WHY IS CARBON SPECIAL?
-
-// 1. Carbon has FOUR electrons in its outer shell – can form FOUR bonds.
-// 2. Carbon can bond to OTHER CARBON atoms – forms long chains and rings.
-// 3. Carbon can form single, double, and triple bonds.
-// 4. Carbon can form millions of different compounds.
-
-// ALKANES (Saturated Hydrocarbons):
-
-// Alkanes have ONLY single bonds between carbons. They are "saturated" because all carbon bonds are filled with hydrogen.
-
-// General formula: CₙH₂ₙ₊₂
-
-// NAMING ALKANES (IUPAC system):
-
-// Number of carbons → Prefix
-// 1 carbon → meth-
-// 2 carbons → eth-
-// 3 carbons → prop-
-// 4 carbons → but-
-// 5 carbons → pent-
-// 6 carbons → hex-
-// 7 carbons → hept-
-// 8 carbons → oct-
-// 9 carbons → non-
-// 10 carbons → dec-
-
-// Add -ane at the end for alkane.
-
-// Examples:
-
-// | Formula | Name |
-// |---------|------|
-// | CH₄ | Methane |
-// | C₂H₆ | Ethane |
-// | C₃H₈ | Propane |
-// | C₄H₁₀ | Butane |
-// | C₅H₁₂ | Pentane |
-// | C₆H₁₄ | Hexane |
-// | C₁₀H₂₂ | Decane |
-
-// DRAWING ALKANES:
-
-// Methane (CH₄): central carbon with four hydrogens
-// Ethane (C₂H₆): H₃C–CH₃
-// Propane (C₃H₈): H₃C–CH₂–CH₃
-
-// ALKANES (cont): PROPERTIES
-
-// - Non-polar (do not dissolve in water)
-// - Less dense than water (float)
-// - Burn readily (fuels)
-
-// ALKENES (Unsaturated Hydrocarbons):
-
-// Alkenes have at least ONE DOUBLE BOND between carbons.
-
-// General formula: CₙH₂ₙ
-
-// NAMING ALKENES:
-
-// Same prefixes but ending -ENE. Number the first carbon of the double bond.
-
-// Examples:
-
-// | Formula | Name |
-// |---------|------|
-// | C₂H₄ | Ethene |
-// | C₃H₆ | Propene |
-// | C₄H₈ | But-1-ene or But-2-ene |
-
-// ALKANES vs ALKENES:
-
-// | Feature | Alkanes | Alkenes |
-// |---------|---------|---------|
-// | Bond type | Single bonds only | Has double bond |
-// | Formula | CₙH₂ₙ₊₂ | CₙH₂ₙ |
-// | Reactivity | Less reactive | More reactive (double bond can open) |
-// | Test with bromine water | No reaction (brown stays) | Goes colourless (bromine adds to double bond) |
-// | Example fuels | Methane, petrol | Ethene (plastic, fruit ripening) |
-
-// TEST FOR ALKENES (Bromine water test):
-// - Add bromine water (brown)
-// - Alkene: brown → colourless
-// - Alkane: brown stays brown
-
-// In Malawi, alkanes are used as fuels (paraffin, petrol). Alkenes are used for making plastics and ripening fruits (ethene).
-
-// A PROTIP: The number of hydrogens in alkanes (2n+2) is always even. For alkenes (2n), also even.
-
-// Remember: Organic chemistry is the study of carbon compounds. Carbon forms 4 bonds. Alkanes (CₙH₂ₙ₊₂) have only single bonds. Alkenes (CₙH₂ₙ) have double bonds. Name alkanes with -ane, alkenes with -ene. Bromine water tests: alkene turns bromine colourless.`,
-//   summary: 'Organic chemistry studies carbon compounds due to carbon\'s four bonds and ability to form chains. Alkanes: single bonds only, CₙH₂ₙ₊₂. Alkenes: contain double bonds, CₙH₂ₙ. Name alkanes with -ane, alkenes with -ene. Bromine water tests: alkene turns colourless.',
-//   estimatedTime: '20 mins',
-//   malawiExamples: [
-//     { title: 'Paraffin', description: 'Paraffin lamp fuel is an alkane (mixture of C₉-C₁₆).' },
-//     { title: 'Fruit Ripening', description: 'Ethene (alkene) is used to ripen bananas and mangoes.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What is the formula of pentane?', answer: 'C₅H₁₂', hint: 'CₙH₂ₙ₊₂, n=5' },
-//     { question: 'What is the test for an alkene?', answer: 'Add bromine water – turns colourless', hint: 'Bromine adds across double bond' }
-//   ]
-// },
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 4',
-//   topic: 'Organic Chemistry',
-//   lessonNumber: 2,
-//   lessonTitle: 'Alkanols (Alcohols)',
-//   lessonId: 'chemistry-f4-organic-2',
-//   order: 88,
-//   learningObjectives: [
-//     'Identify the functional group of alcohols (-OH)',
-//     'Name and draw structures of alkanols',
-//     'Describe the preparation of ethanol by fermentation',
-//     'Describe uses of ethanol'
-//   ],
-//   introduction: 'Welcome back! Alcohols are organic compounds containing the -OH group. The alcohol you drink (ethanol) is produced by fermentation of sugar. Today, you will learn about alkanols, their names, how ethanol is made, and its many uses.',
-//   keyPoints: [
-//     'Functional group for alcohols: –OH (hydroxyl)',
-//     'Alkanols: alkanes with –OH replacing one H',
-//     'General formula: CₙH₂ₙ₊₁OH (or CₙH₂ₙ₊₂O)',
-//     'Naming: replace -e of alkane with -ol (methanol, ethanol, propanol, butanol)',
-//     'Ethanol produced by fermentation of glucose or sugar: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂',
-//     'Uses: alcoholic drinks, solvent, fuel ( mixed with petrol), antiseptic'
-//   ],
-//   detailedContent: `Let me explain ALKANOLS (ALCOHOLS).
-
-// ALKANOLS are alcohols derived from alkanes. They contain the HYDROXYL functional group (–OH).
-
-// General formula: CₙH₂ₙ₊₁OH
-
-// NAMING ALKANOLS:
-// - Same as alkanes but remove -e and add -ol
-// - For longer chains, number the carbon that has the OH group
-
-// | Name | Formula |
-// |------|---------|
-// | Methanol | CH₃OH |
-// | Ethanol | CH₃CH₂OH |
-// | Propanol | CH₃CH₂CH₂OH |
-// | Butanol | CH₃CH₂CH₂CH₂OH |
-
-// DRAWING ALCOHOLS:
-
-// Ethanol: CH₃–CH₂–OH
-// Propan-1-ol: CH₃–CH₂–CH₂–OH
-// Propan-2-ol: CH₃–CH(OH)–CH₃ (OH on middle carbon)
-
-// CLASSIFICATION OF ALCOHOLS:
-
-// - PRIMARY (1°): OH at end of chain (ethanol, propan-1-ol)
-// - SECONDARY (2°): OH on middle carbon with one H (propan-2-ol)
-// - TERTIARY (3°): OH on carbon with no H (not exam)
-
-// PREPARATION OF ETHANOL (FERMENTATION):
-
-// Ethanol is produced by the action of YEAST on sugar (glucose).
-
-// Equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂
-// Glucose → Ethanol + Carbon dioxide
-
-// Conditions:
-// - Yeast (enzyme)
-// - 25-35°C (warm, not hot)
-// - Anaerobic (no oxygen)
-
-// Process:
-// 1. Sugar dissolved in water
-// 2. Yeast added
-// 3. Fermentation for several days
-// 4. Ethanol produced (up to 15%, then yeast dies)
-
-// Concentrating ethanol:
-// - Distillation separates ethanol from water (ethanol boils at 78°C)
-// - Can produce up to 95% ethanol
-
-// PROPERTIES OF ETHANOL:
-
-// - Colourless liquid
-// - Flammable
-// - Soluble in water (polar OH group)
-// - Boiling point: 78°C (lower than water)
-
-// USES OF ETHANOL:
-
-// | Use | Example in Malawi |
-// |-----|-------------------|
-// | Alcoholic beverages | Masese, traditional beer, spirits |
-// | Fuel | Mixed with petrol (gasohol) in some vehicles |
-// | Solvent | Perfumes, medicines, paints |
-// | Antiseptic | Sterilising skin before injection |
-// | Industrial | Manufacturing other chemicals |
-
-// In Malawi, fermentation is used to produce traditional beer (masese). Sugar cane is a common source.
-
-// A PROTIP: Ethanol for drinking is taxed; industrial ethanol (denatured) has poison added so people cannot drink it – illegal to drink!
-
-// Remember: Alkanols (alcohols) have –OH group, formula CₙH₂ₙ₊₁OH. Name ends with -ol (methanol, ethanol). Ethanol is produced by fermentation of glucose (sugar) by yeast. Equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Uses: drinks, fuel, solvent, antiseptic.`,
-//   summary: 'Alkanols have –OH functional group (hydroxyl). General formula CₙH₂ₙ₊₁OH. Ethanol is produced by fermentation of glucose: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Uses: beverages, fuel, solvent, antiseptic.',
-//   estimatedTime: '18 mins',
-//   malawiExamples: [
-//     { title: 'Masese', description: 'Traditional beer is made by fermenting sugar cane or maize.' },
-//     { title: 'Fuel', description: 'Some vehicles in Malawi run on ethanol-blended petrol.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Draw the structure of ethanol.', answer: 'CH₃–CH₂–OH', hint: 'Two carbons, OH at end' },
-//     { question: 'What gas is produced during fermentation?', answer: 'Carbon dioxide (CO₂)', hint: 'Makes bubbles' }
-//   ]
-// }
+// Topic: Organic Chemistry - Introduction (2 lessons)
+{
+  subject: 'Chemistry',
+  form: 'Form 4',
+  topic: 'Organic Chemistry',
+  lessonNumber: 1,
+  lessonTitle: 'Introduction to Organic Chemistry',
+  lessonId: 'chemistry-f4-organic-1',
+  order: 87,
+  learningObjectives: [
+    'Define organic chemistry',
+    'Explain why carbon is special',
+    'Draw and name alkanes (up to C₁₀)',
+    'Distinguish between alkanes and alkenes'
+  ],
+  introduction: 'Hello, organic chemist! Organic chemistry is the study of carbon compounds. Carbon is unique – it can form millions of different compounds, from the fuel in your car to the DNA in your body. Today, you will learn the basics of naming and drawing organic molecules.',
+  keyPoints: [
+    'Organic chemistry: study of carbon compounds (excluding simple compounds like CO₂, carbonates)',
+    'Carbon forms four bonds, can bond to itself, and forms chains and rings',
+    'Alkanes: single bonds only (saturated hydrocarbons)',
+    'General formula for alkanes: CₙH₂ₙ₊₂',
+    'Alkenes: contain carbon-carbon double bond (unsaturated)',
+    'General formula for alkenes: CₙH₂ₙ'
+  ],
+  detailedContent: `Let me explain ORGANIC CHEMISTRY.
+
+WHY IS CARBON SPECIAL?
+
+1. Carbon has FOUR electrons in its outer shell – can form FOUR bonds.
+2. Carbon can bond to OTHER CARBON atoms – forms long chains and rings.
+3. Carbon can form single, double, and triple bonds.
+4. Carbon can form millions of different compounds.
+
+ALKANES (Saturated Hydrocarbons):
+
+Alkanes have ONLY single bonds between carbons. They are "saturated" because all carbon bonds are filled with hydrogen.
+
+General formula: CₙH₂ₙ₊₂
+
+NAMING ALKANES (IUPAC system):
+
+Number of carbons → Prefix
+1 carbon → meth-
+2 carbons → eth-
+3 carbons → prop-
+4 carbons → but-
+5 carbons → pent-
+6 carbons → hex-
+7 carbons → hept-
+8 carbons → oct-
+9 carbons → non-
+10 carbons → dec-
+
+Add -ane at the end for alkane.
+
+Examples:
+
+| Formula | Name |
+|---------|------|
+| CH₄ | Methane |
+| C₂H₆ | Ethane |
+| C₃H₈ | Propane |
+| C₄H₁₀ | Butane |
+| C₅H₁₂ | Pentane |
+| C₆H₁₄ | Hexane |
+| C₁₀H₂₂ | Decane |
+
+DRAWING ALKANES:
+
+Methane (CH₄): central carbon with four hydrogens
+Ethane (C₂H₆): H₃C–CH₃
+Propane (C₃H₈): H₃C–CH₂–CH₃
+
+ALKANES (cont): PROPERTIES
+
+- Non-polar (do not dissolve in water)
+- Less dense than water (float)
+- Burn readily (fuels)
+
+ALKENES (Unsaturated Hydrocarbons):
+
+Alkenes have at least ONE DOUBLE BOND between carbons.
+
+General formula: CₙH₂ₙ
+
+NAMING ALKENES:
+
+Same prefixes but ending -ENE. Number the first carbon of the double bond.
+
+Examples:
+
+| Formula | Name |
+|---------|------|
+| C₂H₄ | Ethene |
+| C₃H₆ | Propene |
+| C₄H₈ | But-1-ene or But-2-ene |
+
+ALKANES vs ALKENES:
+
+| Feature | Alkanes | Alkenes |
+|---------|---------|---------|
+| Bond type | Single bonds only | Has double bond |
+| Formula | CₙH₂ₙ₊₂ | CₙH₂ₙ |
+| Reactivity | Less reactive | More reactive (double bond can open) |
+| Test with bromine water | No reaction (brown stays) | Goes colourless (bromine adds to double bond) |
+| Example fuels | Methane, petrol | Ethene (plastic, fruit ripening) |
+
+TEST FOR ALKENES (Bromine water test):
+- Add bromine water (brown)
+- Alkene: brown → colourless
+- Alkane: brown stays brown
+
+In Malawi, alkanes are used as fuels (paraffin, petrol). Alkenes are used for making plastics and ripening fruits (ethene).
+
+A PROTIP: The number of hydrogens in alkanes (2n+2) is always even. For alkenes (2n), also even.
+
+Remember: Organic chemistry is the study of carbon compounds. Carbon forms 4 bonds. Alkanes (CₙH₂ₙ₊₂) have only single bonds. Alkenes (CₙH₂ₙ) have double bonds. Name alkanes with -ane, alkenes with -ene. Bromine water tests: alkene turns bromine colourless.`,
+  summary: 'Organic chemistry studies carbon compounds due to carbon\'s four bonds and ability to form chains. Alkanes: single bonds only, CₙH₂ₙ₊₂. Alkenes: contain double bonds, CₙH₂ₙ. Name alkanes with -ane, alkenes with -ene. Bromine water tests: alkene turns colourless.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Paraffin', description: 'Paraffin lamp fuel is an alkane (mixture of C₉-C₁₆).' },
+    { title: 'Fruit Ripening', description: 'Ethene (alkene) is used to ripen bananas and mangoes.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is the formula of pentane?', answer: 'C₅H₁₂', hint: 'CₙH₂ₙ₊₂, n=5' },
+    { question: 'What is the test for an alkene?', answer: 'Add bromine water – turns colourless', hint: 'Bromine adds across double bond' }
+  ]
+},
+{
+  subject: 'Chemistry',
+  form: 'Form 4',
+  topic: 'Organic Chemistry',
+  lessonNumber: 2,
+  lessonTitle: 'Alkanols (Alcohols)',
+  lessonId: 'chemistry-f4-organic-2',
+  order: 88,
+  learningObjectives: [
+    'Identify the functional group of alcohols (-OH)',
+    'Name and draw structures of alkanols',
+    'Describe the preparation of ethanol by fermentation',
+    'Describe uses of ethanol'
+  ],
+  introduction: 'Welcome back! Alcohols are organic compounds containing the -OH group. The alcohol you drink (ethanol) is produced by fermentation of sugar. Today, you will learn about alkanols, their names, how ethanol is made, and its many uses.',
+  keyPoints: [
+    'Functional group for alcohols: –OH (hydroxyl)',
+    'Alkanols: alkanes with –OH replacing one H',
+    'General formula: CₙH₂ₙ₊₁OH (or CₙH₂ₙ₊₂O)',
+    'Naming: replace -e of alkane with -ol (methanol, ethanol, propanol, butanol)',
+    'Ethanol produced by fermentation of glucose or sugar: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂',
+    'Uses: alcoholic drinks, solvent, fuel ( mixed with petrol), antiseptic'
+  ],
+  detailedContent: `Let me explain ALKANOLS (ALCOHOLS).
+
+ALKANOLS are alcohols derived from alkanes. They contain the HYDROXYL functional group (–OH).
+
+General formula: CₙH₂ₙ₊₁OH
+
+NAMING ALKANOLS:
+- Same as alkanes but remove -e and add -ol
+- For longer chains, number the carbon that has the OH group
+
+| Name | Formula |
+|------|---------|
+| Methanol | CH₃OH |
+| Ethanol | CH₃CH₂OH |
+| Propanol | CH₃CH₂CH₂OH |
+| Butanol | CH₃CH₂CH₂CH₂OH |
+
+DRAWING ALCOHOLS:
+
+Ethanol: CH₃–CH₂–OH
+Propan-1-ol: CH₃–CH₂–CH₂–OH
+Propan-2-ol: CH₃–CH(OH)–CH₃ (OH on middle carbon)
+
+CLASSIFICATION OF ALCOHOLS:
+
+- PRIMARY (1°): OH at end of chain (ethanol, propan-1-ol)
+- SECONDARY (2°): OH on middle carbon with one H (propan-2-ol)
+- TERTIARY (3°): OH on carbon with no H (not exam)
+
+PREPARATION OF ETHANOL (FERMENTATION):
+
+Ethanol is produced by the action of YEAST on sugar (glucose).
+
+Equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂
+Glucose → Ethanol + Carbon dioxide
+
+Conditions:
+- Yeast (enzyme)
+- 25-35°C (warm, not hot)
+- Anaerobic (no oxygen)
+
+Process:
+1. Sugar dissolved in water
+2. Yeast added
+3. Fermentation for several days
+4. Ethanol produced (up to 15%, then yeast dies)
+
+Concentrating ethanol:
+- Distillation separates ethanol from water (ethanol boils at 78°C)
+- Can produce up to 95% ethanol
+
+PROPERTIES OF ETHANOL:
+
+- Colourless liquid
+- Flammable
+- Soluble in water (polar OH group)
+- Boiling point: 78°C (lower than water)
+
+USES OF ETHANOL:
+
+| Use | Example in Malawi |
+|-----|-------------------|
+| Alcoholic beverages | Masese, traditional beer, spirits |
+| Fuel | Mixed with petrol (gasohol) in some vehicles |
+| Solvent | Perfumes, medicines, paints |
+| Antiseptic | Sterilising skin before injection |
+| Industrial | Manufacturing other chemicals |
+
+In Malawi, fermentation is used to produce traditional beer (masese). Sugar cane is a common source.
+
+A PROTIP: Ethanol for drinking is taxed; industrial ethanol (denatured) has poison added so people cannot drink it – illegal to drink!
+
+Remember: Alkanols (alcohols) have –OH group, formula CₙH₂ₙ₊₁OH. Name ends with -ol (methanol, ethanol). Ethanol is produced by fermentation of glucose (sugar) by yeast. Equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Uses: drinks, fuel, solvent, antiseptic.`,
+  summary: 'Alkanols have –OH functional group (hydroxyl). General formula CₙH₂ₙ₊₁OH. Ethanol is produced by fermentation of glucose: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Uses: beverages, fuel, solvent, antiseptic.',
+  estimatedTime: '18 mins',
+  malawiExamples: [
+    { title: 'Masese', description: 'Traditional beer is made by fermenting sugar cane or maize.' },
+    { title: 'Fuel', description: 'Some vehicles in Malawi run on ethanol-blended petrol.' }
+  ],
+  practiceQuestions: [
+    { question: 'Draw the structure of ethanol.', answer: 'CH₃–CH₂–OH', hint: 'Two carbons, OH at end' },
+    { question: 'What gas is produced during fermentation?', answer: 'Carbon dioxide (CO₂)', hint: 'Makes bubbles' }
+  ]
+}
 ];
 
 
