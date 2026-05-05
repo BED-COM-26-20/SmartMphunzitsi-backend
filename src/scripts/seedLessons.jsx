@@ -11526,12 +11526,11 @@ Remember: Hooke's Law: F = kx (force proportional to extension). k = spring cons
     { question: 'A spring extends 0.05 m when 2 N force is applied. Find spring constant.', answer: '40 N/m', hint: 'k = F ÷ x = 2 ÷ 0.05 = 40' },
     { question: 'What happens beyond the elastic limit?', answer: 'Permanent deformation (spring does not return)', hint: 'Spring is "stretched out"' }
   ]
-}
-,
+},
 
-// ======================================================================
+
 // CHEMISTRY FORM 4 (REMAINING)
-// ======================================================================
+
 
 // Topic: Electrolysis (2 lessons)
 {
