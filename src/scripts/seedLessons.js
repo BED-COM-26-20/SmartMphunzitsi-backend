@@ -6,1843 +6,1843 @@ dotenv.config();
 console.log('URI:', process.env.MONGODB_URI);
 
 const allLessons = [
-  // ======================================================================
-  // MATHEMATICS - COMPLETE (Forms 1, 2, 3, 4)
-  // ======================================================================
-
-  // -------------------- MATHEMATICS FORM 1 --------------------
-  // Topic: Number Systems (3 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 1,
-    lessonTitle: 'Natural Numbers, Whole Numbers, and Place Value',
-    lessonId: 'mathematics-f1-number-systems-1',
-    order: 1,
-    learningObjectives: [
-      'Identify natural numbers and whole numbers',
-      'Understand and apply place value up to millions',
-      'Read and write numbers correctly',
-      'Apply number concepts to real-life situations in Malawi'
-    ],
-    introduction: 'Good day, young mathematician! Have you ever counted money at the market, counted learners in your class, or told your age? You were using natural numbers! Today, we will explore natural numbers and whole numbers - the building blocks of all mathematics.',
-    keyPoints: [
-      'Natural numbers are counting numbers: 1, 2, 3, 4, 5, ...',
-      'Whole numbers include zero: 0, 1, 2, 3, 4, 5, ...',
-      'Place value: ones, tens, hundreds, thousands, millions',
-      'In Malawi, we use numbers to count kwacha, tambala, people, livestock, and crops'
-    ],
-    detailedContent: `Let me explain natural numbers using examples from Malawi.
-
-NATURAL NUMBERS are the numbers you use when you count. When you say "I have 5 mangoes" or "There are 40 learners in my class" or "My grandmother is 65 years old" - these are natural numbers. They start from 1 and go upwards: 1, 2, 3, 4, 5... and so on.
-
-WHOLE NUMBERS are just like natural numbers, but they also include ZERO. Zero is special because it represents "nothing". If you have no money in your pocket, you have zero kwacha. If there are no clouds in the sky, we say zero clouds.
-
-PLACE VALUE is very important. In the number 2,345:
-
-The 2 is in the thousands place (2,000)
-The 3 is in the hundreds place (300)
-The 4 is in the tens place (40)
-The 5 is in the ones place (5)
-
-Let me give you a Malawi example. If a farmer harvests 1,234 kg of maize:
-- The 1 represents 1,000 kg (one thousand kilograms)
-- The 2 represents 200 kg (two hundred kilograms)
-- The 3 represents 30 kg (thirty kilograms)
-- The 4 represents 4 kg (four kilograms)
-
-Understanding place value helps you read numbers correctly. When you see a price tag of 5,000 kwacha, you know it is five thousand kwacha, not five hundred or fifty!
-
-To read a number like 3,456,789:
-- 3,456,789 = 3 million + 456 thousand + 789
-- It reads as "three million, four hundred fifty-six thousand, seven hundred eighty-nine"
-
-In Malawi, large numbers appear in agriculture (crop yields), population (census data), and economics (national budget).`,
-    summary: 'Natural numbers are counting numbers (1,2,3...). Whole numbers include zero. Place value tells us what each digit in a number represents. Understanding numbers helps us count money, measure quantities, and describe our world.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Market Prices', description: 'A tomato vendor sells 1, 2, 3, or 4 tomatoes - these are natural numbers.' },
-      { title: 'Population', description: 'Malawi has about 20 million people - using larger numbers.' },
-      { title: 'Crop Harvest', description: 'A farmer harvests 2,500 kg of maize - place value helps read this number.' }
-    ],
-    practiceQuestions: [
-      { question: 'What is the place value of 7 in 7,891?', answer: 'Thousands', hint: 'Look at the position of the digit' },
-      { question: 'Is 0 a natural number or a whole number?', answer: 'Whole number', hint: 'Natural numbers start from 1' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 2,
-    lessonTitle: 'Integers and the Number Line',
-    lessonId: 'mathematics-f1-number-systems-2',
-    order: 2,
-    learningObjectives: [
-      'Define integers and identify positive and negative numbers',
-      'Represent integers on a number line',
-      'Compare and order integers',
-      'Apply integers to real-life situations like temperature and debt'
-    ],
-    introduction: 'Hello, explorer of numbers! So far we have worked with positive numbers. But what about temperatures below zero? What about debts? These are represented by NEGATIVE numbers. Together with positive numbers and zero, they form INTEGERS. Today, I will show you how integers work and why they are useful.',
-    keyPoints: [
-      'Integers include positive numbers, negative numbers, and zero: ... -3, -2, -1, 0, 1, 2, 3 ...',
-      'A number line helps us visualize integers - positive to the right, negative to the left',
-      'Numbers increase as you move right on the number line',
-      'Numbers decrease as you move left on the number line',
-      'Negative numbers represent values below zero (temperature, depth, debt)'
-    ],
-    detailedContent: `Let me introduce you to INTEGERS. Integers are all the positive numbers, negative numbers, and zero. They look like this: ... -3, -2, -1, 0, 1, 2, 3 ...
-
-Imagine a thermometer. When it is hot, the temperature is positive, like +25°C. When it is cold, the temperature can be negative, like -5°C. That negative sign means "below zero".
-
-A NUMBER LINE is a straight line that helps us see the order of numbers. Zero is in the middle. Positive numbers go to the right (1, 2, 3...). Negative numbers go to the left (-1, -2, -3...).
-
-The further RIGHT you go, the LARGER the number.
-The further LEFT you go, the SMALLER the number.
-
-Let me give you a Malawi example. Imagine you have 500 kwacha (that is +500). If you spend 200 kwacha on exercise books, you have 300 kwacha left (+300). But if instead you borrowed 200 kwacha from a friend because you had no money, you would have a debt of 200 kwacha - which we can represent as -200!
-
-Comparing integers on a number line:
-- Numbers to the right are greater than numbers to the left
-- -3 is less than -2 because -3 is further left
-- -1 is greater than -5 because -1 is further right
-- 0 is greater than any negative number
-- Any positive number is greater than 0 and greater than any negative number
-
-Here is a helpful memory tool: Think of a number line like a hill. The top of the hill (far right) is the largest number. As you go down the hill to the left, numbers get smaller. At the bottom (far left) are the smallest numbers.
-
-In Malawi, integers appear in:
-- BANKING: A negative bank balance means you owe money
-- TEMPERATURE: On Mulanje Mountain, temperatures can drop below zero
-- SPORTS: Football goal differences can be negative (-2 goal difference)
-- HEIGHT: A valley can be at negative elevation (below sea level)`,
-    summary: 'Integers include positive numbers, negative numbers, and zero. A number line shows the order of integers - numbers increase to the right, decrease to the left. Negative numbers represent values below zero, like debt or cold temperatures.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Temperatures on Mulanje Mountain', description: 'At the peak, temperatures can drop below zero - negative integers!' },
-      { title: 'Bank Account', description: 'If you withdraw more than you have, your balance becomes negative - an integer!' },
-      { title: 'Football Goal Difference', description: 'If a team scores 5 goals but concedes 7, their goal difference is -2.' }
-    ],
-    practiceQuestions: [
-      { question: 'Which is greater: -5 or -10?', answer: '-5', hint: 'On a number line, -5 is to the right of -10' },
-      { question: 'If the temperature drops from 5°C to -3°C, how many degrees did it drop?', answer: '8 degrees', hint: 'Count the steps from 5 down to -3' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 3,
-    lessonTitle: 'Operations with Integers',
-    lessonId: 'mathematics-f1-number-systems-3',
-    order: 3,
-    learningObjectives: [
-      'Add and subtract integers using a number line',
-      'Multiply and divide integers',
-      'Apply the rules of integer operations',
-      'Solve real-life problems involving integers'
-    ],
-    introduction: 'Welcome back, mathematician! Now that you understand what integers are, let me teach you how to ADD, SUBTRACT, MULTIPLY, and DIVIDE them. These operations follow special rules, but once you learn them, working with integers becomes as easy as working with positive numbers!',
-    keyPoints: [
-      'Adding a positive number moves right on the number line',
-      'Adding a negative number moves left on the number line',
-      'Subtracting a positive number moves left on the number line',
-      'Subtracting a negative number moves right on the number line',
-      'Multiplication and division rules: same signs = positive; different signs = negative'
-    ],
-    detailedContent: `Let me teach you how to perform operations with integers. I will use a number line to help you visualize.
-
-ADDITION OF INTEGERS:
-
-When you ADD a POSITIVE number, you move RIGHT on the number line.
-Example: 3 + 4 = 7 (start at 3, move 4 steps right)
-
-When you ADD a NEGATIVE number, you move LEFT on the number line.
-Example: 5 + (-2) = 3 (start at 5, move 2 steps left)
-Think of it as 5 - 2 = 3
-
-SUBTRACTION OF INTEGERS:
-
-When you SUBTRACT a POSITIVE number, you move LEFT on the number line.
-Example: 7 - 3 = 4 (start at 7, move 3 steps left)
-
-When you SUBTRACT a NEGATIVE number, you move RIGHT on the number line.
-Example: 4 - (-2) = 6 (start at 4, move 2 steps right)
-This is because subtracting a negative is like adding a positive!
-
-MULTIPLICATION AND DIVISION OF INTEGERS:
-
-Here are the rules you must remember:
-- Positive × Positive = Positive (e.g., 3 × 4 = 12)
-- Negative × Negative = Positive (e.g., -3 × -4 = 12)
-- Positive × Negative = Negative (e.g., 3 × -4 = -12)
-- Negative × Positive = Negative (e.g., -3 × 4 = -12)
-
-The same rules apply to division:
-- Positive ÷ Positive = Positive (e.g., 12 ÷ 4 = 3)
-- Negative ÷ Negative = Positive (e.g., -12 ÷ -4 = 3)
-- Positive ÷ Negative = Negative (e.g., 12 ÷ -4 = -3)
-- Negative ÷ Positive = Negative (e.g., -12 ÷ 4 = -3)
-
-Let me give you a real Malawi example. Imagine you owe 3 friends 4 kwacha each. Your total debt is -3 × 4 = -12 kwacha. If each friend forgives your debt (removes the negative), that is -12 ÷ -3 = 4 kwacha saved per friend!
-
-Another example: The temperature in Lilongwe drops by 2 degrees each hour for 5 hours. Total temperature change = -2 × 5 = -10 degrees.
-
-Remember: "Same signs give positive, different signs give negative" - this is the golden rule for multiplication and division of integers.`,
-    summary: 'Adding a positive moves right; adding a negative moves left. Subtracting a positive moves left; subtracting a negative moves right. Multiplication and division: same signs give positive, different signs give negative.',
-    estimatedTime: '25 mins',
-    malawiExamples: [
-      { title: 'Debt Calculation', description: 'If you borrow 500 kwacha from 3 different friends, your total debt is -1,500 kwacha.' },
-      { title: 'Temperature Change', description: 'If temperature drops 2 degrees each hour for 5 hours, total change is -10 degrees.' },
-      { title: 'Bank Balance', description: 'If your balance is -800 kwacha and you deposit 1,000 kwacha, you have 200 kwacha.' }
-    ],
-    practiceQuestions: [
-      { question: 'Calculate: -5 + (-3)', answer: '-8', hint: 'Moving left on the number line' },
-      { question: 'Calculate: -4 × (-6)', answer: '24', hint: 'Negative × Negative = Positive' }
-    ]
-  },
-
-  // Topic: Algebraic Expressions (3 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Algebraic Expressions',
-    lessonNumber: 1,
-    lessonTitle: 'Variables, Coefficients, and Like Terms',
-    lessonId: 'mathematics-f1-algebraic-expressions-1',
-    order: 4,
-    learningObjectives: [
-      'Define variables, constants, and coefficients',
-      'Write algebraic expressions from word phrases',
-      'Identify like and unlike terms',
-      'Simplify algebraic expressions by combining like terms'
-    ],
-    introduction: 'Hello, algebra explorer! Have you ever seen letters mixed with numbers in mathematics and wondered what they mean? That is ALGEBRA! Algebra is like a secret code where letters stand for unknown numbers. Today, I will teach you how to read and write this code.',
-    keyPoints: [
-      'A variable is a letter that represents an unknown number (x, y, a, b, p, q)',
-      'A coefficient is the number multiplied by a variable (in 5x, 5 is the coefficient)',
-      'A constant is a number on its own (in 5x + 3, 3 is the constant)',
-      'Like terms have the same variable raised to the same power',
-      'We can only add or subtract like terms'
-    ],
-    detailedContent: `Imagine you are at a market in Lilongwe. You want to buy apples and oranges, but you don't know the price yet. So you say: "Let a = price of one apple" and "Let o = price of one orange". This is algebra! We use letters to represent unknown quantities.
-
-In algebra, we write expressions like 5x + 3y - 2x + 4y. Let me break this down for you:
-
-- The letters x and y are VARIABLES - they can stand for different numbers
-- The numbers in front (5, 3, 2, 4) are COEFFICIENTS - they tell us how many of each variable we have
-- If there is no coefficient written, it is understood to be 1 (x means 1x)
-- A number on its own, like 7, is a CONSTANT
-
-Now, here is the most important rule: You can only add or subtract LIKE TERMS. Like terms have the SAME variable.
-
-LIKE TERMS:
-- 5x and 2x (both have x)
-- 3y and 4y (both have y)
-- 7 and 12 (both constants)
-
-UNLIKE TERMS (cannot be combined):
-- 5x and 3y (different variables)
-- 2x and 2x² (different powers)
-- 4 and 4x (one has variable, one does not)
-
-Let me show you how to simplify: 5x + 3y - 2x + 4y
-
-Step 1: Group the like terms together:
-(5x - 2x) + (3y + 4y)
-
-Step 2: Add or subtract the coefficients:
-(5 - 2)x + (3 + 4)y = 3x + 7y
-
-That is it! You have simplified the expression.
-
-Let me give you a Malawi example. A farmer is buying fertilizer. Let f = price of one bag of fertilizer. If he buys 10 bags, the cost is 10f. If he later buys 5 more bags, the total is 10f + 5f = 15f.
-
-Another example: A shop sells maize flour. On Monday, they sell 8 bags. On Tuesday, they sell 3 bags. The total sold is 8b + 3b = 11b, where b = one bag of flour.`,
-    summary: 'Variables are letters that represent unknown numbers. Coefficients are numbers multiplied by variables. Like terms have the same variable and can be combined by adding or subtracting their coefficients.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Market Shopping', description: 'Let p = price of one tomato. Buying 8 tomatoes costs 8p.' },
-      { title: 'Farming Supplies', description: 'Let b = price of one bag of maize seed. 10 bags cost 10b.' },
-      { title: 'Fishing', description: 'Let f = number of fish caught per day. 5 days of fishing yields 5f fish.' }
-    ],
-    practiceQuestions: [
-      { question: 'Identify the coefficient in 12x', answer: '12', hint: 'The number in front of the variable' },
-      { question: 'Simplify: 7a + 3b - 2a + 5b', answer: '5a + 8b', hint: 'Group a terms and b terms separately' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Algebraic Expressions',
-    lessonNumber: 2,
-    lessonTitle: 'Substitution and Evaluation',
-    lessonId: 'mathematics-f1-algebraic-expressions-2',
-    order: 5,
-    learningObjectives: [
-      'Substitute given values into algebraic expressions',
-      'Evaluate algebraic expressions after substitution',
-      'Apply substitution to solve real-life problems',
-      'Understand the order of operations (BODMAS) in evaluation'
-    ],
-    introduction: 'Hello again! Now that you know how to write algebraic expressions, what happens when you actually know the value of the variable? That is called SUBSTITUTION. You replace the letter with its actual number and calculate the result. Today, I will show you how to do this step by step.',
-    keyPoints: [
-      'Substitution means replacing a variable with a given number',
-      'Always use parentheses when substituting negative numbers',
-      'Follow BODMAS: Brackets, Orders, Division/Multiplication, Addition/Subtraction',
-      'Write the expression first, then substitute, then calculate',
-      'Check your answer by estimating if it makes sense'
-    ],
-    detailedContent: `Let me teach you how to SUBSTITUTE values into algebraic expressions.
-
-SUBSTITUTION means replacing a variable (letter) with its actual value (number).
-
-For example, if we have the expression 3x + 5, and we know that x = 4, then:
-3x + 5 becomes 3(4) + 5 = 12 + 5 = 17
-
-Here is another example: 2a - 3b, where a = 5 and b = 2
-2(5) - 3(2) = 10 - 6 = 4
-
-IMPORTANT: When substituting negative numbers, always put them in parentheses!
-Example: x² - 3x, where x = -2
-(-2)² - 3(-2) = 4 - (-6) = 4 + 6 = 10
-If you forget the parentheses, you might write -2² -3(-2) = -4 - (-6) = -4 + 6 = 2 (WRONG!)
-
-The ORDER OF OPERATIONS (BODMAS) is very important:
-
-B - Brackets first
-O - Orders (powers and roots)
-D - Division (left to right)
-M - Multiplication (left to right)
-A - Addition (left to right)
-S - Subtraction (left to right)
-
-A common way to remember: "Big Old Dogs Make A Smell" or "Please Excuse My Dear Aunt Sally" (PEMDAS).
-
-Let me give you a real Malawi example. A shopkeeper sells maize flour. The profit is given by P = 50n - 200, where n is the number of bags sold.
-
-If the shopkeeper sells 10 bags, what is the profit?
-P = 50(10) - 200 = 500 - 200 = 300 kwacha profit
-
-If the shopkeeper sells only 3 bags:
-P = 50(3) - 200 = 150 - 200 = -50 kwacha (a loss of 50 kwacha)
-
-Another example: The distance travelled by a boma (village bus) is D = 60t, where t is hours travelled. If the bus travels for 2.5 hours, the distance is D = 60 × 2.5 = 150 kilometres.
-
-Substitution is a powerful tool for answering "what if" questions. What if the price changes? What if the speed changes? Substitution gives you the answers.`,
-    summary: 'Substitution means replacing variables with their actual values. Always follow BODMAS (order of operations) when calculating. Put negative numbers in parentheses. Substitution helps us calculate real-world quantities like profit, cost, and distance.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Profit Calculation', description: 'A vendor\'s profit is 20n - 100, where n is items sold.' },
-      { title: 'Travel Distance', description: 'Distance = 60t, where t is hours travelled.' },
-      { title: 'Cost Calculation', description: 'Cost = 500k + 1000, where k is kilograms of tomatoes.' }
-    ],
-    practiceQuestions: [
-      { question: 'Evaluate 4x - 7 when x = 3', answer: '5', hint: '4(3) - 7 = 12 - 7 = 5' },
-      { question: 'Evaluate a² + 2b when a = -3 and b = 4', answer: '17', hint: '(-3)² + 2(4) = 9 + 8 = 17' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Algebraic Expressions',
-    lessonNumber: 3,
-    lessonTitle: 'Expanding Brackets',
-    lessonId: 'mathematics-f1-algebraic-expressions-3',
-    order: 6,
-    learningObjectives: [
-      'Expand expressions with a single bracket',
-      'Expand expressions with two brackets (binomials)',
-      'Apply the distributive law correctly',
-      'Simplify expanded expressions by collecting like terms'
-    ],
-    introduction: 'Welcome back, algebra master! Now we are going to learn how to EXPAND brackets. This is like opening a package to see what is inside. When you see something like 3(x + 4), the brackets mean "multiply everything inside by 3". Today, I will teach you how to expand brackets step by step.',
-    keyPoints: [
-      'The distributive law: a(b + c) = ab + ac',
-      'When expanding, multiply the term outside by EVERY term inside the bracket',
-      'For two brackets: (a + b)(c + d) = ac + ad + bc + bd (FOIL method)',
-      'Always check your expansion by substituting a simple number',
-      'Collect like terms after expanding to simplify'
-    ],
-    detailedContent: `Let me teach you how to EXPAND brackets.
-
-SINGLE BRACKETS (Distributive Law):
-
-The rule is: a(b + c) = ab + ac. Multiply the term outside by EVERY term inside the bracket.
-
-Example 1: 3(x + 4)
-= 3 × x + 3 × 4 = 3x + 12
-
-Example 2: 5(2x - 3)
-= 5 × 2x + 5 × (-3) = 10x - 15
-
-Example 3: -2(3x - 5)
-= -2 × 3x + (-2) × (-5) = -6x + 10
-
-Example 4: x(2x + 3)
-= x × 2x + x × 3 = 2x² + 3x
-
-DOUBLE BRACKETS (Two binomials):
-
-Use the FOIL method:
-F - First terms: multiply the first term of each bracket
-O - Outer terms: multiply the outer terms
-I - Inner terms: multiply the inner terms
-L - Last terms: multiply the last terms
-
-Example: (x + 3)(x + 5)
-F: x × x = x²
-O: x × 5 = 5x
-I: 3 × x = 3x
-L: 3 × 5 = 15
-Then add: x² + 5x + 3x + 15 = x² + 8x + 15
-
-Example with negatives: (x - 4)(x + 2)
-F: x × x = x²
-O: x × 2 = 2x
-I: -4 × x = -4x
-L: -4 × 2 = -8
-Add: x² + 2x - 4x - 8 = x² - 2x - 8
-
-Example: (2x + 3)(x - 1)
-F: 2x × x = 2x²
-O: 2x × (-1) = -2x
-I: 3 × x = 3x
-L: 3 × (-1) = -3
-Add: 2x² - 2x + 3x - 3 = 2x² + x - 3
-
-(2x + 1)(3x - 2)
-F: 2x × 3x = 6x²
-O: 2x × (-2) = -4x
-I: 1 × 3x = 3x
-L: 1 × (-2) = -2
-Add: 6x² - 4x + 3x - 2 = 6x² - x - 2
-
-Let me give you a Malawi example. A farmer has a rectangular field. The length is (x + 10) metres and the width is (x + 5) metres. The area is (x + 10)(x + 5) = x² + 15x + 50 square metres.
-
-Expanding brackets is like unpacking. Once you expand, you can see all the parts clearly.`,
-    summary: 'Expand brackets by multiplying the term outside by every term inside (distributive law). For two brackets, use FOIL: First, Outer, Inner, Last. Always collect like terms after expanding.',
-    estimatedTime: '24 mins',
-    malawiExamples: [
-      { title: 'Field Area', description: 'A rectangular field with length (x+20) and width (x+10) has area x² + 30x + 200' },
-      { title: 'Revenue Calculation', description: 'If price is (p + 5) and quantity sold is (p - 2), revenue is p² + 3p - 10' },
-      { title: 'Garden Planning', description: 'A garden with length (x+8) and width (x-3) has area x² + 5x - 24' }
-    ],
-    practiceQuestions: [
-      { question: 'Expand: 4(2x + 5)', answer: '8x + 20', hint: 'Multiply 4 by 2x and 4 by 5' },
-      { question: 'Expand: (x + 6)(x - 3)', answer: 'x² + 3x - 18', hint: 'Use FOIL: x² + (-3x) + 6x + (-18)' },
-      { question: 'Expand: (2x + 3)(x - 4)', answer: '2x² - 5x - 12', hint: 'FOIL: 2x² - 8x + 3x - 12' }
-    ]
-  },
-
-  // Topic: Linear Equations (3 lessons - continued from earlier)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Linear Equations',
-    lessonNumber: 1,
-    lessonTitle: 'Solving Simple Linear Equations',
-    lessonId: 'mathematics-f1-linear-equations-1',
-    order: 7,
-    learningObjectives: [
-      'Define a linear equation in one variable',
-      'Solve equations of the form x + a = b and x - a = b',
-      'Solve equations of the form ax = b and x/a = b',
-      'Check solutions by substitution'
-    ],
-    introduction: 'Welcome, problem solver! Have you ever needed to find an unknown number and had to do some detective work? That is exactly what solving equations is about! An equation is like a balanced scale - whatever you do to one side, you must do to the other. Today, I will teach you how to solve simple linear equations.',
-    keyPoints: [
-      'A linear equation has the form ax + b = c, where a, b, and c are constants',
-      'The goal is to isolate the variable (get x by itself)',
-      'Use inverse operations: addition undoes subtraction, subtraction undoes addition',
-      'Use inverse operations: multiplication undoes division, division undoes multiplication',
-      'Whatever you do to one side, you MUST do to the other side'
-    ],
-    detailedContent: `Think of an equation as a BALANCED SCALE. The equal sign (=) is like the balance point. If the scale is balanced, the left side weighs the same as the right side. If you add weight to one side, you must add the same weight to the other side to keep it balanced.
-
-Let me show you how to solve different types of equations.
-
-TYPE 1: x + a = b
-Example: x + 5 = 12
-What does this mean? Some number (x) plus 5 equals 12. We need to find x.
-
-To get x by itself, we need to remove the +5. The inverse operation of addition is SUBTRACTION. So we subtract 5 from BOTH sides:
-
-x + 5 - 5 = 12 - 5
-x = 7
-
-Check: Does 7 + 5 = 12? Yes! So x = 7 is correct.
-
-TYPE 2: x - a = b
-Example: x - 3 = 9
-The inverse of subtraction is ADDITION. Add 3 to both sides:
-
-x - 3 + 3 = 9 + 3
-x = 12
-
-Check: 12 - 3 = 9. Correct!
-
-TYPE 3: ax = b
-Example: 3x = 18
-Here, 3 is multiplied by x. The inverse of multiplication is DIVISION. Divide both sides by 3:
-
-3x ÷ 3 = 18 ÷ 3
-x = 6
-
-Check: 3 × 6 = 18. Correct!
-
-TYPE 4: x/a = b
-Example: x/4 = 5
-The inverse of division is MULTIPLICATION. Multiply both sides by 4:
-
-(x/4) × 4 = 5 × 4
-x = 20
-
-Check: 20 ÷ 4 = 5. Correct!
-
-Let me give you a Malawi example. A student has 500 kwacha. After buying some exercise books, they have 200 kwacha left. How much did they spend?
-
-Let s = amount spent
-500 - s = 200
-Subtract 500 from both sides: -s = 200 - 500 = -300
-Multiply by -1: s = 300 kwacha spent.
-
-Another example: Five friends share 2,500 kwacha equally. How much does each get?
-5x = 2500
-x = 2500 ÷ 5 = 500 kwacha each.
-
-Remember: Always perform the same operation on BOTH sides of the equation. That keeps the "scale" balanced.`,
-    summary: 'A linear equation has the form ax + b = c. To solve, isolate the variable using inverse operations. Addition undoes subtraction, subtraction undoes addition. Multiplication undoes division, division undoes multiplication. Always perform the same operation on both sides.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Spending Money', description: 'If you start with 1,000 kwacha and end with 350 kwacha, how much did you spend? 1,000 - x = 350 → x = 650 kwacha.' },
-      { title: 'Sharing Equally', description: 'If 5 friends share 2,500 kwacha equally, each gets x = 2,500 ÷ 5 = 500 kwacha.' },
-      { title: 'Walking Distance', description: 'If you walk 3 km per hour, how many hours to walk 15 km? 3h = 15 → h = 5 hours.' }
-    ],
-    practiceQuestions: [
-      { question: 'Solve: x + 7 = 15', answer: 'x = 8', hint: 'Subtract 7 from both sides' },
-      { question: 'Solve: 6x = 42', answer: 'x = 7', hint: 'Divide both sides by 6' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Linear Equations',
-    lessonNumber: 2,
-    lessonTitle: 'Solving Two-Step Linear Equations',
-    lessonId: 'mathematics-f1-linear-equations-2',
-    order: 8,
-    learningObjectives: [
-      'Solve equations of the form ax + b = c',
-      'Solve equations of the form x/a + b = c',
-      'Apply the correct order of inverse operations',
-      'Solve real-life problems using two-step equations'
-    ],
-    introduction: 'Hello again! Now that you can solve simple equations, let us move to TWO-STEP equations. These equations have two operations, so you need two inverse operations to solve them. For example, 2x + 3 = 11 has multiplication (2 × x) and addition (+3). Today, I will show you the correct order to solve these equations.',
-    keyPoints: [
-      'First, undo addition or subtraction (the operation not attached to the variable)',
-      'Then, undo multiplication or division (the operation attached to the variable)',
-      'Always perform operations in the reverse order of BODMAS',
-      'Check your answer by substituting back into the original equation',
-      'Write your solution clearly: x = ...'
-    ],
-    detailedContent: `Let me teach you how to solve TWO-STEP linear equations.
-
-The key rule: UNDO ADDITION/SUBTRACTION FIRST, THEN UNDO MULTIPLICATION/DIVISION.
-
-Example 1: 2x + 3 = 11
-
-Step 1: Undo the +3 (subtract 3 from both sides)
-2x + 3 - 3 = 11 - 3
-2x = 8
-
-Step 2: Undo the ×2 (divide both sides by 2)
-2x ÷ 2 = 8 ÷ 2
-x = 4
-
-Check: 2(4) + 3 = 8 + 3 = 11 ✓
-
-Example 2: 3x - 5 = 16
-
-Step 1: Undo the -5 (add 5 to both sides)
-3x - 5 + 5 = 16 + 5
-3x = 21
-
-Step 2: Undo the ×3 (divide both sides by 3)
-3x ÷ 3 = 21 ÷ 3
-x = 7
-
-Check: 3(7) - 5 = 21 - 5 = 16 ✓
-
-Example 3: x/2 + 4 = 10
-
-Step 1: Undo the +4 (subtract 4 from both sides)
-x/2 + 4 - 4 = 10 - 4
-x/2 = 6
-
-Step 2: Undo the ÷2 (multiply both sides by 2)
-(x/2) × 2 = 6 × 2
-x = 12
-
-Check: 12/2 + 4 = 6 + 4 = 10 ✓
-
-Example 4: (x - 3)/2 = 5
-
-Here, the variable is inside the bracket. First, undo the ÷2 (multiply by 2):
-(x - 3)/2 × 2 = 5 × 2
-x - 3 = 10
-
-Then, undo the -3 (add 3):
-x - 3 + 3 = 10 + 3
-x = 13
-
-Check: (13 - 3)/2 = 10/2 = 5 ✓
-
-Example 5: 5 - 2x = 11 (variable on both sides in a way)
-
-Step 1: Subtract 5 from both sides:
-5 - 2x - 5 = 11 - 5
--2x = 6
-
-Step 2: Divide by -2:
--2x ÷ (-2) = 6 ÷ (-2)
-x = -3
-
-Check: 5 - 2(-3) = 5 + 6 = 11 ✓
-
-Let me give you a Malawi example. A farmer's monthly profit is given by P = 10n - 200, where n is bags of maize sold. If the profit is 300 kwacha, how many bags were sold?
-
-10n - 200 = 300
-10n = 500
-n = 50 bags.
-
-Another example: The cost of hiring a minibus is C = 5000 + 200d, where d is kilometres travelled. If the cost is 15,000 kwacha, how many kilometres?
-5000 + 200d = 15000
-200d = 10000
-d = 50 kilometres.
-
-Remember: "Do the opposite operation in the reverse order of BODMAS."`,
-    summary: 'To solve two-step equations, first undo addition or subtraction, then undo multiplication or division. Always check your answer by substituting back into the original equation. The order of inverse operations is the reverse of the order in BODMAS.',
-    estimatedTime: '24 mins',
-    malawiExamples: [
-      { title: 'Business Profit', description: 'Profit = 20n - 500. If profit is 700, solve 20n - 500 = 700 → 20n = 1,200 → n = 60 items sold.' },
-      { title: 'Temperature Conversion', description: 'C = (F - 32) × 5/9. If C = 25, solve 25 = (F - 32) × 5/9 → F = 77°F' },
-      { title: 'Transport Cost', description: 'Cost = 1000 + 150d. If cost is 4,000, solve for d = 20 km.' }
-    ],
-    practiceQuestions: [
-      { question: 'Solve: 4x - 7 = 13', answer: 'x = 5', hint: 'First add 7, then divide by 4' },
-      { question: 'Solve: (x + 5)/3 = 7', answer: 'x = 16', hint: 'First multiply by 3, then subtract 5' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Linear Equations',
-    lessonNumber: 3,
-    lessonTitle: 'Equations with Variables on Both Sides',
-    lessonId: 'mathematics-f1-linear-equations-3',
-    order: 9,
-    learningObjectives: [
-      'Solve equations with variables on both sides',
-      'Collect variable terms on one side and constants on the other',
-      'Apply inverse operations correctly',
-      'Solve real-life problems with variables on both sides'
-    ],
-    introduction: 'Welcome to the final lesson on linear equations! Now we will solve equations where variables appear on BOTH sides, like 3x + 2 = x + 10. These equations may look tricky, but with the right strategy, you will solve them easily. The key is to get all the variable terms on one side and all the constants on the other.',
-    keyPoints: [
-      'Collect all variable terms on one side (usually the left)',
-      'Collect all constant terms on the other side (usually the right)',
-      'Use inverse operations to move terms from one side to the other',
-      'Simplify both sides before solving',
-      'Check your answer in the original equation'
-    ],
-    detailedContent: `Let me teach you how to solve equations with VARIABLES ON BOTH SIDES.
-
-The strategy: GET VARIABLES ON ONE SIDE, CONSTANTS ON THE OTHER.
-
-Example 1: 3x + 2 = x + 10
-
-Step 1: Get variables on one side. Subtract x from both sides:
-3x + 2 - x = x + 10 - x
-2x + 2 = 10
-
-Step 2: Get constants on the other side. Subtract 2 from both sides:
-2x + 2 - 2 = 10 - 2
-2x = 8
-
-Step 3: Solve for x:
-2x ÷ 2 = 8 ÷ 2
-x = 4
-
-Check: 3(4) + 2 = 12 + 2 = 14; 4 + 10 = 14 ✓
-
-Example 2: 5x - 3 = 2x + 9
-
-Step 1: Subtract 2x from both sides (move x terms left):
-5x - 3 - 2x = 2x + 9 - 2x
-3x - 3 = 9
-
-Step 2: Add 3 to both sides (move constants right):
-3x - 3 + 3 = 9 + 3
-3x = 12
-
-Step 3: Divide by 3:
-x = 4
-
-Check: 5(4) - 3 = 20 - 3 = 17; 2(4) + 9 = 8 + 9 = 17 ✓
-
-Example 3: 4x + 5 = 6x - 7
-
-Step 1: Subtract 4x from both sides (move x terms right):
-4x + 5 - 4x = 6x - 7 - 4x
-5 = 2x - 7
-
-Step 2: Add 7 to both sides:
-5 + 7 = 2x - 7 + 7
-12 = 2x
-
-Step 3: Divide by 2:
-x = 6
-
-Check: 4(6) + 5 = 24 + 5 = 29; 6(6) - 7 = 36 - 7 = 29 ✓
-
-Example 4 (with brackets): 2(x + 3) = 3(x - 2)
-
-Step 1: Expand both sides:
-2x + 6 = 3x - 6
-
-Step 2: Subtract 2x from both sides:
-6 = x - 6
-
-Step 3: Add 6 to both sides:
-12 = x
-
-Check: 2(12 + 3) = 2(15) = 30; 3(12 - 2) = 3(10) = 30 ✓
-
-Example 5: 4x - 3 = 2x + 7
-
-Step 1: Subtract 2x from both sides:
-2x - 3 = 7
-
-Step 2: Add 3 to both sides:
-2x = 10
-
-Step 3: Divide by 2:
-x = 5
-
-Check: 4(5) - 3 = 20 - 3 = 17; 2(5) + 7 = 10 + 7 = 17 ✓
-
-Let me give you a Malawi example. Two farmers have maize. Farmer A has 50 bags + 10 per day. Farmer B has 30 bags + 15 per day. After how many days will they have the same?
-
-Let d = number of days
-50 + 10d = 30 + 15d
-50 - 30 = 15d - 10d
-20 = 5d
-d = 4 days
-
-Another example: Two minibuses start from the same town. Bus A charges 200 kwacha per passenger plus a 500 kwacha base fee. Bus B charges 250 kwacha per passenger plus a 200 kwacha base fee. How many passengers for equal cost?
-
-200p + 500 = 250p + 200
-500 - 200 = 250p - 200p
-300 = 50p
-p = 6 passengers
-
-Remember: "Move variables to one side, constants to the other, then solve."`,
-    summary: 'To solve equations with variables on both sides, collect variable terms on one side and constants on the other using inverse operations. Expand any brackets first. Always check your answer in the original equation.',
-    estimatedTime: '25 mins',
-    malawiExamples: [
-      { title: 'Saving Money', description: 'Chifundo saves 1,000 + 200 per week. Mphatso saves 400 + 250 per week. When will they have equal savings? 1000 + 200w = 400 + 250w → 600 = 50w → w = 12 weeks.' },
-      { title: 'Water Tanks', description: 'Tank A has 500L and fills at 20L/min. Tank B has 300L and fills at 30L/min. When equal? 500 + 20t = 300 + 30t → 200 = 10t → t = 20 minutes.' },
-      { title: 'Mobile Phone Plans', description: 'Plan A: 2,000 + 100 per minute. Plan B: 1,000 + 150 per minute. When equal cost? 2000 + 100m = 1000 + 150m → 1000 = 50m → m = 20 minutes.' }
-    ],
-    practiceQuestions: [
-      { question: 'Solve: 5x + 3 = 2x + 18', answer: 'x = 5', hint: 'Subtract 2x, then subtract 3, then divide' },
-      { question: 'Solve: 3(x - 2) = 2(x + 4)', answer: 'x = 14', hint: 'Expand first, then subtract variables' }
-    ]
-  },
-
-  // Topic: Angles and Polygons (3 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Angles and Polygons',
-    lessonNumber: 1,
-    lessonTitle: 'Types of Angles and Angle Relationships',
-    lessonId: 'mathematics-f1-angles-polygons-1',
-    order: 10,
-    learningObjectives: [
-      'Identify different types of angles (acute, right, obtuse, reflex)',
-      'Measure and draw angles using a protractor',
-      'Apply angle rules: angles on a straight line, angles at a point',
-      'Identify vertically opposite angles'
-    ],
-    introduction: 'Hello, geometry explorer! Have you ever looked at a house, a soccer field, or a honeycomb and noticed the shapes? Every shape has angles! Angles are everywhere - where two walls meet, where the roof slopes, even where your arm bends. Today, I will help you understand angles and the rules that govern them.',
-    keyPoints: [
-      'An acute angle is less than 90°',
-      'A right angle is exactly 90°',
-      'An obtuse angle is between 90° and 180°',
-      'A reflex angle is greater than 180°',
-      'Angles on a straight line add up to 180°',
-      'Angles at a point add up to 360°',
-      'Vertically opposite angles are equal'
-    ],
-    detailedContent: `Let me start by explaining what an ANGLE is. When two lines meet at a point, they form an angle. We measure angles in degrees (°).
-
-TYPES OF ANGLES:
-
-ACUTE ANGLE: less than 90° (like the sharp corner of a book)
-Example: 30°, 45°, 60°
-
-RIGHT ANGLE: exactly 90° (like the corner of a piece of paper)
-
-OBTUSE ANGLE: between 90° and 180° (like an open door)
-Example: 120°, 150°
-
-REFLEX ANGLE: more than 180° (like the larger angle around a clock)
-Example: 270°, 300°
-
-MEASURING ANGLES:
-You use a PROTRACTOR to measure angles. A protractor is a semi-circle marked from 0° to 180° in both directions.
-
-Steps to measure an angle:
-1. Place the centre of the protractor at the vertex (corner point)
-2. Align the base line with one ray of the angle
-3. Read where the other ray crosses the scale
-4. Use the correct scale (starting from 0)
-
-ANGLE RULES:
-
-RULE 1: ANGLES ON A STRAIGHT LINE add up to 180°.
-If a straight line is divided by a ray, the two angles formed sum to 180°.
-These are called SUPPLEMENTARY angles.
-Example: If one angle is 70°, the other is 110°.
-
-RULE 2: ANGLES AT A POINT add up to 360°.
-If several rays meet at a point, all the angles around that point sum to 360°.
-Example: Four angles at a point that are 90° each (90+90+90+90=360°).
-
-RULE 3: VERTICALLY OPPOSITE ANGLES are equal.
-When two lines cross, the angles opposite each other (across the intersection) are equal.
-
-Let me draw an example in your mind. Two lines cross like an "X". The top angle equals the bottom angle. The left angle equals the right angle.
-
-Let me give you Malawi examples:
-
-- In building a house, carpenters use right angles (90°) to make sure walls are straight.
-- In football, when a player shoots from different angles, they think about the angle to the goal.
-- In agriculture, the angle of the sun affects how much sunlight crops receive.
-
-A PROTIP: When you see two lines crossing, remember that the angles opposite each other are equal. This is called VERTICALLY OPPOSITE ANGLES.
-
-Now let me show you how to use these rules.
-
-Example 1: Find angle x if it is on a straight line with a 120° angle.
-x + 120° = 180°
-x = 60°
-
-Example 2: Find angle y if angles around a point are 90°, 110°, and y.
-90 + 110 + y = 360°
-200 + y = 360°
-y = 160°
-
-Example 3: Two lines cross, forming angles of 40° and x. Find x.
-Vertically opposite angles are equal, so x = 40°.
-
-Understanding angles helps you in many real-life situations, from constructing buildings to playing sports.`,
-    summary: 'Angles are measured in degrees (°). Acute (<90°), right (90°), obtuse (90°-180°), reflex (>180°). Angles on a straight line sum to 180°. Angles at a point sum to 360°. Vertically opposite angles are equal. A protractor measures angles.',
-    estimatedTime: '25 mins',
-    malawiExamples: [
-      { title: 'House Construction', description: 'Carpenters use right angles (90°) to ensure walls are perpendicular to the floor.' },
-      { title: 'Football Shooting', description: 'Players consider the angle to the goal when deciding where to shoot.' },
-      { title: 'Roof Design', description: 'The pitch (angle) of a roof determines how well rainwater drains.' }
-    ],
-    practiceQuestions: [
-      { question: 'What type of angle is 45°?', answer: 'Acute', hint: 'Less than 90°' },
-      { question: 'Two angles on a straight line are 35° and x. Find x.', answer: '145°', hint: 'Angles on a straight line sum to 180°' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Angles and Polygons',
-    lessonNumber: 2,
-    lessonTitle: 'Parallel Lines and Transversals',
-    lessonId: 'mathematics-f1-angles-polygons-2',
-    order: 11,
-    learningObjectives: [
-      'Identify corresponding, alternate, and co-interior angles',
-      'State the properties of angles formed by parallel lines and a transversal',
-      'Calculate unknown angles using angle properties',
-      'Apply angle rules to solve problems'
-    ],
-    introduction: 'Welcome back! Have you ever noticed railway tracks? They are always the same distance apart - they are PARALLEL lines. When a third line (called a TRANSVERSAL) crosses parallel lines, it creates special angle relationships. Today, I will teach you about these relationships - corresponding angles, alternate angles, and co-interior angles.',
-    keyPoints: [
-      'Parallel lines never meet and are always the same distance apart',
-      'A transversal is a line that crosses two or more other lines',
-      'Corresponding angles are equal',
-      'Alternate angles are equal',
-      'Co-interior angles add up to 180° (supplementary)'
-    ],
-    detailedContent: `Let me introduce you to parallel lines and transversals.
-
-PARALLEL LINES are lines that never meet. They are always the same distance apart. In Malawi, you see parallel lines in:
-- Railway tracks (when present)
-- The lines on a notebook
-- The edges of a road
-- The rows of maize in a field
-
-A TRANSVERSAL is a line that crosses two or more other lines. When a transversal crosses parallel lines, it creates eight angles. These angles have special relationships.
-
-Let me describe the three important relationships:
-
-1. CORRESPONDING ANGLES (F-shape)
-Corresponding angles are in the same position relative to the transversal and the parallel lines. They form an "F" shape.
-RULE: Corresponding angles are EQUAL.
-
-Imagine a transversal crossing two parallel lines from left to right. The top-left angle on the first line corresponds to the top-left angle on the second line. They are equal.
-
-2. ALTERNATE ANGLES (Z-shape)
-Alternate angles are on opposite sides of the transversal and inside the parallel lines. They form a "Z" shape.
-RULE: Alternate angles are EQUAL.
-
-3. CO-INTERIOR ANGLES (C-shape)
-Co-interior angles are on the same side of the transversal and inside the parallel lines. They form a "C" shape.
-RULE: Co-interior angles are SUPPLEMENTARY (add to 180°).
-
-Let me give you a memory tool:
-- Corresponding: Same position, like matching seats in two rows (EQUAL)
-- Alternate: Opposite sides, like a Z letter (EQUAL)
-- Co-interior: Together inside, like a C letter (SUM TO 180°)
-
-Now let me show you how to calculate unknown angles.
-
-Example 1: Two parallel lines with a transversal. One angle is 70°. Find the corresponding angle.
-Corresponding angles are equal, so the corresponding angle is also 70°.
-
-Example 2: Two parallel lines with a transversal. One angle is 70°. Find the alternate angle.
-Alternate angles are equal, so the alternate angle is also 70°.
-
-Example 3: Two parallel lines with a transversal. One angle is 70°. Find the co-interior angle.
-Co-interior angles sum to 180°, so 180° - 70° = 110°.
-
-Example 4: Find all angles if one angle is 120°.
-- Corresponding: 120°
-- Alternate: 120°
-- Co-interior: 180° - 120° = 60°
-- The angle adjacent to 120° on the same line: 60° (since angles on a straight line sum to 180°)
-- Vertically opposite: 120° and 60°
-
-Let me give you a Malawi example. In a maize field, the rows are parallel. The path through the field (transversal) creates angles. Farmers might use these angles to plan irrigation channels.
-
-Another example: The lines on a soccer field (touchline and goal line) are perpendicular (90°). Corner flags are placed at right angles.
-
-Remember the patterns:
-- F pattern (corresponding) → EQUAL
-- Z pattern (alternate) → EQUAL
-- C pattern (co-interior) → ADD TO 180°`,
-    summary: 'Parallel lines never meet. A transversal crosses parallel lines creating angles. Corresponding angles (F-shape) are equal. Alternate angles (Z-shape) are equal. Co-interior angles (C-shape) sum to 180°. These properties help calculate unknown angles.',
-    estimatedTime: '24 mins',
-    malawiExamples: [
-      { title: 'Maize Field Rows', description: 'Rows of maize are parallel. The path through the field acts as a transversal.' },
-      { title: 'Road Design', description: 'Where a road crosses railway tracks, the angles follow parallel line rules.' },
-      { title: 'Tiling Floors', description: 'Tiles laid in parallel rows create angle patterns.' }
-    ],
-    practiceQuestions: [
-      { question: 'What do we call angles that form an "F" shape?', answer: 'Corresponding angles', hint: 'Same position on parallel lines' },
-      { question: 'If a co-interior angle is 110°, what is the other co-interior angle?', answer: '70°', hint: 'Co-interior angles sum to 180°' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Angles and Polygons',
-    lessonNumber: 3,
-    lessonTitle: 'Polygons and Their Angles',
-    lessonId: 'mathematics-f1-angles-polygons-3',
-    order: 12,
-    learningObjectives: [
-      'Define polygons and classify them by number of sides',
-      'Calculate the sum of interior angles of any polygon',
-      'Find the size of each interior angle in a regular polygon',
-      'Find the size of each exterior angle of a regular polygon'
-    ],
-    introduction: 'Hello, shape master! Today we are going to study POLYGONS - shapes with straight sides. Triangles, squares, pentagons, hexagons - these are all polygons. Did you know that the sum of angles inside any polygon follows a simple formula? Today, I will teach you this formula and show you how to calculate angles in any polygon, from a triangle to a decagon.',
-    keyPoints: [
-      'A polygon is a closed shape with straight sides',
-      'Triangles (3 sides), Quadrilaterals (4 sides), Pentagons (5 sides), Hexagons (6 sides)',
-      'Sum of interior angles of an n-sided polygon = (n - 2) × 180°',
-      'In a regular polygon, all sides and all interior angles are equal',
-      'Each interior angle of a regular n-sided polygon = (n - 2) × 180° ÷ n',
-      'The sum of exterior angles of any polygon is always 360°'
-    ],
-    detailedContent: `Let me introduce you to POLYGONS.
-
-A POLYGON is a closed shape with straight sides. The word comes from Greek: "poly" means many, "gon" means angle.
-
-Here are polygons with different numbers of sides:
-- Triangle (3 sides)
-- Quadrilateral (4 sides) - squares, rectangles, etc.
-- Pentagon (5 sides)
-- Hexagon (6 sides)
-- Heptagon (7 sides)
-- Octagon (8 sides)
-- Nonagon (9 sides)
-- Decagon (10 sides)
-
-INTERIOR ANGLES (inside the polygon):
-
-The sum of all interior angles in any polygon follows this formula:
-
-SUM OF INTERIOR ANGLES = (n - 2) × 180°, where n = number of sides
-
-Let me prove this to you:
-
-Triangle (n=3): (3-2) × 180° = 1 × 180° = 180° ✓
-Quadrilateral (n=4): (4-2) × 180° = 2 × 180° = 360° ✓
-Pentagon (n=5): (5-2) × 180° = 3 × 180° = 540° ✓
-Hexagon (n=6): (6-2) × 180° = 4 × 180° = 720° ✓
-
-Now, what about REGULAR POLYGONS?
-
-A REGULAR polygon has all sides equal AND all angles equal.
-
-For a regular polygon, each interior angle = [(n - 2) × 180°] ÷ n
-
-Examples:
-- Regular triangle (equilateral): (3-2)×180 ÷ 3 = 180 ÷ 3 = 60° each
-- Regular quadrilateral (square): (4-2)×180 ÷ 4 = 360 ÷ 4 = 90° each
-- Regular pentagon: (5-2)×180 ÷ 5 = 540 ÷ 5 = 108° each
-- Regular hexagon: (6-2)×180 ÷ 6 = 720 ÷ 6 = 120° each
-
-EXTERIOR ANGLES:
-
-An exterior angle is formed by extending one side of the polygon. The exterior angle and interior angle are supplementary (add to 180°).
-
-IMPORTANT RULE: The sum of exterior angles of ANY polygon is always 360°.
-
-For a regular polygon, each exterior angle = 360° ÷ n
-
-Check with a square: 360 ÷ 4 = 90° exterior angle. Interior angle = 180 - 90 = 90° ✓
-
-Let me give you a Malawi example. The honeycomb pattern in beehives uses regular hexagons. Each interior angle is 120°, each exterior angle is 60°. This shape allows bees to store the most honey using the least wax.
-
-Another example: Soccer balls are made of pentagons and hexagons. The pattern is called a truncated icosahedron.
-
-Road signs often use triangles (warning signs), octagons (stop signs), and rectangles (speed limit signs).
-
-Now let me show you how to solve problems.
-
-Example 1: Find the sum of interior angles of a heptagon (7 sides).
-n = 7, sum = (7-2) × 180 = 5 × 180 = 900°
-
-Example 2: Find each interior angle of a regular octagon.
-n = 8, sum = (8-2) × 180 = 6 × 180 = 1080°
-Each interior angle = 1080 ÷ 8 = 135°
-
-Example 3: Find the number of sides if the sum of interior angles is 1260°.
-1260 = (n-2) × 180
-1260 ÷ 180 = n-2
-7 = n-2
-n = 9 sides (nonagon)
-
-Example 4: Find each exterior angle of a regular pentagon.
-Each exterior angle = 360 ÷ 5 = 72°
-
-Remember: The sum of interior angles formula works for ALL polygons, regular or irregular. The sum of exterior angles is ALWAYS 360°.`,
-    summary: 'A polygon has n sides. Sum of interior angles = (n-2) × 180°. Each interior angle of a regular polygon = (n-2) × 180° ÷ n. Sum of exterior angles always = 360°. Each exterior angle of a regular polygon = 360° ÷ n.',
-    estimatedTime: '24 mins',
-    malawiExamples: [
-      { title: 'Beehives', description: 'Honeycombs use regular hexagons (120° interior angles) to maximize space.' },
-      { title: 'Road Signs', description: 'Stop signs are octagons (135° interior angles). Warning signs are triangles.' },
-      { title: 'Tile Patterns', description: 'Floor tiles often use squares (90°) or hexagons (120°).' }
-    ],
-    practiceQuestions: [
-      { question: 'What is the sum of interior angles of an octagon?', answer: '1080°', hint: 'n=8, (8-2)×180 = 1080' },
-      { question: 'Find each interior angle of a regular hexagon.', answer: '120°', hint: 'Sum = 720°, divide by 6 = 120°' }
-    ]
-  },
-
-  // Topic: Statistics (3 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Statistics',
-    lessonNumber: 1,
-    lessonTitle: 'Collecting and Organizing Data',
-    lessonId: 'mathematics-f1-statistics-1',
-    order: 13,
-    learningObjectives: [
-      'Collect data through surveys and observations',
-      'Organize data into frequency tables',
-      'Distinguish between primary and secondary data',
-      'Identify different types of data (qualitative vs quantitative)'
-    ],
-    introduction: 'Good day, data detective! Have you ever wondered how teachers calculate your average score? Or how the government knows how many people live in Malawi? They use STATISTICS - the science of collecting, organizing, and understanding data. Today, we will start with the first step: collecting and organizing data.',
-    keyPoints: [
-      'Data are pieces of information collected for analysis',
-      'Primary data is collected firsthand by the researcher',
-      'Secondary data is collected from existing sources',
-      'Qualitative data describes categories (e.g., colours, names)',
-      'Quantitative data uses numbers (e.g., height, weight, age)',
-      'A frequency table shows how often each value occurs'
-    ],
-    detailedContent: `Let me introduce you to DATA and how to collect it.
-
-DATA are pieces of information. When you ask your classmates their favourite subject, you are collecting data.
-
-TYPES OF DATA BY SOURCE:
-
-PRIMARY DATA: Data you collect yourself directly from the source.
-Examples in Malawi:
-- Conducting a survey of maize yields from 50 farmers
-- Measuring the height of students in your class
-- Counting the number of people at a market
-
-SECONDARY DATA: Data collected by someone else that you use.
-Examples:
-- Population statistics from the National Statistical Office
-- Rainfall data from the Department of Climate Change
-- Exam results from the Malawi National Examinations Board (MANEB)
-
-TYPES OF DATA BY NATURE:
-
-QUALITATIVE DATA (Categorical): Data that describes qualities or categories.
-Examples: Favourite food (nsima, rice, chips), type of crop (maize, tobacco, groundnuts), gender (male, female)
-
-QUANTITATIVE DATA (Numerical): Data that uses numbers.
-Examples: Height (150 cm, 160 cm), weight (50 kg, 60 kg), age (14 years, 15 years)
-Quantitative data can be DISCRETE (whole numbers like 1,2,3) or CONTINUOUS (measurements like 1.5, 2.3).
-
-ORGANIZING DATA: FREQUENCY TABLES
-
-When you have collected data, you need to organize it. A FREQUENCY TABLE shows how many times each value occurs.
-
-Example: You survey 20 students about how many siblings they have:
-3, 2, 4, 2, 1, 3, 2, 4, 2, 3, 1, 2, 3, 4, 2, 1, 3, 2, 2, 3
-
-Create a frequency table:
-
-| Number of Siblings | Tally | Frequency |
-|-------------------|-------|-----------|
-| 1                 | III   | 3         |
-| 2                 | IIII II| 7         |
-| 3                 | IIII   | 5         |
-| 4                 | III    | 3         |
-| 5 or more         | 0     | 0         |
-| TOTAL             |       | 20        |
-
-The frequency table makes the data much easier to read and understand.
-
-In Malawi, the National Statistical Office conducts the Malawi Demographic and Health Survey (MDHS) every few years. They collect data from thousands of households. This data helps the government plan schools, hospitals, and roads.
-
-When you collect data, always:
-1. Decide what you want to know
-2. Plan how to collect the data (survey, observation, measurement)
-3. Collect the data carefully
-4. Organize the data in a frequency table
-5. Check for errors
-
-Now it is your turn! Try collecting data from your classmates about their favourite Malawian food: nsima, rice, cassava, or potatoes. Make a frequency table.`,
-    summary: 'Data are pieces of information. Primary data is collected firsthand; secondary data comes from existing sources. Qualitative data describes categories; quantitative data uses numbers. Organize data using frequency tables that show how often each value occurs.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'National Census', description: 'The government conducts a census every 10 years to count the population.' },
-      { title: 'School Survey', description: 'You can survey classmates about their favourite subject to collect primary data.' },
-      { title: 'Weather Records', description: 'Rainfall data from the Department of Climate Change is secondary data.' }
-    ],
-    practiceQuestions: [
-      { question: 'What is the difference between primary and secondary data?', answer: 'Primary is collected firsthand; secondary comes from existing sources', hint: 'One you collect yourself, one you get from others' },
-      { question: 'Is "eye colour" qualitative or quantitative data?', answer: 'Qualitative', hint: 'It describes a category, not a number' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Statistics',
-    lessonNumber: 2,
-    lessonTitle: 'Measures of Central Tendency: Mean, Median, Mode',
-    lessonId: 'mathematics-f1-statistics-2',
-    order: 14,
-    learningObjectives: [
-      'Calculate the mean (average) of a data set',
-      'Find the median (middle value) of a data set',
-      'Identify the mode (most frequent value) of a data set',
-      'Choose the appropriate average for different situations'
-    ],
-    introduction: 'Hello again! Now that we have collected and organized data, we need to understand what it tells us. AVERAGES help us find a "typical" value in our data. Today, I will teach you three types of averages: the MEAN (average), the MEDIAN (middle), and the MODE (most common). Each tells us something different about the data.',
-    keyPoints: [
-      'Mean = sum of all values ÷ number of values (the "average")',
-      'Median = the middle value when data is arranged in order',
-      'Mode = the value that appears most frequently',
-      'The mean can be affected by extreme values (outliers)',
-      'The median is better for data with outliers',
-      'The mode is useful for categorical data'
-    ],
-    detailedContent: `Let me explain the three measures of central tendency: MEAN, MEDIAN, and MODE.
-
-1. THE MEAN (AVERAGE)
-
-The mean is what most people mean when they say "average". To find the mean:
-- Add up all the numbers
-- Divide by how many numbers there are
-
-Formula: Mean = (Sum of all values) ÷ (Number of values)
-
-Example: Test scores: 65, 70, 55, 80, 75
-Sum = 65 + 70 + 55 + 80 + 75 = 345
-Number of scores = 5
-Mean = 345 ÷ 5 = 69%
-
-2. THE MEDIAN (MIDDLE)
-
-The median is the middle number when the data is arranged in order.
-
-Steps:
-- Arrange the numbers from smallest to largest
-- Find the middle number
-- If there are two middle numbers, average them
-
-Example (odd number of values): 55, 65, 70, 75, 80
-The middle number is 70. So median = 70
-
-Example (even number of values): 55, 65, 70, 75, 80, 85
-The two middle numbers are 70 and 75
-Median = (70 + 75) ÷ 2 = 145 ÷ 2 = 72.5
-
-3. THE MODE (MOST FREQUENT)
-
-The mode is the value that appears most often.
-
-Example: Shoe sizes: 5, 6, 7, 7, 7, 8, 9
-The number 7 appears three times (more than any other). So mode = 7
-
-If all values appear once, there is no mode.
-If two values tie for most frequent, the data is bimodal.
-
-WHICH AVERAGE TO USE?
-
-MEAN: Use when data is evenly spread and no outliers. Good for test scores, heights, weights.
-
-MEDIAN: Use when there are outliers (extreme values). Example: House prices (one very expensive house would raise the mean but not the median).
-
-MODE: Use for categorical data. Example: "Most students walk to school" uses the mode.
-
-Let me give you Malawi examples.
-
-Example 1 (Mean): Five farmers harvested maize (kg): 400, 450, 380, 420, 500.
-Mean = (400+450+380+420+500) ÷ 5 = 2150 ÷ 5 = 430 kg
-
-Example 2 (Median): Daily wages (kwacha): 1000, 1200, 1100, 5000, 1300
-Arrange: 1000, 1100, 1200, 1300, 5000
-Median = 1200 kwacha
-The mean would be (1000+1100+1200+1300+5000) ÷ 5 = 9600 ÷ 5 = 1920 kwacha. The 5000 outlier makes the mean higher than typical. The median (1200) better represents typical wages.
-
-Example 3 (Mode): Transport to school: walking (15), bicycle (8), minibus (5), car (2)
-Mode = "walking" (appears 15 times, most frequent)
-
-In Malawi, the mean is used to calculate average class sizes, average crop yields, etc. The median is used for income data where a few very rich people would skew the mean.`,
-    summary: 'Mean = sum ÷ count (average). Median = middle value in ordered data. Mode = most frequent value. Mean is affected by outliers; median is better for skewed data; mode works for categorical data.',
-    estimatedTime: '24 mins',
-    malawiExamples: [
-      { title: 'Average Crop Yield', description: 'Farmers calculate mean harvest to plan for next season.' },
-      { title: 'Income Data', description: 'Median income is often reported because a few high earners would increase the mean.' },
-      { title: 'Common Travel Method', description: 'Mode identifies how most students travel to school.' }
-    ],
-    practiceQuestions: [
-      { question: 'Find the mean of 10, 15, 20, 25', answer: '17.5', hint: 'Sum = 70, divide by 4 = 17.5' },
-      { question: 'Find the median of 8, 12, 5, 10, 15', answer: '10', hint: 'Arrange: 5,8,10,12,15 → middle is 10' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Statistics',
-    lessonNumber: 3,
-    lessonTitle: 'Data Presentation: Bar Charts and Pie Charts',
-    lessonId: 'mathematics-f1-statistics-3',
-    order: 15,
-    learningObjectives: [
-      'Draw and interpret bar charts',
-      'Draw and interpret pie charts',
-      'Calculate angles for pie chart sectors',
-      'Choose the appropriate chart for different types of data'
-    ],
-    introduction: 'Welcome back, data detective! Collecting and summarizing data is only the first step. To communicate what you found, you need to PRESENT the data clearly. Today, I will teach you how to create BAR CHARTS and PIE CHARTS - two of the most common ways to show data visually. People understand pictures faster than numbers!',
-    keyPoints: [
-      'Bar charts use bars of different heights to show frequencies',
-      'Pie charts show proportions as slices of a circle',
-      'For a pie chart, each sector angle = (frequency ÷ total) × 360°',
-      'Bar charts are good for comparing categories',
-      'Pie charts are good for showing parts of a whole'
-    ],
-    detailedContent: `Let me teach you how to present data using BAR CHARTS and PIE CHARTS.
-
-BAR CHARTS:
-
-A bar chart uses bars (rectangles) of different heights to represent frequencies. The taller the bar, the higher the frequency.
-
-Steps to draw a bar chart:
-1. Draw horizontal axis (x-axis) for categories
-2. Draw vertical axis (y-axis) for frequency
-3. Choose a scale for the vertical axis
-4. Draw bars of appropriate height for each category
-5. Leave spaces between bars (unlike a histogram)
-
-Example: Transport to school
-Walking: 15 students
-Bicycle: 8 students
-Minibus: 5 students
-Car: 2 students
-
-Draw a bar chart with:
-- Category names on x-axis
-- Frequency from 0 to 16 on y-axis
-- Bars of heights 15, 8, 5, 2
-
-You would clearly see that walking is the most common, followed by bicycle.
-
-PIE CHARTS:
-
-A pie chart shows how a whole (100%) is divided into parts. The whole circle represents all the data, and each slice represents a category.
-
-To draw a pie chart, you need to calculate the ANGLE for each slice:
-Angle = (Frequency ÷ Total) × 360°
-
-Example: Same transport data, total students = 15+8+5+2 = 30
-
-Walking: (15 ÷ 30) × 360° = 0.5 × 360° = 180° (half the circle!)
-Bicycle: (8 ÷ 30) × 360° = 0.2667 × 360° = 96°
-Minibus: (5 ÷ 30) × 360° = 0.1667 × 360° = 60°
-Car: (2 ÷ 30) × 360° = 0.0667 × 360° = 24°
-
-Check: 180° + 96° + 60° + 24° = 360° ✓
-
-Now draw the circle using a compass. Use a protractor to measure each angle. Label each slice with the category and sometimes the frequency or percentage.
-
-WHICH CHART TO USE?
-
-BAR CHART is better when:
-- You have many categories
-- You want to compare frequencies
-- The order of categories matters
-- You have nominal data (no natural order)
-
-PIE CHART is better when:
-- You have few categories (2-6)
-- You want to show parts of a whole (percentages)
-- The total adds to 100%
-- You want to emphasize proportions
-
-Let me give you Malawi examples.
-
-Example: A bar chart of crop production in different districts (Blantyre, Lilongwe, Mzuzu, Zomba) would clearly show which district produces the most.
-
-Example: A pie chart of land use for a single farm (maize: 50%, tobacco: 30%, groundnuts: 20%) would clearly show how land is divided.
-
-In Malawi, the National Statistical Office uses bar charts to compare population across districts and pie charts to show the percentage of people in different occupations.
-
-A PROTIP: Always include a title and label your axes! Without labels, a chart is just pretty shapes - not information.`,
-    summary: 'Bar charts use bar heights to compare frequencies. Pie charts use sector angles to show proportions. For a pie chart, angle = (frequency ÷ total) × 360°. Choose bar charts for comparisons, pie charts for parts of a whole.',
-    estimatedTime: '23 mins',
-    malawiExamples: [
-      { title: 'Crop Comparison', description: 'A bar chart can compare maize production across districts.' },
-      { title: 'Land Use', description: 'A pie chart shows how a farmer divides land among different crops.' },
-      { title: 'School Population', description: 'A bar chart shows how many students are in each form.' }
-    ],
-    practiceQuestions: [
-      { question: 'What angle represents 25% of a pie chart?', answer: '90°', hint: '360 × 0.25 = 90°' },
-      { question: 'When is a bar chart better than a pie chart?', answer: 'When comparing many categories', hint: 'Pie charts get crowded with many slices' }
-    ]
-  },
-
-  // -------------------- MATHEMATICS FORM 2 --------------------
-  // Topic: Pythagoras Theorem (2 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 2',
-    topic: 'Pythagoras Theorem',
-    lessonNumber: 1,
-    lessonTitle: 'Introduction to Pythagoras Theorem',
-    lessonId: 'mathematics-f2-pythagoras-1',
-    order: 16,
-    learningObjectives: [
-      'State Pythagoras theorem',
-      'Identify the hypotenuse of a right-angled triangle',
-      'Apply Pythagoras theorem to find the hypotenuse',
-      'Solve problems involving Pythagoras theorem'
-    ],
-    introduction: 'Hello, geometry detective! Over 2,500 years ago, a Greek mathematician named Pythagoras discovered a secret about right-angled triangles that we still use today. He found that there is a special relationship between the three sides. Today, I will share this secret with you!',
-    keyPoints: [
-      'Pythagoras theorem applies only to right-angled triangles',
-      'The hypotenuse is the longest side, opposite the right angle',
-      'Theorem: a² + b² = c², where c is the hypotenuse',
-      'To find the hypotenuse: c = √(a² + b²)',
-      'This theorem helps find distances that cannot be measured directly'
-    ],
-    detailedContent: `Let me introduce you to one of the most famous formulas in all of mathematics: the PYTHAGORAS THEOREM.
-
-First, let me explain what a RIGHT-ANGLED TRIANGLE is. It is a triangle with one angle exactly 90 degrees (a square corner). The side opposite this right angle is called the HYPOTENUSE. It is always the longest side.
-
-The theorem says: In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.
-
-In mathematical language: a² + b² = c², where c is the hypotenuse.
-
-Let me show you how to use this.
-
-Example 1: Find the hypotenuse. A triangle has sides of 3 units and 4 units.
-a = 3, b = 4
-c² = 3² + 4² = 9 + 16 = 25
-c = √25 = 5 units
-
-This is a famous triple: 3-4-5 triangle.
-
-Example 2: A right-angled triangle has sides 6 and 8. Find the hypotenuse.
-c² = 6² + 8² = 36 + 64 = 100
-c = √100 = 10 units (another triple!)
-
-Example 3: A right-angled triangle has sides 5 and 12.
-c² = 25 + 144 = 169
-c = √169 = 13 units
-
-These are called Pythagorean Triples - sets of whole numbers that satisfy a² + b² = c².
-
-Let me give you a real-life example from Malawi. Imagine you are standing at one corner of a rectangular maize field. You need to walk to the opposite corner. Instead of walking along the edges, you want to take the diagonal path.
-
-If the field is 60 metres long and 80 metres wide, how long is the diagonal path?
-
-c² = 60² + 80² = 3600 + 6400 = 10,000
-c = √10,000 = 100 metres
-
-By taking the diagonal, you save 60 + 80 - 100 = 40 metres! That is why understanding Pythagoras can save you time and energy.
-
-Another example: A ladder is leaning against a wall. The bottom of the ladder is 3 metres from the wall, and the ladder reaches 4 metres up the wall. How long is the ladder?
-
-c² = 3² + 4² = 9 + 16 = 25
-c = 5 metres
-
-The ladder is 5 metres long.
-
-Pythagoras theorem is used in construction, navigation, surveying, and many other fields. Builders use the 3-4-5 triangle to check if walls are perpendicular (at right angles). If a triangle with sides 3, 4, and 5 is formed, the angle is exactly 90 degrees.`,
-    summary: 'Pythagoras theorem (a² + b² = c²) applies to right-angled triangles, where c is the hypotenuse. To find the hypotenuse, square the other two sides, add them, and take the square root. This theorem helps solve many real-world distance problems.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Field Diagonal', description: 'Walking diagonally across a field saves distance compared to walking around the edges.' },
-      { title: 'Ladder Safety', description: 'Ensuring a ladder is at the right angle for safety uses Pythagoras.' },
-      { title: 'Construction', description: 'Builders use 3-4-5 triangles to create right angles.' }
-    ],
-    practiceQuestions: [
-      { question: 'Find the hypotenuse of a right triangle with sides 5 and 12', answer: '13', hint: '25 + 144 = 169, √169 = 13' },
-      { question: 'What is the hypotenuse if sides are 8 and 15?', answer: '17', hint: '64 + 225 = 289, √289 = 17' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 2',
-    topic: 'Pythagoras Theorem',
-    lessonNumber: 2,
-    lessonTitle: 'Finding Shorter Sides and Applications',
-    lessonId: 'mathematics-f2-pythagoras-2',
-    order: 17,
-    learningObjectives: [
-      'Use Pythagoras theorem to find a shorter side',
-      'Rearrange the formula to isolate a or b',
-      'Apply Pythagoras theorem to practical problems',
-      'Verify if a triangle is right-angled using Pythagoras'
-    ],
-    introduction: 'Welcome back! Now that you know how to find the hypotenuse, what if you need to find one of the shorter sides? The formula still works - you just need to rearrange it. Today, I will show you how to find a missing shorter side and how to use Pythagoras to check if a triangle is right-angled.',
-    keyPoints: [
-      'To find a shorter side: a² = c² - b² or b² = c² - a²',
-      'Always identify the hypotenuse first (largest number)',
-      'Check if a triangle is right-angled: does a² + b² = c²?',
-      'This theorem works for any right-angled triangle, not just whole numbers'
-    ],
-    detailedContent: `Let me teach you how to find a SHORTER side using Pythagoras theorem.
-
-When you know the hypotenuse and one shorter side, you can find the other side.
-
-The formula: a² = c² - b² (or b² = c² - a²)
-
-Example 1: A right-angled triangle has hypotenuse 13 and one side 5. Find the other side.
-a² = 13² - 5² = 169 - 25 = 144
-a = √144 = 12
-
-Example 2: Hypotenuse = 25, one side = 7. Find the other side.
-a² = 25² - 7² = 625 - 49 = 576
-a = √576 = 24
-
-Example 3: A television screen is measured diagonally. A TV has a diagonal of 20 inches and width of 16 inches. Find the height.
-h² = 20² - 16² = 400 - 256 = 144
-h = √144 = 12 inches
-
-Example 4: A kite string is 50 metres long. The kite is flying 30 metres above the ground. How far is the person from the point directly under the kite?
-distance² = 50² - 30² = 2500 - 900 = 1600
-distance = √1600 = 40 metres
-
-CHECKING IF A TRIANGLE IS RIGHT-ANGLED:
-
-You can use the converse of Pythagoras theorem: If a² + b² = c² (where c is the largest side), then the triangle is right-angled.
-
-Example: A triangle has sides 7, 24, 25.
-Check: 7² + 24² = 49 + 576 = 625
-25² = 625
-Since they are equal, the triangle is right-angled.
-
-If the sum of the squares of the two smaller sides is less than the square of the largest side, the triangle is obtuse (angle > 90°).
-If greater than, the triangle is acute (angle < 90°).
-
-Let me give you a Malawi example. A farmer has a triangular piece of land with sides 30 m, 40 m, and 50 m. Is it right-angled?
-30² + 40² = 900 + 1600 = 2500
-50² = 2500
-Yes! The land is right-angled. The farmer can use this to plan irrigation channels.
-
-Another example: A carpenter needs to check if a corner is square (90°). He measures 60 cm along one wall and 80 cm along the other. If the distance between these points is 100 cm, the corner is square.
-60² + 80² = 3600 + 6400 = 10,000
-100² = 10,000 ✓
-
-Remember: Always check which side is the hypotenuse! The hypotenuse is always the largest number and opposite the right angle.`,
-    summary: 'To find a shorter side, use a² = c² - b². To check if a triangle is right-angled, verify if a² + b² = c² (with c the largest side). Pythagoras theorem has many practical applications in construction, navigation, and everyday measurements.',
-    estimatedTime: '22 mins',
-    malawiExamples: [
-      { title: 'Finding Land Dimensions', description: 'If a farmer knows the diagonal and one side of a field, he can calculate the other side.' },
-      { title: 'Checking Square Corners', description: 'Builders use 3-4-5 triangles to ensure corners are right angles.' },
-      { title: 'Kite Flying', description: 'If you know the string length and height, you can find the horizontal distance.' }
-    ],
-    practiceQuestions: [
-      { question: 'Find the missing side: hypotenuse 17, one side 8', answer: '15', hint: '289 - 64 = 225, √225 = 15' },
-      { question: 'Is a triangle with sides 8, 15, 17 right-angled?', answer: 'Yes', hint: '64 + 225 = 289, 289 = 17²' }
-    ]
-  }
-,
-
-// ======================================================================
-// MATHEMATICS FORM 2 - CONTINUED
-// ======================================================================
-
-// Topic: Similar Triangles (2 lessons)
-{
-  subject: 'Mathematics',
-  form: 'Form 2',
-  topic: 'Similar Triangles',
-  lessonNumber: 1,
-  lessonTitle: 'Identifying Similar Triangles',
-  lessonId: 'mathematics-f2-similar-triangles-1',
-  order: 18,
-  learningObjectives: [
-    'Define similar triangles',
-    'Identify similar triangles using AAA, SSS, and SAS tests',
-    'State that corresponding angles are equal and sides are proportional',
-    'Find the scale factor between similar triangles'
-  ],
-  introduction: 'Welcome, shape detective! Have you ever looked at a map and a real place and noticed they have the same shape but different sizes? Or seen a photograph enlarged to poster size? That is SIMILARITY - when shapes have the same form but different sizes. Today, I will teach you how to recognize similar triangles.',
-  keyPoints: [
-    'Similar triangles have the same shape but different sizes',
-    'Corresponding angles are EQUAL',
-    'Corresponding sides are in the SAME PROPORTION (scale factor)',
-    'AAA test: All three angles equal',
-    'SSS test: All three sides proportional',
-    'SAS test: Two sides proportional and included angle equal'
-  ],
-  detailedContent: `Let me explain what SIMILAR TRIANGLES are. Two triangles are similar if:
-- Their corresponding angles are EQUAL
-- Their corresponding sides are in the SAME RATIO (proportion)
-
-Imagine taking a photo of a house and then enlarging it. The enlarged photo has the same shape, but everything is bigger. That is similarity!
-
-There are three tests to check if triangles are similar:
-
-TEST 1: AAA (Angle-Angle-Angle)
-If all three angles of one triangle equal the three angles of another triangle, they are similar.
-Note: If two angles are equal, the third must also be equal (angles in a triangle sum to 180°).
-
-TEST 2: SSS (Side-Side-Side)
-If the ratios of all three pairs of corresponding sides are equal, they are similar.
-
-TEST 3: SAS (Side-Angle-Side)
-If two sides are in the same proportion and the INCLUDED angle (the angle between them) is equal, they are similar.
-
-Let me show you examples.
-
-Example 1: Triangle ABC has angles 50°, 60°, 70°. Triangle DEF has angles 50°, 60°, 70°.
-By AAA test, the triangles are similar.
-
-Example 2: Triangle PQR has sides 3, 4, 5. Triangle XYZ has sides 6, 8, 10.
-Ratios: 6/3 = 2, 8/4 = 2, 10/5 = 2 (all equal)
-By SSS test, the triangles are similar, scale factor 2.
-
-Example 3: Triangle ABC has sides 4 and 5 with included angle 30°. Triangle DEF has sides 8 and 10 with included angle 30°.
-Ratio 8/4 = 2, 10/5 = 2, included angle equal
-By SAS test, the triangles are similar, scale factor 2.
-
-In Malawi, maps use similarity. The map is a smaller, similar version of the actual land. If a map has scale 1:100,000, that means 1 cm on the map represents 100,000 cm (1 km) on the ground.`,
-  summary: 'Similar triangles have equal corresponding angles and proportional corresponding sides. Three tests confirm similarity: AAA (angles equal), SSS (sides proportional), and SAS (two sides proportional, included angle equal). The scale factor is the ratio of corresponding sides.',
-  estimatedTime: '22 mins',
-  malawiExamples: [
-    { title: 'Maps', description: 'A map of Malawi is similar to the actual country, just much smaller.' },
-    { title: 'Enlarged Photos', description: 'When you enlarge a photo, the enlarged version is similar to the original.' },
-    { title: 'Building Models', description: 'Architects make small-scale models similar to actual buildings.' }
-  ],
-  practiceQuestions: [
-    { question: 'What does AAA stand for in similarity tests?', answer: 'Angle-Angle-Angle', hint: 'All three angles' },
-    { question: 'If triangle A sides are 2,3,4 and triangle B sides are 4,6,8, are they similar?', answer: 'Yes', hint: 'All ratios are 2' }
-  ]
-},
-{
-  subject: 'Mathematics',
-  form: 'Form 2',
-  topic: 'Similar Triangles',
-  lessonNumber: 2,
-  lessonTitle: 'Using Similar Triangles to Find Unknown Lengths',
-  lessonId: 'mathematics-f2-similar-triangles-2',
-  order: 19,
-  learningObjectives: [
-    'Use similarity to find unknown lengths',
-    'Set up and solve proportions',
-    'Apply similarity to real-life measurement problems',
-    'Use the scale factor to enlarge or reduce shapes'
-  ],
-  introduction: 'Welcome back! Now that you can identify similar triangles, let us use them to find unknown lengths. Similarity allows us to measure things that are too big, too far, or too dangerous to measure directly. Today, I will show you how to use similarity to find heights, distances, and other measurements.',
-  keyPoints: [
-    'Corresponding sides of similar triangles are proportional',
-    'Set up a proportion: side1/side2 = side3/side4',
-    'Cross-multiply and solve for the unknown',
-    'The scale factor k = second triangle side ÷ first triangle side',
-    'Similarity is used in surveying, navigation, and indirect measurement'
-  ],
-  detailedContent: `Let me teach you how to use similar triangles to find unknown lengths.
-
-The key principle: Corresponding sides are proportional.
-
-If triangle ABC is similar to triangle DEF, then:
-AB/DE = BC/EF = AC/DF
-
-Example 1: Triangle ABC has sides 3, 4, 5. Triangle DEF is similar with scale factor 3. Find the sides of DEF.
-Scale factor 3 means each side is multiplied by 3:
-DE = 3 × 3 = 9
-EF = 4 × 3 = 12
-DF = 5 × 3 = 15
-
-Example 2: Triangle PQR is similar to triangle XYZ. PQ = 6, QR = 8, XY = 9. Find YZ.
-PQ/XY = QR/YZ
-6/9 = 8/YZ
-Cross multiply: 6 × YZ = 9 × 8 = 72
-YZ = 72 ÷ 6 = 12
-
-Now, let me show you a real-world application.
-
-MEASURING A TREE HEIGHT (Indirect Measurement):
-
-Suppose you want to measure the height of a tall tree, but you cannot climb it. You can use similar triangles!
-
-How to do it:
-1. Stand a stick vertically in the ground
-2. Measure the height of the stick (say, 1 metre)
-3. Measure the length of the stick's shadow (say, 1.5 metres)
-4. Measure the length of the tree's shadow (say, 12 metres)
-
-The sun's rays create similar triangles! The tree and its shadow form a triangle. The stick and its shadow form a triangle.
-
-Set up a proportion:
-Tree height / Stick height = Tree shadow / Stick shadow
-Tree height / 1 = 12 / 1.5
-Tree height = 12 ÷ 1.5 = 8 metres
-
-Without climbing the tree, you know it is 8 metres tall!
-
-MEASURING A RIVER WIDTH:
-
-Suppose you need to measure the width of a river without swimming across. You can use similar triangles!
-
-Method:
-1. Stand at point A on one side
-2. Place a stick at point B on your side
-3. Sight across to a point C on the opposite side
-4. Create a smaller similar triangle on your side
-
-By measuring the sides of the smaller triangle, you can calculate the river width.
-
-In Malawi, surveyors use similar triangles to measure land, farmers use it to estimate harvest volumes, and engineers use it to design bridges and roads.`,
-  summary: 'Similar triangles allow indirect measurement. Set up a proportion from corresponding sides and solve. Use similarity to measure heights of trees or buildings, widths of rivers, and other inaccessible distances without direct measurement.',
-  estimatedTime: '23 mins',
-  malawiExamples: [
-    { title: 'Tree Height', description: 'Use shadows to calculate tree height without climbing.' },
-    { title: 'River Width', description: 'Use similar triangles to measure across a river without crossing.' },
-    { title: 'Field Area', description: 'Estimate crop yield by measuring a small similar section.' }
-  ],
-  practiceQuestions: [
-    { question: 'A 2 m stick casts a 3 m shadow. A tree casts a 15 m shadow. How tall is the tree?', answer: '10 m', hint: 'Tree/2 = 15/3 → Tree = 10 m' },
-    { question: 'If triangle ABC ~ triangle DEF, AB=4, BC=6, DE=10, find EF.', answer: '15', hint: '4/10 = 6/EF → EF = 15' }
-  ]
-},
-
-// Topic: Mensuration (2 lessons)
-{
-  subject: 'Mathematics',
-  form: 'Form 2',
-  topic: 'Mensuration',
-  lessonNumber: 1,
-  lessonTitle: 'Area and Perimeter of 2D Shapes',
-  lessonId: 'mathematics-f2-mensuration-1',
-  order: 20,
-  learningObjectives: [
-    'Calculate the perimeter of rectangles, squares, triangles, and circles',
-    'Calculate the area of rectangles, squares, triangles, and circles',
-    'Apply formulas to solve practical problems',
-    'Distinguish between area and perimeter'
-  ],
-  introduction: 'Hello, measurement master! Have you ever wondered how much paint is needed to cover a wall? Or how much fencing is needed for a garden? These questions involve PERIMETER (distance around) and AREA (space inside). Today, I will teach you the formulas for common shapes.',
-  keyPoints: [
-    'Perimeter is the distance around a shape (measured in length units)',
-    'Area is the space inside a shape (measured in square units)',
-    'Rectangle: Perimeter = 2(l+w), Area = l × w',
-    'Square: Perimeter = 4s, Area = s²',
-    'Triangle: Perimeter = a+b+c, Area = ½ × base × height',
-    'Circle: Circumference = 2πr or πd, Area = πr²'
-  ],
-  detailedContent: `Let me teach you how to calculate PERIMETER and AREA.
-
-PERIMETER is the distance around the outside of a shape. Imagine walking around a field - the distance you walk is the perimeter.
-
-AREA is the amount of space inside a shape. Imagine covering a floor with tiles - the number of tiles needed is the area.
-
-Here are the formulas you need to remember:
-
-1. RECTANGLE:
-- Perimeter = 2 × (length + width) = 2(l + w)
-- Area = length × width = l × w
-
-Example: A rectangle has length 8 m, width 5 m.
-Perimeter = 2(8+5) = 2 × 13 = 26 m
-Area = 8 × 5 = 40 m²
-
-2. SQUARE:
-- Perimeter = 4 × side = 4s
-- Area = side × side = s²
-
-Example: A square has side 6 m.
-Perimeter = 4 × 6 = 24 m
-Area = 6 × 6 = 36 m²
-
-3. TRIANGLE:
-- Perimeter = side1 + side2 + side3
-- Area = ½ × base × height
-
-Example: A triangle has base 10 m, height 6 m.
-Area = ½ × 10 × 6 = 30 m²
-
-4. CIRCLE:
-- Circumference (perimeter) = 2 × π × radius = 2πr, or π × diameter = πd
-- Area = π × radius² = πr²
-(π ≈ 3.14)
-
-Example: A circle has radius 5 m.
-Circumference = 2 × 3.14 × 5 = 31.4 m
-Area = 3.14 × 5² = 3.14 × 25 = 78.5 m²
-
-Let me give you Malawi examples.
-
-Example 1 (Fencing): A farmer wants to fence a rectangular maize field that is 50 m long and 30 m wide. How much fencing is needed?
-Perimeter = 2(50+30) = 2 × 80 = 160 m
-
-Example 2 (Paint): A classroom wall is 8 m long and 3 m high. How many square metres need painting?
-Area = 8 × 3 = 24 m²
-
-Example 3 (Circular Garden): A farmer plants a circular vegetable garden with radius 7 m. What is the area?
-Area = π × 7² = 3.14 × 49 = 153.86 m²
-
-Remember: Perimeter uses regular length units (m, cm, km). Area uses square units (m², cm², km²). Never mix them!`,
-  summary: 'Perimeter is distance around (length units). Area is space inside (square units). Rectangle: A=l×w, P=2(l+w). Square: A=s², P=4s. Triangle: A=½×b×h. Circle: A=πr², C=2πr. Use these formulas for construction, farming, and planning.',
-  estimatedTime: '22 mins',
-  malawiExamples: [
-    { title: 'Fencing a Field', description: 'Calculate perimeter to know how much fence wire to buy.' },
-    { title: 'Painting a Classroom', description: 'Calculate wall area to know how much paint is needed.' },
-    { title: 'Circular Garden', description: 'Plan a circular vegetable garden by calculating its area.' }
-  ],
-  practiceQuestions: [
-    { question: 'Find the area of a rectangle 12 m by 8 m', answer: '96 m²', hint: '12 × 8 = 96' },
-    { question: 'Find the circumference of a circle radius 10 m (use π=3.14)', answer: '62.8 m', hint: '2 × 3.14 × 10 = 62.8' }
-  ]
-},
-{
-  subject: 'Mathematics',
-  form: 'Form 2',
-  topic: 'Mensuration',
-  lessonNumber: 2,
-  lessonTitle: 'Volume and Surface Area of 3D Shapes',
-  lessonId: 'mathematics-f2-mensuration-2',
-  order: 21,
-  learningObjectives: [
-    'Calculate the volume of cubes, cuboids, and cylinders',
-    'Calculate the surface area of cubes, cuboids, and cylinders',
-    'Distinguish between volume and surface area',
-    'Apply mensuration to real-life storage and container problems'
-  ],
-  introduction: 'Hello, 3D explorer! Now that you understand 2D shapes, let us move to 3D shapes. Have you ever wondered how much water a tank can hold (volume) or how much metal is needed to make a container (surface area)? Today, I will teach you how to calculate volume and surface area of common 3D shapes.',
-  keyPoints: [
-    'Volume is the space inside a 3D shape (cubic units)',
-    'Surface area is the total area of all faces (square units)',
-    'Cube: Volume = s³, Surface Area = 6s²',
-    'Cuboid: Volume = l × w × h, Surface Area = 2(lw + lh + wh)',
-    'Cylinder: Volume = πr²h, Surface Area = 2πr² + 2πrh'
-  ],
-  detailedContent: `Let me help you understand VOLUME and SURFACE AREA.
-
-VOLUME is the amount of space inside a 3D shape. Think of filling a tank with water - the amount of water is the volume. Volume is measured in CUBIC units (cm³, m³).
-
-SURFACE AREA is the total area of all the surfaces (faces) of a 3D shape. Think of wrapping a gift - the amount of wrapping paper needed is the surface area. Surface area is measured in SQUARE units (cm², m²).
-
-Here are the formulas:
-
-1. CUBE (all sides equal, s = side length):
-- Volume = s × s × s = s³
-- Surface Area = 6 × s² (six faces, each with area s²)
-
-Example: A cube with side 5 cm
-Volume = 5³ = 125 cm³
-Surface Area = 6 × 25 = 150 cm²
-
-2. CUBOID (rectangular box, length l, width w, height h):
-- Volume = l × w × h
-- Surface Area = 2(lw + lh + wh)
-
-Example: A box with length 10 cm, width 6 cm, height 4 cm
-Volume = 10 × 6 × 4 = 240 cm³
-Surface Area = 2(10×6 + 10×4 + 6×4) = 2(60 + 40 + 24) = 2 × 124 = 248 cm²
-
-3. CYLINDER (circular prism, radius r, height h):
-- Volume = π × r² × h = πr²h
-- Surface Area = 2πr² + 2πrh (two circles + curved surface)
-
-Example: A cylinder with radius 5 cm, height 10 cm
-Volume = π × 5² × 10 = 3.14 × 25 × 10 = 785 cm³
-Surface Area = 2π(5)² + 2π(5)(10) = 2π×25 + 2π×50 = 50π + 100π = 150π ≈ 471 cm²
-
-Let me give you Malawi examples.
-
-Example 1 (Water Tank): A cylindrical water tank has radius 1 m and height 2 m. How much water can it hold?
-Volume = π × 1² × 2 = 3.14 × 2 = 6.28 m³
-1 m³ = 1000 litres, so capacity = 6,280 litres
-
-Example 2 (Fish Pond): A fish pond is a rectangular cuboid measuring 5 m long, 3 m wide, and 1.5 m deep. How much water is needed to fill it?
-Volume = 5 × 3 × 1.5 = 22.5 m³ = 22,500 litres
-
-Example 3 (Storage Box): A farmer needs a wooden box to store maize. The box is 1 m × 0.8 m × 0.5 m. How much wood is needed for the surface?
-Surface Area = 2(1×0.8 + 1×0.5 + 0.8×0.5) = 2(0.8 + 0.5 + 0.4) = 2 × 1.7 = 3.4 m² of wood
-
-Remember: Volume = how much fits INSIDE. Surface area = how much material to COVER the outside. Both are important for planning storage, construction, and packaging.`,
-  summary: 'Volume is space inside a 3D shape (cubic units). Surface area is total area of all faces (square units). Cube: V=s³, SA=6s². Cuboid: V=lwh, SA=2(lw+lh+wh). Cylinder: V=πr²h, SA=2πr²+2πrh. These formulas help calculate storage capacity and material needs.',
-  estimatedTime: '24 mins',
-  malawiExamples: [
-    { title: 'Water Tank Capacity', description: 'Calculate volume to know how many litres a tank holds.' },
-    { title: 'Fish Pond Volume', description: 'Calculate pond volume to know how many fish it can support.' },
-    { title: 'Storage Box', description: 'Calculate surface area to know how much wood is needed.' }
-  ],
-  practiceQuestions: [
-    { question: 'Find the volume of a cube with side 4 m', answer: '64 m³', hint: '4 × 4 × 4 = 64' },
-    { question: 'Find the volume of a cylinder radius 3 cm, height 7 cm (use π=3.14)', answer: '197.82 cm³', hint: '3.14 × 9 × 7 = 197.82' }
-  ]
-},
+//   // ======================================================================
+//   // MATHEMATICS - COMPLETE (Forms 1, 2, 3, 4)
+//   // ======================================================================
+
+//   // -------------------- MATHEMATICS FORM 1 --------------------
+//   // Topic: Number Systems (3 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 1,
+//     lessonTitle: 'Natural Numbers, Whole Numbers, and Place Value',
+//     lessonId: 'mathematics-f1-number-systems-1',
+//     order: 1,
+//     learningObjectives: [
+//       'Identify natural numbers and whole numbers',
+//       'Understand and apply place value up to millions',
+//       'Read and write numbers correctly',
+//       'Apply number concepts to real-life situations in Malawi'
+//     ],
+//     introduction: 'Good day, young mathematician! Have you ever counted money at the market, counted learners in your class, or told your age? You were using natural numbers! Today, we will explore natural numbers and whole numbers - the building blocks of all mathematics.',
+//     keyPoints: [
+//       'Natural numbers are counting numbers: 1, 2, 3, 4, 5, ...',
+//       'Whole numbers include zero: 0, 1, 2, 3, 4, 5, ...',
+//       'Place value: ones, tens, hundreds, thousands, millions',
+//       'In Malawi, we use numbers to count kwacha, tambala, people, livestock, and crops'
+//     ],
+//     detailedContent: `Let me explain natural numbers using examples from Malawi.
+
+// NATURAL NUMBERS are the numbers you use when you count. When you say "I have 5 mangoes" or "There are 40 learners in my class" or "My grandmother is 65 years old" - these are natural numbers. They start from 1 and go upwards: 1, 2, 3, 4, 5... and so on.
+
+// WHOLE NUMBERS are just like natural numbers, but they also include ZERO. Zero is special because it represents "nothing". If you have no money in your pocket, you have zero kwacha. If there are no clouds in the sky, we say zero clouds.
+
+// PLACE VALUE is very important. In the number 2,345:
+
+// The 2 is in the thousands place (2,000)
+// The 3 is in the hundreds place (300)
+// The 4 is in the tens place (40)
+// The 5 is in the ones place (5)
+
+// Let me give you a Malawi example. If a farmer harvests 1,234 kg of maize:
+// - The 1 represents 1,000 kg (one thousand kilograms)
+// - The 2 represents 200 kg (two hundred kilograms)
+// - The 3 represents 30 kg (thirty kilograms)
+// - The 4 represents 4 kg (four kilograms)
+
+// Understanding place value helps you read numbers correctly. When you see a price tag of 5,000 kwacha, you know it is five thousand kwacha, not five hundred or fifty!
+
+// To read a number like 3,456,789:
+// - 3,456,789 = 3 million + 456 thousand + 789
+// - It reads as "three million, four hundred fifty-six thousand, seven hundred eighty-nine"
+
+// In Malawi, large numbers appear in agriculture (crop yields), population (census data), and economics (national budget).`,
+//     summary: 'Natural numbers are counting numbers (1,2,3...). Whole numbers include zero. Place value tells us what each digit in a number represents. Understanding numbers helps us count money, measure quantities, and describe our world.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Market Prices', description: 'A tomato vendor sells 1, 2, 3, or 4 tomatoes - these are natural numbers.' },
+//       { title: 'Population', description: 'Malawi has about 20 million people - using larger numbers.' },
+//       { title: 'Crop Harvest', description: 'A farmer harvests 2,500 kg of maize - place value helps read this number.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What is the place value of 7 in 7,891?', answer: 'Thousands', hint: 'Look at the position of the digit' },
+//       { question: 'Is 0 a natural number or a whole number?', answer: 'Whole number', hint: 'Natural numbers start from 1' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 2,
+//     lessonTitle: 'Integers and the Number Line',
+//     lessonId: 'mathematics-f1-number-systems-2',
+//     order: 2,
+//     learningObjectives: [
+//       'Define integers and identify positive and negative numbers',
+//       'Represent integers on a number line',
+//       'Compare and order integers',
+//       'Apply integers to real-life situations like temperature and debt'
+//     ],
+//     introduction: 'Hello, explorer of numbers! So far we have worked with positive numbers. But what about temperatures below zero? What about debts? These are represented by NEGATIVE numbers. Together with positive numbers and zero, they form INTEGERS. Today, I will show you how integers work and why they are useful.',
+//     keyPoints: [
+//       'Integers include positive numbers, negative numbers, and zero: ... -3, -2, -1, 0, 1, 2, 3 ...',
+//       'A number line helps us visualize integers - positive to the right, negative to the left',
+//       'Numbers increase as you move right on the number line',
+//       'Numbers decrease as you move left on the number line',
+//       'Negative numbers represent values below zero (temperature, depth, debt)'
+//     ],
+//     detailedContent: `Let me introduce you to INTEGERS. Integers are all the positive numbers, negative numbers, and zero. They look like this: ... -3, -2, -1, 0, 1, 2, 3 ...
+
+// Imagine a thermometer. When it is hot, the temperature is positive, like +25°C. When it is cold, the temperature can be negative, like -5°C. That negative sign means "below zero".
+
+// A NUMBER LINE is a straight line that helps us see the order of numbers. Zero is in the middle. Positive numbers go to the right (1, 2, 3...). Negative numbers go to the left (-1, -2, -3...).
+
+// The further RIGHT you go, the LARGER the number.
+// The further LEFT you go, the SMALLER the number.
+
+// Let me give you a Malawi example. Imagine you have 500 kwacha (that is +500). If you spend 200 kwacha on exercise books, you have 300 kwacha left (+300). But if instead you borrowed 200 kwacha from a friend because you had no money, you would have a debt of 200 kwacha - which we can represent as -200!
+
+// Comparing integers on a number line:
+// - Numbers to the right are greater than numbers to the left
+// - -3 is less than -2 because -3 is further left
+// - -1 is greater than -5 because -1 is further right
+// - 0 is greater than any negative number
+// - Any positive number is greater than 0 and greater than any negative number
+
+// Here is a helpful memory tool: Think of a number line like a hill. The top of the hill (far right) is the largest number. As you go down the hill to the left, numbers get smaller. At the bottom (far left) are the smallest numbers.
+
+// In Malawi, integers appear in:
+// - BANKING: A negative bank balance means you owe money
+// - TEMPERATURE: On Mulanje Mountain, temperatures can drop below zero
+// - SPORTS: Football goal differences can be negative (-2 goal difference)
+// - HEIGHT: A valley can be at negative elevation (below sea level)`,
+//     summary: 'Integers include positive numbers, negative numbers, and zero. A number line shows the order of integers - numbers increase to the right, decrease to the left. Negative numbers represent values below zero, like debt or cold temperatures.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Temperatures on Mulanje Mountain', description: 'At the peak, temperatures can drop below zero - negative integers!' },
+//       { title: 'Bank Account', description: 'If you withdraw more than you have, your balance becomes negative - an integer!' },
+//       { title: 'Football Goal Difference', description: 'If a team scores 5 goals but concedes 7, their goal difference is -2.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Which is greater: -5 or -10?', answer: '-5', hint: 'On a number line, -5 is to the right of -10' },
+//       { question: 'If the temperature drops from 5°C to -3°C, how many degrees did it drop?', answer: '8 degrees', hint: 'Count the steps from 5 down to -3' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 3,
+//     lessonTitle: 'Operations with Integers',
+//     lessonId: 'mathematics-f1-number-systems-3',
+//     order: 3,
+//     learningObjectives: [
+//       'Add and subtract integers using a number line',
+//       'Multiply and divide integers',
+//       'Apply the rules of integer operations',
+//       'Solve real-life problems involving integers'
+//     ],
+//     introduction: 'Welcome back, mathematician! Now that you understand what integers are, let me teach you how to ADD, SUBTRACT, MULTIPLY, and DIVIDE them. These operations follow special rules, but once you learn them, working with integers becomes as easy as working with positive numbers!',
+//     keyPoints: [
+//       'Adding a positive number moves right on the number line',
+//       'Adding a negative number moves left on the number line',
+//       'Subtracting a positive number moves left on the number line',
+//       'Subtracting a negative number moves right on the number line',
+//       'Multiplication and division rules: same signs = positive; different signs = negative'
+//     ],
+//     detailedContent: `Let me teach you how to perform operations with integers. I will use a number line to help you visualize.
+
+// ADDITION OF INTEGERS:
+
+// When you ADD a POSITIVE number, you move RIGHT on the number line.
+// Example: 3 + 4 = 7 (start at 3, move 4 steps right)
+
+// When you ADD a NEGATIVE number, you move LEFT on the number line.
+// Example: 5 + (-2) = 3 (start at 5, move 2 steps left)
+// Think of it as 5 - 2 = 3
+
+// SUBTRACTION OF INTEGERS:
+
+// When you SUBTRACT a POSITIVE number, you move LEFT on the number line.
+// Example: 7 - 3 = 4 (start at 7, move 3 steps left)
+
+// When you SUBTRACT a NEGATIVE number, you move RIGHT on the number line.
+// Example: 4 - (-2) = 6 (start at 4, move 2 steps right)
+// This is because subtracting a negative is like adding a positive!
+
+// MULTIPLICATION AND DIVISION OF INTEGERS:
+
+// Here are the rules you must remember:
+// - Positive × Positive = Positive (e.g., 3 × 4 = 12)
+// - Negative × Negative = Positive (e.g., -3 × -4 = 12)
+// - Positive × Negative = Negative (e.g., 3 × -4 = -12)
+// - Negative × Positive = Negative (e.g., -3 × 4 = -12)
+
+// The same rules apply to division:
+// - Positive ÷ Positive = Positive (e.g., 12 ÷ 4 = 3)
+// - Negative ÷ Negative = Positive (e.g., -12 ÷ -4 = 3)
+// - Positive ÷ Negative = Negative (e.g., 12 ÷ -4 = -3)
+// - Negative ÷ Positive = Negative (e.g., -12 ÷ 4 = -3)
+
+// Let me give you a real Malawi example. Imagine you owe 3 friends 4 kwacha each. Your total debt is -3 × 4 = -12 kwacha. If each friend forgives your debt (removes the negative), that is -12 ÷ -3 = 4 kwacha saved per friend!
+
+// Another example: The temperature in Lilongwe drops by 2 degrees each hour for 5 hours. Total temperature change = -2 × 5 = -10 degrees.
+
+// Remember: "Same signs give positive, different signs give negative" - this is the golden rule for multiplication and division of integers.`,
+//     summary: 'Adding a positive moves right; adding a negative moves left. Subtracting a positive moves left; subtracting a negative moves right. Multiplication and division: same signs give positive, different signs give negative.',
+//     estimatedTime: '25 mins',
+//     malawiExamples: [
+//       { title: 'Debt Calculation', description: 'If you borrow 500 kwacha from 3 different friends, your total debt is -1,500 kwacha.' },
+//       { title: 'Temperature Change', description: 'If temperature drops 2 degrees each hour for 5 hours, total change is -10 degrees.' },
+//       { title: 'Bank Balance', description: 'If your balance is -800 kwacha and you deposit 1,000 kwacha, you have 200 kwacha.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Calculate: -5 + (-3)', answer: '-8', hint: 'Moving left on the number line' },
+//       { question: 'Calculate: -4 × (-6)', answer: '24', hint: 'Negative × Negative = Positive' }
+//     ]
+//   },
+
+//   // Topic: Algebraic Expressions (3 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Algebraic Expressions',
+//     lessonNumber: 1,
+//     lessonTitle: 'Variables, Coefficients, and Like Terms',
+//     lessonId: 'mathematics-f1-algebraic-expressions-1',
+//     order: 4,
+//     learningObjectives: [
+//       'Define variables, constants, and coefficients',
+//       'Write algebraic expressions from word phrases',
+//       'Identify like and unlike terms',
+//       'Simplify algebraic expressions by combining like terms'
+//     ],
+//     introduction: 'Hello, algebra explorer! Have you ever seen letters mixed with numbers in mathematics and wondered what they mean? That is ALGEBRA! Algebra is like a secret code where letters stand for unknown numbers. Today, I will teach you how to read and write this code.',
+//     keyPoints: [
+//       'A variable is a letter that represents an unknown number (x, y, a, b, p, q)',
+//       'A coefficient is the number multiplied by a variable (in 5x, 5 is the coefficient)',
+//       'A constant is a number on its own (in 5x + 3, 3 is the constant)',
+//       'Like terms have the same variable raised to the same power',
+//       'We can only add or subtract like terms'
+//     ],
+//     detailedContent: `Imagine you are at a market in Lilongwe. You want to buy apples and oranges, but you don't know the price yet. So you say: "Let a = price of one apple" and "Let o = price of one orange". This is algebra! We use letters to represent unknown quantities.
+
+// In algebra, we write expressions like 5x + 3y - 2x + 4y. Let me break this down for you:
+
+// - The letters x and y are VARIABLES - they can stand for different numbers
+// - The numbers in front (5, 3, 2, 4) are COEFFICIENTS - they tell us how many of each variable we have
+// - If there is no coefficient written, it is understood to be 1 (x means 1x)
+// - A number on its own, like 7, is a CONSTANT
+
+// Now, here is the most important rule: You can only add or subtract LIKE TERMS. Like terms have the SAME variable.
+
+// LIKE TERMS:
+// - 5x and 2x (both have x)
+// - 3y and 4y (both have y)
+// - 7 and 12 (both constants)
+
+// UNLIKE TERMS (cannot be combined):
+// - 5x and 3y (different variables)
+// - 2x and 2x² (different powers)
+// - 4 and 4x (one has variable, one does not)
+
+// Let me show you how to simplify: 5x + 3y - 2x + 4y
+
+// Step 1: Group the like terms together:
+// (5x - 2x) + (3y + 4y)
+
+// Step 2: Add or subtract the coefficients:
+// (5 - 2)x + (3 + 4)y = 3x + 7y
+
+// That is it! You have simplified the expression.
+
+// Let me give you a Malawi example. A farmer is buying fertilizer. Let f = price of one bag of fertilizer. If he buys 10 bags, the cost is 10f. If he later buys 5 more bags, the total is 10f + 5f = 15f.
+
+// Another example: A shop sells maize flour. On Monday, they sell 8 bags. On Tuesday, they sell 3 bags. The total sold is 8b + 3b = 11b, where b = one bag of flour.`,
+//     summary: 'Variables are letters that represent unknown numbers. Coefficients are numbers multiplied by variables. Like terms have the same variable and can be combined by adding or subtracting their coefficients.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Market Shopping', description: 'Let p = price of one tomato. Buying 8 tomatoes costs 8p.' },
+//       { title: 'Farming Supplies', description: 'Let b = price of one bag of maize seed. 10 bags cost 10b.' },
+//       { title: 'Fishing', description: 'Let f = number of fish caught per day. 5 days of fishing yields 5f fish.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Identify the coefficient in 12x', answer: '12', hint: 'The number in front of the variable' },
+//       { question: 'Simplify: 7a + 3b - 2a + 5b', answer: '5a + 8b', hint: 'Group a terms and b terms separately' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Algebraic Expressions',
+//     lessonNumber: 2,
+//     lessonTitle: 'Substitution and Evaluation',
+//     lessonId: 'mathematics-f1-algebraic-expressions-2',
+//     order: 5,
+//     learningObjectives: [
+//       'Substitute given values into algebraic expressions',
+//       'Evaluate algebraic expressions after substitution',
+//       'Apply substitution to solve real-life problems',
+//       'Understand the order of operations (BODMAS) in evaluation'
+//     ],
+//     introduction: 'Hello again! Now that you know how to write algebraic expressions, what happens when you actually know the value of the variable? That is called SUBSTITUTION. You replace the letter with its actual number and calculate the result. Today, I will show you how to do this step by step.',
+//     keyPoints: [
+//       'Substitution means replacing a variable with a given number',
+//       'Always use parentheses when substituting negative numbers',
+//       'Follow BODMAS: Brackets, Orders, Division/Multiplication, Addition/Subtraction',
+//       'Write the expression first, then substitute, then calculate',
+//       'Check your answer by estimating if it makes sense'
+//     ],
+//     detailedContent: `Let me teach you how to SUBSTITUTE values into algebraic expressions.
+
+// SUBSTITUTION means replacing a variable (letter) with its actual value (number).
+
+// For example, if we have the expression 3x + 5, and we know that x = 4, then:
+// 3x + 5 becomes 3(4) + 5 = 12 + 5 = 17
+
+// Here is another example: 2a - 3b, where a = 5 and b = 2
+// 2(5) - 3(2) = 10 - 6 = 4
+
+// IMPORTANT: When substituting negative numbers, always put them in parentheses!
+// Example: x² - 3x, where x = -2
+// (-2)² - 3(-2) = 4 - (-6) = 4 + 6 = 10
+// If you forget the parentheses, you might write -2² -3(-2) = -4 - (-6) = -4 + 6 = 2 (WRONG!)
+
+// The ORDER OF OPERATIONS (BODMAS) is very important:
+
+// B - Brackets first
+// O - Orders (powers and roots)
+// D - Division (left to right)
+// M - Multiplication (left to right)
+// A - Addition (left to right)
+// S - Subtraction (left to right)
+
+// A common way to remember: "Big Old Dogs Make A Smell" or "Please Excuse My Dear Aunt Sally" (PEMDAS).
+
+// Let me give you a real Malawi example. A shopkeeper sells maize flour. The profit is given by P = 50n - 200, where n is the number of bags sold.
+
+// If the shopkeeper sells 10 bags, what is the profit?
+// P = 50(10) - 200 = 500 - 200 = 300 kwacha profit
+
+// If the shopkeeper sells only 3 bags:
+// P = 50(3) - 200 = 150 - 200 = -50 kwacha (a loss of 50 kwacha)
+
+// Another example: The distance travelled by a boma (village bus) is D = 60t, where t is hours travelled. If the bus travels for 2.5 hours, the distance is D = 60 × 2.5 = 150 kilometres.
+
+// Substitution is a powerful tool for answering "what if" questions. What if the price changes? What if the speed changes? Substitution gives you the answers.`,
+//     summary: 'Substitution means replacing variables with their actual values. Always follow BODMAS (order of operations) when calculating. Put negative numbers in parentheses. Substitution helps us calculate real-world quantities like profit, cost, and distance.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Profit Calculation', description: 'A vendor\'s profit is 20n - 100, where n is items sold.' },
+//       { title: 'Travel Distance', description: 'Distance = 60t, where t is hours travelled.' },
+//       { title: 'Cost Calculation', description: 'Cost = 500k + 1000, where k is kilograms of tomatoes.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Evaluate 4x - 7 when x = 3', answer: '5', hint: '4(3) - 7 = 12 - 7 = 5' },
+//       { question: 'Evaluate a² + 2b when a = -3 and b = 4', answer: '17', hint: '(-3)² + 2(4) = 9 + 8 = 17' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Algebraic Expressions',
+//     lessonNumber: 3,
+//     lessonTitle: 'Expanding Brackets',
+//     lessonId: 'mathematics-f1-algebraic-expressions-3',
+//     order: 6,
+//     learningObjectives: [
+//       'Expand expressions with a single bracket',
+//       'Expand expressions with two brackets (binomials)',
+//       'Apply the distributive law correctly',
+//       'Simplify expanded expressions by collecting like terms'
+//     ],
+//     introduction: 'Welcome back, algebra master! Now we are going to learn how to EXPAND brackets. This is like opening a package to see what is inside. When you see something like 3(x + 4), the brackets mean "multiply everything inside by 3". Today, I will teach you how to expand brackets step by step.',
+//     keyPoints: [
+//       'The distributive law: a(b + c) = ab + ac',
+//       'When expanding, multiply the term outside by EVERY term inside the bracket',
+//       'For two brackets: (a + b)(c + d) = ac + ad + bc + bd (FOIL method)',
+//       'Always check your expansion by substituting a simple number',
+//       'Collect like terms after expanding to simplify'
+//     ],
+//     detailedContent: `Let me teach you how to EXPAND brackets.
+
+// SINGLE BRACKETS (Distributive Law):
+
+// The rule is: a(b + c) = ab + ac. Multiply the term outside by EVERY term inside the bracket.
+
+// Example 1: 3(x + 4)
+// = 3 × x + 3 × 4 = 3x + 12
+
+// Example 2: 5(2x - 3)
+// = 5 × 2x + 5 × (-3) = 10x - 15
+
+// Example 3: -2(3x - 5)
+// = -2 × 3x + (-2) × (-5) = -6x + 10
+
+// Example 4: x(2x + 3)
+// = x × 2x + x × 3 = 2x² + 3x
+
+// DOUBLE BRACKETS (Two binomials):
+
+// Use the FOIL method:
+// F - First terms: multiply the first term of each bracket
+// O - Outer terms: multiply the outer terms
+// I - Inner terms: multiply the inner terms
+// L - Last terms: multiply the last terms
+
+// Example: (x + 3)(x + 5)
+// F: x × x = x²
+// O: x × 5 = 5x
+// I: 3 × x = 3x
+// L: 3 × 5 = 15
+// Then add: x² + 5x + 3x + 15 = x² + 8x + 15
+
+// Example with negatives: (x - 4)(x + 2)
+// F: x × x = x²
+// O: x × 2 = 2x
+// I: -4 × x = -4x
+// L: -4 × 2 = -8
+// Add: x² + 2x - 4x - 8 = x² - 2x - 8
+
+// Example: (2x + 3)(x - 1)
+// F: 2x × x = 2x²
+// O: 2x × (-1) = -2x
+// I: 3 × x = 3x
+// L: 3 × (-1) = -3
+// Add: 2x² - 2x + 3x - 3 = 2x² + x - 3
+
+// (2x + 1)(3x - 2)
+// F: 2x × 3x = 6x²
+// O: 2x × (-2) = -4x
+// I: 1 × 3x = 3x
+// L: 1 × (-2) = -2
+// Add: 6x² - 4x + 3x - 2 = 6x² - x - 2
+
+// Let me give you a Malawi example. A farmer has a rectangular field. The length is (x + 10) metres and the width is (x + 5) metres. The area is (x + 10)(x + 5) = x² + 15x + 50 square metres.
+
+// Expanding brackets is like unpacking. Once you expand, you can see all the parts clearly.`,
+//     summary: 'Expand brackets by multiplying the term outside by every term inside (distributive law). For two brackets, use FOIL: First, Outer, Inner, Last. Always collect like terms after expanding.',
+//     estimatedTime: '24 mins',
+//     malawiExamples: [
+//       { title: 'Field Area', description: 'A rectangular field with length (x+20) and width (x+10) has area x² + 30x + 200' },
+//       { title: 'Revenue Calculation', description: 'If price is (p + 5) and quantity sold is (p - 2), revenue is p² + 3p - 10' },
+//       { title: 'Garden Planning', description: 'A garden with length (x+8) and width (x-3) has area x² + 5x - 24' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Expand: 4(2x + 5)', answer: '8x + 20', hint: 'Multiply 4 by 2x and 4 by 5' },
+//       { question: 'Expand: (x + 6)(x - 3)', answer: 'x² + 3x - 18', hint: 'Use FOIL: x² + (-3x) + 6x + (-18)' },
+//       { question: 'Expand: (2x + 3)(x - 4)', answer: '2x² - 5x - 12', hint: 'FOIL: 2x² - 8x + 3x - 12' }
+//     ]
+//   },
+
+//   // Topic: Linear Equations (3 lessons - continued from earlier)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Linear Equations',
+//     lessonNumber: 1,
+//     lessonTitle: 'Solving Simple Linear Equations',
+//     lessonId: 'mathematics-f1-linear-equations-1',
+//     order: 7,
+//     learningObjectives: [
+//       'Define a linear equation in one variable',
+//       'Solve equations of the form x + a = b and x - a = b',
+//       'Solve equations of the form ax = b and x/a = b',
+//       'Check solutions by substitution'
+//     ],
+//     introduction: 'Welcome, problem solver! Have you ever needed to find an unknown number and had to do some detective work? That is exactly what solving equations is about! An equation is like a balanced scale - whatever you do to one side, you must do to the other. Today, I will teach you how to solve simple linear equations.',
+//     keyPoints: [
+//       'A linear equation has the form ax + b = c, where a, b, and c are constants',
+//       'The goal is to isolate the variable (get x by itself)',
+//       'Use inverse operations: addition undoes subtraction, subtraction undoes addition',
+//       'Use inverse operations: multiplication undoes division, division undoes multiplication',
+//       'Whatever you do to one side, you MUST do to the other side'
+//     ],
+//     detailedContent: `Think of an equation as a BALANCED SCALE. The equal sign (=) is like the balance point. If the scale is balanced, the left side weighs the same as the right side. If you add weight to one side, you must add the same weight to the other side to keep it balanced.
+
+// Let me show you how to solve different types of equations.
+
+// TYPE 1: x + a = b
+// Example: x + 5 = 12
+// What does this mean? Some number (x) plus 5 equals 12. We need to find x.
+
+// To get x by itself, we need to remove the +5. The inverse operation of addition is SUBTRACTION. So we subtract 5 from BOTH sides:
+
+// x + 5 - 5 = 12 - 5
+// x = 7
+
+// Check: Does 7 + 5 = 12? Yes! So x = 7 is correct.
+
+// TYPE 2: x - a = b
+// Example: x - 3 = 9
+// The inverse of subtraction is ADDITION. Add 3 to both sides:
+
+// x - 3 + 3 = 9 + 3
+// x = 12
+
+// Check: 12 - 3 = 9. Correct!
+
+// TYPE 3: ax = b
+// Example: 3x = 18
+// Here, 3 is multiplied by x. The inverse of multiplication is DIVISION. Divide both sides by 3:
+
+// 3x ÷ 3 = 18 ÷ 3
+// x = 6
+
+// Check: 3 × 6 = 18. Correct!
+
+// TYPE 4: x/a = b
+// Example: x/4 = 5
+// The inverse of division is MULTIPLICATION. Multiply both sides by 4:
+
+// (x/4) × 4 = 5 × 4
+// x = 20
+
+// Check: 20 ÷ 4 = 5. Correct!
+
+// Let me give you a Malawi example. A student has 500 kwacha. After buying some exercise books, they have 200 kwacha left. How much did they spend?
+
+// Let s = amount spent
+// 500 - s = 200
+// Subtract 500 from both sides: -s = 200 - 500 = -300
+// Multiply by -1: s = 300 kwacha spent.
+
+// Another example: Five friends share 2,500 kwacha equally. How much does each get?
+// 5x = 2500
+// x = 2500 ÷ 5 = 500 kwacha each.
+
+// Remember: Always perform the same operation on BOTH sides of the equation. That keeps the "scale" balanced.`,
+//     summary: 'A linear equation has the form ax + b = c. To solve, isolate the variable using inverse operations. Addition undoes subtraction, subtraction undoes addition. Multiplication undoes division, division undoes multiplication. Always perform the same operation on both sides.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Spending Money', description: 'If you start with 1,000 kwacha and end with 350 kwacha, how much did you spend? 1,000 - x = 350 → x = 650 kwacha.' },
+//       { title: 'Sharing Equally', description: 'If 5 friends share 2,500 kwacha equally, each gets x = 2,500 ÷ 5 = 500 kwacha.' },
+//       { title: 'Walking Distance', description: 'If you walk 3 km per hour, how many hours to walk 15 km? 3h = 15 → h = 5 hours.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Solve: x + 7 = 15', answer: 'x = 8', hint: 'Subtract 7 from both sides' },
+//       { question: 'Solve: 6x = 42', answer: 'x = 7', hint: 'Divide both sides by 6' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Linear Equations',
+//     lessonNumber: 2,
+//     lessonTitle: 'Solving Two-Step Linear Equations',
+//     lessonId: 'mathematics-f1-linear-equations-2',
+//     order: 8,
+//     learningObjectives: [
+//       'Solve equations of the form ax + b = c',
+//       'Solve equations of the form x/a + b = c',
+//       'Apply the correct order of inverse operations',
+//       'Solve real-life problems using two-step equations'
+//     ],
+//     introduction: 'Hello again! Now that you can solve simple equations, let us move to TWO-STEP equations. These equations have two operations, so you need two inverse operations to solve them. For example, 2x + 3 = 11 has multiplication (2 × x) and addition (+3). Today, I will show you the correct order to solve these equations.',
+//     keyPoints: [
+//       'First, undo addition or subtraction (the operation not attached to the variable)',
+//       'Then, undo multiplication or division (the operation attached to the variable)',
+//       'Always perform operations in the reverse order of BODMAS',
+//       'Check your answer by substituting back into the original equation',
+//       'Write your solution clearly: x = ...'
+//     ],
+//     detailedContent: `Let me teach you how to solve TWO-STEP linear equations.
+
+// The key rule: UNDO ADDITION/SUBTRACTION FIRST, THEN UNDO MULTIPLICATION/DIVISION.
+
+// Example 1: 2x + 3 = 11
+
+// Step 1: Undo the +3 (subtract 3 from both sides)
+// 2x + 3 - 3 = 11 - 3
+// 2x = 8
+
+// Step 2: Undo the ×2 (divide both sides by 2)
+// 2x ÷ 2 = 8 ÷ 2
+// x = 4
+
+// Check: 2(4) + 3 = 8 + 3 = 11 ✓
+
+// Example 2: 3x - 5 = 16
+
+// Step 1: Undo the -5 (add 5 to both sides)
+// 3x - 5 + 5 = 16 + 5
+// 3x = 21
+
+// Step 2: Undo the ×3 (divide both sides by 3)
+// 3x ÷ 3 = 21 ÷ 3
+// x = 7
+
+// Check: 3(7) - 5 = 21 - 5 = 16 ✓
+
+// Example 3: x/2 + 4 = 10
+
+// Step 1: Undo the +4 (subtract 4 from both sides)
+// x/2 + 4 - 4 = 10 - 4
+// x/2 = 6
+
+// Step 2: Undo the ÷2 (multiply both sides by 2)
+// (x/2) × 2 = 6 × 2
+// x = 12
+
+// Check: 12/2 + 4 = 6 + 4 = 10 ✓
+
+// Example 4: (x - 3)/2 = 5
+
+// Here, the variable is inside the bracket. First, undo the ÷2 (multiply by 2):
+// (x - 3)/2 × 2 = 5 × 2
+// x - 3 = 10
+
+// Then, undo the -3 (add 3):
+// x - 3 + 3 = 10 + 3
+// x = 13
+
+// Check: (13 - 3)/2 = 10/2 = 5 ✓
+
+// Example 5: 5 - 2x = 11 (variable on both sides in a way)
+
+// Step 1: Subtract 5 from both sides:
+// 5 - 2x - 5 = 11 - 5
+// -2x = 6
+
+// Step 2: Divide by -2:
+// -2x ÷ (-2) = 6 ÷ (-2)
+// x = -3
+
+// Check: 5 - 2(-3) = 5 + 6 = 11 ✓
+
+// Let me give you a Malawi example. A farmer's monthly profit is given by P = 10n - 200, where n is bags of maize sold. If the profit is 300 kwacha, how many bags were sold?
+
+// 10n - 200 = 300
+// 10n = 500
+// n = 50 bags.
+
+// Another example: The cost of hiring a minibus is C = 5000 + 200d, where d is kilometres travelled. If the cost is 15,000 kwacha, how many kilometres?
+// 5000 + 200d = 15000
+// 200d = 10000
+// d = 50 kilometres.
+
+// Remember: "Do the opposite operation in the reverse order of BODMAS."`,
+//     summary: 'To solve two-step equations, first undo addition or subtraction, then undo multiplication or division. Always check your answer by substituting back into the original equation. The order of inverse operations is the reverse of the order in BODMAS.',
+//     estimatedTime: '24 mins',
+//     malawiExamples: [
+//       { title: 'Business Profit', description: 'Profit = 20n - 500. If profit is 700, solve 20n - 500 = 700 → 20n = 1,200 → n = 60 items sold.' },
+//       { title: 'Temperature Conversion', description: 'C = (F - 32) × 5/9. If C = 25, solve 25 = (F - 32) × 5/9 → F = 77°F' },
+//       { title: 'Transport Cost', description: 'Cost = 1000 + 150d. If cost is 4,000, solve for d = 20 km.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Solve: 4x - 7 = 13', answer: 'x = 5', hint: 'First add 7, then divide by 4' },
+//       { question: 'Solve: (x + 5)/3 = 7', answer: 'x = 16', hint: 'First multiply by 3, then subtract 5' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Linear Equations',
+//     lessonNumber: 3,
+//     lessonTitle: 'Equations with Variables on Both Sides',
+//     lessonId: 'mathematics-f1-linear-equations-3',
+//     order: 9,
+//     learningObjectives: [
+//       'Solve equations with variables on both sides',
+//       'Collect variable terms on one side and constants on the other',
+//       'Apply inverse operations correctly',
+//       'Solve real-life problems with variables on both sides'
+//     ],
+//     introduction: 'Welcome to the final lesson on linear equations! Now we will solve equations where variables appear on BOTH sides, like 3x + 2 = x + 10. These equations may look tricky, but with the right strategy, you will solve them easily. The key is to get all the variable terms on one side and all the constants on the other.',
+//     keyPoints: [
+//       'Collect all variable terms on one side (usually the left)',
+//       'Collect all constant terms on the other side (usually the right)',
+//       'Use inverse operations to move terms from one side to the other',
+//       'Simplify both sides before solving',
+//       'Check your answer in the original equation'
+//     ],
+//     detailedContent: `Let me teach you how to solve equations with VARIABLES ON BOTH SIDES.
+
+// The strategy: GET VARIABLES ON ONE SIDE, CONSTANTS ON THE OTHER.
+
+// Example 1: 3x + 2 = x + 10
+
+// Step 1: Get variables on one side. Subtract x from both sides:
+// 3x + 2 - x = x + 10 - x
+// 2x + 2 = 10
+
+// Step 2: Get constants on the other side. Subtract 2 from both sides:
+// 2x + 2 - 2 = 10 - 2
+// 2x = 8
+
+// Step 3: Solve for x:
+// 2x ÷ 2 = 8 ÷ 2
+// x = 4
+
+// Check: 3(4) + 2 = 12 + 2 = 14; 4 + 10 = 14 ✓
+
+// Example 2: 5x - 3 = 2x + 9
+
+// Step 1: Subtract 2x from both sides (move x terms left):
+// 5x - 3 - 2x = 2x + 9 - 2x
+// 3x - 3 = 9
+
+// Step 2: Add 3 to both sides (move constants right):
+// 3x - 3 + 3 = 9 + 3
+// 3x = 12
+
+// Step 3: Divide by 3:
+// x = 4
+
+// Check: 5(4) - 3 = 20 - 3 = 17; 2(4) + 9 = 8 + 9 = 17 ✓
+
+// Example 3: 4x + 5 = 6x - 7
+
+// Step 1: Subtract 4x from both sides (move x terms right):
+// 4x + 5 - 4x = 6x - 7 - 4x
+// 5 = 2x - 7
+
+// Step 2: Add 7 to both sides:
+// 5 + 7 = 2x - 7 + 7
+// 12 = 2x
+
+// Step 3: Divide by 2:
+// x = 6
+
+// Check: 4(6) + 5 = 24 + 5 = 29; 6(6) - 7 = 36 - 7 = 29 ✓
+
+// Example 4 (with brackets): 2(x + 3) = 3(x - 2)
+
+// Step 1: Expand both sides:
+// 2x + 6 = 3x - 6
+
+// Step 2: Subtract 2x from both sides:
+// 6 = x - 6
+
+// Step 3: Add 6 to both sides:
+// 12 = x
+
+// Check: 2(12 + 3) = 2(15) = 30; 3(12 - 2) = 3(10) = 30 ✓
+
+// Example 5: 4x - 3 = 2x + 7
+
+// Step 1: Subtract 2x from both sides:
+// 2x - 3 = 7
+
+// Step 2: Add 3 to both sides:
+// 2x = 10
+
+// Step 3: Divide by 2:
+// x = 5
+
+// Check: 4(5) - 3 = 20 - 3 = 17; 2(5) + 7 = 10 + 7 = 17 ✓
+
+// Let me give you a Malawi example. Two farmers have maize. Farmer A has 50 bags + 10 per day. Farmer B has 30 bags + 15 per day. After how many days will they have the same?
+
+// Let d = number of days
+// 50 + 10d = 30 + 15d
+// 50 - 30 = 15d - 10d
+// 20 = 5d
+// d = 4 days
+
+// Another example: Two minibuses start from the same town. Bus A charges 200 kwacha per passenger plus a 500 kwacha base fee. Bus B charges 250 kwacha per passenger plus a 200 kwacha base fee. How many passengers for equal cost?
+
+// 200p + 500 = 250p + 200
+// 500 - 200 = 250p - 200p
+// 300 = 50p
+// p = 6 passengers
+
+// Remember: "Move variables to one side, constants to the other, then solve."`,
+//     summary: 'To solve equations with variables on both sides, collect variable terms on one side and constants on the other using inverse operations. Expand any brackets first. Always check your answer in the original equation.',
+//     estimatedTime: '25 mins',
+//     malawiExamples: [
+//       { title: 'Saving Money', description: 'Chifundo saves 1,000 + 200 per week. Mphatso saves 400 + 250 per week. When will they have equal savings? 1000 + 200w = 400 + 250w → 600 = 50w → w = 12 weeks.' },
+//       { title: 'Water Tanks', description: 'Tank A has 500L and fills at 20L/min. Tank B has 300L and fills at 30L/min. When equal? 500 + 20t = 300 + 30t → 200 = 10t → t = 20 minutes.' },
+//       { title: 'Mobile Phone Plans', description: 'Plan A: 2,000 + 100 per minute. Plan B: 1,000 + 150 per minute. When equal cost? 2000 + 100m = 1000 + 150m → 1000 = 50m → m = 20 minutes.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Solve: 5x + 3 = 2x + 18', answer: 'x = 5', hint: 'Subtract 2x, then subtract 3, then divide' },
+//       { question: 'Solve: 3(x - 2) = 2(x + 4)', answer: 'x = 14', hint: 'Expand first, then subtract variables' }
+//     ]
+//   },
+
+//   // Topic: Angles and Polygons (3 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Angles and Polygons',
+//     lessonNumber: 1,
+//     lessonTitle: 'Types of Angles and Angle Relationships',
+//     lessonId: 'mathematics-f1-angles-polygons-1',
+//     order: 10,
+//     learningObjectives: [
+//       'Identify different types of angles (acute, right, obtuse, reflex)',
+//       'Measure and draw angles using a protractor',
+//       'Apply angle rules: angles on a straight line, angles at a point',
+//       'Identify vertically opposite angles'
+//     ],
+//     introduction: 'Hello, geometry explorer! Have you ever looked at a house, a soccer field, or a honeycomb and noticed the shapes? Every shape has angles! Angles are everywhere - where two walls meet, where the roof slopes, even where your arm bends. Today, I will help you understand angles and the rules that govern them.',
+//     keyPoints: [
+//       'An acute angle is less than 90°',
+//       'A right angle is exactly 90°',
+//       'An obtuse angle is between 90° and 180°',
+//       'A reflex angle is greater than 180°',
+//       'Angles on a straight line add up to 180°',
+//       'Angles at a point add up to 360°',
+//       'Vertically opposite angles are equal'
+//     ],
+//     detailedContent: `Let me start by explaining what an ANGLE is. When two lines meet at a point, they form an angle. We measure angles in degrees (°).
+
+// TYPES OF ANGLES:
+
+// ACUTE ANGLE: less than 90° (like the sharp corner of a book)
+// Example: 30°, 45°, 60°
+
+// RIGHT ANGLE: exactly 90° (like the corner of a piece of paper)
+
+// OBTUSE ANGLE: between 90° and 180° (like an open door)
+// Example: 120°, 150°
+
+// REFLEX ANGLE: more than 180° (like the larger angle around a clock)
+// Example: 270°, 300°
+
+// MEASURING ANGLES:
+// You use a PROTRACTOR to measure angles. A protractor is a semi-circle marked from 0° to 180° in both directions.
+
+// Steps to measure an angle:
+// 1. Place the centre of the protractor at the vertex (corner point)
+// 2. Align the base line with one ray of the angle
+// 3. Read where the other ray crosses the scale
+// 4. Use the correct scale (starting from 0)
+
+// ANGLE RULES:
+
+// RULE 1: ANGLES ON A STRAIGHT LINE add up to 180°.
+// If a straight line is divided by a ray, the two angles formed sum to 180°.
+// These are called SUPPLEMENTARY angles.
+// Example: If one angle is 70°, the other is 110°.
+
+// RULE 2: ANGLES AT A POINT add up to 360°.
+// If several rays meet at a point, all the angles around that point sum to 360°.
+// Example: Four angles at a point that are 90° each (90+90+90+90=360°).
+
+// RULE 3: VERTICALLY OPPOSITE ANGLES are equal.
+// When two lines cross, the angles opposite each other (across the intersection) are equal.
+
+// Let me draw an example in your mind. Two lines cross like an "X". The top angle equals the bottom angle. The left angle equals the right angle.
+
+// Let me give you Malawi examples:
+
+// - In building a house, carpenters use right angles (90°) to make sure walls are straight.
+// - In football, when a player shoots from different angles, they think about the angle to the goal.
+// - In agriculture, the angle of the sun affects how much sunlight crops receive.
+
+// A PROTIP: When you see two lines crossing, remember that the angles opposite each other are equal. This is called VERTICALLY OPPOSITE ANGLES.
+
+// Now let me show you how to use these rules.
+
+// Example 1: Find angle x if it is on a straight line with a 120° angle.
+// x + 120° = 180°
+// x = 60°
+
+// Example 2: Find angle y if angles around a point are 90°, 110°, and y.
+// 90 + 110 + y = 360°
+// 200 + y = 360°
+// y = 160°
+
+// Example 3: Two lines cross, forming angles of 40° and x. Find x.
+// Vertically opposite angles are equal, so x = 40°.
+
+// Understanding angles helps you in many real-life situations, from constructing buildings to playing sports.`,
+//     summary: 'Angles are measured in degrees (°). Acute (<90°), right (90°), obtuse (90°-180°), reflex (>180°). Angles on a straight line sum to 180°. Angles at a point sum to 360°. Vertically opposite angles are equal. A protractor measures angles.',
+//     estimatedTime: '25 mins',
+//     malawiExamples: [
+//       { title: 'House Construction', description: 'Carpenters use right angles (90°) to ensure walls are perpendicular to the floor.' },
+//       { title: 'Football Shooting', description: 'Players consider the angle to the goal when deciding where to shoot.' },
+//       { title: 'Roof Design', description: 'The pitch (angle) of a roof determines how well rainwater drains.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What type of angle is 45°?', answer: 'Acute', hint: 'Less than 90°' },
+//       { question: 'Two angles on a straight line are 35° and x. Find x.', answer: '145°', hint: 'Angles on a straight line sum to 180°' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Angles and Polygons',
+//     lessonNumber: 2,
+//     lessonTitle: 'Parallel Lines and Transversals',
+//     lessonId: 'mathematics-f1-angles-polygons-2',
+//     order: 11,
+//     learningObjectives: [
+//       'Identify corresponding, alternate, and co-interior angles',
+//       'State the properties of angles formed by parallel lines and a transversal',
+//       'Calculate unknown angles using angle properties',
+//       'Apply angle rules to solve problems'
+//     ],
+//     introduction: 'Welcome back! Have you ever noticed railway tracks? They are always the same distance apart - they are PARALLEL lines. When a third line (called a TRANSVERSAL) crosses parallel lines, it creates special angle relationships. Today, I will teach you about these relationships - corresponding angles, alternate angles, and co-interior angles.',
+//     keyPoints: [
+//       'Parallel lines never meet and are always the same distance apart',
+//       'A transversal is a line that crosses two or more other lines',
+//       'Corresponding angles are equal',
+//       'Alternate angles are equal',
+//       'Co-interior angles add up to 180° (supplementary)'
+//     ],
+//     detailedContent: `Let me introduce you to parallel lines and transversals.
+
+// PARALLEL LINES are lines that never meet. They are always the same distance apart. In Malawi, you see parallel lines in:
+// - Railway tracks (when present)
+// - The lines on a notebook
+// - The edges of a road
+// - The rows of maize in a field
+
+// A TRANSVERSAL is a line that crosses two or more other lines. When a transversal crosses parallel lines, it creates eight angles. These angles have special relationships.
+
+// Let me describe the three important relationships:
+
+// 1. CORRESPONDING ANGLES (F-shape)
+// Corresponding angles are in the same position relative to the transversal and the parallel lines. They form an "F" shape.
+// RULE: Corresponding angles are EQUAL.
+
+// Imagine a transversal crossing two parallel lines from left to right. The top-left angle on the first line corresponds to the top-left angle on the second line. They are equal.
+
+// 2. ALTERNATE ANGLES (Z-shape)
+// Alternate angles are on opposite sides of the transversal and inside the parallel lines. They form a "Z" shape.
+// RULE: Alternate angles are EQUAL.
+
+// 3. CO-INTERIOR ANGLES (C-shape)
+// Co-interior angles are on the same side of the transversal and inside the parallel lines. They form a "C" shape.
+// RULE: Co-interior angles are SUPPLEMENTARY (add to 180°).
+
+// Let me give you a memory tool:
+// - Corresponding: Same position, like matching seats in two rows (EQUAL)
+// - Alternate: Opposite sides, like a Z letter (EQUAL)
+// - Co-interior: Together inside, like a C letter (SUM TO 180°)
+
+// Now let me show you how to calculate unknown angles.
+
+// Example 1: Two parallel lines with a transversal. One angle is 70°. Find the corresponding angle.
+// Corresponding angles are equal, so the corresponding angle is also 70°.
+
+// Example 2: Two parallel lines with a transversal. One angle is 70°. Find the alternate angle.
+// Alternate angles are equal, so the alternate angle is also 70°.
+
+// Example 3: Two parallel lines with a transversal. One angle is 70°. Find the co-interior angle.
+// Co-interior angles sum to 180°, so 180° - 70° = 110°.
+
+// Example 4: Find all angles if one angle is 120°.
+// - Corresponding: 120°
+// - Alternate: 120°
+// - Co-interior: 180° - 120° = 60°
+// - The angle adjacent to 120° on the same line: 60° (since angles on a straight line sum to 180°)
+// - Vertically opposite: 120° and 60°
+
+// Let me give you a Malawi example. In a maize field, the rows are parallel. The path through the field (transversal) creates angles. Farmers might use these angles to plan irrigation channels.
+
+// Another example: The lines on a soccer field (touchline and goal line) are perpendicular (90°). Corner flags are placed at right angles.
+
+// Remember the patterns:
+// - F pattern (corresponding) → EQUAL
+// - Z pattern (alternate) → EQUAL
+// - C pattern (co-interior) → ADD TO 180°`,
+//     summary: 'Parallel lines never meet. A transversal crosses parallel lines creating angles. Corresponding angles (F-shape) are equal. Alternate angles (Z-shape) are equal. Co-interior angles (C-shape) sum to 180°. These properties help calculate unknown angles.',
+//     estimatedTime: '24 mins',
+//     malawiExamples: [
+//       { title: 'Maize Field Rows', description: 'Rows of maize are parallel. The path through the field acts as a transversal.' },
+//       { title: 'Road Design', description: 'Where a road crosses railway tracks, the angles follow parallel line rules.' },
+//       { title: 'Tiling Floors', description: 'Tiles laid in parallel rows create angle patterns.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What do we call angles that form an "F" shape?', answer: 'Corresponding angles', hint: 'Same position on parallel lines' },
+//       { question: 'If a co-interior angle is 110°, what is the other co-interior angle?', answer: '70°', hint: 'Co-interior angles sum to 180°' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Angles and Polygons',
+//     lessonNumber: 3,
+//     lessonTitle: 'Polygons and Their Angles',
+//     lessonId: 'mathematics-f1-angles-polygons-3',
+//     order: 12,
+//     learningObjectives: [
+//       'Define polygons and classify them by number of sides',
+//       'Calculate the sum of interior angles of any polygon',
+//       'Find the size of each interior angle in a regular polygon',
+//       'Find the size of each exterior angle of a regular polygon'
+//     ],
+//     introduction: 'Hello, shape master! Today we are going to study POLYGONS - shapes with straight sides. Triangles, squares, pentagons, hexagons - these are all polygons. Did you know that the sum of angles inside any polygon follows a simple formula? Today, I will teach you this formula and show you how to calculate angles in any polygon, from a triangle to a decagon.',
+//     keyPoints: [
+//       'A polygon is a closed shape with straight sides',
+//       'Triangles (3 sides), Quadrilaterals (4 sides), Pentagons (5 sides), Hexagons (6 sides)',
+//       'Sum of interior angles of an n-sided polygon = (n - 2) × 180°',
+//       'In a regular polygon, all sides and all interior angles are equal',
+//       'Each interior angle of a regular n-sided polygon = (n - 2) × 180° ÷ n',
+//       'The sum of exterior angles of any polygon is always 360°'
+//     ],
+//     detailedContent: `Let me introduce you to POLYGONS.
+
+// A POLYGON is a closed shape with straight sides. The word comes from Greek: "poly" means many, "gon" means angle.
+
+// Here are polygons with different numbers of sides:
+// - Triangle (3 sides)
+// - Quadrilateral (4 sides) - squares, rectangles, etc.
+// - Pentagon (5 sides)
+// - Hexagon (6 sides)
+// - Heptagon (7 sides)
+// - Octagon (8 sides)
+// - Nonagon (9 sides)
+// - Decagon (10 sides)
+
+// INTERIOR ANGLES (inside the polygon):
+
+// The sum of all interior angles in any polygon follows this formula:
+
+// SUM OF INTERIOR ANGLES = (n - 2) × 180°, where n = number of sides
+
+// Let me prove this to you:
+
+// Triangle (n=3): (3-2) × 180° = 1 × 180° = 180° ✓
+// Quadrilateral (n=4): (4-2) × 180° = 2 × 180° = 360° ✓
+// Pentagon (n=5): (5-2) × 180° = 3 × 180° = 540° ✓
+// Hexagon (n=6): (6-2) × 180° = 4 × 180° = 720° ✓
+
+// Now, what about REGULAR POLYGONS?
+
+// A REGULAR polygon has all sides equal AND all angles equal.
+
+// For a regular polygon, each interior angle = [(n - 2) × 180°] ÷ n
+
+// Examples:
+// - Regular triangle (equilateral): (3-2)×180 ÷ 3 = 180 ÷ 3 = 60° each
+// - Regular quadrilateral (square): (4-2)×180 ÷ 4 = 360 ÷ 4 = 90° each
+// - Regular pentagon: (5-2)×180 ÷ 5 = 540 ÷ 5 = 108° each
+// - Regular hexagon: (6-2)×180 ÷ 6 = 720 ÷ 6 = 120° each
+
+// EXTERIOR ANGLES:
+
+// An exterior angle is formed by extending one side of the polygon. The exterior angle and interior angle are supplementary (add to 180°).
+
+// IMPORTANT RULE: The sum of exterior angles of ANY polygon is always 360°.
+
+// For a regular polygon, each exterior angle = 360° ÷ n
+
+// Check with a square: 360 ÷ 4 = 90° exterior angle. Interior angle = 180 - 90 = 90° ✓
+
+// Let me give you a Malawi example. The honeycomb pattern in beehives uses regular hexagons. Each interior angle is 120°, each exterior angle is 60°. This shape allows bees to store the most honey using the least wax.
+
+// Another example: Soccer balls are made of pentagons and hexagons. The pattern is called a truncated icosahedron.
+
+// Road signs often use triangles (warning signs), octagons (stop signs), and rectangles (speed limit signs).
+
+// Now let me show you how to solve problems.
+
+// Example 1: Find the sum of interior angles of a heptagon (7 sides).
+// n = 7, sum = (7-2) × 180 = 5 × 180 = 900°
+
+// Example 2: Find each interior angle of a regular octagon.
+// n = 8, sum = (8-2) × 180 = 6 × 180 = 1080°
+// Each interior angle = 1080 ÷ 8 = 135°
+
+// Example 3: Find the number of sides if the sum of interior angles is 1260°.
+// 1260 = (n-2) × 180
+// 1260 ÷ 180 = n-2
+// 7 = n-2
+// n = 9 sides (nonagon)
+
+// Example 4: Find each exterior angle of a regular pentagon.
+// Each exterior angle = 360 ÷ 5 = 72°
+
+// Remember: The sum of interior angles formula works for ALL polygons, regular or irregular. The sum of exterior angles is ALWAYS 360°.`,
+//     summary: 'A polygon has n sides. Sum of interior angles = (n-2) × 180°. Each interior angle of a regular polygon = (n-2) × 180° ÷ n. Sum of exterior angles always = 360°. Each exterior angle of a regular polygon = 360° ÷ n.',
+//     estimatedTime: '24 mins',
+//     malawiExamples: [
+//       { title: 'Beehives', description: 'Honeycombs use regular hexagons (120° interior angles) to maximize space.' },
+//       { title: 'Road Signs', description: 'Stop signs are octagons (135° interior angles). Warning signs are triangles.' },
+//       { title: 'Tile Patterns', description: 'Floor tiles often use squares (90°) or hexagons (120°).' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What is the sum of interior angles of an octagon?', answer: '1080°', hint: 'n=8, (8-2)×180 = 1080' },
+//       { question: 'Find each interior angle of a regular hexagon.', answer: '120°', hint: 'Sum = 720°, divide by 6 = 120°' }
+//     ]
+//   },
+
+//   // Topic: Statistics (3 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Statistics',
+//     lessonNumber: 1,
+//     lessonTitle: 'Collecting and Organizing Data',
+//     lessonId: 'mathematics-f1-statistics-1',
+//     order: 13,
+//     learningObjectives: [
+//       'Collect data through surveys and observations',
+//       'Organize data into frequency tables',
+//       'Distinguish between primary and secondary data',
+//       'Identify different types of data (qualitative vs quantitative)'
+//     ],
+//     introduction: 'Good day, data detective! Have you ever wondered how teachers calculate your average score? Or how the government knows how many people live in Malawi? They use STATISTICS - the science of collecting, organizing, and understanding data. Today, we will start with the first step: collecting and organizing data.',
+//     keyPoints: [
+//       'Data are pieces of information collected for analysis',
+//       'Primary data is collected firsthand by the researcher',
+//       'Secondary data is collected from existing sources',
+//       'Qualitative data describes categories (e.g., colours, names)',
+//       'Quantitative data uses numbers (e.g., height, weight, age)',
+//       'A frequency table shows how often each value occurs'
+//     ],
+//     detailedContent: `Let me introduce you to DATA and how to collect it.
+
+// DATA are pieces of information. When you ask your classmates their favourite subject, you are collecting data.
+
+// TYPES OF DATA BY SOURCE:
+
+// PRIMARY DATA: Data you collect yourself directly from the source.
+// Examples in Malawi:
+// - Conducting a survey of maize yields from 50 farmers
+// - Measuring the height of students in your class
+// - Counting the number of people at a market
+
+// SECONDARY DATA: Data collected by someone else that you use.
+// Examples:
+// - Population statistics from the National Statistical Office
+// - Rainfall data from the Department of Climate Change
+// - Exam results from the Malawi National Examinations Board (MANEB)
+
+// TYPES OF DATA BY NATURE:
+
+// QUALITATIVE DATA (Categorical): Data that describes qualities or categories.
+// Examples: Favourite food (nsima, rice, chips), type of crop (maize, tobacco, groundnuts), gender (male, female)
+
+// QUANTITATIVE DATA (Numerical): Data that uses numbers.
+// Examples: Height (150 cm, 160 cm), weight (50 kg, 60 kg), age (14 years, 15 years)
+// Quantitative data can be DISCRETE (whole numbers like 1,2,3) or CONTINUOUS (measurements like 1.5, 2.3).
+
+// ORGANIZING DATA: FREQUENCY TABLES
+
+// When you have collected data, you need to organize it. A FREQUENCY TABLE shows how many times each value occurs.
+
+// Example: You survey 20 students about how many siblings they have:
+// 3, 2, 4, 2, 1, 3, 2, 4, 2, 3, 1, 2, 3, 4, 2, 1, 3, 2, 2, 3
+
+// Create a frequency table:
+
+// | Number of Siblings | Tally | Frequency |
+// |-------------------|-------|-----------|
+// | 1                 | III   | 3         |
+// | 2                 | IIII II| 7         |
+// | 3                 | IIII   | 5         |
+// | 4                 | III    | 3         |
+// | 5 or more         | 0     | 0         |
+// | TOTAL             |       | 20        |
+
+// The frequency table makes the data much easier to read and understand.
+
+// In Malawi, the National Statistical Office conducts the Malawi Demographic and Health Survey (MDHS) every few years. They collect data from thousands of households. This data helps the government plan schools, hospitals, and roads.
+
+// When you collect data, always:
+// 1. Decide what you want to know
+// 2. Plan how to collect the data (survey, observation, measurement)
+// 3. Collect the data carefully
+// 4. Organize the data in a frequency table
+// 5. Check for errors
+
+// Now it is your turn! Try collecting data from your classmates about their favourite Malawian food: nsima, rice, cassava, or potatoes. Make a frequency table.`,
+//     summary: 'Data are pieces of information. Primary data is collected firsthand; secondary data comes from existing sources. Qualitative data describes categories; quantitative data uses numbers. Organize data using frequency tables that show how often each value occurs.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'National Census', description: 'The government conducts a census every 10 years to count the population.' },
+//       { title: 'School Survey', description: 'You can survey classmates about their favourite subject to collect primary data.' },
+//       { title: 'Weather Records', description: 'Rainfall data from the Department of Climate Change is secondary data.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What is the difference between primary and secondary data?', answer: 'Primary is collected firsthand; secondary comes from existing sources', hint: 'One you collect yourself, one you get from others' },
+//       { question: 'Is "eye colour" qualitative or quantitative data?', answer: 'Qualitative', hint: 'It describes a category, not a number' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Statistics',
+//     lessonNumber: 2,
+//     lessonTitle: 'Measures of Central Tendency: Mean, Median, Mode',
+//     lessonId: 'mathematics-f1-statistics-2',
+//     order: 14,
+//     learningObjectives: [
+//       'Calculate the mean (average) of a data set',
+//       'Find the median (middle value) of a data set',
+//       'Identify the mode (most frequent value) of a data set',
+//       'Choose the appropriate average for different situations'
+//     ],
+//     introduction: 'Hello again! Now that we have collected and organized data, we need to understand what it tells us. AVERAGES help us find a "typical" value in our data. Today, I will teach you three types of averages: the MEAN (average), the MEDIAN (middle), and the MODE (most common). Each tells us something different about the data.',
+//     keyPoints: [
+//       'Mean = sum of all values ÷ number of values (the "average")',
+//       'Median = the middle value when data is arranged in order',
+//       'Mode = the value that appears most frequently',
+//       'The mean can be affected by extreme values (outliers)',
+//       'The median is better for data with outliers',
+//       'The mode is useful for categorical data'
+//     ],
+//     detailedContent: `Let me explain the three measures of central tendency: MEAN, MEDIAN, and MODE.
+
+// 1. THE MEAN (AVERAGE)
+
+// The mean is what most people mean when they say "average". To find the mean:
+// - Add up all the numbers
+// - Divide by how many numbers there are
+
+// Formula: Mean = (Sum of all values) ÷ (Number of values)
+
+// Example: Test scores: 65, 70, 55, 80, 75
+// Sum = 65 + 70 + 55 + 80 + 75 = 345
+// Number of scores = 5
+// Mean = 345 ÷ 5 = 69%
+
+// 2. THE MEDIAN (MIDDLE)
+
+// The median is the middle number when the data is arranged in order.
+
+// Steps:
+// - Arrange the numbers from smallest to largest
+// - Find the middle number
+// - If there are two middle numbers, average them
+
+// Example (odd number of values): 55, 65, 70, 75, 80
+// The middle number is 70. So median = 70
+
+// Example (even number of values): 55, 65, 70, 75, 80, 85
+// The two middle numbers are 70 and 75
+// Median = (70 + 75) ÷ 2 = 145 ÷ 2 = 72.5
+
+// 3. THE MODE (MOST FREQUENT)
+
+// The mode is the value that appears most often.
+
+// Example: Shoe sizes: 5, 6, 7, 7, 7, 8, 9
+// The number 7 appears three times (more than any other). So mode = 7
+
+// If all values appear once, there is no mode.
+// If two values tie for most frequent, the data is bimodal.
+
+// WHICH AVERAGE TO USE?
+
+// MEAN: Use when data is evenly spread and no outliers. Good for test scores, heights, weights.
+
+// MEDIAN: Use when there are outliers (extreme values). Example: House prices (one very expensive house would raise the mean but not the median).
+
+// MODE: Use for categorical data. Example: "Most students walk to school" uses the mode.
+
+// Let me give you Malawi examples.
+
+// Example 1 (Mean): Five farmers harvested maize (kg): 400, 450, 380, 420, 500.
+// Mean = (400+450+380+420+500) ÷ 5 = 2150 ÷ 5 = 430 kg
+
+// Example 2 (Median): Daily wages (kwacha): 1000, 1200, 1100, 5000, 1300
+// Arrange: 1000, 1100, 1200, 1300, 5000
+// Median = 1200 kwacha
+// The mean would be (1000+1100+1200+1300+5000) ÷ 5 = 9600 ÷ 5 = 1920 kwacha. The 5000 outlier makes the mean higher than typical. The median (1200) better represents typical wages.
+
+// Example 3 (Mode): Transport to school: walking (15), bicycle (8), minibus (5), car (2)
+// Mode = "walking" (appears 15 times, most frequent)
+
+// In Malawi, the mean is used to calculate average class sizes, average crop yields, etc. The median is used for income data where a few very rich people would skew the mean.`,
+//     summary: 'Mean = sum ÷ count (average). Median = middle value in ordered data. Mode = most frequent value. Mean is affected by outliers; median is better for skewed data; mode works for categorical data.',
+//     estimatedTime: '24 mins',
+//     malawiExamples: [
+//       { title: 'Average Crop Yield', description: 'Farmers calculate mean harvest to plan for next season.' },
+//       { title: 'Income Data', description: 'Median income is often reported because a few high earners would increase the mean.' },
+//       { title: 'Common Travel Method', description: 'Mode identifies how most students travel to school.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Find the mean of 10, 15, 20, 25', answer: '17.5', hint: 'Sum = 70, divide by 4 = 17.5' },
+//       { question: 'Find the median of 8, 12, 5, 10, 15', answer: '10', hint: 'Arrange: 5,8,10,12,15 → middle is 10' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Statistics',
+//     lessonNumber: 3,
+//     lessonTitle: 'Data Presentation: Bar Charts and Pie Charts',
+//     lessonId: 'mathematics-f1-statistics-3',
+//     order: 15,
+//     learningObjectives: [
+//       'Draw and interpret bar charts',
+//       'Draw and interpret pie charts',
+//       'Calculate angles for pie chart sectors',
+//       'Choose the appropriate chart for different types of data'
+//     ],
+//     introduction: 'Welcome back, data detective! Collecting and summarizing data is only the first step. To communicate what you found, you need to PRESENT the data clearly. Today, I will teach you how to create BAR CHARTS and PIE CHARTS - two of the most common ways to show data visually. People understand pictures faster than numbers!',
+//     keyPoints: [
+//       'Bar charts use bars of different heights to show frequencies',
+//       'Pie charts show proportions as slices of a circle',
+//       'For a pie chart, each sector angle = (frequency ÷ total) × 360°',
+//       'Bar charts are good for comparing categories',
+//       'Pie charts are good for showing parts of a whole'
+//     ],
+//     detailedContent: `Let me teach you how to present data using BAR CHARTS and PIE CHARTS.
+
+// BAR CHARTS:
+
+// A bar chart uses bars (rectangles) of different heights to represent frequencies. The taller the bar, the higher the frequency.
+
+// Steps to draw a bar chart:
+// 1. Draw horizontal axis (x-axis) for categories
+// 2. Draw vertical axis (y-axis) for frequency
+// 3. Choose a scale for the vertical axis
+// 4. Draw bars of appropriate height for each category
+// 5. Leave spaces between bars (unlike a histogram)
+
+// Example: Transport to school
+// Walking: 15 students
+// Bicycle: 8 students
+// Minibus: 5 students
+// Car: 2 students
+
+// Draw a bar chart with:
+// - Category names on x-axis
+// - Frequency from 0 to 16 on y-axis
+// - Bars of heights 15, 8, 5, 2
+
+// You would clearly see that walking is the most common, followed by bicycle.
+
+// PIE CHARTS:
+
+// A pie chart shows how a whole (100%) is divided into parts. The whole circle represents all the data, and each slice represents a category.
+
+// To draw a pie chart, you need to calculate the ANGLE for each slice:
+// Angle = (Frequency ÷ Total) × 360°
+
+// Example: Same transport data, total students = 15+8+5+2 = 30
+
+// Walking: (15 ÷ 30) × 360° = 0.5 × 360° = 180° (half the circle!)
+// Bicycle: (8 ÷ 30) × 360° = 0.2667 × 360° = 96°
+// Minibus: (5 ÷ 30) × 360° = 0.1667 × 360° = 60°
+// Car: (2 ÷ 30) × 360° = 0.0667 × 360° = 24°
+
+// Check: 180° + 96° + 60° + 24° = 360° ✓
+
+// Now draw the circle using a compass. Use a protractor to measure each angle. Label each slice with the category and sometimes the frequency or percentage.
+
+// WHICH CHART TO USE?
+
+// BAR CHART is better when:
+// - You have many categories
+// - You want to compare frequencies
+// - The order of categories matters
+// - You have nominal data (no natural order)
+
+// PIE CHART is better when:
+// - You have few categories (2-6)
+// - You want to show parts of a whole (percentages)
+// - The total adds to 100%
+// - You want to emphasize proportions
+
+// Let me give you Malawi examples.
+
+// Example: A bar chart of crop production in different districts (Blantyre, Lilongwe, Mzuzu, Zomba) would clearly show which district produces the most.
+
+// Example: A pie chart of land use for a single farm (maize: 50%, tobacco: 30%, groundnuts: 20%) would clearly show how land is divided.
+
+// In Malawi, the National Statistical Office uses bar charts to compare population across districts and pie charts to show the percentage of people in different occupations.
+
+// A PROTIP: Always include a title and label your axes! Without labels, a chart is just pretty shapes - not information.`,
+//     summary: 'Bar charts use bar heights to compare frequencies. Pie charts use sector angles to show proportions. For a pie chart, angle = (frequency ÷ total) × 360°. Choose bar charts for comparisons, pie charts for parts of a whole.',
+//     estimatedTime: '23 mins',
+//     malawiExamples: [
+//       { title: 'Crop Comparison', description: 'A bar chart can compare maize production across districts.' },
+//       { title: 'Land Use', description: 'A pie chart shows how a farmer divides land among different crops.' },
+//       { title: 'School Population', description: 'A bar chart shows how many students are in each form.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What angle represents 25% of a pie chart?', answer: '90°', hint: '360 × 0.25 = 90°' },
+//       { question: 'When is a bar chart better than a pie chart?', answer: 'When comparing many categories', hint: 'Pie charts get crowded with many slices' }
+//     ]
+//   },
+
+//   // -------------------- MATHEMATICS FORM 2 --------------------
+//   // Topic: Pythagoras Theorem (2 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 2',
+//     topic: 'Pythagoras Theorem',
+//     lessonNumber: 1,
+//     lessonTitle: 'Introduction to Pythagoras Theorem',
+//     lessonId: 'mathematics-f2-pythagoras-1',
+//     order: 16,
+//     learningObjectives: [
+//       'State Pythagoras theorem',
+//       'Identify the hypotenuse of a right-angled triangle',
+//       'Apply Pythagoras theorem to find the hypotenuse',
+//       'Solve problems involving Pythagoras theorem'
+//     ],
+//     introduction: 'Hello, geometry detective! Over 2,500 years ago, a Greek mathematician named Pythagoras discovered a secret about right-angled triangles that we still use today. He found that there is a special relationship between the three sides. Today, I will share this secret with you!',
+//     keyPoints: [
+//       'Pythagoras theorem applies only to right-angled triangles',
+//       'The hypotenuse is the longest side, opposite the right angle',
+//       'Theorem: a² + b² = c², where c is the hypotenuse',
+//       'To find the hypotenuse: c = √(a² + b²)',
+//       'This theorem helps find distances that cannot be measured directly'
+//     ],
+//     detailedContent: `Let me introduce you to one of the most famous formulas in all of mathematics: the PYTHAGORAS THEOREM.
+
+// First, let me explain what a RIGHT-ANGLED TRIANGLE is. It is a triangle with one angle exactly 90 degrees (a square corner). The side opposite this right angle is called the HYPOTENUSE. It is always the longest side.
+
+// The theorem says: In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.
+
+// In mathematical language: a² + b² = c², where c is the hypotenuse.
+
+// Let me show you how to use this.
+
+// Example 1: Find the hypotenuse. A triangle has sides of 3 units and 4 units.
+// a = 3, b = 4
+// c² = 3² + 4² = 9 + 16 = 25
+// c = √25 = 5 units
+
+// This is a famous triple: 3-4-5 triangle.
+
+// Example 2: A right-angled triangle has sides 6 and 8. Find the hypotenuse.
+// c² = 6² + 8² = 36 + 64 = 100
+// c = √100 = 10 units (another triple!)
+
+// Example 3: A right-angled triangle has sides 5 and 12.
+// c² = 25 + 144 = 169
+// c = √169 = 13 units
+
+// These are called Pythagorean Triples - sets of whole numbers that satisfy a² + b² = c².
+
+// Let me give you a real-life example from Malawi. Imagine you are standing at one corner of a rectangular maize field. You need to walk to the opposite corner. Instead of walking along the edges, you want to take the diagonal path.
+
+// If the field is 60 metres long and 80 metres wide, how long is the diagonal path?
+
+// c² = 60² + 80² = 3600 + 6400 = 10,000
+// c = √10,000 = 100 metres
+
+// By taking the diagonal, you save 60 + 80 - 100 = 40 metres! That is why understanding Pythagoras can save you time and energy.
+
+// Another example: A ladder is leaning against a wall. The bottom of the ladder is 3 metres from the wall, and the ladder reaches 4 metres up the wall. How long is the ladder?
+
+// c² = 3² + 4² = 9 + 16 = 25
+// c = 5 metres
+
+// The ladder is 5 metres long.
+
+// Pythagoras theorem is used in construction, navigation, surveying, and many other fields. Builders use the 3-4-5 triangle to check if walls are perpendicular (at right angles). If a triangle with sides 3, 4, and 5 is formed, the angle is exactly 90 degrees.`,
+//     summary: 'Pythagoras theorem (a² + b² = c²) applies to right-angled triangles, where c is the hypotenuse. To find the hypotenuse, square the other two sides, add them, and take the square root. This theorem helps solve many real-world distance problems.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Field Diagonal', description: 'Walking diagonally across a field saves distance compared to walking around the edges.' },
+//       { title: 'Ladder Safety', description: 'Ensuring a ladder is at the right angle for safety uses Pythagoras.' },
+//       { title: 'Construction', description: 'Builders use 3-4-5 triangles to create right angles.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Find the hypotenuse of a right triangle with sides 5 and 12', answer: '13', hint: '25 + 144 = 169, √169 = 13' },
+//       { question: 'What is the hypotenuse if sides are 8 and 15?', answer: '17', hint: '64 + 225 = 289, √289 = 17' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 2',
+//     topic: 'Pythagoras Theorem',
+//     lessonNumber: 2,
+//     lessonTitle: 'Finding Shorter Sides and Applications',
+//     lessonId: 'mathematics-f2-pythagoras-2',
+//     order: 17,
+//     learningObjectives: [
+//       'Use Pythagoras theorem to find a shorter side',
+//       'Rearrange the formula to isolate a or b',
+//       'Apply Pythagoras theorem to practical problems',
+//       'Verify if a triangle is right-angled using Pythagoras'
+//     ],
+//     introduction: 'Welcome back! Now that you know how to find the hypotenuse, what if you need to find one of the shorter sides? The formula still works - you just need to rearrange it. Today, I will show you how to find a missing shorter side and how to use Pythagoras to check if a triangle is right-angled.',
+//     keyPoints: [
+//       'To find a shorter side: a² = c² - b² or b² = c² - a²',
+//       'Always identify the hypotenuse first (largest number)',
+//       'Check if a triangle is right-angled: does a² + b² = c²?',
+//       'This theorem works for any right-angled triangle, not just whole numbers'
+//     ],
+//     detailedContent: `Let me teach you how to find a SHORTER side using Pythagoras theorem.
+
+// When you know the hypotenuse and one shorter side, you can find the other side.
+
+// The formula: a² = c² - b² (or b² = c² - a²)
+
+// Example 1: A right-angled triangle has hypotenuse 13 and one side 5. Find the other side.
+// a² = 13² - 5² = 169 - 25 = 144
+// a = √144 = 12
+
+// Example 2: Hypotenuse = 25, one side = 7. Find the other side.
+// a² = 25² - 7² = 625 - 49 = 576
+// a = √576 = 24
+
+// Example 3: A television screen is measured diagonally. A TV has a diagonal of 20 inches and width of 16 inches. Find the height.
+// h² = 20² - 16² = 400 - 256 = 144
+// h = √144 = 12 inches
+
+// Example 4: A kite string is 50 metres long. The kite is flying 30 metres above the ground. How far is the person from the point directly under the kite?
+// distance² = 50² - 30² = 2500 - 900 = 1600
+// distance = √1600 = 40 metres
+
+// CHECKING IF A TRIANGLE IS RIGHT-ANGLED:
+
+// You can use the converse of Pythagoras theorem: If a² + b² = c² (where c is the largest side), then the triangle is right-angled.
+
+// Example: A triangle has sides 7, 24, 25.
+// Check: 7² + 24² = 49 + 576 = 625
+// 25² = 625
+// Since they are equal, the triangle is right-angled.
+
+// If the sum of the squares of the two smaller sides is less than the square of the largest side, the triangle is obtuse (angle > 90°).
+// If greater than, the triangle is acute (angle < 90°).
+
+// Let me give you a Malawi example. A farmer has a triangular piece of land with sides 30 m, 40 m, and 50 m. Is it right-angled?
+// 30² + 40² = 900 + 1600 = 2500
+// 50² = 2500
+// Yes! The land is right-angled. The farmer can use this to plan irrigation channels.
+
+// Another example: A carpenter needs to check if a corner is square (90°). He measures 60 cm along one wall and 80 cm along the other. If the distance between these points is 100 cm, the corner is square.
+// 60² + 80² = 3600 + 6400 = 10,000
+// 100² = 10,000 ✓
+
+// Remember: Always check which side is the hypotenuse! The hypotenuse is always the largest number and opposite the right angle.`,
+//     summary: 'To find a shorter side, use a² = c² - b². To check if a triangle is right-angled, verify if a² + b² = c² (with c the largest side). Pythagoras theorem has many practical applications in construction, navigation, and everyday measurements.',
+//     estimatedTime: '22 mins',
+//     malawiExamples: [
+//       { title: 'Finding Land Dimensions', description: 'If a farmer knows the diagonal and one side of a field, he can calculate the other side.' },
+//       { title: 'Checking Square Corners', description: 'Builders use 3-4-5 triangles to ensure corners are right angles.' },
+//       { title: 'Kite Flying', description: 'If you know the string length and height, you can find the horizontal distance.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Find the missing side: hypotenuse 17, one side 8', answer: '15', hint: '289 - 64 = 225, √225 = 15' },
+//       { question: 'Is a triangle with sides 8, 15, 17 right-angled?', answer: 'Yes', hint: '64 + 225 = 289, 289 = 17²' }
+//     ]
+//   }
+// ,
+
+// // ======================================================================
+// // MATHEMATICS FORM 2 - CONTINUED
+// // ======================================================================
+
+// // Topic: Similar Triangles (2 lessons)
+// {
+//   subject: 'Mathematics',
+//   form: 'Form 2',
+//   topic: 'Similar Triangles',
+//   lessonNumber: 1,
+//   lessonTitle: 'Identifying Similar Triangles',
+//   lessonId: 'mathematics-f2-similar-triangles-1',
+//   order: 18,
+//   learningObjectives: [
+//     'Define similar triangles',
+//     'Identify similar triangles using AAA, SSS, and SAS tests',
+//     'State that corresponding angles are equal and sides are proportional',
+//     'Find the scale factor between similar triangles'
+//   ],
+//   introduction: 'Welcome, shape detective! Have you ever looked at a map and a real place and noticed they have the same shape but different sizes? Or seen a photograph enlarged to poster size? That is SIMILARITY - when shapes have the same form but different sizes. Today, I will teach you how to recognize similar triangles.',
+//   keyPoints: [
+//     'Similar triangles have the same shape but different sizes',
+//     'Corresponding angles are EQUAL',
+//     'Corresponding sides are in the SAME PROPORTION (scale factor)',
+//     'AAA test: All three angles equal',
+//     'SSS test: All three sides proportional',
+//     'SAS test: Two sides proportional and included angle equal'
+//   ],
+//   detailedContent: `Let me explain what SIMILAR TRIANGLES are. Two triangles are similar if:
+// - Their corresponding angles are EQUAL
+// - Their corresponding sides are in the SAME RATIO (proportion)
+
+// Imagine taking a photo of a house and then enlarging it. The enlarged photo has the same shape, but everything is bigger. That is similarity!
+
+// There are three tests to check if triangles are similar:
+
+// TEST 1: AAA (Angle-Angle-Angle)
+// If all three angles of one triangle equal the three angles of another triangle, they are similar.
+// Note: If two angles are equal, the third must also be equal (angles in a triangle sum to 180°).
+
+// TEST 2: SSS (Side-Side-Side)
+// If the ratios of all three pairs of corresponding sides are equal, they are similar.
+
+// TEST 3: SAS (Side-Angle-Side)
+// If two sides are in the same proportion and the INCLUDED angle (the angle between them) is equal, they are similar.
+
+// Let me show you examples.
+
+// Example 1: Triangle ABC has angles 50°, 60°, 70°. Triangle DEF has angles 50°, 60°, 70°.
+// By AAA test, the triangles are similar.
+
+// Example 2: Triangle PQR has sides 3, 4, 5. Triangle XYZ has sides 6, 8, 10.
+// Ratios: 6/3 = 2, 8/4 = 2, 10/5 = 2 (all equal)
+// By SSS test, the triangles are similar, scale factor 2.
+
+// Example 3: Triangle ABC has sides 4 and 5 with included angle 30°. Triangle DEF has sides 8 and 10 with included angle 30°.
+// Ratio 8/4 = 2, 10/5 = 2, included angle equal
+// By SAS test, the triangles are similar, scale factor 2.
+
+// In Malawi, maps use similarity. The map is a smaller, similar version of the actual land. If a map has scale 1:100,000, that means 1 cm on the map represents 100,000 cm (1 km) on the ground.`,
+//   summary: 'Similar triangles have equal corresponding angles and proportional corresponding sides. Three tests confirm similarity: AAA (angles equal), SSS (sides proportional), and SAS (two sides proportional, included angle equal). The scale factor is the ratio of corresponding sides.',
+//   estimatedTime: '22 mins',
+//   malawiExamples: [
+//     { title: 'Maps', description: 'A map of Malawi is similar to the actual country, just much smaller.' },
+//     { title: 'Enlarged Photos', description: 'When you enlarge a photo, the enlarged version is similar to the original.' },
+//     { title: 'Building Models', description: 'Architects make small-scale models similar to actual buildings.' }
+//   ],
+//   practiceQuestions: [
+//     { question: 'What does AAA stand for in similarity tests?', answer: 'Angle-Angle-Angle', hint: 'All three angles' },
+//     { question: 'If triangle A sides are 2,3,4 and triangle B sides are 4,6,8, are they similar?', answer: 'Yes', hint: 'All ratios are 2' }
+//   ]
+// },
+// {
+//   subject: 'Mathematics',
+//   form: 'Form 2',
+//   topic: 'Similar Triangles',
+//   lessonNumber: 2,
+//   lessonTitle: 'Using Similar Triangles to Find Unknown Lengths',
+//   lessonId: 'mathematics-f2-similar-triangles-2',
+//   order: 19,
+//   learningObjectives: [
+//     'Use similarity to find unknown lengths',
+//     'Set up and solve proportions',
+//     'Apply similarity to real-life measurement problems',
+//     'Use the scale factor to enlarge or reduce shapes'
+//   ],
+//   introduction: 'Welcome back! Now that you can identify similar triangles, let us use them to find unknown lengths. Similarity allows us to measure things that are too big, too far, or too dangerous to measure directly. Today, I will show you how to use similarity to find heights, distances, and other measurements.',
+//   keyPoints: [
+//     'Corresponding sides of similar triangles are proportional',
+//     'Set up a proportion: side1/side2 = side3/side4',
+//     'Cross-multiply and solve for the unknown',
+//     'The scale factor k = second triangle side ÷ first triangle side',
+//     'Similarity is used in surveying, navigation, and indirect measurement'
+//   ],
+//   detailedContent: `Let me teach you how to use similar triangles to find unknown lengths.
+
+// The key principle: Corresponding sides are proportional.
+
+// If triangle ABC is similar to triangle DEF, then:
+// AB/DE = BC/EF = AC/DF
+
+// Example 1: Triangle ABC has sides 3, 4, 5. Triangle DEF is similar with scale factor 3. Find the sides of DEF.
+// Scale factor 3 means each side is multiplied by 3:
+// DE = 3 × 3 = 9
+// EF = 4 × 3 = 12
+// DF = 5 × 3 = 15
+
+// Example 2: Triangle PQR is similar to triangle XYZ. PQ = 6, QR = 8, XY = 9. Find YZ.
+// PQ/XY = QR/YZ
+// 6/9 = 8/YZ
+// Cross multiply: 6 × YZ = 9 × 8 = 72
+// YZ = 72 ÷ 6 = 12
+
+// Now, let me show you a real-world application.
+
+// MEASURING A TREE HEIGHT (Indirect Measurement):
+
+// Suppose you want to measure the height of a tall tree, but you cannot climb it. You can use similar triangles!
+
+// How to do it:
+// 1. Stand a stick vertically in the ground
+// 2. Measure the height of the stick (say, 1 metre)
+// 3. Measure the length of the stick's shadow (say, 1.5 metres)
+// 4. Measure the length of the tree's shadow (say, 12 metres)
+
+// The sun's rays create similar triangles! The tree and its shadow form a triangle. The stick and its shadow form a triangle.
+
+// Set up a proportion:
+// Tree height / Stick height = Tree shadow / Stick shadow
+// Tree height / 1 = 12 / 1.5
+// Tree height = 12 ÷ 1.5 = 8 metres
+
+// Without climbing the tree, you know it is 8 metres tall!
+
+// MEASURING A RIVER WIDTH:
+
+// Suppose you need to measure the width of a river without swimming across. You can use similar triangles!
+
+// Method:
+// 1. Stand at point A on one side
+// 2. Place a stick at point B on your side
+// 3. Sight across to a point C on the opposite side
+// 4. Create a smaller similar triangle on your side
+
+// By measuring the sides of the smaller triangle, you can calculate the river width.
+
+// In Malawi, surveyors use similar triangles to measure land, farmers use it to estimate harvest volumes, and engineers use it to design bridges and roads.`,
+//   summary: 'Similar triangles allow indirect measurement. Set up a proportion from corresponding sides and solve. Use similarity to measure heights of trees or buildings, widths of rivers, and other inaccessible distances without direct measurement.',
+//   estimatedTime: '23 mins',
+//   malawiExamples: [
+//     { title: 'Tree Height', description: 'Use shadows to calculate tree height without climbing.' },
+//     { title: 'River Width', description: 'Use similar triangles to measure across a river without crossing.' },
+//     { title: 'Field Area', description: 'Estimate crop yield by measuring a small similar section.' }
+//   ],
+//   practiceQuestions: [
+//     { question: 'A 2 m stick casts a 3 m shadow. A tree casts a 15 m shadow. How tall is the tree?', answer: '10 m', hint: 'Tree/2 = 15/3 → Tree = 10 m' },
+//     { question: 'If triangle ABC ~ triangle DEF, AB=4, BC=6, DE=10, find EF.', answer: '15', hint: '4/10 = 6/EF → EF = 15' }
+//   ]
+// },
+
+// // Topic: Mensuration (2 lessons)
+// {
+//   subject: 'Mathematics',
+//   form: 'Form 2',
+//   topic: 'Mensuration',
+//   lessonNumber: 1,
+//   lessonTitle: 'Area and Perimeter of 2D Shapes',
+//   lessonId: 'mathematics-f2-mensuration-1',
+//   order: 20,
+//   learningObjectives: [
+//     'Calculate the perimeter of rectangles, squares, triangles, and circles',
+//     'Calculate the area of rectangles, squares, triangles, and circles',
+//     'Apply formulas to solve practical problems',
+//     'Distinguish between area and perimeter'
+//   ],
+//   introduction: 'Hello, measurement master! Have you ever wondered how much paint is needed to cover a wall? Or how much fencing is needed for a garden? These questions involve PERIMETER (distance around) and AREA (space inside). Today, I will teach you the formulas for common shapes.',
+//   keyPoints: [
+//     'Perimeter is the distance around a shape (measured in length units)',
+//     'Area is the space inside a shape (measured in square units)',
+//     'Rectangle: Perimeter = 2(l+w), Area = l × w',
+//     'Square: Perimeter = 4s, Area = s²',
+//     'Triangle: Perimeter = a+b+c, Area = ½ × base × height',
+//     'Circle: Circumference = 2πr or πd, Area = πr²'
+//   ],
+//   detailedContent: `Let me teach you how to calculate PERIMETER and AREA.
+
+// PERIMETER is the distance around the outside of a shape. Imagine walking around a field - the distance you walk is the perimeter.
+
+// AREA is the amount of space inside a shape. Imagine covering a floor with tiles - the number of tiles needed is the area.
+
+// Here are the formulas you need to remember:
+
+// 1. RECTANGLE:
+// - Perimeter = 2 × (length + width) = 2(l + w)
+// - Area = length × width = l × w
+
+// Example: A rectangle has length 8 m, width 5 m.
+// Perimeter = 2(8+5) = 2 × 13 = 26 m
+// Area = 8 × 5 = 40 m²
+
+// 2. SQUARE:
+// - Perimeter = 4 × side = 4s
+// - Area = side × side = s²
+
+// Example: A square has side 6 m.
+// Perimeter = 4 × 6 = 24 m
+// Area = 6 × 6 = 36 m²
+
+// 3. TRIANGLE:
+// - Perimeter = side1 + side2 + side3
+// - Area = ½ × base × height
+
+// Example: A triangle has base 10 m, height 6 m.
+// Area = ½ × 10 × 6 = 30 m²
+
+// 4. CIRCLE:
+// - Circumference (perimeter) = 2 × π × radius = 2πr, or π × diameter = πd
+// - Area = π × radius² = πr²
+// (π ≈ 3.14)
+
+// Example: A circle has radius 5 m.
+// Circumference = 2 × 3.14 × 5 = 31.4 m
+// Area = 3.14 × 5² = 3.14 × 25 = 78.5 m²
+
+// Let me give you Malawi examples.
+
+// Example 1 (Fencing): A farmer wants to fence a rectangular maize field that is 50 m long and 30 m wide. How much fencing is needed?
+// Perimeter = 2(50+30) = 2 × 80 = 160 m
+
+// Example 2 (Paint): A classroom wall is 8 m long and 3 m high. How many square metres need painting?
+// Area = 8 × 3 = 24 m²
+
+// Example 3 (Circular Garden): A farmer plants a circular vegetable garden with radius 7 m. What is the area?
+// Area = π × 7² = 3.14 × 49 = 153.86 m²
+
+// Remember: Perimeter uses regular length units (m, cm, km). Area uses square units (m², cm², km²). Never mix them!`,
+//   summary: 'Perimeter is distance around (length units). Area is space inside (square units). Rectangle: A=l×w, P=2(l+w). Square: A=s², P=4s. Triangle: A=½×b×h. Circle: A=πr², C=2πr. Use these formulas for construction, farming, and planning.',
+//   estimatedTime: '22 mins',
+//   malawiExamples: [
+//     { title: 'Fencing a Field', description: 'Calculate perimeter to know how much fence wire to buy.' },
+//     { title: 'Painting a Classroom', description: 'Calculate wall area to know how much paint is needed.' },
+//     { title: 'Circular Garden', description: 'Plan a circular vegetable garden by calculating its area.' }
+//   ],
+//   practiceQuestions: [
+//     { question: 'Find the area of a rectangle 12 m by 8 m', answer: '96 m²', hint: '12 × 8 = 96' },
+//     { question: 'Find the circumference of a circle radius 10 m (use π=3.14)', answer: '62.8 m', hint: '2 × 3.14 × 10 = 62.8' }
+//   ]
+// },
+// {
+//   subject: 'Mathematics',
+//   form: 'Form 2',
+//   topic: 'Mensuration',
+//   lessonNumber: 2,
+//   lessonTitle: 'Volume and Surface Area of 3D Shapes',
+//   lessonId: 'mathematics-f2-mensuration-2',
+//   order: 21,
+//   learningObjectives: [
+//     'Calculate the volume of cubes, cuboids, and cylinders',
+//     'Calculate the surface area of cubes, cuboids, and cylinders',
+//     'Distinguish between volume and surface area',
+//     'Apply mensuration to real-life storage and container problems'
+//   ],
+//   introduction: 'Hello, 3D explorer! Now that you understand 2D shapes, let us move to 3D shapes. Have you ever wondered how much water a tank can hold (volume) or how much metal is needed to make a container (surface area)? Today, I will teach you how to calculate volume and surface area of common 3D shapes.',
+//   keyPoints: [
+//     'Volume is the space inside a 3D shape (cubic units)',
+//     'Surface area is the total area of all faces (square units)',
+//     'Cube: Volume = s³, Surface Area = 6s²',
+//     'Cuboid: Volume = l × w × h, Surface Area = 2(lw + lh + wh)',
+//     'Cylinder: Volume = πr²h, Surface Area = 2πr² + 2πrh'
+//   ],
+//   detailedContent: `Let me help you understand VOLUME and SURFACE AREA.
+
+// VOLUME is the amount of space inside a 3D shape. Think of filling a tank with water - the amount of water is the volume. Volume is measured in CUBIC units (cm³, m³).
+
+// SURFACE AREA is the total area of all the surfaces (faces) of a 3D shape. Think of wrapping a gift - the amount of wrapping paper needed is the surface area. Surface area is measured in SQUARE units (cm², m²).
+
+// Here are the formulas:
+
+// 1. CUBE (all sides equal, s = side length):
+// - Volume = s × s × s = s³
+// - Surface Area = 6 × s² (six faces, each with area s²)
+
+// Example: A cube with side 5 cm
+// Volume = 5³ = 125 cm³
+// Surface Area = 6 × 25 = 150 cm²
+
+// 2. CUBOID (rectangular box, length l, width w, height h):
+// - Volume = l × w × h
+// - Surface Area = 2(lw + lh + wh)
+
+// Example: A box with length 10 cm, width 6 cm, height 4 cm
+// Volume = 10 × 6 × 4 = 240 cm³
+// Surface Area = 2(10×6 + 10×4 + 6×4) = 2(60 + 40 + 24) = 2 × 124 = 248 cm²
+
+// 3. CYLINDER (circular prism, radius r, height h):
+// - Volume = π × r² × h = πr²h
+// - Surface Area = 2πr² + 2πrh (two circles + curved surface)
+
+// Example: A cylinder with radius 5 cm, height 10 cm
+// Volume = π × 5² × 10 = 3.14 × 25 × 10 = 785 cm³
+// Surface Area = 2π(5)² + 2π(5)(10) = 2π×25 + 2π×50 = 50π + 100π = 150π ≈ 471 cm²
+
+// Let me give you Malawi examples.
+
+// Example 1 (Water Tank): A cylindrical water tank has radius 1 m and height 2 m. How much water can it hold?
+// Volume = π × 1² × 2 = 3.14 × 2 = 6.28 m³
+// 1 m³ = 1000 litres, so capacity = 6,280 litres
+
+// Example 2 (Fish Pond): A fish pond is a rectangular cuboid measuring 5 m long, 3 m wide, and 1.5 m deep. How much water is needed to fill it?
+// Volume = 5 × 3 × 1.5 = 22.5 m³ = 22,500 litres
+
+// Example 3 (Storage Box): A farmer needs a wooden box to store maize. The box is 1 m × 0.8 m × 0.5 m. How much wood is needed for the surface?
+// Surface Area = 2(1×0.8 + 1×0.5 + 0.8×0.5) = 2(0.8 + 0.5 + 0.4) = 2 × 1.7 = 3.4 m² of wood
+
+// Remember: Volume = how much fits INSIDE. Surface area = how much material to COVER the outside. Both are important for planning storage, construction, and packaging.`,
+//   summary: 'Volume is space inside a 3D shape (cubic units). Surface area is total area of all faces (square units). Cube: V=s³, SA=6s². Cuboid: V=lwh, SA=2(lw+lh+wh). Cylinder: V=πr²h, SA=2πr²+2πrh. These formulas help calculate storage capacity and material needs.',
+//   estimatedTime: '24 mins',
+//   malawiExamples: [
+//     { title: 'Water Tank Capacity', description: 'Calculate volume to know how many litres a tank holds.' },
+//     { title: 'Fish Pond Volume', description: 'Calculate pond volume to know how many fish it can support.' },
+//     { title: 'Storage Box', description: 'Calculate surface area to know how much wood is needed.' }
+//   ],
+//   practiceQuestions: [
+//     { question: 'Find the volume of a cube with side 4 m', answer: '64 m³', hint: '4 × 4 × 4 = 64' },
+//     { question: 'Find the volume of a cylinder radius 3 cm, height 7 cm (use π=3.14)', answer: '197.82 cm³', hint: '3.14 × 9 × 7 = 197.82' }
+//   ]
+// },
 
 // -------------------- MATHEMATICS FORM 3 --------------------
 // Topic: Quadratic Equations (3 lessons)
