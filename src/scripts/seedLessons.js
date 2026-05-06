@@ -804,1041 +804,1039 @@ Control measures: sturdy fencing, close chicken house at night, use wire mesh, t
     ]
   },
 
-// AGRICULTURE - FORM 2 (continued)
-
 
 // Topic: Soil fertility and fertilizers (split into 2 lessons)
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 2',
-//   topic: 'Soil Fertility and Fertilizers',
-//   lessonNumber: 1,
-//   lessonTitle: 'Maintaining Soil Fertility',
-//   lessonId: 'agriculture-f2-soil-fertility-1',
-//   order: 31,
-//   learningObjectives: [
-//     'Identify ways of maintaining soil fertility',
-//     'Explain the importance of crop rotation, manure, fallowing, and mulching'
-//   ],
-//   introduction: 'After many harvests, soil becomes tired and less productive. FERTILITY is the ability of soil to provide nutrients to plants. Today, we will learn how to keep soil fertile using organic methods.',
-//   keyPoints: [
-//     'Crop rotation: planting different crops in sequence (e.g., maize then groundnuts).',
-//     'Manure and compost: add animal manure or decomposed plant material to the soil.',
-//     'Fallowing: leaving land unplanted for one or more seasons to restore nutrients.',
-//     'Mulching: covering soil with dry grass or leaves to reduce erosion and add organic matter.',
-//     'Green manures: planting fast-growing legumes and ploughing them into the soil.',
-//     'Contour farming: ridges across slope reduce erosion, keeping topsoil.',
-//     'Liming: adding lime to acidic soil to raise pH.'
-//   ],
-//   detailedContent: `Ways to Maintain Soil Fertility
-
-// 1. Crop rotation: Planting different crops in sequence. For example, maize then groundnuts. Groundnuts fix nitrogen, leaving it for the next maize crop. This also breaks pest cycles.
-
-// 2. Manure and compost: Animal manure (cattle, goats, chickens) and compost (decomposed plant material) add organic matter and nutrients. They improve soil structure and water holding capacity.
-
-// 3. Fallowing: Leaving land unplanted for one or more seasons. Natural vegetation regrows and restores nutrients. This is less common now due to population pressure.
-
-// 4. Mulching: Covering soil with dry grass, leaves, or crop residues. Mulch reduces evaporation, prevents erosion, suppresses weeds, and adds organic matter as it decays.
-
-// 5. Green manures: Planting fast-growing legumes (e.g., sunn hemp, cowpeas) and then ploughing them into the soil while green. They add nitrogen and organic matter.
-
-// 6. Contour farming: Making ridges across the slope (not up and down). This slows water runoff, traps soil, and reduces erosion.
-
-// 7. Liming: Adding agricultural lime (calcium carbonate) to acidic soils. This raises pH, making nutrients more available to plants.
-
-// In Malawi, many farmers practice maize-groundnut rotation. They also use cattle manure from kraals. However, fallowing is decreasing due to land scarcity.`,
-//   summary: 'Maintain fertility with crop rotation, manure, fallowing, mulching, green manures, contour farming, and liming. These methods improve soil structure and nutrient content.',
-//   estimatedTime: '20 mins',
-//   malawiExamples: [
-//     { title: 'Maize-Groundnut Rotation', description: 'Groundnuts leave nitrogen for next maize crop.' },
-//     { title: 'Cattle Manure', description: 'Farmers collect manure from kraals to apply to gardens.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'How does crop rotation improve soil fertility?', answer: 'Different crops use different nutrients, and legumes fix nitrogen.', hint: 'Prevents depletion of specific nutrients.' },
-//     { question: 'What is the purpose of mulching?', answer: 'To reduce erosion, retain moisture, and add organic matter.', hint: 'Covering soil with dry grass or leaves.' }
-//   ]
-// },
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 2',
-//   topic: 'Soil Fertility and Fertilizers',
-//   lessonNumber: 2,
-//   lessonTitle: 'Organic vs Inorganic Fertilizers',
-//   lessonId: 'agriculture-f2-soil-fertility-2',
-//   order: 32,
-//   learningObjectives: [
-//     'Classify fertilizers into organic and inorganic',
-//     'Discuss advantages and disadvantages of organic and inorganic fertilizers'
-//   ],
-//   introduction: 'Fertilizers provide nutrients to plants. They can be organic (natural) or inorganic (chemical). Today, we will learn the differences, advantages, and disadvantages of each type.',
-//   keyPoints: [
-//     'Organic fertilizers: manure, compost, green manure, bone meal – slow release, improve soil structure.',
-//     'Inorganic fertilizers: NPK, urea, D compound – fast acting, target specific nutrients.',
-//     'Advantages of organic: cheap, improves soil structure, reduces pollution.',
-//     'Disadvantages of organic: bulky, slow release, labour intensive.',
-//     'Advantages of inorganic: fast results, easy to apply, concentrated.',
-//     'Disadvantages of inorganic: expensive, can burn crops, pollute water if overused.'
-//   ],
-//   detailedContent: `Types of Fertilisers
-
-// Organic Fertilisers
-// - Examples: Cattle manure, chicken manure, compost, green manure, bone meal.
-// - Release nutrients slowly as they decompose.
-// - Improve soil structure and water holding capacity.
-// - Usually cheaper or free (farm-produced).
-// - Disadvantages: bulky (need large volumes), may contain weed seeds, labour intensive to apply.
-
-// Inorganic (Chemical) Fertilisers
-// - Examples: Urea (46% N), NPK (23-21-0+4S), CAN (calcium ammonium nitrate), D compound.
-// - Provide specific nutrients in concentrated form.
-// - Fast acting – plants respond quickly.
-// - Easy to transport and apply.
-// - Disadvantages: expensive, can soil acidify, can burn crops if over-applied, may pollute rivers if washed away.
-
-// How to Apply Fertilisers Correctly
-
-// - Organic manure: Spread evenly and mix into soil before planting. For top dressing, apply around plants.
-// - Inorganic fertilisers: For maize, apply basal fertiliser (NPK) at planting, either in the hole or along the row. Use top dressing (urea or CAN) when plants are about knee-high.
-// - Avoid applying fertiliser onto wet leaves – it can burn.
-// - Incorporate into soil to prevent loss.
-// - Use recommended rates based on soil test or extension advice.
-
-// Malawi Example: A farmer uses cattle manure from his kraal to fertilise his vegetable garden. He also buys NPK for his maize. He applies NPK at planting and top dresses with urea when maize is 50 cm tall. He rotates maize with groundnuts.`,
-//   summary: 'Organic fertilisers improve soil but act slowly. Inorganic fertilisers act fast but can cause problems if misused. Apply correctly for best results.',
-//   estimatedTime: '20 mins',
-//   malawiExamples: [
-//     { title: 'Maize NPK Application', description: 'Apply NPK at planting to give maize a strong start.' },
-//     { title: 'Compost Making', description: 'Farmers use crop residues and kitchen waste to make compost.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Give one advantage of organic fertiliser.', answer: 'Improves soil structure', hint: 'It adds organic matter.' },
-//     { question: 'Why should urea be applied to the soil, not on leaves?', answer: 'It can burn leaves.', hint: 'Urea is very strong.' }
-//   ]
-// },
-
-// // Topic: Maize and groundnuts production (split into 2 lessons)
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 2',
-//   topic: 'Crop Production',
-//   lessonNumber: 1,
-//   lessonTitle: 'Maize Production: Land Preparation, Planting, and Fertilising',
-//   lessonId: 'agriculture-f2-maize-1',
-//   order: 33,
-//   learningObjectives: [
-//     'Identify qualities of good seed for maize',
-//     'Describe land preparation, planting, fertilising, and weeding for maize'
-//   ],
-//   introduction: 'Maize is our staple food. Growing it well requires following recommended practices. Today, we will learn step-by-step how to produce high yields of maize.',
-//   keyPoints: [
-//     'Good seed: pure variety, high germination, free from disease and damage, uniform size.',
-//     'Land preparation: plough (first rains), make ridges 75 cm apart.',
-//     'Planting: 75 cm between rows, 25 cm within row, 2-3 seeds per hole, depth 5-7 cm.',
-//     'Fertilising: NPK at planting (200 kg/ha), urea top dressing (50 kg/ha) at knee height.',
-//     'Weeding: first weeding at 2-3 weeks, second at 6 weeks.'
-//   ],
-//   detailedContent: `Qualities of Good Seed
-
-// - Pure: Only the intended variety, no other seeds mixed.
-// - High germination: At least 85% should sprout.
-// - Free from disease: No mould or rot.
-// - No physical damage: Cracks or holes.
-// - Uniform size and colour.
-
-// Maize Production Steps
-
-// 1. Land preparation: Clear land, plough (turn soil) or make ridges 75 cm apart. In conservation agriculture, practice minimum tillage.
-
-// 2. Planting: Plant at the start of rains. Place 2-3 seeds per hole at depth of 5-7 cm. Spacing: 75 cm between rows, 25 cm between holes.
-
-// 3. Fertilising: Apply basal fertiliser (NPK 23-21-0+4S) at planting, about 5-10 grams per hole (or 200 kg per hectare). After 4-6 weeks, when maize is knee-high, apply top dressing urea (50 kg per hectare) mixed with soil.
-
-// 4. Weeding: First weeding at 2-3 weeks after planting, second weeding at 6 weeks. Keep field clean.
-
-// 5. Harvesting: When cobs are dry, husks turn brown. Break cobs, remove husks, dry on a mat or raised platform. Shell when fully dry.
-
-// 6. Storage: Store in airtight container or raised granary. Add ash or use approved pesticide to control weevils.`,
-//   summary: 'Maize: plant at 75×25 cm, apply NPK at planting and urea at knee height, weed twice. Use good quality seed for best yields.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Maize Top Dressing', description: 'Urea applied at knee-high gives bigger cobs.' },
-//     { title: 'MH30 Variety', description: 'A high-yielding, disease-resistant maize variety common in Malawi.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What spacing is recommended for maize planting?', answer: '75 cm between rows, 25 cm between holes', hint: 'Rows are wider than within row.' },
-//     { question: 'When should urea be applied as top dressing?', answer: 'When maize is knee-high (about 4-6 weeks after planting).', hint: 'Before flowering.' }
-//   ]
-// },
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 2',
-//   topic: 'Crop Production',
-//   lessonNumber: 2,
-//   lessonTitle: 'Groundnuts Production and Pest/Disease Control',
-//   lessonId: 'agriculture-f2-groundnuts-1',
-//   order: 34,
-//   learningObjectives: [
-//     'Describe husbandry practices for groundnuts (land preparation, planting, fertilising, harvesting)',
-//     'Identify major pests and diseases of maize and groundnuts and explain control measures'
-//   ],
-//   introduction: 'Groundnuts are an important cash and food crop. They also improve soil fertility by fixing nitrogen. Today, we will learn how to grow groundnuts successfully and control common pests and diseases.',
-//   keyPoints: [
-//     'Groundnuts: plant at 50 cm between rows, 15 cm within row, 1-2 seeds per hole.',
-//     'Do NOT use nitrogen fertiliser (groundnuts fix their own). Use phosphorus fertiliser (single superphosphate) at planting.',
-//     'Apply gypsum (calcium sulphate) at flowering to fill pods.',
-//     'Harvest when leaves turn yellow and pods have brown inside.',
-//     'Pests: stalk borer, fall armyworm (maize); groundnut hopper, termites.',
-//     'Diseases: maize rust, maize streak virus; groundnut rosette, leaf spot, aflatoxin.'
-//   ],
-//   detailedContent: `Groundnuts Production Steps
-
-// 1. Land preparation: Fine tilth – soil should be loose and well-drained. Ridges not necessary; can plant on flat or raised beds.
-
-// 2. Planting: At onset of rains (or irrigation). Spacing: 50 cm between rows, 15 cm between holes. Plant 1-2 seeds per hole, depth 5 cm.
-
-// 3. Fertilising: Do NOT use nitrogen fertiliser (groundnuts fix their own). Use phosphorus fertiliser (single superphosphate) at planting. Apply gypsum (calcium sulphate) at flowering stage to fill pods.
-
-// 4. Weeding: Weed at 2-3 weeks and 6 weeks. Do not ridge too high.
-
-// 5. Harvesting: When leaves turn yellow and pods have brown inside. Lift plants with fork or pull, dry in field for a few days. Remove pods by hand or machine.
-
-// 6. Storage: Keep in shells until ready to use. Ensure very dry to prevent aflatoxin mould.
-
-// Pests and Control
-
-// - Maize stalk borer: Larvae bore into stems. Control: early planting, remove and destroy affected plants, use neem or recommended insecticide.
-// - Fall armyworm: Eat leaves and cobs. Control: handpick caterpillars, spray with approved pesticide.
-// - Groundnut rosette virus: Transmitted by aphids. Control: use resistant varieties (e.g., CG7), early planting.
-// - Aflatoxin: Mould in stored groundnuts. Control: dry thoroughly before storage, keep in dry place, sort out mouldy nuts.
-
-// Malawi Example: A farmer in Lilongwe prepares ridges in October. He plants maize at the first heavy rains. He plants groundnuts in a separate field after maize harvest. He rotates maize and groundnuts to improve soil.`,
-//   summary: 'Groundnuts: plant at 50×15 cm, use phosphorus and gypsum, no nitrogen. Harvest when leaves yellow. Control pests and diseases with resistant varieties and good practices.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Groundnut Gypsum', description: 'Calcium improves pod filling and reduces rot.' },
-//     { title: 'Fall Armyworm Control', description: 'Spray with recommended pesticides or use handpicking for small infestations.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Why should you not apply nitrogen fertiliser to groundnuts?', answer: 'Groundnuts fix their own nitrogen; extra nitrogen causes too many leaves and few pods.', hint: 'They are legumes.' },
-//     { question: 'How can you prevent aflatoxin in stored groundnuts?', answer: 'Dry pods thoroughly before storage and keep in a dry place.', hint: 'Mould grows in moisture.' }
-//   ]
-// },
-
-// // ======================================================================
-// // AGRICULTURE - FORM 3 (selected)
-// // ======================================================================
-
-// // Topic: Physical properties of soil (split into 2 lessons)
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 3',
-//   topic: 'Soil Physical Properties',
-//   lessonNumber: 1,
-//   lessonTitle: 'Soil Texture and Structure',
-//   lessonId: 'agriculture-f3-soil-physical-1',
-//   order: 35,
-//   learningObjectives: [
-//     'Describe soil texture and its influence on crop production',
-//     'Explain soil structure and how it affects root growth and water movement'
-//   ],
-//   introduction: 'Have you ever felt sandy soil that crumbles easily, or clay soil that becomes sticky when wet? Those are PHYSICAL PROPERTIES of soil. Today, we will learn how texture and structure affect crop growth.',
-//   keyPoints: [
-//     'Texture: proportion of sand, silt, and clay particles.',
-//     'Sandy soil: drains quickly, low nutrients, easy to work.',
-//     'Clay soil: holds water and nutrients, but becomes hard and cracks, difficult to work.',
-//     'Loam: ideal mixture of sand, silt, clay – best for most crops.',
-//     'Structure: how particles clump together (granular, blocky, platy, etc.).',
-//     'Granular structure is best – allows air, water, and roots to move easily.'
-//   ],
-//   detailedContent: `Soil Texture
-
-// Texture is the relative proportion of sand, silt, and clay.
-
-// - Sand particles are large (0.05-2 mm). Feel gritty. Sandy soil drains fast, warms up quickly, but does not hold water or nutrients well. Crops like groundnuts and cassava grow in sandy soil.
-
-// - Silt particles are medium-sized (0.002-0.05 mm). Feel smooth like flour. Silty soil is fertile and holds water well.
-
-// - Clay particles are tiny (less than 0.002 mm). Feel sticky when wet and hard when dry. Clay holds water and nutrients but can become waterlogged and hard for roots to penetrate.
-
-// Loam is a balanced mixture of sand, silt, and clay with organic matter. It is the best for most crops because it drains well, holds nutrients, and is easy to work.
-
-// Effect of Texture on Crop Production:
-// - Sandy soil: Low fertility, prone to drought. Add organic matter.
-// - Clay soil: Poor aeration, roots struggle. Add sand and organic matter, use raised beds.
-// - Loamy soil: Ideal for maize, vegetables, tobacco.
-
-// Soil Structure
-
-// Structure is how soil particles clump together into aggregates (peds).
-
-// - Granular (crumb) structure: Small, rounded aggregates. Best for crop growth – allows air, water, and roots to move easily.
-// - Blocky: Block-like aggregates. Common in subsoil. Can restrict root growth if too large.
-// - Platy: Thin, flat plates. Restricts water movement and root penetration.
-// - Prismatic/columnar: Vertical columns. Often in clay subsoil.
-
-// Good soil structure is crumbly. Farmers can improve structure by adding organic matter (manure, compost), avoiding over-tillage, and growing cover crops.`,
-//   summary: 'Soil texture (sand, silt, clay) affects water and nutrient holding. Loam is best. Structure (granular ideal) affects root growth and aeration.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Sandy Soil in Mchinji', description: 'Farmers add manure to improve water holding.' },
-//     { title: 'Clay Soil in Thyolo', description: 'Tea grows well, but for maize, raised beds are used.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Which soil texture is ideal for most crops?', answer: 'Loam', hint: 'Balanced mix of sand, silt, clay.' },
-//     { question: 'What type of soil structure is best for crop growth?', answer: 'Granular (crumb)', hint: 'Allows air and water movement.' }
-//   ]
-// },
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 3',
-//   topic: 'Soil Physical Properties',
-//   lessonNumber: 2,
-//   lessonTitle: 'Soil Porosity, Colour, and Depth',
-//   lessonId: 'agriculture-f3-soil-physical-2',
-//   order: 36,
-//   learningObjectives: [
-//     'Define soil porosity and relate it to aeration and drainage',
-//     'Identify soil colours and what they indicate about soil conditions'
-//   ],
-//   introduction: 'Porosity, colour, and depth are important physical properties. Porosity affects how much air and water the soil can hold. Colour tells you about organic matter and drainage. Today, we will learn these properties and their impact on farming.',
-//   keyPoints: [
-//     'Porosity: amount of pore space between particles. High porosity = good aeration and drainage.',
-//     'Colour: dark = organic matter (fertile); red/yellow = iron oxides; grey/blue = waterlogged.',
-//     'Depth: deeper soil allows roots to grow more deeply, accessing more water and nutrients.',
-//     'Physical properties affect root penetration, water holding capacity, nutrient availability, and erosion risk.'
-//   ],
-//   detailedContent: `Soil Porosity
-
-// Porosity is the amount of pore space (gaps) between soil particles.
-
-// - High porosity means more air and water storage. Roots need oxygen.
-// - Low porosity (compacted soil) leads to poor drainage, waterlogging, and root suffocation.
-
-// Factors that reduce porosity: heavy machinery, overgrazing, raindrop impact (crusting). Improve porosity by adding organic matter and using minimum tillage.
-
-// Soil Colour
-
-// Colour tells you about soil conditions:
-
-// - Dark brown or black: High organic matter (humus). Very fertile. Best for crops.
-// - Red or yellow: Iron oxides present. Good drainage but may have low fertility.
-// - Grey or blue: Waterlogged, lack of oxygen. Poor for roots. Need drainage.
-// - Light grey/white: May have lime or be leached of nutrients.
-
-// In Malawi, fertile soils are often dark brown in high-rainfall areas. Sandy soils are lighter.
-
-// Soil Depth
-
-// Soil depth is the thickness of the soil layer above bedrock or hardpan. Deep soils (more than 1 metre) allow roots to grow deep, accessing more water and nutrients. Shallow soils (less than 30 cm) restrict root growth and are more prone to drought.
-
-// How Physical Properties Affect Crop Production
-
-// - Root penetration: Compacted soil or clay hardpans block roots.
-// - Water holding capacity: Sandy soil dries quickly; clay holds too much.
-// - Nutrient availability: Organic matter (dark colour) supplies nutrients.
-// - Erosion: Poor structure leads to erosion.
-// - Workability: Sandy loam is easy to plough; heavy clay is hard.`,
-//   summary: 'Porosity allows air and water movement. Dark colour indicates fertility; red is iron; grey is waterlogged. Deep soils are better for root growth.',
-//   estimatedTime: '20 mins',
-//   malawiExamples: [
-//     { title: 'Dark Soil in Dedza', description: 'High organic matter from forest vegetation.' },
-//     { title: 'Waterlogged Soil', description: 'Grey colour indicates poor drainage – need drainage channels.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What does dark brown soil indicate?', answer: 'High organic matter, good fertility', hint: 'Humus makes soil dark.' },
-//     { question: 'Why is high porosity important for crops?', answer: 'It allows air (oxygen) for roots and water storage.', hint: 'Roots need oxygen to respire.' }
-//   ]
-// },
-
-// // ======================================================================
-// // BIOLOGY - FORM 3 (selected)
-// // ======================================================================
-
-// // Topic: Transport in plants (1 lesson)
-// {
-//   subject: 'Biology',
-//   form: 'Form 3',
-//   topic: 'Transport in Plants',
-//   lessonNumber: 1,
-//   lessonTitle: 'Xylem, Phloem, and Transpiration',
-//   lessonId: 'biology-f3-transport-plants-1',
-//   order: 37,
-//   learningObjectives: [
-//     'Describe the structure and function of xylem vessels and phloem sieve tubes',
-//     'Explain the process of transpiration and its importance'
-//   ],
-//   introduction: 'How does water travel from the roots to the top of a tall maize plant? How does sugar from leaves reach the developing cob? The answer is TRANSPORT TISSUES – xylem and phloem. Today, we will learn how these tissues work and why transpiration is essential.',
-//   keyPoints: [
-//     'Xylem: transports water and minerals from roots to shoots. Dead cells, hollow, with lignin thickening.',
-//     'Phloem: transports sucrose and amino acids from source (leaves) to sink (roots, fruits). Living sieve tube cells with companion cells.',
-//     'Transpiration: loss of water vapour from plant surfaces (mostly through stomata).',
-//     'Transpiration creates transpiration pull, cools plant, transports minerals.'
-//   ],
-//   detailedContent: `Xylem – The Water Highway
-
-// Xylem tissue consists of vessels and tracheids. These are dead cells at maturity, with no cytoplasm. The walls are thickened with lignin (a woody substance) for strength. Lignin forms patterns (spiral, annular, reticulated) that prevent the tube from collapsing while allowing flexibility.
-
-// Water and minerals (dissolved in water) enter root hairs and move through cortex to the xylem. From there, they are pulled upward by TRANSPIRATION PULL.
-
-// Phloem – The Food Conveyor
-
-// Phloem consists of sieve tube elements (living cells, but with reduced cytoplasm) and companion cells. The sieve plates have pores for flow. Phloem transports sucrose, amino acids, and other organic compounds from SOURCE (where they are made – leaves) to SINK (where they are used or stored – roots, flowers, fruits, seeds).
-
-// This movement is called TRANSLOCATION. It requires energy (ATP) and can move up or down.
-
-// Transpiration
-
-// Transpiration is the loss of water vapour from the aerial parts of plants, mainly through stomata.
-
-// Why is transpiration important?
-// 1. Creates transpiration pull: water evaporating from leaves pulls more water up the xylem.
-// 2. Cools the plant: evaporative cooling prevents overheating.
-// 3. Supplies minerals: dissolved minerals move with the water flow.
-
-// Factors Affecting Transpiration Rate
-
-// - Light: Increases (stomata open in light).
-// - Temperature: Increases (warmer air holds more water vapour).
-// - Humidity: Decreases (air already moist, so gradient is low).
-// - Wind: Increases (wind removes water vapour near leaf surface).
-// - Water supply: Decreases if soil dry (stomata close).
-
-// Adaptations to Reduce Water Loss
-
-// Plants in dry areas (xerophytes) have:
-// - Thick waxy cuticle (e.g., mango, baobab)
-// - Sunken stomata (pits)
-// - Reduced leaf area (spines, small leaves)
-// - Rolling leaves when dry (some grasses)
-// - Deep roots or water storage
-
-// Malawi Example: A maize plant on a hot, dry, windy day will transpire rapidly. If the soil is dry, it may wilt. To conserve water, maize rolls its leaves.`,
-//   summary: 'Xylem transports water and minerals upward; phloem transports sucrose and amino acids bidirectionally. Transpiration is water loss from leaves; it pulls water through xylem.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Maize Leaf Rolling', description: 'Leaves roll to reduce surface area and transpiration during drought.' },
-//     { title: 'Baobab Water Storage', description: 'Baobab trees have thick stems to store water and reduced leaves.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Which tissue transports sugar from leaves to roots?', answer: 'Phloem', hint: 'Transports food; sieve tubes.' },
-//     { question: 'Why does transpiration increase on a windy day?', answer: 'Wind removes water vapour from around leaves, maintaining a steep gradient.', hint: 'Similar to evaporation from skin.' }
-//   ]
-// },
-
-// // ======================================================================
-// // CHEMISTRY - FORM 3 (selected)
-// // ======================================================================
-
-// // Topic: Stoichiometry – Mole concept (split into 2 lessons)
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 3',
-//   topic: 'Stoichiometry',
-//   lessonNumber: 1,
-//   lessonTitle: 'The Mole Concept and Molar Mass',
-//   lessonId: 'chemistry-f3-stoichiometry-1',
-//   order: 38,
-//   learningObjectives: [
-//     'Define the mole as the amount of substance containing 6.02 × 10²³ particles',
-//     'Calculate the molar mass of elements and compounds'
-//   ],
-//   introduction: 'Chemists need to count atoms, but atoms are too small to count one by one. The MOLE is a special counting unit – like a dozen (12) but much larger. One mole contains 602,000,000,000,000,000,000,000 particles – that is 6.02 × 10²³. Today, we will learn how to use the mole to measure substances.',
-//   keyPoints: [
-//     'One mole of any substance contains the same number of particles: 6.02 × 10²³ (Avogadro\'s constant).',
-//     'Molar mass (M) = mass of one mole of substance (g/mol). Numerically equal to relative atomic/molecular mass.',
-//     'Formulae: number of moles (n) = mass (m) / molar mass (M). Also n = number of particles / NA.',
-//     'Percentage composition: (mass of element in 1 mole / molar mass) × 100%.'
-//   ],
-//   detailedContent: `The Mole – A Chemist's Dozen
-
-// Just as a dozen always means 12 eggs, a mole always means 6.02 × 10²³ particles (atoms, molecules, ions, or electrons). This number is called Avogadro's constant (NA).
-
-// Why 6.02 × 10²³? Because that is how many carbon-12 atoms are in exactly 12 grams of carbon-12.
-
-// Molar Mass
-
-// The molar mass (M) of a substance is the mass of one mole of that substance in grams per mole (g/mol). It is numerically equal to the relative atomic mass (for elements) or relative molecular mass (for compounds).
-
-// Examples:
-// - Carbon (C): atomic mass 12.0 → molar mass = 12.0 g/mol
-// - Oxygen gas (O2): molecular mass 32.0 → molar mass = 32.0 g/mol
-// - Water (H2O): molecular mass 18.0 → molar mass = 18.0 g/mol
-// - Sodium chloride (NaCl): formula mass 58.5 → molar mass = 58.5 g/mol
-
-// Calculations
-
-// 1. Number of moles (n) = mass (m) / molar mass (M)
-//    Example: How many moles are in 24 g of carbon?
-//    n = 24 / 12 = 2.00 mol
-
-// 2. Number of molecules = moles × NA
-//    Example: How many molecules in 2 mol of water?
-//    Number = 2 × 6.02 × 10²³ = 1.204 × 10²⁴ molecules
-
-// 3. Mass = moles × molar mass
-//    Example: What is the mass of 0.5 mol of NaCl?
-//    m = 0.5 × 58.5 = 29.25 g
-
-// Percentage Composition
-
-// Percentage of element = (mass of element in 1 mole / molar mass of compound) × 100%
-
-// Example: Find % of C in CO2 (C=12, O=16, molar mass 44 g/mol)
-// %C = (12 / 44) × 100 = 27.3%
-// %O = (32 / 44) × 100 = 72.7%`,
-//   summary: 'One mole = 6.02 × 10²³ particles. Molar mass (g/mol) = mass of one mole. n = m/M. Percentage composition = (mass element/total mass)×100%.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'NPK Fertiliser', description: 'Percentage composition helps farmers calculate fertiliser needed.' },
-//     { title: 'Water in Lake Malawi', description: 'Mole concept used to calculate amount of dissolved oxygen.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'How many moles are in 90 g of water?', answer: '5.0 mol', hint: 'Molar mass of water is 18 g/mol; 90/18 = 5.' },
-//     { question: 'What is the mass of 0.25 mol of sodium chloride (NaCl)?', answer: '14.625 g', hint: 'Molar mass NaCl = 58.5 g/mol; 0.25 × 58.5 = 14.625.' }
-//   ]
-// },
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 3',
-//   topic: 'Stoichiometry',
-//   lessonNumber: 2,
-//   lessonTitle: 'Empirical and Molecular Formulae',
-//   lessonId: 'chemistry-f3-stoichiometry-2',
-//   order: 39,
-//   learningObjectives: [
-//     'Determine empirical and molecular formulae from experimental data',
-//     'Calculate the percentage of water in hydrated ionic compounds'
-//   ],
-//   introduction: 'How do chemists figure out the formula of a compound? They use experimental data to find the EMPIRICAL FORMULA (simplest ratio) and then the MOLECULAR FORMULA (actual numbers). Today, we will learn how to do these calculations.',
-//   keyPoints: [
-//     'Empirical formula: simplest whole number ratio of atoms in a compound.',
-//     'Molecular formula: actual number of atoms of each element in a molecule (n × empirical formula).',
-//     'To find empirical formula: convert masses to moles, divide by smallest, get ratio.',
-//     'Hydrated compounds contain water of crystallisation. Heating removes water; mass loss gives water percentage.'
-//   ],
-//   detailedContent: `Empirical and Molecular Formulae
-
-// Empirical formula: simplest whole number ratio.
-
-// Example: A compound contains 40% C, 6.7% H, 53.3% O. Find empirical formula.
-// Assume 100 g:
-// - C: 40/12 = 3.33 mol
-// - H: 6.7/1 = 6.7 mol
-// - O: 53.3/16 = 3.33 mol
-// Divide by smallest (3.33):
-// C = 1, H = 2, O = 1 → empirical formula CH2O
-
-// Molecular formula = (empirical formula)n, where n = molecular mass / empirical mass.
-
-// Example: Empirical formula CH2O (mass 30). If molecular mass is 60, then n = 60/30 = 2, so molecular formula = C2H4O2 (which is ethanoic acid).
-
-// Percentage of Water in Hydrated Ionic Compounds
-
-// Hydrated compounds contain water molecules in their crystal structure, e.g., CuSO4·5H2O (copper(II) sulphate pentahydrate).
-
-// To find percentage of water:
-// - Calculate molar mass of hydrated compound.
-// - Calculate mass of water (number of H2O × 18).
-// - % water = (mass of water / total mass) × 100%.
-
-// Example: CuSO4·5H2O
-// Molar mass CuSO4 = 63.5 + 32 + (16×4) = 159.5 g/mol
-// Mass of 5H2O = 5 × 18 = 90 g/mol
-// Total = 159.5 + 90 = 249.5 g/mol
-// % water = (90 / 249.5) × 100 = 36.1%
-
-// Experimental determination: Heat a known mass of hydrated salt. Cool and reweigh. The loss in mass is water. Then calculate % water.`,
-//   summary: 'Empirical formula is simplest ratio; molecular formula = (empirical)n. Hydrated compounds contain water of crystallisation; % water calculated from mass loss on heating.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Copper Sulphate Crystals', description: 'Blue crystals (CuSO4·5H2O) turn white when heated as water is driven off.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What is the empirical formula of a compound with 92.3% C and 7.7% H?', answer: 'CH', hint: 'Assume 100g: C = 92.3/12 = 7.69, H = 7.7/1 = 7.7; ratio ≈1:1.' },
-//     { question: 'A hydrated salt has mass 5.00 g. After heating, mass is 3.20 g. Calculate % water.', answer: '36.0%', hint: 'Loss = 1.80 g; (1.80/5.00)×100 = 36%' }
-//   ]
-// },
-
-// // ======================================================================
-// // PHYSICS - FORM 3 (selected)
-// // ======================================================================
-
-// // Topic: Pressure (split into 2 lessons)
-// {
-//   subject: 'Physics',
-//   form: 'Form 3',
-//   topic: 'Pressure',
-//   lessonNumber: 1,
-//   lessonTitle: 'Pressure in Solids and Liquids',
-//   lessonId: 'physics-f3-pressure-1',
-//   order: 40,
-//   learningObjectives: [
-//     'Define pressure and state its SI unit (Pascal)',
-//     'Calculate pressure using P = F/A and derive liquid pressure formula P = ρgh'
-//   ],
-//   introduction: 'Why does a sharp knife cut more easily than a blunt one? Why do tractors have wide tyres? The answer is PRESSURE – force spread over an area. Today, we will learn how to calculate pressure and understand its effects in solids and liquids.',
-//   keyPoints: [
-//     'Pressure = Force ÷ Area (P = F/A).',
-//     'Unit: Pascal (Pa) = 1 N/m².',
-//     'For the same force, smaller area gives higher pressure.',
-//     'Liquid pressure increases with depth and density: P = ρgh.',
-//     'Liquid pressure acts equally in all directions.'
-//   ],
-//   detailedContent: `Understanding Pressure
-
-// Pressure is defined as the force acting perpendicularly per unit area.
-
-// P = F / A
-
-// Where:
-// - P = pressure (Pascal, Pa)
-// - F = force (Newton, N)
-// - A = area (square metre, m²)
-
-// Examples from Malawi:
-// 1. A sharp knife has a very small cutting edge area. When you apply a small force, the pressure is huge, so it cuts easily.
-// 2. A tractor used in fields has wide tyres. This increases the area so that pressure on the soft soil is low, preventing the tractor from sinking.
-// 3. A person wearing high heels exerts very high pressure on the ground – heels can sink into soft earth.
-
-// Calculating Pressure:
-
-// Example: A box weighs 100 N and has a base area of 0.5 m².
-// Pressure = 100 / 0.5 = 200 Pa.
-
-// Liquid Pressure
-
-// Pressure in a liquid at a certain depth depends on the density of the liquid, the depth, and gravity.
-
-// P = ρ × g × h
-
-// Where:
-// - ρ (rho) = density of liquid (kg/m³)
-// - g = acceleration due to gravity (≈ 10 N/kg on Earth)
-// - h = depth below the surface (m)
-
-// Important properties of liquid pressure:
-// - Pressure increases with depth. This is why dams are built thicker at the bottom.
-// - Pressure depends on density: mercury (dense) exerts higher pressure than water at the same depth.
-// - Pressure acts equally in all directions.
-
-// Worked Example:
-// Calculate the pressure at a depth of 5 metres in water (density of water = 1000 kg/m³, g = 10 N/kg).
-// P = 1000 × 10 × 5 = 50,000 Pa (or 50 kPa).
-
-// Comparison: A person standing on one foot exerts pressure of about 20,000 Pa. The water pressure at 2 m depth is 20,000 Pa – similar.`,
-//   summary: 'Pressure = Force/Area. Smaller area gives higher pressure. Liquid pressure = ρgh, increasing with depth and density. Pressure acts equally in all directions in a liquid.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Tractor Tyres', description: 'Wide tyres reduce pressure on soft soil.' },
-//     { title: 'Lake Malawi Diving', description: 'Pressure increases with depth – divers must equalise.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'A woman weighs 500 N. The area of one high heel is 2 cm² = 0.0002 m². Calculate pressure when standing on one heel.', answer: '2,500,000 Pa (2.5 million Pa)', hint: 'P = F/A = 500 / 0.0002 = 2,500,000 Pa' },
-//     { question: 'Calculate water pressure at a depth of 3 m in a well (density 1000 kg/m³, g = 10 N/kg).', answer: '30,000 Pa', hint: 'P = 1000 × 10 × 3 = 30,000 Pa' }
-//   ]
-// },
-// {
-//   subject: 'Physics',
-//   form: 'Form 3',
-//   topic: 'Pressure',
-//   lessonNumber: 2,
-//   lessonTitle: 'Atmospheric Pressure and Pascal’s Principle',
-//   lessonId: 'physics-f3-pressure-2',
-//   order: 41,
-//   learningObjectives: [
-//     'Explain atmospheric pressure and describe experiments to demonstrate it',
-//     'State Pascal’s principle and apply it to hydraulic systems'
-//   ],
-//   introduction: 'Why does a liquid rise when you suck through a straw? Why can a suction cup stick to a wall? The answer is ATMOSPHERIC PRESSURE – the weight of air above us. Today, we will discover this invisible force and learn about Pascal’s principle, which makes hydraulic brakes and lifts possible.',
-//   keyPoints: [
-//     'Atmospheric pressure is the pressure exerted by the Earth’s air column.',
-//     'At sea level, atmospheric pressure ≈ 101,325 Pa (1 atm).',
-//     'Pascal’s principle: pressure applied to an enclosed fluid is transmitted undiminished to every part of the fluid.',
-//     'Hydraulic systems use this to multiply force: F2 = (A2/A1) × F1.'
-//   ],
-//   detailedContent: `Atmospheric Pressure
-
-// The air around us has weight. The column of air from the top of the atmosphere down to the ground exerts pressure on everything. At sea level, this pressure is about 101,325 Pa (sometimes called 1 atmosphere or 1 bar).
-
-// Demonstration Experiments:
-// 1. Crushing can experiment: Heat a small amount of water in an empty can until steam comes out. Quickly invert the can into cold water. The can collapses – atmospheric pressure crushes it.
-// 2. Magdeburg hemispheres: Two hollow hemispheres are joined and air is pumped out. They cannot be pulled apart because atmospheric pressure holds them together.
-// 3. Drinking straw: When you suck, you reduce pressure inside the straw. Atmospheric pressure pushes the liquid up.
-
-// Applications of Atmospheric Pressure:
-// - Syringe draws liquid by creating low pressure inside.
-// - Suction cups stick when you press out the air.
-// - Vacuum cleaners work by lowering pressure inside.
-
-// Pascal’s Principle
-
-// Pressure applied to an enclosed fluid is transmitted equally throughout the fluid.
-
-// In a hydraulic system:
-
-// A small force F1 applied over a small area A1 creates pressure P = F1/A1. This pressure is transmitted to a larger area A2, producing a larger force F2 = P × A2.
-
-// Force multiplication: F2 = F1 × (A2/A1)
-
-// Worked Example:
-// A hydraulic jack has a small piston area of 0.01 m² and a large piston area of 0.1 m². A force of 100 N is applied on the small piston. What force is produced on the large piston?
-// F2 = 100 × (0.1 / 0.01) = 100 × 10 = 1000 N.
-
-// Applications: car brakes, hydraulic lifts, hydraulic presses.
-
-// Malawi Example: A garage in Lilongwe uses a hydraulic lift to raise a car for repairs. The mechanic pushes a lever on a small piston, and the car rises.`,
-//   summary: 'Atmospheric pressure is the weight of air. It is demonstrated by the crushing can experiment. Pascal’s principle: pressure is transmitted undiminished in an enclosed fluid, enabling force multiplication in hydraulic systems.',
-//   estimatedTime: '25 mins',
-//   malawiExamples: [
-//     { title: 'Car Repair Garage', description: 'Hydraulic lift uses Pascal\'s principle to raise heavy cars.' },
-//     { title: 'Drinking Water from a Well', description: 'Atmospheric pressure pushes water up when you create low pressure in a suction pump.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'A hydraulic brake system has a master cylinder piston area of 2 cm² and wheel cylinder piston area of 10 cm². The driver applies 50 N force on the master cylinder. What force is applied to the brake pads?', answer: '250 N', hint: 'F2 = 50 × (10/2) = 250 N' },
-//     { question: 'Why does a suction cup stick to a smooth surface?', answer: 'Atmospheric pressure pushes it against the surface when you expel air.', hint: 'Pressure inside is reduced. Outside air pushes it in.' }
-//   ]
-// },
-
-// // ======================================================================
-// // AGRICULTURE - FORM 4 (selected)
-// // ======================================================================
-
-// // Topic: Soil degradation (1 lesson)
-// {
-//   subject: 'Agriculture',
-//   form: 'Form 4',
-//   topic: 'Soil Degradation',
-//   lessonNumber: 1,
-//   lessonTitle: 'Forms, Causes, and Control of Soil Degradation',
-//   lessonId: 'agriculture-f4-soil-degradation-1',
-//   order: 42,
-//   learningObjectives: [
-//     'Define soil degradation and identify its forms (physical, chemical, biological)',
-//     'Explain causes and effects of soil degradation and ways to control it'
-//   ],
-//   introduction: 'Soil is a precious resource, but it can be destroyed. When soil loses its ability to grow crops, we call it SOIL DEGRADATION. Today, we will learn what causes this, the terrible effects, and most importantly – how to stop it.',
-//   keyPoints: [
-//     'Soil degradation: decline in soil quality and productivity.',
-//     'Physical degradation: erosion, compaction, crusting, loss of topsoil.',
-//     'Chemical degradation: nutrient depletion, acidification, salinisation, pollution.',
-//     'Biological degradation: loss of organic matter, decline in soil organisms.',
-//     'Causes: water erosion, wind erosion, deforestation, overgrazing, continuous tillage, burning crop residues.',
-//     'Effects: lower crop yields, increased fertiliser need, more drought vulnerability.',
-//     'Control methods: conservation agriculture (minimum tillage, mulching, rotation), terracing, reforestation.'
-//   ],
-//   detailedContent: `What is Soil Degradation?
-
-// Soil degradation is the loss of soil quality, making it less able to support plant growth. It is a major problem in Malawi, threatening food security.
-
-// Forms of Soil Degradation
-
-// 1. Physical degradation:
-//    - Erosion: topsoil carried away by water or wind.
-//    - Compaction: soil particles pressed together, reducing pores.
-//    - Crusting: hard layer on surface, preventing water infiltration.
-
-// 2. Chemical degradation:
-//    - Nutrient depletion: crops remove more nutrients than are added.
-//    - Acidification: pH drops, making some nutrients toxic.
-//    - Salinisation: salt builds up (in irrigated areas).
-//    - Pollution: chemicals from fertilisers, pesticides, or industrial waste.
-
-// 3. Biological degradation:
-//    - Loss of organic matter (humus).
-//    - Decline in earthworms, termites, and soil microbes.
-
-// Causes of Soil Degradation
-
-// - Water erosion: Rain washes topsoil down slopes. Common in hilly areas of Malawi.
-// - Wind erosion: In dry areas, wind blows away loose soil.
-// - Deforestation: Removing trees leaves soil exposed.
-// - Overgrazing: Too many animals eat all grass, leaving soil bare.
-// - Poor tillage: Ploughing up and down slopes creates channels for erosion.
-// - Burning crop residues: Destroys organic matter and kills soil organisms.
-
-// Effects on Crop Production
-
-// - Low yields: Less topsoil means less nutrients.
-// - Increased fertiliser need: Farmer must spend more money.
-// - More drought: Degraded soil holds less water.
-// - Higher production costs: Need to rebuild soil.
-// - Food insecurity: Poor harvests lead to hunger.
-
-// Ways to Control Soil Degradation
-
-// 1. Conservation agriculture:
-//    - Minimum tillage (only disturb soil where planting).
-//    - Permanent soil cover (mulch, cover crops).
-//    - Crop rotation (include legumes).
-
-// 2. Erosion control structures: Contour ridges, terracing, grass strips, check dams.
-
-// 3. Reforestation and agroforestry: Plant trees on slopes, along contours, and in fields (e.g., Gliricidia, Faidherbia).
-
-// 4. Controlled grazing: Rotate animals, keep numbers in balance with pasture.
-
-// 5. Manure and compost: Replace organic matter.
-
-// 6. Avoid burning crop residues – leave them on field as mulch.
-
-// Malawi example: In Southern Malawi, farmers on steep slopes have built stone bunds (tisisili) to slow runoff. Others practice box ridges (mipanda) to trap water and soil. Many are adopting conservation agriculture with the help of extension workers.`,
-//   summary: 'Soil degradation is loss of quality through erosion, nutrient loss, or biological decline. Causes: deforestation, overgrazing, poor tillage. Effects: low yields, drought vulnerability. Control with conservation agriculture, trees, terracing, and organic matter.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Stone Bunds in Thyolo', description: 'Farmers build stone lines across slopes to reduce erosion.' },
-//     { title: 'Conservation Agriculture', description: 'Planting maize without tillage and leaving mulch on surface.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What is a physical form of soil degradation?', answer: 'Erosion or compaction', hint: 'Physical means structure changes.' },
-//     { question: 'How does planting trees help control soil degradation?', answer: 'Roots hold soil, reduces erosion, adds organic matter.', hint: 'Agroforestry.' }
-//   ]
-// },
-
-// // ======================================================================
-// // BIOLOGY - FORM 4 (selected)
-// // ======================================================================
-
-// // Topic: Immunity and disease (1 lesson)
-// {
-//   subject: 'Biology',
-//   form: 'Form 4',
-//   topic: 'Immunity and Disease',
-//   lessonNumber: 1,
-//   lessonTitle: 'How the Body Defends Against Pathogens',
-//   lessonId: 'biology-f4-immunity-1',
-//   order: 43,
-//   learningObjectives: [
-//     'Distinguish between non-specific (first line) and specific (immune) defences',
-//     'Explain how vaccination works and why it is important'
-//   ],
-//   introduction: 'Every day, you are exposed to germs. Yet you stay healthy most of the time because your body has defences. These range from simple barriers to sophisticated immune cells. Today, we will learn how your body fights infection.',
-//   keyPoints: [
-//     'First line of defence (non-specific): skin, mucus, cilia, stomach acid, tears, lysozyme.',
-//     'Second line of defence (non-specific): phagocytes (white blood cells that engulf pathogens), inflammation, fever.',
-//     'Third line of defence (specific immunity): B cells produce antibodies; T helper cells activate B cells; T killer cells destroy infected cells.',
-//     'Antigens: molecules on pathogen surface that trigger immune response.',
-//     'Immunity types: natural active (get disease), artificial active (vaccination), natural passive (breast milk), artificial passive (antibody injection).',
-//     'Vaccination: introduces harmless antigen; body makes memory cells for rapid response.'
-//   ],
-//   detailedContent: `First Line of Defence (Non-specific barriers)
-
-// These are physical and chemical barriers that prevent pathogen entry.
-
-// - Skin: Tough, waterproof, unbroken skin blocks most germs. Sweat and sebum contain antibacterial substances.
-// - Mucous membranes: line nose, mouth, trachea, etc. Mucus traps pathogens.
-// - Cilia: hair-like projections in airways that sweep mucus (with trapped germs) towards throat.
-// - Stomach acid (HCl): kills many ingested bacteria and viruses.
-// - Tears: contain lysozyme (enzyme that breaks bacterial cell walls).
-
-// Second Line of Defence (Non-specific internal)
-
-// When pathogens breach first line, these responses start:
-
-// - Phagocytes (macrophages, neutrophils): white blood cells that engulf and digest pathogens.
-// - Inflammation: Redness, heat, swelling, pain – increased blood flow brings more phagocytes.
-// - Fever: Body temperature rises; this slows pathogen reproduction.
-
-// Third Line of Defence (Specific immunity)
-
-// This is tailored to specific pathogens. It involves LYMPHOCYTES.
-
-// 1. B cells: produce ANTIBODIES. Antibodies are proteins that bind specifically to ANTIGEN on pathogen. The binding neutralises pathogen or marks it for destruction.
-
-// 2. T cells:
-//    - T helper cells (CD4): activate B cells and T killer cells.
-//    - T killer cells (CD8): destroy cells that are infected by virus.
-
-// After infection, some B and T cells become MEMORY CELLS – they remain in body for years. Upon re-infection, they mount a rapid response.
-
-// Types of Immunity
-
-// - Natural active: Get disease, recover – long-term (e.g., chickenpox).
-// - Artificial active: Vaccination – long-term (e.g., BCG for TB).
-// - Natural passive: Antibodies from mother via breast milk – short-term.
-// - Artificial passive: Injection of antibodies (e.g., antivenom) – short-term.
-
-// Vaccination
-
-// Vaccine contains weakened or killed pathogen, or part of it (antigen). It does not cause disease but stimulates immune system to produce memory cells. When real pathogen attacks, memory cells respond quickly and stop infection.
-
-// Importance: Eradicated smallpox; nearly eradicated polio; prevents measles, tetanus, diphtheria. In Malawi, EPI (Expanded Programme on Immunisation) gives BCG, polio, DPT, measles, etc., free.
-
-// HIV and Immunity
-
-// HIV infects helper T cells (CD4 cells). It replicates inside them and destroys them. As CD4 count falls, immune system fails. The person becomes vulnerable to opportunistic infections like TB, pneumonia. This stage is AIDS.
-
-// Prevention: Abstinence, faithfulness, condoms (ABC), male circumcision, avoid sharing needles, test and treat.`,
-//   summary: 'First line: skin, mucus, cilia, acid, tears. Second: phagocytes, inflammation, fever. Third: B cells (antibodies), T cells (helper and killer). Vaccination gives artificial active immunity. HIV destroys helper T cells, causing AIDS.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'EPI Vaccination', description: 'Free childhood vaccines prevent TB, measles, polio.' },
-//     { title: 'HIV Testing Campaign', description: 'Mobile clinics promote testing and ART.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'What type of immunity is obtained by receiving antibodies through breast milk?', answer: 'Natural passive immunity', hint: 'From mother, not long-term.' },
-//     { question: 'Which white blood cell produces antibodies?', answer: 'B lymphocytes (B cells)', hint: 'B for antibody production.' }
-//   ]
-// },
-
-// // ======================================================================
-// // CHEMISTRY - FORM 4 (selected)
-// // ======================================================================
-
-// // Topic: Chemical reactions – rates of reaction (1 lesson)
-// {
-//   subject: 'Chemistry',
-//   form: 'Form 4',
-//   topic: 'Rates of Reaction',
-//   lessonNumber: 1,
-//   lessonTitle: 'Factors Affecting Reaction Rates',
-//   lessonId: 'chemistry-f4-reaction-rates-1',
-//   order: 44,
-//   learningObjectives: [
-//     'Define rate of reaction and explain factors affecting it (concentration, temperature, surface area, catalyst)',
-//     'Interpret graphs of reaction progress (concentration vs time, volume vs time)'
-//   ],
-//   introduction: 'Some reactions happen in a flash; others take ages. Why? The RATE OF REACTION depends on several factors. Today, we will learn what makes reactions faster or slower, and how we can control them – important in cooking, industry, and even in your body.',
-//   keyPoints: [
-//     'Rate of reaction = amount of reactant used or product formed per unit time.',
-//     'Factors: concentration (higher → faster), temperature (higher → faster), surface area (smaller particles → faster), catalyst (provides alternative pathway with lower activation energy).',
-//     'Collision theory: particles must collide with sufficient energy (activation energy) and correct orientation.',
-//     'Catalyst speeds up reaction without being consumed; lowers activation energy.',
-//     'Graphs: steeper slope = faster rate; plateau when reaction finishes.'
-//   ],
-//   detailedContent: `What is Rate of Reaction?
-
-// Rate measures how quickly reactants are used up or products are formed. It can be expressed as:
-// - Change in mass (g/s)
-// - Change in volume of gas (cm³/s)
-// - Change in concentration (mol/dm³/s)
-
-// Collision Theory
-
-// For a reaction to occur, particles must:
-// 1. Collide with each other.
-// 2. Have enough energy (at least the activation energy, Ea).
-// 3. Have the correct orientation.
-
-// Factors Affecting Rate
-
-// 1. Concentration (for solutions) or pressure (for gases)
-// Higher concentration means more particles in the same volume → more frequent collisions → faster rate.
-// Example: Marble chips (CaCO3) react faster with 2M HCl than with 0.5M HCl (more CO2 gas produced in same time).
-
-// 2. Temperature
-// Increasing temperature gives particles more kinetic energy. They move faster (more collisions) and a greater proportion have energy > Ea (more successful collisions). Reaction rate roughly doubles for every 10°C rise.
-
-// 3. Surface area (solid particle size)
-// Powdered solid has larger surface area than a single lump. More particles exposed for collisions → faster rate.
-// Example: Powdered chalk reacts faster with acid than large chips.
-
-// 4. Catalyst
-// A catalyst speeds up a reaction without being consumed. It provides an alternative reaction pathway with lower activation energy. Catalysts are very specific – manganese(IV) oxide for hydrogen peroxide decomposition, platinum for car exhaust converters. Enzymes are biological catalysts.
-
-// Experiments to Measure Rate
-
-// Magnesium with hydrochloric acid: Mg + 2HCl → MgCl2 + H2.
-// Measure volume of hydrogen gas produced in a gas syringe at regular intervals. Plot volume vs time. Slope = rate.
-
-// Graph Interpretation
-
-// On a concentration vs time graph:
-// - Steep initial slope = fastest rate (reactants fresh).
-// - Slope decreases as reactants used up.
-// - Line becomes horizontal when reaction stops.
-
-// On a volume vs time graph for gas:
-// - Rapid rise initially, then levels off.
-// - Changing a factor (higher temp) makes initial slope steeper and plateau reached faster.
-
-// Activation Energy and Catalysts
-
-// Activation energy is the minimum energy needed for a reaction to occur. A catalyst lowers the activation energy, so a greater fraction of particles have enough energy. The catalyst does not change the final products or enthalpy change.
-
-// Malawi Example: Adding a catalyst (manganese dioxide) to hydrogen peroxide makes it decompose faster, producing oxygen gas. This is used in some school demonstrations. In the body, enzymes catalyse digestion.`,
-//   summary: 'Rate = amount/time. Factors: concentration (faster if higher), temperature (faster if higher), surface area (smaller particles faster), catalyst (speeds without being consumed). Collision theory: particles must collide with enough energy and correct orientation.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Digestion', description: 'Enzymes are biological catalysts speeding up food breakdown.' },
-//     { title: 'Using Manganese Dioxide', description: 'Speeds up hydrogen peroxide decomposition in labs.' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'Why does powdered chalk react faster with acid than whole pieces?', answer: 'Powder has larger surface area, so more collisions between particles.', hint: 'Surface area increases exposure.' },
-//     { question: 'How does a catalyst affect activation energy?', answer: 'It lowers activation energy, providing an easier pathway.', hint: 'Makes it easier for particles to react.' }
-//   ]
-// },
-
-// // ======================================================================
-// // PHYSICS - FORM 4 (selected)
-// // ======================================================================
-
-// // Topic: Newton's laws of motion (1 lesson)
-// {
-//   subject: 'Physics',
-//   form: 'Form 4',
-//   topic: 'Newton\'s Laws of Motion',
-//   lessonNumber: 1,
-//   lessonTitle: 'Newton’s Three Laws and Applications',
-//   lessonId: 'physics-f4-newton-laws-1',
-//   order: 45,
-//   learningObjectives: [
-//     'State Newton’s three laws of motion',
-//     'Apply Newton’s second law (F = ma) to solve problems'
-//   ],
-//   introduction: 'Sir Isaac Newton gave us three laws that explain almost all motion – from a ball rolling on the ground to a rocket launching into space. Today, we will learn these fundamental laws and see them in action around us.',
-//   keyPoints: [
-//     'First law (Law of Inertia): An object remains at rest or in uniform motion unless acted upon by an external force.',
-//     'Second law: F = ma (force = mass × acceleration).',
-//     'Third law: For every action, there is an equal and opposite reaction.',
-//     'Inertia is the tendency of an object to resist changes in its motion.',
-//     'Units: Force in newtons (N), mass in kg, acceleration in m/s².'
-//   ],
-//   detailedContent: `Newton’s First Law (Law of Inertia)
-
-// "An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an external force."
-
-// Example 1: A book on a table remains at rest because no net force acts on it. If you push it, it moves.
-
-// Example 2: A passenger in a minibus lurches forward when the minibus stops suddenly – the passenger’s body tends to continue moving (inertia).
-
-// Inertia is related to mass: more massive objects have more inertia (harder to start or stop).
-
-// Newton’s Second Law (F = ma)
-
-// The acceleration (a) of an object is directly proportional to the net force (F) acting on it and inversely proportional to its mass (m).
-
-// F = m × a
-
-// Example: A 1000 kg car accelerates at 2 m/s². What force is needed?
-// F = 1000 × 2 = 2000 N.
-
-// If the same force is applied to a 2000 kg truck, acceleration = F/m = 2000/2000 = 1 m/s² (half the acceleration because mass doubled).
-
-// Newton’s Third Law (Action-Reaction)
-
-// "For every action force, there is an equal and opposite reaction force."
-
-// Action-reaction pairs act on different objects. They do not cancel each other.
-
-// Examples:
-// - When you sit on a chair, your weight pushes down (action). The chair pushes up with an equal force (reaction).
-// - When a bird flaps its wings, wings push air down (action); air pushes wings up (reaction) – bird flies.
-// - A boat propeller pushes water backward (action); water pushes boat forward (reaction).
-
-// Malawi Example:
-// - A person jumping off a small boat onto a pier: They push the boat backward (action), and the boat pushes them forward (reaction).
-// - A farmer using a hoe: The hoe pushes soil (action); soil pushes back on the hoe (reaction) – you feel it in your hands.`,
-//   summary: 'Newton’s first law: inertia. Second law: F = ma. Third law: action-reaction pairs. These laws govern all motion and are essential for understanding forces and dynamics.',
-//   estimatedTime: '22 mins',
-//   malawiExamples: [
-//     { title: 'Minibus Sudden Stop', description: 'Passengers lurch forward due to inertia.' },
-//     { title: 'Rowing a Boat', description: 'Paddles push water backward; water pushes boat forward (third law).' }
-//   ],
-//   practiceQuestions: [
-//     { question: 'A 1500 kg car accelerates at 3 m/s². Calculate the net force.', answer: '4500 N', hint: 'F = 1500 × 3 = 4500 N' },
-//     { question: 'A 50 kg person jumps off a 5 kg boat. If the person exerts a force of 200 N on the boat, what force does the boat exert on the person?', answer: '200 N', hint: 'Third law – equal and opposite.' }
-//   ]
-// },
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Soil Fertility and Fertilizers',
+  lessonNumber: 1,
+  lessonTitle: 'Maintaining Soil Fertility',
+  lessonId: 'agriculture-f2-soil-fertility-1',
+  order: 31,
+  learningObjectives: [
+    'Identify ways of maintaining soil fertility',
+    'Explain the importance of crop rotation, manure, fallowing, and mulching'
+  ],
+  introduction: 'After many harvests, soil becomes tired and less productive. FERTILITY is the ability of soil to provide nutrients to plants. Today, we will learn how to keep soil fertile using organic methods.',
+  keyPoints: [
+    'Crop rotation: planting different crops in sequence (e.g., maize then groundnuts).',
+    'Manure and compost: add animal manure or decomposed plant material to the soil.',
+    'Fallowing: leaving land unplanted for one or more seasons to restore nutrients.',
+    'Mulching: covering soil with dry grass or leaves to reduce erosion and add organic matter.',
+    'Green manures: planting fast-growing legumes and ploughing them into the soil.',
+    'Contour farming: ridges across slope reduce erosion, keeping topsoil.',
+    'Liming: adding lime to acidic soil to raise pH.'
+  ],
+  detailedContent: `Ways to Maintain Soil Fertility
+
+1. Crop rotation: Planting different crops in sequence. For example, maize then groundnuts. Groundnuts fix nitrogen, leaving it for the next maize crop. This also breaks pest cycles.
+
+2. Manure and compost: Animal manure (cattle, goats, chickens) and compost (decomposed plant material) add organic matter and nutrients. They improve soil structure and water holding capacity.
+
+3. Fallowing: Leaving land unplanted for one or more seasons. Natural vegetation regrows and restores nutrients. This is less common now due to population pressure.
+
+4. Mulching: Covering soil with dry grass, leaves, or crop residues. Mulch reduces evaporation, prevents erosion, suppresses weeds, and adds organic matter as it decays.
+
+5. Green manures: Planting fast-growing legumes (e.g., sunn hemp, cowpeas) and then ploughing them into the soil while green. They add nitrogen and organic matter.
+
+6. Contour farming: Making ridges across the slope (not up and down). This slows water runoff, traps soil, and reduces erosion.
+
+7. Liming: Adding agricultural lime (calcium carbonate) to acidic soils. This raises pH, making nutrients more available to plants.
+
+In Malawi, many farmers practice maize-groundnut rotation. They also use cattle manure from kraals. However, fallowing is decreasing due to land scarcity.`,
+  summary: 'Maintain fertility with crop rotation, manure, fallowing, mulching, green manures, contour farming, and liming. These methods improve soil structure and nutrient content.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Maize-Groundnut Rotation', description: 'Groundnuts leave nitrogen for next maize crop.' },
+    { title: 'Cattle Manure', description: 'Farmers collect manure from kraals to apply to gardens.' }
+  ],
+  practiceQuestions: [
+    { question: 'How does crop rotation improve soil fertility?', answer: 'Different crops use different nutrients, and legumes fix nitrogen.', hint: 'Prevents depletion of specific nutrients.' },
+    { question: 'What is the purpose of mulching?', answer: 'To reduce erosion, retain moisture, and add organic matter.', hint: 'Covering soil with dry grass or leaves.' }
+  ]
+},
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Soil Fertility and Fertilizers',
+  lessonNumber: 2,
+  lessonTitle: 'Organic vs Inorganic Fertilizers',
+  lessonId: 'agriculture-f2-soil-fertility-2',
+  order: 32,
+  learningObjectives: [
+    'Classify fertilizers into organic and inorganic',
+    'Discuss advantages and disadvantages of organic and inorganic fertilizers'
+  ],
+  introduction: 'Fertilizers provide nutrients to plants. They can be organic (natural) or inorganic (chemical). Today, we will learn the differences, advantages, and disadvantages of each type.',
+  keyPoints: [
+    'Organic fertilizers: manure, compost, green manure, bone meal – slow release, improve soil structure.',
+    'Inorganic fertilizers: NPK, urea, D compound – fast acting, target specific nutrients.',
+    'Advantages of organic: cheap, improves soil structure, reduces pollution.',
+    'Disadvantages of organic: bulky, slow release, labour intensive.',
+    'Advantages of inorganic: fast results, easy to apply, concentrated.',
+    'Disadvantages of inorganic: expensive, can burn crops, pollute water if overused.'
+  ],
+  detailedContent: `Types of Fertilisers
+
+Organic Fertilisers
+- Examples: Cattle manure, chicken manure, compost, green manure, bone meal.
+- Release nutrients slowly as they decompose.
+- Improve soil structure and water holding capacity.
+- Usually cheaper or free (farm-produced).
+- Disadvantages: bulky (need large volumes), may contain weed seeds, labour intensive to apply.
+
+Inorganic (Chemical) Fertilisers
+- Examples: Urea (46% N), NPK (23-21-0+4S), CAN (calcium ammonium nitrate), D compound.
+- Provide specific nutrients in concentrated form.
+- Fast acting – plants respond quickly.
+- Easy to transport and apply.
+- Disadvantages: expensive, can soil acidify, can burn crops if over-applied, may pollute rivers if washed away.
+
+How to Apply Fertilisers Correctly
+
+- Organic manure: Spread evenly and mix into soil before planting. For top dressing, apply around plants.
+- Inorganic fertilisers: For maize, apply basal fertiliser (NPK) at planting, either in the hole or along the row. Use top dressing (urea or CAN) when plants are about knee-high.
+- Avoid applying fertiliser onto wet leaves – it can burn.
+- Incorporate into soil to prevent loss.
+- Use recommended rates based on soil test or extension advice.
+
+Malawi Example: A farmer uses cattle manure from his kraal to fertilise his vegetable garden. He also buys NPK for his maize. He applies NPK at planting and top dresses with urea when maize is 50 cm tall. He rotates maize with groundnuts.`,
+  summary: 'Organic fertilisers improve soil but act slowly. Inorganic fertilisers act fast but can cause problems if misused. Apply correctly for best results.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Maize NPK Application', description: 'Apply NPK at planting to give maize a strong start.' },
+    { title: 'Compost Making', description: 'Farmers use crop residues and kitchen waste to make compost.' }
+  ],
+  practiceQuestions: [
+    { question: 'Give one advantage of organic fertiliser.', answer: 'Improves soil structure', hint: 'It adds organic matter.' },
+    { question: 'Why should urea be applied to the soil, not on leaves?', answer: 'It can burn leaves.', hint: 'Urea is very strong.' }
+  ]
+},
+
+// Topic: Maize and groundnuts production (split into 2 lessons)
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Crop Production',
+  lessonNumber: 1,
+  lessonTitle: 'Maize Production: Land Preparation, Planting, and Fertilising',
+  lessonId: 'agriculture-f2-maize-1',
+  order: 33,
+  learningObjectives: [
+    'Identify qualities of good seed for maize',
+    'Describe land preparation, planting, fertilising, and weeding for maize'
+  ],
+  introduction: 'Maize is our staple food. Growing it well requires following recommended practices. Today, we will learn step-by-step how to produce high yields of maize.',
+  keyPoints: [
+    'Good seed: pure variety, high germination, free from disease and damage, uniform size.',
+    'Land preparation: plough (first rains), make ridges 75 cm apart.',
+    'Planting: 75 cm between rows, 25 cm within row, 2-3 seeds per hole, depth 5-7 cm.',
+    'Fertilising: NPK at planting (200 kg/ha), urea top dressing (50 kg/ha) at knee height.',
+    'Weeding: first weeding at 2-3 weeks, second at 6 weeks.'
+  ],
+  detailedContent: `Qualities of Good Seed
+
+- Pure: Only the intended variety, no other seeds mixed.
+- High germination: At least 85% should sprout.
+- Free from disease: No mould or rot.
+- No physical damage: Cracks or holes.
+- Uniform size and colour.
+
+Maize Production Steps
+
+1. Land preparation: Clear land, plough (turn soil) or make ridges 75 cm apart. In conservation agriculture, practice minimum tillage.
+
+2. Planting: Plant at the start of rains. Place 2-3 seeds per hole at depth of 5-7 cm. Spacing: 75 cm between rows, 25 cm between holes.
+
+3. Fertilising: Apply basal fertiliser (NPK 23-21-0+4S) at planting, about 5-10 grams per hole (or 200 kg per hectare). After 4-6 weeks, when maize is knee-high, apply top dressing urea (50 kg per hectare) mixed with soil.
+
+4. Weeding: First weeding at 2-3 weeks after planting, second weeding at 6 weeks. Keep field clean.
+
+5. Harvesting: When cobs are dry, husks turn brown. Break cobs, remove husks, dry on a mat or raised platform. Shell when fully dry.
+
+6. Storage: Store in airtight container or raised granary. Add ash or use approved pesticide to control weevils.`,
+  summary: 'Maize: plant at 75×25 cm, apply NPK at planting and urea at knee height, weed twice. Use good quality seed for best yields.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Maize Top Dressing', description: 'Urea applied at knee-high gives bigger cobs.' },
+    { title: 'MH30 Variety', description: 'A high-yielding, disease-resistant maize variety common in Malawi.' }
+  ],
+  practiceQuestions: [
+    { question: 'What spacing is recommended for maize planting?', answer: '75 cm between rows, 25 cm between holes', hint: 'Rows are wider than within row.' },
+    { question: 'When should urea be applied as top dressing?', answer: 'When maize is knee-high (about 4-6 weeks after planting).', hint: 'Before flowering.' }
+  ]
+},
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Crop Production',
+  lessonNumber: 2,
+  lessonTitle: 'Groundnuts Production and Pest/Disease Control',
+  lessonId: 'agriculture-f2-groundnuts-1',
+  order: 34,
+  learningObjectives: [
+    'Describe husbandry practices for groundnuts (land preparation, planting, fertilising, harvesting)',
+    'Identify major pests and diseases of maize and groundnuts and explain control measures'
+  ],
+  introduction: 'Groundnuts are an important cash and food crop. They also improve soil fertility by fixing nitrogen. Today, we will learn how to grow groundnuts successfully and control common pests and diseases.',
+  keyPoints: [
+    'Groundnuts: plant at 50 cm between rows, 15 cm within row, 1-2 seeds per hole.',
+    'Do NOT use nitrogen fertiliser (groundnuts fix their own). Use phosphorus fertiliser (single superphosphate) at planting.',
+    'Apply gypsum (calcium sulphate) at flowering to fill pods.',
+    'Harvest when leaves turn yellow and pods have brown inside.',
+    'Pests: stalk borer, fall armyworm (maize); groundnut hopper, termites.',
+    'Diseases: maize rust, maize streak virus; groundnut rosette, leaf spot, aflatoxin.'
+  ],
+  detailedContent: `Groundnuts Production Steps
+
+1. Land preparation: Fine tilth – soil should be loose and well-drained. Ridges not necessary; can plant on flat or raised beds.
+
+2. Planting: At onset of rains (or irrigation). Spacing: 50 cm between rows, 15 cm between holes. Plant 1-2 seeds per hole, depth 5 cm.
+
+3. Fertilising: Do NOT use nitrogen fertiliser (groundnuts fix their own). Use phosphorus fertiliser (single superphosphate) at planting. Apply gypsum (calcium sulphate) at flowering stage to fill pods.
+
+4. Weeding: Weed at 2-3 weeks and 6 weeks. Do not ridge too high.
+
+5. Harvesting: When leaves turn yellow and pods have brown inside. Lift plants with fork or pull, dry in field for a few days. Remove pods by hand or machine.
+
+6. Storage: Keep in shells until ready to use. Ensure very dry to prevent aflatoxin mould.
+
+Pests and Control
+
+- Maize stalk borer: Larvae bore into stems. Control: early planting, remove and destroy affected plants, use neem or recommended insecticide.
+- Fall armyworm: Eat leaves and cobs. Control: handpick caterpillars, spray with approved pesticide.
+- Groundnut rosette virus: Transmitted by aphids. Control: use resistant varieties (e.g., CG7), early planting.
+- Aflatoxin: Mould in stored groundnuts. Control: dry thoroughly before storage, keep in dry place, sort out mouldy nuts.
+
+Malawi Example: A farmer in Lilongwe prepares ridges in October. He plants maize at the first heavy rains. He plants groundnuts in a separate field after maize harvest. He rotates maize and groundnuts to improve soil.`,
+  summary: 'Groundnuts: plant at 50×15 cm, use phosphorus and gypsum, no nitrogen. Harvest when leaves yellow. Control pests and diseases with resistant varieties and good practices.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Groundnut Gypsum', description: 'Calcium improves pod filling and reduces rot.' },
+    { title: 'Fall Armyworm Control', description: 'Spray with recommended pesticides or use handpicking for small infestations.' }
+  ],
+  practiceQuestions: [
+    { question: 'Why should you not apply nitrogen fertiliser to groundnuts?', answer: 'Groundnuts fix their own nitrogen; extra nitrogen causes too many leaves and few pods.', hint: 'They are legumes.' },
+    { question: 'How can you prevent aflatoxin in stored groundnuts?', answer: 'Dry pods thoroughly before storage and keep in a dry place.', hint: 'Mould grows in moisture.' }
+  ]
+},
+
+// ======================================================================
+// AGRICULTURE - FORM 3 (selected)
+// ======================================================================
+
+// Topic: Physical properties of soil (split into 2 lessons)
+{
+  subject: 'Agriculture',
+  form: 'Form 3',
+  topic: 'Soil Physical Properties',
+  lessonNumber: 1,
+  lessonTitle: 'Soil Texture and Structure',
+  lessonId: 'agriculture-f3-soil-physical-1',
+  order: 35,
+  learningObjectives: [
+    'Describe soil texture and its influence on crop production',
+    'Explain soil structure and how it affects root growth and water movement'
+  ],
+  introduction: 'Have you ever felt sandy soil that crumbles easily, or clay soil that becomes sticky when wet? Those are PHYSICAL PROPERTIES of soil. Today, we will learn how texture and structure affect crop growth.',
+  keyPoints: [
+    'Texture: proportion of sand, silt, and clay particles.',
+    'Sandy soil: drains quickly, low nutrients, easy to work.',
+    'Clay soil: holds water and nutrients, but becomes hard and cracks, difficult to work.',
+    'Loam: ideal mixture of sand, silt, clay – best for most crops.',
+    'Structure: how particles clump together (granular, blocky, platy, etc.).',
+    'Granular structure is best – allows air, water, and roots to move easily.'
+  ],
+  detailedContent: `Soil Texture
+
+Texture is the relative proportion of sand, silt, and clay.
+
+- Sand particles are large (0.05-2 mm). Feel gritty. Sandy soil drains fast, warms up quickly, but does not hold water or nutrients well. Crops like groundnuts and cassava grow in sandy soil.
+
+- Silt particles are medium-sized (0.002-0.05 mm). Feel smooth like flour. Silty soil is fertile and holds water well.
+
+- Clay particles are tiny (less than 0.002 mm). Feel sticky when wet and hard when dry. Clay holds water and nutrients but can become waterlogged and hard for roots to penetrate.
+
+Loam is a balanced mixture of sand, silt, and clay with organic matter. It is the best for most crops because it drains well, holds nutrients, and is easy to work.
+
+Effect of Texture on Crop Production:
+- Sandy soil: Low fertility, prone to drought. Add organic matter.
+- Clay soil: Poor aeration, roots struggle. Add sand and organic matter, use raised beds.
+- Loamy soil: Ideal for maize, vegetables, tobacco.
+
+Soil Structure
+
+Structure is how soil particles clump together into aggregates (peds).
+
+- Granular (crumb) structure: Small, rounded aggregates. Best for crop growth – allows air, water, and roots to move easily.
+- Blocky: Block-like aggregates. Common in subsoil. Can restrict root growth if too large.
+- Platy: Thin, flat plates. Restricts water movement and root penetration.
+- Prismatic/columnar: Vertical columns. Often in clay subsoil.
+
+Good soil structure is crumbly. Farmers can improve structure by adding organic matter (manure, compost), avoiding over-tillage, and growing cover crops.`,
+  summary: 'Soil texture (sand, silt, clay) affects water and nutrient holding. Loam is best. Structure (granular ideal) affects root growth and aeration.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Sandy Soil in Mchinji', description: 'Farmers add manure to improve water holding.' },
+    { title: 'Clay Soil in Thyolo', description: 'Tea grows well, but for maize, raised beds are used.' }
+  ],
+  practiceQuestions: [
+    { question: 'Which soil texture is ideal for most crops?', answer: 'Loam', hint: 'Balanced mix of sand, silt, clay.' },
+    { question: 'What type of soil structure is best for crop growth?', answer: 'Granular (crumb)', hint: 'Allows air and water movement.' }
+  ]
+},
+{
+  subject: 'Agriculture',
+  form: 'Form 3',
+  topic: 'Soil Physical Properties',
+  lessonNumber: 2,
+  lessonTitle: 'Soil Porosity, Colour, and Depth',
+  lessonId: 'agriculture-f3-soil-physical-2',
+  order: 36,
+  learningObjectives: [
+    'Define soil porosity and relate it to aeration and drainage',
+    'Identify soil colours and what they indicate about soil conditions'
+  ],
+  introduction: 'Porosity, colour, and depth are important physical properties. Porosity affects how much air and water the soil can hold. Colour tells you about organic matter and drainage. Today, we will learn these properties and their impact on farming.',
+  keyPoints: [
+    'Porosity: amount of pore space between particles. High porosity = good aeration and drainage.',
+    'Colour: dark = organic matter (fertile); red/yellow = iron oxides; grey/blue = waterlogged.',
+    'Depth: deeper soil allows roots to grow more deeply, accessing more water and nutrients.',
+    'Physical properties affect root penetration, water holding capacity, nutrient availability, and erosion risk.'
+  ],
+  detailedContent: `Soil Porosity
+
+Porosity is the amount of pore space (gaps) between soil particles.
+
+- High porosity means more air and water storage. Roots need oxygen.
+- Low porosity (compacted soil) leads to poor drainage, waterlogging, and root suffocation.
+
+Factors that reduce porosity: heavy machinery, overgrazing, raindrop impact (crusting). Improve porosity by adding organic matter and using minimum tillage.
+
+Soil Colour
+
+Colour tells you about soil conditions:
+
+- Dark brown or black: High organic matter (humus). Very fertile. Best for crops.
+- Red or yellow: Iron oxides present. Good drainage but may have low fertility.
+- Grey or blue: Waterlogged, lack of oxygen. Poor for roots. Need drainage.
+- Light grey/white: May have lime or be leached of nutrients.
+
+In Malawi, fertile soils are often dark brown in high-rainfall areas. Sandy soils are lighter.
+
+Soil Depth
+
+Soil depth is the thickness of the soil layer above bedrock or hardpan. Deep soils (more than 1 metre) allow roots to grow deep, accessing more water and nutrients. Shallow soils (less than 30 cm) restrict root growth and are more prone to drought.
+
+How Physical Properties Affect Crop Production
+
+- Root penetration: Compacted soil or clay hardpans block roots.
+- Water holding capacity: Sandy soil dries quickly; clay holds too much.
+- Nutrient availability: Organic matter (dark colour) supplies nutrients.
+- Erosion: Poor structure leads to erosion.
+- Workability: Sandy loam is easy to plough; heavy clay is hard.`,
+  summary: 'Porosity allows air and water movement. Dark colour indicates fertility; red is iron; grey is waterlogged. Deep soils are better for root growth.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Dark Soil in Dedza', description: 'High organic matter from forest vegetation.' },
+    { title: 'Waterlogged Soil', description: 'Grey colour indicates poor drainage – need drainage channels.' }
+  ],
+  practiceQuestions: [
+    { question: 'What does dark brown soil indicate?', answer: 'High organic matter, good fertility', hint: 'Humus makes soil dark.' },
+    { question: 'Why is high porosity important for crops?', answer: 'It allows air (oxygen) for roots and water storage.', hint: 'Roots need oxygen to respire.' }
+  ]
+},
+
+// ======================================================================
+// BIOLOGY - FORM 3 (selected)
+// ======================================================================
+
+// Topic: Transport in plants (1 lesson)
+{
+  subject: 'Biology',
+  form: 'Form 3',
+  topic: 'Transport in Plants',
+  lessonNumber: 1,
+  lessonTitle: 'Xylem, Phloem, and Transpiration',
+  lessonId: 'biology-f3-transport-plants-1',
+  order: 37,
+  learningObjectives: [
+    'Describe the structure and function of xylem vessels and phloem sieve tubes',
+    'Explain the process of transpiration and its importance'
+  ],
+  introduction: 'How does water travel from the roots to the top of a tall maize plant? How does sugar from leaves reach the developing cob? The answer is TRANSPORT TISSUES – xylem and phloem. Today, we will learn how these tissues work and why transpiration is essential.',
+  keyPoints: [
+    'Xylem: transports water and minerals from roots to shoots. Dead cells, hollow, with lignin thickening.',
+    'Phloem: transports sucrose and amino acids from source (leaves) to sink (roots, fruits). Living sieve tube cells with companion cells.',
+    'Transpiration: loss of water vapour from plant surfaces (mostly through stomata).',
+    'Transpiration creates transpiration pull, cools plant, transports minerals.'
+  ],
+  detailedContent: `Xylem – The Water Highway
+
+Xylem tissue consists of vessels and tracheids. These are dead cells at maturity, with no cytoplasm. The walls are thickened with lignin (a woody substance) for strength. Lignin forms patterns (spiral, annular, reticulated) that prevent the tube from collapsing while allowing flexibility.
+
+Water and minerals (dissolved in water) enter root hairs and move through cortex to the xylem. From there, they are pulled upward by TRANSPIRATION PULL.
+
+Phloem – The Food Conveyor
+
+Phloem consists of sieve tube elements (living cells, but with reduced cytoplasm) and companion cells. The sieve plates have pores for flow. Phloem transports sucrose, amino acids, and other organic compounds from SOURCE (where they are made – leaves) to SINK (where they are used or stored – roots, flowers, fruits, seeds).
+
+This movement is called TRANSLOCATION. It requires energy (ATP) and can move up or down.
+
+Transpiration
+
+Transpiration is the loss of water vapour from the aerial parts of plants, mainly through stomata.
+
+Why is transpiration important?
+1. Creates transpiration pull: water evaporating from leaves pulls more water up the xylem.
+2. Cools the plant: evaporative cooling prevents overheating.
+3. Supplies minerals: dissolved minerals move with the water flow.
+
+Factors Affecting Transpiration Rate
+
+- Light: Increases (stomata open in light).
+- Temperature: Increases (warmer air holds more water vapour).
+- Humidity: Decreases (air already moist, so gradient is low).
+- Wind: Increases (wind removes water vapour near leaf surface).
+- Water supply: Decreases if soil dry (stomata close).
+
+Adaptations to Reduce Water Loss
+
+Plants in dry areas (xerophytes) have:
+- Thick waxy cuticle (e.g., mango, baobab)
+- Sunken stomata (pits)
+- Reduced leaf area (spines, small leaves)
+- Rolling leaves when dry (some grasses)
+- Deep roots or water storage
+
+Malawi Example: A maize plant on a hot, dry, windy day will transpire rapidly. If the soil is dry, it may wilt. To conserve water, maize rolls its leaves.`,
+  summary: 'Xylem transports water and minerals upward; phloem transports sucrose and amino acids bidirectionally. Transpiration is water loss from leaves; it pulls water through xylem.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Maize Leaf Rolling', description: 'Leaves roll to reduce surface area and transpiration during drought.' },
+    { title: 'Baobab Water Storage', description: 'Baobab trees have thick stems to store water and reduced leaves.' }
+  ],
+  practiceQuestions: [
+    { question: 'Which tissue transports sugar from leaves to roots?', answer: 'Phloem', hint: 'Transports food; sieve tubes.' },
+    { question: 'Why does transpiration increase on a windy day?', answer: 'Wind removes water vapour from around leaves, maintaining a steep gradient.', hint: 'Similar to evaporation from skin.' }
+  ]
+},
+
+// ======================================================================
+// CHEMISTRY - FORM 3 (selected)
+// ======================================================================
+
+// Topic: Stoichiometry – Mole concept (split into 2 lessons)
+{
+  subject: 'Chemistry',
+  form: 'Form 3',
+  topic: 'Stoichiometry',
+  lessonNumber: 1,
+  lessonTitle: 'The Mole Concept and Molar Mass',
+  lessonId: 'chemistry-f3-stoichiometry-1',
+  order: 38,
+  learningObjectives: [
+    'Define the mole as the amount of substance containing 6.02 × 10²³ particles',
+    'Calculate the molar mass of elements and compounds'
+  ],
+  introduction: 'Chemists need to count atoms, but atoms are too small to count one by one. The MOLE is a special counting unit – like a dozen (12) but much larger. One mole contains 602,000,000,000,000,000,000,000 particles – that is 6.02 × 10²³. Today, we will learn how to use the mole to measure substances.',
+  keyPoints: [
+    'One mole of any substance contains the same number of particles: 6.02 × 10²³ (Avogadro\'s constant).',
+    'Molar mass (M) = mass of one mole of substance (g/mol). Numerically equal to relative atomic/molecular mass.',
+    'Formulae: number of moles (n) = mass (m) / molar mass (M). Also n = number of particles / NA.',
+    'Percentage composition: (mass of element in 1 mole / molar mass) × 100%.'
+  ],
+  detailedContent: `The Mole – A Chemist's Dozen
+
+Just as a dozen always means 12 eggs, a mole always means 6.02 × 10²³ particles (atoms, molecules, ions, or electrons). This number is called Avogadro's constant (NA).
+
+Why 6.02 × 10²³? Because that is how many carbon-12 atoms are in exactly 12 grams of carbon-12.
+
+Molar Mass
+
+The molar mass (M) of a substance is the mass of one mole of that substance in grams per mole (g/mol). It is numerically equal to the relative atomic mass (for elements) or relative molecular mass (for compounds).
+
+Examples:
+- Carbon (C): atomic mass 12.0 → molar mass = 12.0 g/mol
+- Oxygen gas (O2): molecular mass 32.0 → molar mass = 32.0 g/mol
+- Water (H2O): molecular mass 18.0 → molar mass = 18.0 g/mol
+- Sodium chloride (NaCl): formula mass 58.5 → molar mass = 58.5 g/mol
+
+Calculations
+
+1. Number of moles (n) = mass (m) / molar mass (M)
+   Example: How many moles are in 24 g of carbon?
+   n = 24 / 12 = 2.00 mol
+
+2. Number of molecules = moles × NA
+   Example: How many molecules in 2 mol of water?
+   Number = 2 × 6.02 × 10²³ = 1.204 × 10²⁴ molecules
+
+3. Mass = moles × molar mass
+   Example: What is the mass of 0.5 mol of NaCl?
+   m = 0.5 × 58.5 = 29.25 g
+
+Percentage Composition
+
+Percentage of element = (mass of element in 1 mole / molar mass of compound) × 100%
+
+Example: Find % of C in CO2 (C=12, O=16, molar mass 44 g/mol)
+%C = (12 / 44) × 100 = 27.3%
+%O = (32 / 44) × 100 = 72.7%`,
+  summary: 'One mole = 6.02 × 10²³ particles. Molar mass (g/mol) = mass of one mole. n = m/M. Percentage composition = (mass element/total mass)×100%.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'NPK Fertiliser', description: 'Percentage composition helps farmers calculate fertiliser needed.' },
+    { title: 'Water in Lake Malawi', description: 'Mole concept used to calculate amount of dissolved oxygen.' }
+  ],
+  practiceQuestions: [
+    { question: 'How many moles are in 90 g of water?', answer: '5.0 mol', hint: 'Molar mass of water is 18 g/mol; 90/18 = 5.' },
+    { question: 'What is the mass of 0.25 mol of sodium chloride (NaCl)?', answer: '14.625 g', hint: 'Molar mass NaCl = 58.5 g/mol; 0.25 × 58.5 = 14.625.' }
+  ]
+},
+{
+  subject: 'Chemistry',
+  form: 'Form 3',
+  topic: 'Stoichiometry',
+  lessonNumber: 2,
+  lessonTitle: 'Empirical and Molecular Formulae',
+  lessonId: 'chemistry-f3-stoichiometry-2',
+  order: 39,
+  learningObjectives: [
+    'Determine empirical and molecular formulae from experimental data',
+    'Calculate the percentage of water in hydrated ionic compounds'
+  ],
+  introduction: 'How do chemists figure out the formula of a compound? They use experimental data to find the EMPIRICAL FORMULA (simplest ratio) and then the MOLECULAR FORMULA (actual numbers). Today, we will learn how to do these calculations.',
+  keyPoints: [
+    'Empirical formula: simplest whole number ratio of atoms in a compound.',
+    'Molecular formula: actual number of atoms of each element in a molecule (n × empirical formula).',
+    'To find empirical formula: convert masses to moles, divide by smallest, get ratio.',
+    'Hydrated compounds contain water of crystallisation. Heating removes water; mass loss gives water percentage.'
+  ],
+  detailedContent: `Empirical and Molecular Formulae
+
+Empirical formula: simplest whole number ratio.
+
+Example: A compound contains 40% C, 6.7% H, 53.3% O. Find empirical formula.
+Assume 100 g:
+- C: 40/12 = 3.33 mol
+- H: 6.7/1 = 6.7 mol
+- O: 53.3/16 = 3.33 mol
+Divide by smallest (3.33):
+C = 1, H = 2, O = 1 → empirical formula CH2O
+
+Molecular formula = (empirical formula)n, where n = molecular mass / empirical mass.
+
+Example: Empirical formula CH2O (mass 30). If molecular mass is 60, then n = 60/30 = 2, so molecular formula = C2H4O2 (which is ethanoic acid).
+
+Percentage of Water in Hydrated Ionic Compounds
+
+Hydrated compounds contain water molecules in their crystal structure, e.g., CuSO4·5H2O (copper(II) sulphate pentahydrate).
+
+To find percentage of water:
+- Calculate molar mass of hydrated compound.
+- Calculate mass of water (number of H2O × 18).
+- % water = (mass of water / total mass) × 100%.
+
+Example: CuSO4·5H2O
+Molar mass CuSO4 = 63.5 + 32 + (16×4) = 159.5 g/mol
+Mass of 5H2O = 5 × 18 = 90 g/mol
+Total = 159.5 + 90 = 249.5 g/mol
+% water = (90 / 249.5) × 100 = 36.1%
+
+Experimental determination: Heat a known mass of hydrated salt. Cool and reweigh. The loss in mass is water. Then calculate % water.`,
+  summary: 'Empirical formula is simplest ratio; molecular formula = (empirical)n. Hydrated compounds contain water of crystallisation; % water calculated from mass loss on heating.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Copper Sulphate Crystals', description: 'Blue crystals (CuSO4·5H2O) turn white when heated as water is driven off.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is the empirical formula of a compound with 92.3% C and 7.7% H?', answer: 'CH', hint: 'Assume 100g: C = 92.3/12 = 7.69, H = 7.7/1 = 7.7; ratio ≈1:1.' },
+    { question: 'A hydrated salt has mass 5.00 g. After heating, mass is 3.20 g. Calculate % water.', answer: '36.0%', hint: 'Loss = 1.80 g; (1.80/5.00)×100 = 36%' }
+  ]
+},
+
+// ======================================================================
+// PHYSICS - FORM 3 (selected)
+// ======================================================================
+
+// Topic: Pressure (split into 2 lessons)
+{
+  subject: 'Physics',
+  form: 'Form 3',
+  topic: 'Pressure',
+  lessonNumber: 1,
+  lessonTitle: 'Pressure in Solids and Liquids',
+  lessonId: 'physics-f3-pressure-1',
+  order: 40,
+  learningObjectives: [
+    'Define pressure and state its SI unit (Pascal)',
+    'Calculate pressure using P = F/A and derive liquid pressure formula P = ρgh'
+  ],
+  introduction: 'Why does a sharp knife cut more easily than a blunt one? Why do tractors have wide tyres? The answer is PRESSURE – force spread over an area. Today, we will learn how to calculate pressure and understand its effects in solids and liquids.',
+  keyPoints: [
+    'Pressure = Force ÷ Area (P = F/A).',
+    'Unit: Pascal (Pa) = 1 N/m².',
+    'For the same force, smaller area gives higher pressure.',
+    'Liquid pressure increases with depth and density: P = ρgh.',
+    'Liquid pressure acts equally in all directions.'
+  ],
+  detailedContent: `Understanding Pressure
+
+Pressure is defined as the force acting perpendicularly per unit area.
+
+P = F / A
+
+Where:
+- P = pressure (Pascal, Pa)
+- F = force (Newton, N)
+- A = area (square metre, m²)
+
+Examples from Malawi:
+1. A sharp knife has a very small cutting edge area. When you apply a small force, the pressure is huge, so it cuts easily.
+2. A tractor used in fields has wide tyres. This increases the area so that pressure on the soft soil is low, preventing the tractor from sinking.
+3. A person wearing high heels exerts very high pressure on the ground – heels can sink into soft earth.
+
+Calculating Pressure:
+
+Example: A box weighs 100 N and has a base area of 0.5 m².
+Pressure = 100 / 0.5 = 200 Pa.
+
+Liquid Pressure
+
+Pressure in a liquid at a certain depth depends on the density of the liquid, the depth, and gravity.
+
+P = ρ × g × h
+
+Where:
+- ρ (rho) = density of liquid (kg/m³)
+- g = acceleration due to gravity (≈ 10 N/kg on Earth)
+- h = depth below the surface (m)
+
+Important properties of liquid pressure:
+- Pressure increases with depth. This is why dams are built thicker at the bottom.
+- Pressure depends on density: mercury (dense) exerts higher pressure than water at the same depth.
+- Pressure acts equally in all directions.
+
+Worked Example:
+Calculate the pressure at a depth of 5 metres in water (density of water = 1000 kg/m³, g = 10 N/kg).
+P = 1000 × 10 × 5 = 50,000 Pa (or 50 kPa).
+
+Comparison: A person standing on one foot exerts pressure of about 20,000 Pa. The water pressure at 2 m depth is 20,000 Pa – similar.`,
+  summary: 'Pressure = Force/Area. Smaller area gives higher pressure. Liquid pressure = ρgh, increasing with depth and density. Pressure acts equally in all directions in a liquid.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Tractor Tyres', description: 'Wide tyres reduce pressure on soft soil.' },
+    { title: 'Lake Malawi Diving', description: 'Pressure increases with depth – divers must equalise.' }
+  ],
+  practiceQuestions: [
+    { question: 'A woman weighs 500 N. The area of one high heel is 2 cm² = 0.0002 m². Calculate pressure when standing on one heel.', answer: '2,500,000 Pa (2.5 million Pa)', hint: 'P = F/A = 500 / 0.0002 = 2,500,000 Pa' },
+    { question: 'Calculate water pressure at a depth of 3 m in a well (density 1000 kg/m³, g = 10 N/kg).', answer: '30,000 Pa', hint: 'P = 1000 × 10 × 3 = 30,000 Pa' }
+  ]
+},
+{
+  subject: 'Physics',
+  form: 'Form 3',
+  topic: 'Pressure',
+  lessonNumber: 2,
+  lessonTitle: 'Atmospheric Pressure and Pascal’s Principle',
+  lessonId: 'physics-f3-pressure-2',
+  order: 41,
+  learningObjectives: [
+    'Explain atmospheric pressure and describe experiments to demonstrate it',
+    'State Pascal’s principle and apply it to hydraulic systems'
+  ],
+  introduction: 'Why does a liquid rise when you suck through a straw? Why can a suction cup stick to a wall? The answer is ATMOSPHERIC PRESSURE – the weight of air above us. Today, we will discover this invisible force and learn about Pascal’s principle, which makes hydraulic brakes and lifts possible.',
+  keyPoints: [
+    'Atmospheric pressure is the pressure exerted by the Earth’s air column.',
+    'At sea level, atmospheric pressure ≈ 101,325 Pa (1 atm).',
+    'Pascal’s principle: pressure applied to an enclosed fluid is transmitted undiminished to every part of the fluid.',
+    'Hydraulic systems use this to multiply force: F2 = (A2/A1) × F1.'
+  ],
+  detailedContent: `Atmospheric Pressure
+
+The air around us has weight. The column of air from the top of the atmosphere down to the ground exerts pressure on everything. At sea level, this pressure is about 101,325 Pa (sometimes called 1 atmosphere or 1 bar).
+
+Demonstration Experiments:
+1. Crushing can experiment: Heat a small amount of water in an empty can until steam comes out. Quickly invert the can into cold water. The can collapses – atmospheric pressure crushes it.
+2. Magdeburg hemispheres: Two hollow hemispheres are joined and air is pumped out. They cannot be pulled apart because atmospheric pressure holds them together.
+3. Drinking straw: When you suck, you reduce pressure inside the straw. Atmospheric pressure pushes the liquid up.
+
+Applications of Atmospheric Pressure:
+- Syringe draws liquid by creating low pressure inside.
+- Suction cups stick when you press out the air.
+- Vacuum cleaners work by lowering pressure inside.
+
+Pascal’s Principle
+
+Pressure applied to an enclosed fluid is transmitted equally throughout the fluid.
+
+In a hydraulic system:
+
+A small force F1 applied over a small area A1 creates pressure P = F1/A1. This pressure is transmitted to a larger area A2, producing a larger force F2 = P × A2.
+
+Force multiplication: F2 = F1 × (A2/A1)
+
+Worked Example:
+A hydraulic jack has a small piston area of 0.01 m² and a large piston area of 0.1 m². A force of 100 N is applied on the small piston. What force is produced on the large piston?
+F2 = 100 × (0.1 / 0.01) = 100 × 10 = 1000 N.
+
+Applications: car brakes, hydraulic lifts, hydraulic presses.
+
+Malawi Example: A garage in Lilongwe uses a hydraulic lift to raise a car for repairs. The mechanic pushes a lever on a small piston, and the car rises.`,
+  summary: 'Atmospheric pressure is the weight of air. It is demonstrated by the crushing can experiment. Pascal’s principle: pressure is transmitted undiminished in an enclosed fluid, enabling force multiplication in hydraulic systems.',
+  estimatedTime: '25 mins',
+  malawiExamples: [
+    { title: 'Car Repair Garage', description: 'Hydraulic lift uses Pascal\'s principle to raise heavy cars.' },
+    { title: 'Drinking Water from a Well', description: 'Atmospheric pressure pushes water up when you create low pressure in a suction pump.' }
+  ],
+  practiceQuestions: [
+    { question: 'A hydraulic brake system has a master cylinder piston area of 2 cm² and wheel cylinder piston area of 10 cm². The driver applies 50 N force on the master cylinder. What force is applied to the brake pads?', answer: '250 N', hint: 'F2 = 50 × (10/2) = 250 N' },
+    { question: 'Why does a suction cup stick to a smooth surface?', answer: 'Atmospheric pressure pushes it against the surface when you expel air.', hint: 'Pressure inside is reduced. Outside air pushes it in.' }
+  ]
+},
+
+// ======================================================================
+// AGRICULTURE - FORM 4 (selected)
+// ======================================================================
+
+// Topic: Soil degradation (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 4',
+  topic: 'Soil Degradation',
+  lessonNumber: 1,
+  lessonTitle: 'Forms, Causes, and Control of Soil Degradation',
+  lessonId: 'agriculture-f4-soil-degradation-1',
+  order: 42,
+  learningObjectives: [
+    'Define soil degradation and identify its forms (physical, chemical, biological)',
+    'Explain causes and effects of soil degradation and ways to control it'
+  ],
+  introduction: 'Soil is a precious resource, but it can be destroyed. When soil loses its ability to grow crops, we call it SOIL DEGRADATION. Today, we will learn what causes this, the terrible effects, and most importantly – how to stop it.',
+  keyPoints: [
+    'Soil degradation: decline in soil quality and productivity.',
+    'Physical degradation: erosion, compaction, crusting, loss of topsoil.',
+    'Chemical degradation: nutrient depletion, acidification, salinisation, pollution.',
+    'Biological degradation: loss of organic matter, decline in soil organisms.',
+    'Causes: water erosion, wind erosion, deforestation, overgrazing, continuous tillage, burning crop residues.',
+    'Effects: lower crop yields, increased fertiliser need, more drought vulnerability.',
+    'Control methods: conservation agriculture (minimum tillage, mulching, rotation), terracing, reforestation.'
+  ],
+  detailedContent: `What is Soil Degradation?
+
+Soil degradation is the loss of soil quality, making it less able to support plant growth. It is a major problem in Malawi, threatening food security.
+
+Forms of Soil Degradation
+
+1. Physical degradation:
+   - Erosion: topsoil carried away by water or wind.
+   - Compaction: soil particles pressed together, reducing pores.
+   - Crusting: hard layer on surface, preventing water infiltration.
+
+2. Chemical degradation:
+   - Nutrient depletion: crops remove more nutrients than are added.
+   - Acidification: pH drops, making some nutrients toxic.
+   - Salinisation: salt builds up (in irrigated areas).
+   - Pollution: chemicals from fertilisers, pesticides, or industrial waste.
+
+3. Biological degradation:
+   - Loss of organic matter (humus).
+   - Decline in earthworms, termites, and soil microbes.
+
+Causes of Soil Degradation
+
+- Water erosion: Rain washes topsoil down slopes. Common in hilly areas of Malawi.
+- Wind erosion: In dry areas, wind blows away loose soil.
+- Deforestation: Removing trees leaves soil exposed.
+- Overgrazing: Too many animals eat all grass, leaving soil bare.
+- Poor tillage: Ploughing up and down slopes creates channels for erosion.
+- Burning crop residues: Destroys organic matter and kills soil organisms.
+
+Effects on Crop Production
+
+- Low yields: Less topsoil means less nutrients.
+- Increased fertiliser need: Farmer must spend more money.
+- More drought: Degraded soil holds less water.
+- Higher production costs: Need to rebuild soil.
+- Food insecurity: Poor harvests lead to hunger.
+
+Ways to Control Soil Degradation
+
+1. Conservation agriculture:
+   - Minimum tillage (only disturb soil where planting).
+   - Permanent soil cover (mulch, cover crops).
+   - Crop rotation (include legumes).
+
+2. Erosion control structures: Contour ridges, terracing, grass strips, check dams.
+
+3. Reforestation and agroforestry: Plant trees on slopes, along contours, and in fields (e.g., Gliricidia, Faidherbia).
+
+4. Controlled grazing: Rotate animals, keep numbers in balance with pasture.
+
+5. Manure and compost: Replace organic matter.
+
+6. Avoid burning crop residues – leave them on field as mulch.
+
+Malawi example: In Southern Malawi, farmers on steep slopes have built stone bunds (tisisili) to slow runoff. Others practice box ridges (mipanda) to trap water and soil. Many are adopting conservation agriculture with the help of extension workers.`,
+  summary: 'Soil degradation is loss of quality through erosion, nutrient loss, or biological decline. Causes: deforestation, overgrazing, poor tillage. Effects: low yields, drought vulnerability. Control with conservation agriculture, trees, terracing, and organic matter.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Stone Bunds in Thyolo', description: 'Farmers build stone lines across slopes to reduce erosion.' },
+    { title: 'Conservation Agriculture', description: 'Planting maize without tillage and leaving mulch on surface.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is a physical form of soil degradation?', answer: 'Erosion or compaction', hint: 'Physical means structure changes.' },
+    { question: 'How does planting trees help control soil degradation?', answer: 'Roots hold soil, reduces erosion, adds organic matter.', hint: 'Agroforestry.' }
+  ]
+},
+
+// ======================================================================
+// BIOLOGY - FORM 4 (selected)
+// ======================================================================
+
+// Topic: Immunity and disease (1 lesson)
+{
+  subject: 'Biology',
+  form: 'Form 4',
+  topic: 'Immunity and Disease',
+  lessonNumber: 1,
+  lessonTitle: 'How the Body Defends Against Pathogens',
+  lessonId: 'biology-f4-immunity-1',
+  order: 43,
+  learningObjectives: [
+    'Distinguish between non-specific (first line) and specific (immune) defences',
+    'Explain how vaccination works and why it is important'
+  ],
+  introduction: 'Every day, you are exposed to germs. Yet you stay healthy most of the time because your body has defences. These range from simple barriers to sophisticated immune cells. Today, we will learn how your body fights infection.',
+  keyPoints: [
+    'First line of defence (non-specific): skin, mucus, cilia, stomach acid, tears, lysozyme.',
+    'Second line of defence (non-specific): phagocytes (white blood cells that engulf pathogens), inflammation, fever.',
+    'Third line of defence (specific immunity): B cells produce antibodies; T helper cells activate B cells; T killer cells destroy infected cells.',
+    'Antigens: molecules on pathogen surface that trigger immune response.',
+    'Immunity types: natural active (get disease), artificial active (vaccination), natural passive (breast milk), artificial passive (antibody injection).',
+    'Vaccination: introduces harmless antigen; body makes memory cells for rapid response.'
+  ],
+  detailedContent: `First Line of Defence (Non-specific barriers)
+
+These are physical and chemical barriers that prevent pathogen entry.
+
+- Skin: Tough, waterproof, unbroken skin blocks most germs. Sweat and sebum contain antibacterial substances.
+- Mucous membranes: line nose, mouth, trachea, etc. Mucus traps pathogens.
+- Cilia: hair-like projections in airways that sweep mucus (with trapped germs) towards throat.
+- Stomach acid (HCl): kills many ingested bacteria and viruses.
+- Tears: contain lysozyme (enzyme that breaks bacterial cell walls).
+
+Second Line of Defence (Non-specific internal)
+
+When pathogens breach first line, these responses start:
+
+- Phagocytes (macrophages, neutrophils): white blood cells that engulf and digest pathogens.
+- Inflammation: Redness, heat, swelling, pain – increased blood flow brings more phagocytes.
+- Fever: Body temperature rises; this slows pathogen reproduction.
+
+Third Line of Defence (Specific immunity)
+
+This is tailored to specific pathogens. It involves LYMPHOCYTES.
+
+1. B cells: produce ANTIBODIES. Antibodies are proteins that bind specifically to ANTIGEN on pathogen. The binding neutralises pathogen or marks it for destruction.
+
+2. T cells:
+   - T helper cells (CD4): activate B cells and T killer cells.
+   - T killer cells (CD8): destroy cells that are infected by virus.
+
+After infection, some B and T cells become MEMORY CELLS – they remain in body for years. Upon re-infection, they mount a rapid response.
+
+Types of Immunity
+
+- Natural active: Get disease, recover – long-term (e.g., chickenpox).
+- Artificial active: Vaccination – long-term (e.g., BCG for TB).
+- Natural passive: Antibodies from mother via breast milk – short-term.
+- Artificial passive: Injection of antibodies (e.g., antivenom) – short-term.
+
+Vaccination
+
+Vaccine contains weakened or killed pathogen, or part of it (antigen). It does not cause disease but stimulates immune system to produce memory cells. When real pathogen attacks, memory cells respond quickly and stop infection.
+
+Importance: Eradicated smallpox; nearly eradicated polio; prevents measles, tetanus, diphtheria. In Malawi, EPI (Expanded Programme on Immunisation) gives BCG, polio, DPT, measles, etc., free.
+
+HIV and Immunity
+
+HIV infects helper T cells (CD4 cells). It replicates inside them and destroys them. As CD4 count falls, immune system fails. The person becomes vulnerable to opportunistic infections like TB, pneumonia. This stage is AIDS.
+
+Prevention: Abstinence, faithfulness, condoms (ABC), male circumcision, avoid sharing needles, test and treat.`,
+  summary: 'First line: skin, mucus, cilia, acid, tears. Second: phagocytes, inflammation, fever. Third: B cells (antibodies), T cells (helper and killer). Vaccination gives artificial active immunity. HIV destroys helper T cells, causing AIDS.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'EPI Vaccination', description: 'Free childhood vaccines prevent TB, measles, polio.' },
+    { title: 'HIV Testing Campaign', description: 'Mobile clinics promote testing and ART.' }
+  ],
+  practiceQuestions: [
+    { question: 'What type of immunity is obtained by receiving antibodies through breast milk?', answer: 'Natural passive immunity', hint: 'From mother, not long-term.' },
+    { question: 'Which white blood cell produces antibodies?', answer: 'B lymphocytes (B cells)', hint: 'B for antibody production.' }
+  ]
+},
+
+// ======================================================================
+// CHEMISTRY - FORM 4 (selected)
+// ======================================================================
+
+// Topic: Chemical reactions – rates of reaction (1 lesson)
+{
+  subject: 'Chemistry',
+  form: 'Form 4',
+  topic: 'Rates of Reaction',
+  lessonNumber: 1,
+  lessonTitle: 'Factors Affecting Reaction Rates',
+  lessonId: 'chemistry-f4-reaction-rates-1',
+  order: 44,
+  learningObjectives: [
+    'Define rate of reaction and explain factors affecting it (concentration, temperature, surface area, catalyst)',
+    'Interpret graphs of reaction progress (concentration vs time, volume vs time)'
+  ],
+  introduction: 'Some reactions happen in a flash; others take ages. Why? The RATE OF REACTION depends on several factors. Today, we will learn what makes reactions faster or slower, and how we can control them – important in cooking, industry, and even in your body.',
+  keyPoints: [
+    'Rate of reaction = amount of reactant used or product formed per unit time.',
+    'Factors: concentration (higher → faster), temperature (higher → faster), surface area (smaller particles → faster), catalyst (provides alternative pathway with lower activation energy).',
+    'Collision theory: particles must collide with sufficient energy (activation energy) and correct orientation.',
+    'Catalyst speeds up reaction without being consumed; lowers activation energy.',
+    'Graphs: steeper slope = faster rate; plateau when reaction finishes.'
+  ],
+  detailedContent: `What is Rate of Reaction?
+
+Rate measures how quickly reactants are used up or products are formed. It can be expressed as:
+- Change in mass (g/s)
+- Change in volume of gas (cm³/s)
+- Change in concentration (mol/dm³/s)
+
+Collision Theory
+
+For a reaction to occur, particles must:
+1. Collide with each other.
+2. Have enough energy (at least the activation energy, Ea).
+3. Have the correct orientation.
+
+Factors Affecting Rate
+
+1. Concentration (for solutions) or pressure (for gases)
+Higher concentration means more particles in the same volume → more frequent collisions → faster rate.
+Example: Marble chips (CaCO3) react faster with 2M HCl than with 0.5M HCl (more CO2 gas produced in same time).
+
+2. Temperature
+Increasing temperature gives particles more kinetic energy. They move faster (more collisions) and a greater proportion have energy > Ea (more successful collisions). Reaction rate roughly doubles for every 10°C rise.
+
+3. Surface area (solid particle size)
+Powdered solid has larger surface area than a single lump. More particles exposed for collisions → faster rate.
+Example: Powdered chalk reacts faster with acid than large chips.
+
+4. Catalyst
+A catalyst speeds up a reaction without being consumed. It provides an alternative reaction pathway with lower activation energy. Catalysts are very specific – manganese(IV) oxide for hydrogen peroxide decomposition, platinum for car exhaust converters. Enzymes are biological catalysts.
+
+Experiments to Measure Rate
+
+Magnesium with hydrochloric acid: Mg + 2HCl → MgCl2 + H2.
+Measure volume of hydrogen gas produced in a gas syringe at regular intervals. Plot volume vs time. Slope = rate.
+
+Graph Interpretation
+
+On a concentration vs time graph:
+- Steep initial slope = fastest rate (reactants fresh).
+- Slope decreases as reactants used up.
+- Line becomes horizontal when reaction stops.
+
+On a volume vs time graph for gas:
+- Rapid rise initially, then levels off.
+- Changing a factor (higher temp) makes initial slope steeper and plateau reached faster.
+
+Activation Energy and Catalysts
+
+Activation energy is the minimum energy needed for a reaction to occur. A catalyst lowers the activation energy, so a greater fraction of particles have enough energy. The catalyst does not change the final products or enthalpy change.
+
+Malawi Example: Adding a catalyst (manganese dioxide) to hydrogen peroxide makes it decompose faster, producing oxygen gas. This is used in some school demonstrations. In the body, enzymes catalyse digestion.`,
+  summary: 'Rate = amount/time. Factors: concentration (faster if higher), temperature (faster if higher), surface area (smaller particles faster), catalyst (speeds without being consumed). Collision theory: particles must collide with enough energy and correct orientation.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Digestion', description: 'Enzymes are biological catalysts speeding up food breakdown.' },
+    { title: 'Using Manganese Dioxide', description: 'Speeds up hydrogen peroxide decomposition in labs.' }
+  ],
+  practiceQuestions: [
+    { question: 'Why does powdered chalk react faster with acid than whole pieces?', answer: 'Powder has larger surface area, so more collisions between particles.', hint: 'Surface area increases exposure.' },
+    { question: 'How does a catalyst affect activation energy?', answer: 'It lowers activation energy, providing an easier pathway.', hint: 'Makes it easier for particles to react.' }
+  ]
+},
+
+// ======================================================================
+// PHYSICS - FORM 4 (selected)
+// ======================================================================
+
+// Topic: Newton's laws of motion (1 lesson)
+{
+  subject: 'Physics',
+  form: 'Form 4',
+  topic: 'Newton\'s Laws of Motion',
+  lessonNumber: 1,
+  lessonTitle: 'Newton’s Three Laws and Applications',
+  lessonId: 'physics-f4-newton-laws-1',
+  order: 45,
+  learningObjectives: [
+    'State Newton’s three laws of motion',
+    'Apply Newton’s second law (F = ma) to solve problems'
+  ],
+  introduction: 'Sir Isaac Newton gave us three laws that explain almost all motion – from a ball rolling on the ground to a rocket launching into space. Today, we will learn these fundamental laws and see them in action around us.',
+  keyPoints: [
+    'First law (Law of Inertia): An object remains at rest or in uniform motion unless acted upon by an external force.',
+    'Second law: F = ma (force = mass × acceleration).',
+    'Third law: For every action, there is an equal and opposite reaction.',
+    'Inertia is the tendency of an object to resist changes in its motion.',
+    'Units: Force in newtons (N), mass in kg, acceleration in m/s².'
+  ],
+  detailedContent: `Newton’s First Law (Law of Inertia)
+
+"An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an external force."
+
+Example 1: A book on a table remains at rest because no net force acts on it. If you push it, it moves.
+
+Example 2: A passenger in a minibus lurches forward when the minibus stops suddenly – the passenger’s body tends to continue moving (inertia).
+
+Inertia is related to mass: more massive objects have more inertia (harder to start or stop).
+
+Newton’s Second Law (F = ma)
+
+The acceleration (a) of an object is directly proportional to the net force (F) acting on it and inversely proportional to its mass (m).
+
+F = m × a
+
+Example: A 1000 kg car accelerates at 2 m/s². What force is needed?
+F = 1000 × 2 = 2000 N.
+
+If the same force is applied to a 2000 kg truck, acceleration = F/m = 2000/2000 = 1 m/s² (half the acceleration because mass doubled).
+
+Newton’s Third Law (Action-Reaction)
+
+"For every action force, there is an equal and opposite reaction force."
+
+Action-reaction pairs act on different objects. They do not cancel each other.
+
+Examples:
+- When you sit on a chair, your weight pushes down (action). The chair pushes up with an equal force (reaction).
+- When a bird flaps its wings, wings push air down (action); air pushes wings up (reaction) – bird flies.
+- A boat propeller pushes water backward (action); water pushes boat forward (reaction).
+
+Malawi Example:
+- A person jumping off a small boat onto a pier: They push the boat backward (action), and the boat pushes them forward (reaction).
+- A farmer using a hoe: The hoe pushes soil (action); soil pushes back on the hoe (reaction) – you feel it in your hands.`,
+  summary: 'Newton’s first law: inertia. Second law: F = ma. Third law: action-reaction pairs. These laws govern all motion and are essential for understanding forces and dynamics.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Minibus Sudden Stop', description: 'Passengers lurch forward due to inertia.' },
+    { title: 'Rowing a Boat', description: 'Paddles push water backward; water pushes boat forward (third law).' }
+  ],
+  practiceQuestions: [
+    { question: 'A 1500 kg car accelerates at 3 m/s². Calculate the net force.', answer: '4500 N', hint: 'F = 1500 × 3 = 4500 N' },
+    { question: 'A 50 kg person jumps off a 5 kg boat. If the person exerts a force of 200 N on the boat, what force does the boat exert on the person?', answer: '200 N', hint: 'Third law – equal and opposite.' }
+  ]
+}
 
   
   // BIOLOGY - FORM 1
