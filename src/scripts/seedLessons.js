@@ -1836,9 +1836,8 @@ Malawi Example:
     { question: 'A 1500 kg car accelerates at 3 m/s². Calculate the net force.', answer: '4500 N', hint: 'F = 1500 × 3 = 4500 N' },
     { question: 'A 50 kg person jumps off a 5 kg boat. If the person exerts a force of 200 N on the boat, what force does the boat exert on the person?', answer: '200 N', hint: 'Third law – equal and opposite.' }
   ]
-}
+},
 
-  
   // BIOLOGY - FORM 1
 
   // Topic: Characteristics of living things (1 lesson)
@@ -2864,9 +2863,8 @@ Properties of metals: Good conductors of electricity, good conductors of heat, m
     ]
   },
 
-  // ======================================================================
-  // PHYSICS - FORM 2 (example)
-  // ======================================================================
+  
+  // PHYSICS - FORM 2 
 
   // Topic: Density (1 lesson)
   {
