@@ -3962,9 +3962,1198 @@ Malawi Example:
     { question: 'A 1500 kg car accelerates at 3 m/s². Calculate the net force.', answer: '4500 N', hint: 'F = 1500 × 3 = 4500 N' },
     { question: 'A 50 kg person jumps off a 5 kg boat. If the person exerts a force of 200 N on the boat, what force does the boat exert on the person?', answer: '200 N', hint: 'Third law – equal and opposite.' }
   ]
+},
+
+// ======================================================================
+// CONTINUATION: ADDITIONAL LESSONS FOR ALL SUBJECTS (SKIPPED TOPICS)
+// ======================================================================
+// Orders continue from previous maximum (45). We'll add new lessons sequentially.
+// ======================================================================
+
+// ======================================================================
+// AGRICULTURE - FORM 2 (continued)
+// ======================================================================
+
+// Topic: Gender and agricultural production (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Gender and Agricultural Production',
+  lessonNumber: 1,
+  lessonTitle: 'Gender Roles and Equity in Agriculture',
+  lessonId: 'agriculture-f2-gender-1',
+  order: 46,
+  learningObjectives: [
+    'Identify gender roles in agricultural production',
+    'Discuss the impact of gender roles on agricultural productivity'
+  ],
+  introduction: 'In Malawi, both men and women work in agriculture, but they often have different roles. Understanding these roles helps improve productivity and equity. Today, we will learn about gender roles in farming and their impact.',
+  keyPoints: [
+    'Women: involved in planting, weeding, harvesting, processing, and selling.',
+    'Men: often involved in land clearing, ploughing, and cash crop marketing.',
+    'Impact: women have less access to land, credit, and extension services, reducing productivity.',
+    'Gender equity ensures equal opportunities and resources for all.'
+  ],
+  detailedContent: `Gender Roles in Agricultural Production
+
+In Malawi, agriculture is the main livelihood. Both men and women participate, but their roles differ:
+
+Women typically:
+- Prepare seedbeds and plant
+- Weed crops
+- Harvest and process produce (e.g., shelling maize, grinding)
+- Collect water and firewood
+- Sell produce at local markets
+- Care for small livestock (chickens, goats)
+
+Men typically:
+- Clear land and plough
+- Apply fertilisers and pesticides
+- Market cash crops (tobacco, cotton)
+- Build farm structures
+- Care for large livestock (cattle)
+
+Impact of Gender Roles on Agricultural Productivity
+
+- Limited access to resources: Women often cannot own land, access credit, or receive extension training. This reduces their productivity.
+- Time burden: Women work longer hours (farming plus household chores), leading to fatigue and less time for farming.
+- Decision-making: Men often control income from cash crops, limiting women's economic empowerment.
+
+Gender equity in agriculture means ensuring equal access to land, inputs, training, and markets for both men and women. When women have equal resources, yields increase by 20-30%.
+
+Malawi Government initiatives: The National Gender Policy promotes women's access to land and credit. Extension services target both men and women.`,
+  summary: 'Women and men have different roles in agriculture. Gender inequity limits productivity. Equal access to resources improves yields and livelihoods.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Women in Vegetable Gardening', description: 'Women often grow vegetables for home consumption and sale.' },
+    { title: 'Gender and Land Ownership', description: 'Customary law often restricts women’s land ownership.' }
+  ],
+  practiceQuestions: [
+    { question: 'Name one agricultural activity typically done by women.', answer: 'Weeding, planting, harvesting, processing', hint: 'Think of tasks near the home.' },
+    { question: 'How does gender inequity affect agricultural productivity?', answer: 'Women have less access to resources, reducing potential yields.', hint: 'Access to land, credit, training.' }
+  ]
+},
+
+// Topic: Farming systems (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Farming Systems',
+  lessonNumber: 1,
+  lessonTitle: 'Types and Importance of Farming Systems',
+  lessonId: 'agriculture-f2-farming-systems-1',
+  order: 47,
+  learningObjectives: [
+    'Identify types of farming systems (intensive, extensive, mixed, monoculture)',
+    'Explain the importance of each farming system'
+  ],
+  introduction: 'Do you plant only maize every year? Or do you keep animals as well? The way you organise your farm is your FARMING SYSTEM. Today, we will learn about different systems and their advantages.',
+  keyPoints: [
+    'Intensive farming: high inputs, high output per unit area (e.g., irrigation, fertilisers).',
+    'Extensive farming: large land area, low inputs, low output per hectare (e.g., ranching).',
+    'Mixed farming: crops and livestock together (manure for crops, crop residues for feed).',
+    'Monoculture: growing same crop year after year. Can lead to pest buildup and soil exhaustion.',
+    'Importance: choice of system affects productivity, sustainability, and profitability.'
+  ],
+  detailedContent: `Types of Farming Systems
+
+1. Intensive farming: Uses high levels of inputs (fertilisers, pesticides, irrigation, labour) per unit area to achieve high yields. Common for vegetables, irrigated maize, and poultry. Advantages: high productivity, efficient land use. Disadvantages: high cost, risk of environmental damage.
+
+2. Extensive farming: Uses large land areas with low inputs and low yields per hectare. Common for cattle ranching or shifting cultivation. Advantages: low cost, less environmental pressure per hectare. Disadvantages: requires large land, low output.
+
+3. Mixed farming: Combines crop production and livestock keeping. Farmers grow crops and rear animals together. Animal manure fertilises crops; crop residues feed animals. Advantages: nutrient cycling, risk diversification, income from multiple sources. Common in Malawi smallholder farms.
+
+4. Monoculture: Growing only one crop on the same land year after year. Advantages: easy to manage, can specialise. Disadvantages: pest and disease buildup (e.g., maize stalk borer), soil nutrient depletion, increased need for fertilisers.
+
+5. Crop rotation: Growing different crops in sequence on the same land. Advantages: improves soil fertility, breaks pest cycles, reduces erosion.
+
+Importance of Choosing the Right System
+
+- Productivity: Intensive systems produce more food per hectare.
+- Sustainability: Mixed farming and crop rotation maintain soil health.
+- Risk management: Diversified systems (mixed, rotation) reduce risk of total crop failure.
+- Profitability: Intensive and mixed systems often give higher returns per area.
+
+In Malawi, most smallholders practice mixed farming with maize and groundnuts plus a few chickens or goats. Some use crop rotation.`,
+  summary: 'Farming systems include intensive, extensive, mixed, monoculture, and rotation. Mixed farming and rotation improve sustainability. Choice affects productivity and risk.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Maize-Groundnut Rotation', description: 'Improves soil fertility and reduces pest problems.' },
+    { title: 'Mixed Farming in Lilongwe', description: 'Maize, groundnuts, and chickens together use resources efficiently.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is the main advantage of mixed farming?', answer: 'Nutrient cycling and risk diversification', hint: 'Crops and animals complement each other.' },
+    { question: 'What is a disadvantage of monoculture?', answer: 'Pest buildup and soil nutrient depletion', hint: 'Same crop every year.' }
+  ]
+},
+
+// Topic: Financing agricultural enterprises (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Financing Agricultural Enterprises',
+  lessonNumber: 1,
+  lessonTitle: 'Sources of Finance and Calculating Interest',
+  lessonId: 'agriculture-f2-finance-1',
+  order: 48,
+  learningObjectives: [
+    'Identify sources of finance for agricultural production',
+    'Calculate simple interest on borrowed money'
+  ],
+  introduction: 'Farming requires money for seeds, fertilisers, and equipment. But many farmers lack enough capital. Today, we will learn about sources of finance and how to calculate interest on loans.',
+  keyPoints: [
+    'Sources: personal savings, family/friends, village savings and loans (VSL), commercial banks, microfinance institutions, cooperatives, government subsidies (FISP).',
+    'Simple interest formula: I = P × R × T (where I = interest, P = principal, R = rate per year, T = time in years).',
+    'Total repayment = Principal + Interest.',
+    'Conditions for borrowing: interest rate, repayment period, collateral, purpose.'
+  ],
+  detailedContent: `Sources of Finance for Agricultural Production
+
+- Personal savings: Most common, but often insufficient.
+- Family and friends: Low or no interest, but may strain relationships.
+- Village Savings and Loans (VSL) groups: Members save and lend to each other; flexible.
+- Commercial banks: Require collateral and formal records; higher interest rates.
+- Microfinance institutions: Smaller loans, less collateral; higher interest.
+- Cooperatives: Members pool savings; lower interest.
+- Government subsidies (FISP): Farm Input Subsidy Programme provides vouchers for fertiliser and seeds.
+
+Calculating Simple Interest
+
+Simple interest is calculated only on the principal amount.
+
+Formula: I = P × R × T
+Where:
+- I = Interest
+- P = Principal (amount borrowed)
+- R = Interest rate per year (as a decimal)
+- T = Time in years
+
+Example 1: A farmer borrows 50,000 MK at 10% per year for 2 years.
+I = 50,000 × 0.10 × 2 = 10,000 MK
+Total repayment = 50,000 + 10,000 = 60,000 MK
+
+Example 2: Borrow 30,000 MK at 8% per year for 6 months (0.5 years).
+I = 30,000 × 0.08 × 0.5 = 1,200 MK
+Total repayment = 31,200 MK
+
+Conditions and Terms for Borrowing
+
+- Interest rate: Percentage charged per year.
+- Repayment period: Time to pay back.
+- Collateral: Asset pledged as security (e.g., land, house).
+- Purpose: Lender may require a business plan.
+- Credit history: Past repayment record.
+
+Malawi Example: Many farmers join VSL groups. They save weekly and can borrow at low interest (e.g., 5% per month). The group decides terms. Some access commercial loans from banks like NBS or Opportunity Bank.`,
+  summary: 'Sources of finance include savings, VSL, banks, microfinance, cooperatives, and subsidies. Simple interest: I = P×R×T. Always consider repayment ability.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Village Savings and Loans', description: 'Groups save together and lend to members at low interest.' },
+    { title: 'Farm Input Subsidy Programme (FISP)', description: 'Government provides vouchers for fertiliser and seeds.' }
+  ],
+  practiceQuestions: [
+    { question: 'Calculate interest on a loan of 100,000 MK at 12% per year for 3 years.', answer: '36,000 MK', hint: 'I = 100,000 × 0.12 × 3 = 36,000' },
+    { question: 'What is collateral?', answer: 'An asset pledged as security for a loan.', hint: 'Land, house, or equipment.' }
+  ]
+},
+
+// Topic: Pig production (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 2',
+  topic: 'Pig Production',
+  lessonNumber: 1,
+  lessonTitle: 'Breeds, Management, and Disease Control in Pigs',
+  lessonId: 'agriculture-f2-pigs-1',
+  order: 49,
+  learningObjectives: [
+    'List breeds of pigs and describe management systems',
+    'Explain feeding, housing, and disease control for pigs'
+  ],
+  introduction: 'Pigs grow quickly and provide meat (pork) and income. In Malawi, pig production is common in smallholder farms. Today, we will learn about pig breeds, housing, feeding, and health management.',
+  keyPoints: [
+    'Breeds: Large White, Landrace, Duroc, local (crossbred).',
+    'Management systems: free-range, semi-intensive, intensive.',
+    'Housing: clean, dry, well-ventilated, with separate areas for farrowing and growing.',
+    'Feeding: creep feed for piglets, growers mash for weaners, finisher feed; also kitchen waste, maize bran.',
+    'Diseases: African Swine Fever (ASF), swine erysipelas, roundworms. Control: biosecurity, vaccination, deworming.'
+  ],
+  detailedContent: `Breeds of Pigs
+
+- Large White: White, long body, good mothering ability, high litter size.
+- Landrace: White, large drooping ears, good bacon quality.
+- Duroc: Red-brown, fast growth, good meat quality.
+- Local crossbreeds: Hardy, disease-resistant, but slower growth.
+
+Management Systems
+
+- Free-range: Pigs roam freely. Low cost but high disease risk and damage to crops.
+- Semi-intensive: Pigs have a pen but also allowed to forage. Moderate cost and management.
+- Intensive: Pigs kept in pens, all feed provided. Higher cost but better growth and disease control.
+
+Housing Requirements
+
+- Good pig house: dry floor (concrete or raised wood), proper drainage, ventilation, protection from sun and rain.
+- Separate areas: farrowing crate for sows with piglets, weaner pens, grower/finisher pens.
+- Space: 1.5-2 m² per adult pig.
+
+Feeding
+
+- Creep feed (for piglets up to 8 weeks): high protein.
+- Growers mash (8-20 weeks): 16-18% protein.
+- Finisher feed (20 weeks to slaughter): 14-16% protein.
+- Also: maize bran, kitchen waste, vegetables. Provide clean water always.
+
+Disease and Parasite Control
+
+- African Swine Fever (ASF): viral, highly fatal. No vaccine. Control: biosecurity (restrict visitors, quarantine new pigs).
+- Swine erysipelas: bacterial. Vaccinate.
+- Roundworms: deworm with piperazine or ivermectin.
+- External parasites (mange, lice): dust with insecticide, clean pens.
+
+Malawi Example: Many farmers raise pigs in semi-intensive systems. They feed maize bran and kitchen waste. They face ASF outbreaks, so biosecurity is critical.`,
+  summary: 'Pig breeds: Large White, Landrace, Duroc, local. Management: free-range, semi-intensive, intensive. House must be clean and dry. Feed according to age. Control diseases with biosecurity and vaccination.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'ASF in Malawi', description: 'Outbreaks occur; farmers lose pigs; movement control is key.' },
+    { title: 'Pig Fattening', description: 'Farmers buy weaners, feed maize bran, sell after 6 months.' }
+  ],
+  practiceQuestions: [
+    { question: 'Name one breed of pig commonly used in Malawi.', answer: 'Large White or Landrace', hint: 'White breeds are common.' },
+    { question: 'What is the most important disease control measure for African Swine Fever?', answer: 'Biosecurity (restrict pig movement, quarantine new pigs).', hint: 'No vaccine.' }
+  ]
+},
+
+// ======================================================================
+// AGRICULTURE - FORM 3 (continued)
+// ======================================================================
+
+// Topic: Chemical properties of soil (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 3',
+  topic: 'Soil Chemical Properties',
+  lessonNumber: 1,
+  lessonTitle: 'Soil pH, Cation Exchange Capacity, and Nutrient Status',
+  lessonId: 'agriculture-f3-soil-chemical-1',
+  order: 50,
+  learningObjectives: [
+    'Define soil pH and explain its effect on nutrient availability',
+    'Describe Cation Exchange Capacity (CEC) and its importance'
+  ],
+  introduction: 'Soil chemistry is invisible but crucial. It determines whether plants can access nutrients. Today, we will learn about soil pH (acidity or alkalinity) and CEC – how well soil holds onto nutrients. These factors decide if your fertiliser will work or be wasted.',
+  keyPoints: [
+    'Soil pH measures acidity or alkalinity (scale 0-14). pH 7 neutral; below 7 acidic; above 7 alkaline.',
+    'Most crops grow best at pH 6.0-7.0 (slightly acidic to neutral).',
+    'Low pH: aluminium and manganese become toxic; phosphorus is locked.',
+    'High pH: iron, manganese, zinc become unavailable.',
+    'CEC is the soil\'s ability to hold positively charged nutrients (cations: Ca, Mg, K, NH4).',
+    'Clay and organic matter have high CEC; sandy soils have low CEC.',
+    'Modify acidic soil with lime (calcium carbonate).'
+  ],
+  detailedContent: `Soil pH – The Balance of Acidity and Alkalinity
+
+pH is a measure of how acidic or alkaline the soil is. It ranges from 0 (very acidic) to 14 (very alkaline), with 7 being neutral.
+
+Most crops in Malawi grow best in slightly acidic to neutral soil, pH 6.0-7.0.
+
+- Maize: pH 5.5-7.0
+- Groundnuts: pH 5.5-6.5
+- Tobacco: pH 5.5-6.5
+- Tea: prefers acidic soil (pH 4.5-5.5)
+
+Effects of pH on Nutrients:
+
+- At low pH (very acidic): Aluminium and manganese become soluble and toxic to roots. Phosphorus is locked and unavailable. Calcium and magnesium are deficient.
+- At high pH (alkaline): Iron, manganese, zinc, and copper become unavailable (chlorosis – yellow leaves).
+
+Cation Exchange Capacity (CEC)
+
+CEC is the soil's ability to hold and exchange positively charged nutrient ions (cations). These include:
+- Calcium (Ca2+)
+- Magnesium (Mg2+)
+- Potassium (K+)
+- Ammonium (NH4+)
+
+High CEC means the soil can store more nutrients and release them slowly. Low CEC means nutrients wash away (leach) quickly.
+
+- Clay soils: High CEC (good fertility).
+- Sandy soils: Low CEC (needs frequent fertilising).
+- Organic matter: Very high CEC.
+
+Factors Affecting Soil pH
+
+- Parent material: Soils from limestone are alkaline; from granite are acidic.
+- Rainfall: High rainfall leaches basic cations (Ca, Mg), making soil acidic.
+- Fertilisers: Urea and ammonium-based fertilisers acidify soil over time.
+- Organic matter decomposition produces organic acids.
+
+Modifying Soil pH
+
+To raise pH (reduce acidity) add agricultural lime (calcium carbonate). The amount depends on soil test results. To lower pH (increase acidity) add sulphur, aluminium sulphate, or use acidic fertilisers.
+
+Malawi Example: In high-rainfall areas of Mulanje, tea farmers need acidic soil (pH 4.5-5.5). For maize, farmers in sandy soils add manure to improve CEC. In some areas, soil is too acidic for maize; they apply lime before planting.`,
+  summary: 'Soil pH affects nutrient availability. Most crops prefer pH 6-7. CEC measures nutrient holding capacity – clay and organic matter have high CEC. Acidic soil is treated with lime.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Lime Application in Kasungu', description: 'Farmers add lime to acidic tobacco soils.' },
+    { title: 'Tea Soil pH', description: 'Tea grows well in acidic soil (pH 4.5-5.5).' }
+  ],
+  practiceQuestions: [
+    { question: 'What happens to phosphorus availability at very low soil pH?', answer: 'Phosphorus becomes locked and unavailable to plants.', hint: 'Forms insoluble compounds.' },
+    { question: 'Which soil type has higher CEC: sandy or clay?', answer: 'Clay', hint: 'Clay particles have more negative charges.' }
+  ]
+},
+
+// Topic: Farm records and budgets (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 3',
+  topic: 'Farm Records and Budgets',
+  lessonNumber: 1,
+  lessonTitle: 'Keeping Farm Records and Preparing Budgets',
+  lessonId: 'agriculture-f3-farm-records-1',
+  order: 51,
+  learningObjectives: [
+    'Identify types of farm records (inventory, production, financial)',
+    'Prepare a simple budget for an agricultural enterprise'
+  ],
+  introduction: 'Farming is a business. To know if you are making profit or loss, you need RECORDS. To plan for the future, you need a BUDGET. Today, we will learn how to keep simple farm records and prepare a budget for your crop or livestock enterprise.',
+  keyPoints: [
+    'Types of records: inventory (list of assets), production (yields, inputs used), financial (income, expenses, loans).',
+    'Reasons: track profit/loss, plan for next season, get loans, improve management.',
+    'Budgeting: forecasting income and expenses for a farming period.',
+    'Types of budgets: partial (for changes), complete (whole farm), break-even (minimum production to cover costs).',
+    'Simple budget: list expected income and expenses; profit = income - expenses.'
+  ],
+  detailedContent: `Types of Farm Records
+
+1. Inventory records: List all assets on the farm – land size, buildings, livestock, tools, machinery, seeds, fertilisers. Update regularly.
+
+2. Production records: For crops: area planted, seed rate, fertiliser applied, weeding dates, harvest date, yield. For livestock: number of animals, births, deaths, milk production, eggs.
+
+3. Financial records: All money received (sales, loans, gifts) and money spent (inputs, labour, transport, water, electricity). Also debts and savings.
+
+Reasons for Keeping Farm Records
+
+- To know profit or loss from each enterprise.
+- To compare one season with another.
+- To learn from mistakes.
+- To get loans from banks or cooperatives.
+- To plan next season's planting and spending.
+- To prove income for tax purposes.
+
+Farm Budgeting
+
+A budget is a plan of expected income and expenses for a farming period (usually one season).
+
+Types of Budgets:
+
+1. Partial budget: Used when considering a small change, e.g., adding a new crop or buying a cow. Shows additional costs and additional benefits.
+
+2. Complete budget: A full plan for the whole farm – all crops, all livestock, all expenses, all expected income.
+
+3. Break-even budget: Calculates the quantity you must produce to cover all costs (no profit, no loss). Useful for deciding if an enterprise is worth it.
+
+How to Prepare a Simple Budget
+
+For a maize enterprise on 0.5 hectare:
+
+Income (expected):
+- Maize yield: 2,000 kg
+- Price per kg: 200 MK
+- Total income = 2,000 × 200 = 400,000 MK
+
+Expenses:
+- Seeds: 5 kg × 600 MK = 3,000 MK
+- NPK fertiliser: 100 kg × 300 MK = 30,000 MK
+- Urea fertiliser: 25 kg × 400 MK = 10,000 MK
+- Labour (weeding, planting): 15,000 MK
+- Transport: 10,000 MK
+- Total expenses = 3,000+30,000+10,000+15,000+10,000 = 68,000 MK
+
+Profit = Income - Expenses = 400,000 - 68,000 = 332,000 MK
+
+Note: This does not include the cost of land or farmer's own labour, but gives an estimate.
+
+Importance of Budgeting
+
+- Prevents overspending.
+- Helps decide which crops to grow.
+- Shows expected profit before investing.
+- Identifies where to cut costs.
+- Helps apply for loans (show projected profits).
+
+Malawi Example: A smallholder farmer keeps a notebook: he writes down how much fertiliser he bought, how many bags of maize he harvested, and how much he sold. Before next season, he uses this to budget – he knows he needs 3 bags of fertiliser and expects 10 bags of maize.`,
+  summary: 'Farm records include inventory, production, and financial records. They help track profit/loss and plan. Budgets forecast income and expenses. Profit = income - expenses.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Farm Notebook', description: 'A farmer records all inputs and sales in a simple exercise book.' },
+    { title: 'Maize Budget', description: 'Estimate costs and income for a 0.5 ha maize field before planting.' }
+  ],
+  practiceQuestions: [
+    { question: 'Name one reason to keep a production record.', answer: 'To compare yields between seasons', hint: 'Helps improve management.' },
+    { question: 'What is a break-even budget?', answer: 'A budget that finds the point where total cost equals total revenue – no profit or loss.', hint: 'Used to decide minimum production needed.' }
+  ]
+},
+
+// Topic: Cropping systems (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 3',
+  topic: 'Cropping Systems',
+  lessonNumber: 1,
+  lessonTitle: 'Types and Benefits of Cropping Systems',
+  lessonId: 'agriculture-f3-cropping-systems-1',
+  order: 52,
+  learningObjectives: [
+    'Define cropping system and identify types (monocropping, intercropping, crop rotation, mixed cropping, relay cropping)',
+    'Discuss advantages and disadvantages of different cropping systems'
+  ],
+  introduction: 'Do you plant only maize every year in the same field? Or do you plant maize with beans? The way you arrange your crops is your CROPPING SYSTEM. Today, we will learn the main systems and their pros and cons.',
+  keyPoints: [
+    'Monocropping: same crop year after year – easy but depletes soil.',
+    'Intercropping: two or more crops together (e.g., maize + beans) – better land use, reduces pests.',
+    'Crop rotation: different crops in sequence – improves soil fertility, breaks pest cycles.',
+    'Mixed cropping: seeds mixed randomly – very low risk but low yields.',
+    'Relay cropping: second crop planted before first is harvested – extends growing season.'
+  ],
+  detailedContent: `Types of Cropping Systems
+
+1. Monocropping (Monoculture)
+- Only one crop grown on the same land year after year.
+- Advantages: Easy to manage, can specialise, good for mechanisation.
+- Disadvantages: Builds up pests and diseases, depletes specific nutrients, soil erosion.
+
+2. Intercropping
+- Two or more crops grown together in the same field at the same time.
+- Common in Malawi: maize intercropped with beans or groundnuts.
+- Advantages: More efficient use of land, sunlight, water. Legumes add nitrogen. Reduces pest spread.
+- Disadvantages: Competition for light and water if not spaced well. Harvesting may be difficult.
+
+3. Crop Rotation
+- Different crops planted in a planned sequence on the same land.
+- Example: Year 1: maize; Year 2: groundnuts; Year 3: maize again.
+- Advantages: Improves soil fertility (legumes fix nitrogen), breaks disease and pest cycles, reduces erosion, diversifies income.
+- Disadvantages: Requires planning, may need different equipment.
+
+4. Mixed Cropping
+- Seeds of different crops are mixed together and planted randomly.
+- Example: maize, millet, and pumpkin all together in one hole.
+- Advantages: Very low risk – at least one crop survives. Provides diverse food.
+- Disadvantages: Difficult to weed, low yields for individual crops, cannot apply fertiliser or pesticide targeted.
+
+5. Relay Cropping
+- Second crop planted before the first crop is harvested.
+- Example: In maize field, when maize is about to mature, farmers plant beans between the maize rows. Beans grow after maize is harvested.
+- Advantages: Extends growing season, uses residual moisture.
+- Disadvantages: Timing is critical, competition possible.
+
+Choosing the Right System
+
+- For small farms with limited land: intercropping (maize + legumes) is common.
+- For large farms with machinery: monocropping may be easier.
+- To improve poor soil: rotation with legumes.
+- To reduce risk of total crop failure: mixed cropping or intercropping.
+
+Malawi Example: In most villages, farmers practise maize-groundnuts intercropping. They plant maize first, then at the second weeding, they plant groundnuts between the maize rows. The groundnuts fix nitrogen, and the family gets both maize and nuts. After two seasons, they may rotate to a different field.`,
+  summary: 'Cropping systems: monocropping (same crop every year), intercropping (mixed in same field), rotation (sequence over years), relay (plant before harvest). Intercropping and rotation improve soil and reduce pests.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Maize-Bean Intercrop', description: 'Beans climb maize stalks and fix nitrogen – common across Malawi.' },
+    { title: 'Three-Year Rotation', description: 'Maize → groundnuts → fallow or vegetables.' }
+  ],
+  practiceQuestions: [
+    { question: 'Why is crop rotation beneficial for soil fertility?', answer: 'Legumes fix nitrogen; different crops use different nutrients, preventing depletion.', hint: 'Diverse root systems and nitrogen fixation.' },
+    { question: 'What is a disadvantage of monocropping?', answer: 'Pests and diseases build up; soil nutrients become depleted.', hint: 'Same crop every year – same pests stay.' }
+  ]
+},
+
+// ======================================================================
+// AGRICULTURE - FORM 4 (continued)
+// ======================================================================
+
+// Topic: Crop improvement (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 4',
+  topic: 'Crop Improvement',
+  lessonNumber: 1,
+  lessonTitle: 'Methods and Aims of Crop Improvement',
+  lessonId: 'agriculture-f4-crop-improvement-1',
+  order: 53,
+  learningObjectives: [
+    'Define crop improvement and state its aims (higher yield, disease resistance, quality, adaptation)',
+    'Describe methods of crop improvement (selection, introduction, hybridization)'
+  ],
+  introduction: 'Why are some maize varieties tolerant to drought while others are not? Why do some groundnuts have larger kernels? The answer is CROP IMPROVEMENT – the science of developing better crop varieties. Today, we will learn the methods and why processing crops adds value.',
+  keyPoints: [
+    'Aims: higher yield, disease/pest resistance, drought tolerance, better quality, early maturity, uniformity.',
+    'Methods: selection (choosing best plants for seed), introduction (bringing varieties from elsewhere), hybridization (crossing two varieties).',
+    'Modern methods include genetic modification (not common in Malawi yet).'
+  ],
+  detailedContent: `What is Crop Improvement?
+
+Crop improvement is the science of changing plant characteristics to make them more useful for humans. It is done by plant breeders.
+
+Aims of Crop Improvement
+
+- Higher yield: More food from same land.
+- Disease resistance: Less loss from diseases like maize streak virus or groundnut rosette.
+- Pest resistance: Tolerant to insects like stalk borer.
+- Drought tolerance: Produce even with less rain.
+- Better quality: Larger kernels, better taste, longer storage life.
+- Early maturity: Harvest before dry season or short rains.
+- Uniformity: All plants mature at same time – easier harvest.
+
+Methods of Crop Improvement
+
+1. Selection:
+   - Farmers or scientists choose the best-looking plants (high yield, no disease) and save their seeds.
+   - Repeated over several generations.
+   - Example: Malawi farmers selecting large-cob maize for seed.
+
+2. Introduction:
+   - Bringing new varieties from other countries or regions.
+   - Test them in local conditions.
+   - Example: MH30 maize variety was introduced and adapted.
+
+3. Hybridization (Crossing):
+   - Crossing two different parent varieties to combine their good traits.
+   - Hybrid seeds often give higher yields (hybrid vigour).
+   - Example: Maize hybrids like MH37.
+
+4. Modern methods (genetic modification) – not yet common in Malawi but used elsewhere.
+
+Malawi Example: Chitedze Research Station develops and tests new maize varieties. Farmers can buy certified seed from seed companies. The Farm Input Subsidy Programme often distributes improved varieties.`,
+  summary: 'Crop improvement aims for higher yield, disease resistance, quality. Methods: selection, introduction, hybridisation. Improved varieties benefit farmers.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'MH30 Maize', description: 'Hybrid maize variety with high yield and disease resistance.' },
+    { title: 'CG7 Groundnut', description: 'Rosette-resistant groundnut variety.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is the aim of crop improvement?', answer: 'To develop varieties with higher yield, disease resistance, or better quality.', hint: 'Make plants better for farmers.' },
+    { question: 'What is the difference between selection and hybridization?', answer: 'Selection chooses best natural plants; hybridization crosses two parents to combine traits.', hint: 'Selection uses existing variation; hybridization creates new combinations.' }
+  ]
+},
+
+// Topic: Crop processing (1 lesson)
+{
+  subject: 'Agriculture',
+  form: 'Form 4',
+  topic: 'Crop Processing',
+  lessonNumber: 1,
+  lessonTitle: 'Processing Maize and Groundnuts for Storage and Value Addition',
+  lessonId: 'agriculture-f4-crop-processing-1',
+  order: 54,
+  learningObjectives: [
+    'Explain why crop processing is important for storage and value addition',
+    'Describe processing of maize (shelling, drying, milling) and groundnuts (shelling, roasting, grinding)'
+  ],
+  introduction: 'Processing transforms raw harvest into a more usable form. It reduces spoilage, adds value, and creates income. Today, we will learn how to process maize and groundnuts on the farm.',
+  keyPoints: [
+    'Importance: reduces storage losses, adds value, makes product ready for use, reduces transport cost, creates jobs.',
+    'Maize processing: shelling (remove kernels), drying (to safe moisture), winnowing, milling (grind into flour).',
+    'Groundnut processing: shelling (remove pods), roasting, grinding into butter (chigumula).',
+    'Benefits: higher price, less waste, family nutrition, small business opportunity.'
+  ],
+  detailedContent: `Why Process Crops?
+
+Processing the harvested crop before storing or selling gives many benefits:
+
+- Reduces storage losses: Drying prevents mould and aflatoxin.
+- Adds value: Groundnut butter sells for more than unshelled nuts.
+- Makes product ready for use: Maize flour is ready for nsima.
+- Reduces transport cost: Shelled nuts take less space than unshelled.
+- Creates jobs: Milling, roasting, packaging.
+
+Processing Examples
+
+Maize:
+1. Shelling: Removing kernels from cob. Hand shelling or machine sheller.
+2. Drying: Spread on mat or raised platform until moisture is low (crack when bitten).
+3. Winnowing: Remove chaff and dust.
+4. Milling: Grind into flour (milled locally at hammer mill).
+5. Storage: Keep in airtight container or bag.
+
+Groundnuts (Nuts):
+1. Harvest and dry in field.
+2. Shelling: Remove pods (can be hand-sorted or use sheller).
+3. Roasting: Heat to improve flavour and reduce aflatoxin.
+4. Grinding: Make groundnut butter (chigumula) using grinding stone or machine.
+5. Packaging: Sell in small containers.
+
+Benefits of On-Farm Processing
+
+- Farmer gets higher price (value added).
+- Reduces waste (spoiled produce).
+- Family can eat processed products.
+- Can create small business.
+
+Malawi Example: A woman in Mzimba processes groundnuts into chigumula (groundnut butter). She buys raw nuts from neighbours, shells, roasts, grinds, and sells in small plastic jars. She earns more than if she sold raw nuts.`,
+  summary: 'Crop processing adds value, reduces storage loss. Examples: shelling, drying, milling maize; shelling, roasting, grinding groundnuts. On-farm processing increases income.',
+  estimatedTime: '20 mins',
+  malawiExamples: [
+    { title: 'Groundnut Butter Enterprise', description: 'Roasting and grinding nuts increases profit.' },
+    { title: 'Maize Milling', description: 'Small hammer mills serve villages, producing flour for nsima.' }
+  ],
+  practiceQuestions: [
+    { question: 'Why is drying maize important before storage?', answer: 'Prevents mould and aflatoxin, which can cause illness.', hint: 'Moisture leads to fungus.' },
+    { question: 'What is one benefit of processing groundnuts into butter?', answer: 'Higher selling price and longer shelf life.', hint: 'Value addition.' }
+  ]
+},
+
+// ======================================================================
+// BIOLOGY - FORM 2 (continued)
+// ======================================================================
+
+// Topic: Respiratory system (1 lesson) - added to fill Form 2
+{
+  subject: 'Biology',
+  form: 'Form 2',
+  topic: 'Respiratory System',
+  lessonNumber: 1,
+  lessonTitle: 'Breathing and Gas Exchange in Humans',
+  lessonId: 'biology-f2-respiratory-1',
+  order: 55,
+  learningObjectives: [
+    'Identify the parts of the human respiratory system',
+    'Explain the mechanism of breathing (inhalation and exhalation)'
+  ],
+  introduction: 'Every cell in your body needs oxygen. Your RESPIRATORY SYSTEM brings in air, extracts oxygen, and removes carbon dioxide. Today, we will learn how you breathe and how air reaches your blood.',
+  keyPoints: [
+    'Nose: filters, warms, and moistens air.',
+    'Trachea: windpipe with cartilage rings, lined with cilia and mucus.',
+    'Bronchi, bronchioles, alveoli: air passage to air sacs.',
+    'Alveoli: tiny air sacs where gas exchange occurs.',
+    'Inhalation: diaphragm contracts and flattens; ribs move up and out; chest volume increases; air rushes in.',
+    'Exhalation: diaphragm relaxes; ribs move down and in; chest volume decreases; air pushed out.'
+  ],
+  detailedContent: `Parts of the Respiratory System
+
+- Nose: Hairs and mucus trap dust and germs. Capillaries warm the air.
+- Pharynx (throat): Passage for both air and food.
+- Trachea: Windpipe kept open by cartilage rings. Lined with cilia (tiny hairs) that move mucus up.
+- Bronchi: Two tubes (left and right) entering lungs.
+- Bronchioles: Smaller branches inside the lungs.
+- Alveoli: Clusters of tiny air sacs. Each sac is one cell thick and surrounded by blood capillaries. There are millions of alveoli – large surface area for gas exchange.
+- Lungs: Soft, spongy organs in the chest cavity.
+- Diaphragm: Dome-shaped muscle at the bottom of the chest. It controls breathing.
+
+Mechanism of Breathing
+
+Inhalation (Breathe in):
+- Diaphragm contracts, flattens.
+- Rib cage moves up and out.
+- Chest volume increases.
+- Air pressure inside drops below outside.
+- Air rushes into lungs.
+
+Exhalation (Breathe out):
+- Diaphragm relaxes, domes up.
+- Rib cage moves down and in.
+- Chest volume decreases.
+- Air pressure inside rises above outside.
+- Air is pushed out.
+
+We can demonstrate using a bell jar model (rubber sheet = diaphragm, balloons = lungs).
+
+Composition of Air
+
+- Inhaled air: 21% oxygen, 0.04% CO2, variable water vapour.
+- Exhaled air: 16% oxygen, 4% CO2, more water vapour.
+
+Gas Exchange at the Alveolus
+
+- Blood arriving at the alveolus has low O2 and high CO2 (because cells used O2 and made CO2).
+- O2 diffuses across thin walls from alveolus to blood.
+- CO2 diffuses from blood to alveolus.
+- Blood now rich in O2 returns to the heart.
+
+Artificial Respiration (Resuscitation)
+
+If a person stops breathing (drowning, electric shock, smoke inhalation):
+1. Check responsiveness.
+2. Call for help.
+3. Open airway (tilt head, lift chin).
+4. Check breathing (look, listen, feel).
+5. If not breathing, give 2 rescue breaths (pinch nose, seal mouth, blow until chest rises).
+6. Then do chest compressions (30 compressions at rate 100 per minute, depth 5 cm).
+7. Repeat 30 compressions : 2 breaths until help arrives.
+
+Malawi Example: In villages, health workers teach mothers resuscitation for babies who stop breathing. They use a manikin or practice on simple models.`,
+  summary: 'Respiratory system: nose → trachea → bronchi → bronchioles → alveoli. Inhalation: diaphragm contracts, chest volume increases, air in. Exhalation: reverse. Alveoli exchange O2 and CO2.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Alveoli Surface Area', description: 'Millions of tiny sacs give large area for gas exchange.' },
+    { title: 'Mouth-to-Mouth Resuscitation', description: 'Taught to lifeguards and health workers for drowning cases.' }
+  ],
+  practiceQuestions: [
+    { question: 'Which muscle is most important for breathing?', answer: 'Diaphragm', hint: 'Forms floor of chest cavity.' },
+    { question: 'Why does exhaled air contain more carbon dioxide than inhaled air?', answer: 'Cells produce CO2 as waste, which is carried by blood to lungs and exhaled.', hint: 'Gas exchange removes CO2.' }
+  ]
+},
+
+// Topic: Circulatory system (1 lesson) - added for Form 2
+{
+  subject: 'Biology',
+  form: 'Form 2',
+  topic: 'Circulatory System',
+  lessonNumber: 1,
+  lessonTitle: 'The Heart, Blood Vessels, and Blood Components',
+  lessonId: 'biology-f2-circulatory-1',
+  order: 56,
+  learningObjectives: [
+    'Identify the parts of the heart and major blood vessels',
+    'List the components of blood and their functions'
+  ],
+  introduction: 'Your heart beats about 100,000 times a day, pumping blood to every cell. The CIRCULATORY SYSTEM transports oxygen, nutrients, and waste products. Today, we will learn how blood flows and what makes up blood.',
+  keyPoints: [
+    'Heart: four chambers – right atrium, right ventricle, left atrium, left ventricle. Valves prevent backflow.',
+    'Arteries: carry blood away from heart (thick walls, no valves).',
+    'Veins: carry blood to heart (thin walls, valves).',
+    'Capillaries: microscopic, one cell thick, exchange of substances.',
+    'Blood components: plasma (55%), red blood cells (carry oxygen), white blood cells (fight infection), platelets (clotting).',
+    'Anaemia: low red blood cells or haemoglobin – causes tiredness, pale skin.'
+  ],
+  detailedContent: `The Heart
+
+The heart is a muscular pump with four chambers:
+
+- Right atrium: Receives deoxygenated blood from body (via vena cava).
+- Right ventricle: Pumps blood to lungs (via pulmonary artery).
+- Left atrium: Receives oxygenated blood from lungs (via pulmonary vein).
+- Left ventricle: Pumps blood to body (via aorta). This ventricle has thickest muscle.
+
+Valves: Tricuspid (right side) and bicuspid (left side) prevent backflow.
+
+Blood Flow Through Heart and Body
+
+Deoxygenated pathway:
+Body → vena cava → right atrium → tricuspid valve → right ventricle → pulmonary valve → pulmonary artery → lungs (gets oxygen)
+
+Oxygenated pathway:
+Lungs → pulmonary vein → left atrium → bicuspid valve → left ventricle → aortic valve → aorta → body
+
+Blood Vessels
+
+- Arteries: carry blood away from heart. Thick, muscular walls. No valves. Pulse can be felt.
+- Veins: carry blood to heart. Thin walls, large lumen, valves to prevent backflow.
+- Capillaries: connect arteries to veins. One cell thick walls. Allow exchange of oxygen, CO2, nutrients, waste.
+
+Components of Blood
+
+Plasma (55%): Yellowish liquid. Carries water, glucose, amino acids, hormones, CO2, urea.
+
+Red blood cells (erythrocytes): Biconcave discs, no nucleus, contain haemoglobin (iron protein). Function: carry oxygen from lungs to tissues.
+
+White blood cells (leucocytes): Fight infection. Some engulf bacteria; others produce antibodies.
+
+Platelets (thrombocytes): Cell fragments that help blood clot. When a vessel is cut, platelets form a plug and release clotting factors.
+
+Anaemia
+
+Definition: Too few red blood cells or too little haemoglobin. Causes:
+- Iron deficiency (not enough iron in diet – beans, dark greens, meat).
+- Worm infestations (hookworms suck blood).
+- Heavy bleeding.
+
+Symptoms: Pale skin, fatigue, dizziness, shortness of breath.
+
+Prevention and treatment: Eat iron-rich foods (beans, pumpkin leaves, liver). Treat worm infections. Iron supplements if prescribed.
+
+Malawi Example: Many children suffer from anaemia due to hookworms from walking barefoot. The Ministry of Health distributes deworming tablets in schools and encourages eating iron-rich foods like bonongwe.`,
+  summary: 'Heart pumps blood: right side to lungs, left side to body. Arteries carry blood away, veins return, capillaries exchange. Blood has plasma, red cells (carry oxygen), white cells (immunity), platelets (clotting).',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Deworming in Schools', description: 'Tablets given to children prevent anaemia caused by hookworms.' },
+    { title: 'Bonongwe for Iron', description: 'Pumpkin leaves are rich in iron, eaten in villages.' }
+  ],
+  practiceQuestions: [
+    { question: 'Which chamber of the heart has the thickest muscle?', answer: 'Left ventricle', hint: 'It pumps blood to the whole body.' },
+    { question: 'What is the function of platelets?', answer: 'Blood clotting', hint: 'They prevent bleeding.' }
+  ]
+},
+
+// ======================================================================
+// CHEMISTRY - FORM 2 (continued)
+// ======================================================================
+
+// Topic: Acids, bases, and indicators (1 lesson)
+{
+  subject: 'Chemistry',
+  form: 'Form 2',
+  topic: 'Acids and Bases',
+  lessonNumber: 1,
+  lessonTitle: 'Properties of Acids and Bases, Indicators, and Neutralisation',
+  lessonId: 'chemistry-f2-acids-bases-1',
+  order: 57,
+  learningObjectives: [
+    'State the properties of acids and bases',
+    'Describe how to prepare acid-base indicators from local plants'
+  ],
+  introduction: 'Lemons taste sour because they contain citric acid. Soap feels slippery because it is a base. Today, we will learn the properties of acids and bases, how to test for them, and the important reaction between them – NEUTRALISATION.',
+  keyPoints: [
+    'Acid properties: sour taste, turns blue litmus red, pH < 7, reacts with metals and carbonates.',
+    'Base properties: bitter taste, slippery feel, turns red litmus blue, pH > 7.',
+    'Indicators: substances that change colour in acid or base (e.g., litmus, universal indicator, phenolphthalein).',
+    'Natural indicators: hibiscus flowers (red in acid, green in base), acacia leaves, red cabbage.',
+    'Neutralisation: acid + base → salt + water (H+ + OH- → H2O).'
+  ],
+  detailedContent: `Properties of Acids
+
+Acids are substances that produce hydrogen ions (H+) when dissolved in water.
+
+Common laboratory acids: hydrochloric acid (HCl), sulphuric acid (H2SO4), nitric acid (HNO3). Common household acids: vinegar (acetic acid), lemon juice (citric acid), orange juice (ascorbic acid).
+
+Chemical properties of acids:
+
+1. Corrosive – can damage skin and materials.
+2. Turn blue litmus paper red.
+3. React with metals (above hydrogen) to produce salt and hydrogen gas.
+   Example: Zn + H2SO4 → ZnSO4 + H2
+4. React with carbonates to produce salt, water, and carbon dioxide gas.
+   Example: Na2CO3 + 2HCl → 2NaCl + H2O + CO2 (effervescence)
+5. React with bases (neutralisation) to form salt and water.
+
+Properties of Bases (and Alkalis)
+
+Bases are substances that produce hydroxide ions (OH-) in water. Soluble bases are called alkalis.
+
+Common bases: sodium hydroxide (NaOH – caustic soda), potassium hydroxide (KOH), calcium hydroxide (Ca(OH)2 – limewater), ammonia solution (NH3).
+
+Properties:
+
+1. Corrosive (strong bases).
+2. Bitter taste, slippery feel (don't taste in lab!).
+3. Turn red litmus blue.
+4. Neutralise acids to form salt and water.
+
+Indicators
+
+Indicators are dyes that change colour depending on pH.
+
+- Litmus: red in acid, blue in base.
+- Universal indicator: mixture of dyes; gives a colour for each pH value (red 1-2, orange 3-4, yellow 5-6, green 7, blue 8-10, purple 11-14).
+- Phenolphthalein: colourless in acid, pink in base.
+
+Making natural indicators in Malawi:
+
+- Hibiscus flowers: crush petals, add hot water. Red/purple solution turns green in base, redder in acid.
+- Acacia (msekese) leaves: crush leaves; solution changes colour.
+- Red cabbage: boil leaves; purple solution turns red with acid, green/blue with base.
+
+pH Scale
+
+- 0-2: Strong acid (battery acid, stomach acid)
+- 3-4: Weak acid (vinegar, orange juice)
+- 5-6: Very weak acid (rainwater)
+- 7: Neutral (pure water)
+- 8-9: Weak base (baking soda solution)
+- 10-11: Mild base (milk of magnesia)
+- 12-14: Strong base (soap, bleach, NaOH)
+
+Neutralisation Reaction
+
+Acid + Base → Salt + Water
+
+Ionic equation (for strong acids and alkalis): H+ + OH- → H2O
+
+Examples of neutralisation in Malawi:
+
+- Soil acidity: Farmers add lime (calcium oxide/hydroxide) to acidic soil.
+- Ant bites (formic acid): Baking soda paste neutralises.
+- Bee stings (alkaline): Vinegar neutralises.
+- Indigestion: Antacid tablets neutralise excess stomach acid.`,
+  summary: 'Acids: sour, turn blue litmus red, pH<7. Bases: bitter, slippery, turn red litmus blue, pH>7. Indicators change colour with pH. Neutralisation: acid + base → salt + water.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Lime on Acidic Soil', description: 'Farmers add lime to neutralise soil before planting maize.' },
+    { title: 'Hibiscus Indicator', description: 'Local flowers can test if a liquid is acid or base.' }
+  ],
+  practiceQuestions: [
+    { question: 'What happens when an acid reacts with a metal carbonate?', answer: 'Salt, water, and carbon dioxide gas are produced.', hint: 'Effervescence (bubbles).' },
+    { question: 'What is the pH of a neutral solution?', answer: '7', hint: 'Pure water.' }
+  ]
+},
+
+// Topic: Air and combustion (1 lesson)
+{
+  subject: 'Chemistry',
+  form: 'Form 2',
+  topic: 'Air and Combustion',
+  lessonNumber: 1,
+  lessonTitle: 'Composition of Air and Combustion',
+  lessonId: 'chemistry-f2-air-combustion-1',
+  order: 58,
+  learningObjectives: [
+    'State the approximate percentage composition of dry air',
+    'Explain the process of combustion and distinguish between complete and incomplete combustion'
+  ],
+  introduction: 'The air you breathe is not just one gas – it is a mixture. Today, we will learn what is in the air, why things burn, and what pollutants harm our environment.',
+  keyPoints: [
+    'Composition of dry air by volume: nitrogen (78%), oxygen (21%), argon (0.9%), carbon dioxide (0.04%).',
+    'Combustion (burning): rapid reaction between fuel and oxygen releasing heat and light.',
+    'Conditions: fuel, oxygen, heat (ignition temperature).',
+    'Complete combustion: excess oxygen, products CO2 + H2O (blue flame, clean).',
+    'Incomplete combustion: limited oxygen, products CO (carbon monoxide – poisonous) + C (soot) + H2O (yellow, smoky flame).'
+  ],
+  detailedContent: `Composition of Air
+
+If we remove water vapour and pollutants, dry air consists of:
+- Nitrogen (N2): 78.08%
+- Oxygen (O2): 20.95%
+- Argon (Ar): 0.93%
+- Carbon dioxide (CO2): 0.04%
+- Other noble gases: neon, helium, krypton, xenon (trace)
+
+Oxygen is essential for respiration and combustion. Nitrogen is inert – it dilutes oxygen to slow down reactions.
+
+Water vapour varies from near 0% (desert) to 4% (humid tropics). Malawi has higher humidity during rainy season.
+
+Combustion (Burning)
+
+Combustion is a chemical reaction in which a substance (fuel) reacts with oxygen, releasing energy as heat and light.
+
+Conditions needed for combustion:
+- Fuel (e.g., wood, charcoal, petrol, methane)
+- Oxygen (from air)
+- Heat (to reach ignition temperature)
+
+Fire triangle: three sides – fuel, oxygen, heat. Remove any one, fire goes out.
+
+Complete vs Incomplete Combustion
+
+Complete combustion (sufficient oxygen):
+Fuel + O2 → CO2 + H2O + energy
+Example: methane (natural gas): CH4 + 2O2 → CO2 + 2H2O (blue flame)
+
+Incomplete combustion (insufficient oxygen):
+Fuel + O2 → CO + C (soot) + CO2 + H2O (less energy)
+Example: burning charcoal in a closed room produces carbon monoxide, which is deadly because it binds to haemoglobin.
+
+Air Pollutants and Their Effects
+
+- Carbon monoxide (CO): from incomplete burning; binds to haemoglobin, reduces oxygen delivery.
+- Sulphur dioxide (SO2): from burning coal, diesel; causes acid rain.
+- Nitrogen oxides (NOx): from high-temperature engines; acid rain, smog.
+- Particulate matter (soot): from burning biomass; lung diseases.
+- CFCs: from old refrigerators, aerosols; ozone layer depletion.
+
+Malawi Example: Many households still use charcoal and firewood for cooking. If used indoors with poor ventilation, carbon monoxide poisoning is a risk. Shifting to improved cookstoves reduces smoke (particulates) and incomplete combustion.`,
+  summary: 'Air: 78% N2, 21% O2, 0.9% Ar, 0.04% CO2. Combustion needs fuel, oxygen, heat. Complete gives CO2 + H2O; incomplete gives CO and soot.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Charcoal Burning', description: 'Incomplete combustion produces CO – danger in closed rooms.' },
+    { title: 'Improved Cookstoves', description: 'Reduce smoke and increase efficiency, reducing pollutants.' }
+  ],
+  practiceQuestions: [
+    { question: 'What is the most abundant gas in air?', answer: 'Nitrogen (78%)', hint: 'Oxygen is second.' },
+    { question: 'What dangerous gas is produced by incomplete combustion of charcoal?', answer: 'Carbon monoxide (CO)', hint: 'Lack of oxygen.' }
+  ]
+},
+
+// ======================================================================
+// PHYSICS - FORM 2 (continued)
+// ======================================================================
+
+// Topic: Light – rectilinear propagation and reflection (1 lesson)
+{
+  subject: 'Physics',
+  form: 'Form 2',
+  topic: 'Light',
+  lessonNumber: 1,
+  lessonTitle: 'Rectilinear Propagation of Light and Shadows',
+  lessonId: 'physics-f2-light-1',
+  order: 59,
+  learningObjectives: [
+    'State that light travels in straight lines (rectilinear propagation)',
+    'Explain how shadows are formed (umbra and penumbra)'
+  ],
+  introduction: 'Have you seen your shadow on a sunny day? Or noticed that light from a torch forms a straight beam? Light travels in straight lines. Today, we will explore this property and learn how it creates shadows and eclipses.',
+  keyPoints: [
+    'Light travels in straight lines – rectilinear propagation.',
+    'When an opaque object blocks light, a shadow is formed.',
+    'Umbra: dark region where no light reaches.',
+    'Penumbra: partial shadow (for extended light sources).',
+    'Eclipses (solar and lunar) are examples of shadows on a large scale.',
+    'Pinhole camera uses rectilinear propagation to form an inverted image.'
+  ],
+  detailedContent: `Rectilinear Propagation of Light
+
+Light travels in straight lines from its source. You can see this when a laser beam or a torch beam appears as a straight line in dusty air, or when you look at a narrow beam of sunlight through a window.
+
+Formation of Shadows
+
+When an opaque object (does not let light through) is placed in the path of light, a shadow forms on a screen behind it.
+
+- Umbra: Darkest part. No light reaches because the source is completely blocked.
+- Penumbra: Faint, partial shadow. Occurs with extended light sources like a bulb (not a point source). Only part of the light source is blocked.
+
+Pinhole Camera
+
+A pinhole camera is a box with a small hole on one side and a screen (tracing paper) on the opposite side. Light from an object travels in straight lines through the pinhole and forms an inverted (upside-down) image on the screen.
+
+How it works:
+- Light from the top of an object passes through the hole and goes to the bottom of the screen.
+- Light from the bottom goes to the top.
+- Result: inverted image.
+
+Magnification = image height / object height = distance from pinhole to screen / distance from object to pinhole.
+
+Eclipses
+
+- Solar eclipse: Moon passes between Sun and Earth, casting a shadow on Earth. In the umbra, it is total eclipse; in the penumbra, partial.
+- Lunar eclipse: Earth passes between Sun and Moon, and Earth’s shadow falls on the Moon.
+
+Malawi Example:
+- On a sunny day, observe shadows of trees. Notice how the shadow length changes with sun position.
+- A pinhole camera can be made from a shoebox. Students can view an inverted image of a candle flame or of the outside.`,
+  summary: 'Light travels in straight lines (rectilinear propagation). This explains shadows, pinhole cameras, and eclipses. An umbra is the darkest shadow; a penumbra is a partial shadow.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Tree Shadows', description: 'Observe shadows changing length during the day.' },
+    { title: 'Pinhole Camera', description: 'Build a camera from a box to see an inverted image.' }
+  ],
+  practiceQuestions: [
+    { question: 'Why can we see a straight beam of sunlight through a dusty room?', answer: 'Dust scatters light, revealing the straight path.', hint: 'Light travels in a straight line; dust lets you see that line.' },
+    { question: 'What kind of image does a pinhole camera produce?', answer: 'Inverted (upside-down)', hint: 'Light from top goes to bottom of screen.' }
+  ]
+},
+{
+  subject: 'Physics',
+  form: 'Form 2',
+  topic: 'Light',
+  lessonNumber: 2,
+  lessonTitle: 'Reflection of Light on Plane Surfaces',
+  lessonId: 'physics-f2-light-2',
+  order: 60,
+  learningObjectives: [
+    'State the laws of reflection',
+    'Describe the characteristics of images formed by a plane mirror'
+  ],
+  introduction: 'When you look into a mirror, you see yourself. That is reflection – light bouncing off a smooth surface. Today, we will learn the laws that govern reflection and how images are formed in plane mirrors.',
+  keyPoints: [
+    'First law of reflection: angle of incidence (i) = angle of reflection (r).',
+    'Second law: incident ray, reflected ray, and normal all lie in the same plane.',
+    'In a plane mirror, image is virtual (cannot be projected), upright, same size, and as far behind the mirror as the object is in front.',
+    'Lateral inversion: left side of object appears as right side in image.',
+    'Uses: periscopes, dressing mirrors, rear-view mirrors (convex), solar cookers (concave).'
+  ],
+  detailedContent: `Laws of Reflection
+
+1. The angle of incidence equals the angle of reflection: i = r
+2. The incident ray, the reflected ray, and the normal (line perpendicular to the surface at the point of incidence) are all in the same plane.
+
+Ray Diagram for a Plane Mirror
+
+Draw a line representing the mirror. Draw an object (e.g., an arrow) in front. To find the image:
+- Draw two rays from the top of the object to the mirror.
+- Use the law of reflection to draw reflected rays.
+- Extend the reflected rays behind the mirror. They meet at a point.
+- That point is the image.
+
+Image Characteristics for Plane Mirror
+
+- Type: Virtual (cannot be captured on a screen)
+- Orientation: Upright (same orientation)
+- Size: Same as object
+- Distance: Image distance = object distance
+- Left-right reversal: Lateral inversion – left side of object appears as right side in image
+
+Uses of Plane Mirrors:
+- Dressing mirrors
+- Periscopes (used in submarines to see above the water)
+- Optical instruments (some)
+- In solar cookers, curved mirrors are used, but plane mirrors also reflect sunlight.
+
+Malawi Example:
+- A traditional barbershop uses a plane mirror for customers.
+- A simple periscope can be made from two plane mirrors and a cardboard tube to see over a wall.`,
+  summary: 'Reflection follows the laws: i = r, and the rays and normal are coplanar. Plane mirrors produce virtual, upright, same-size images with lateral inversion.',
+  estimatedTime: '22 mins',
+  malawiExamples: [
+    { title: 'Periscope Project', description: 'Build a periscope using two plane mirrors to see over obstacles.' },
+    { title: 'Solar Cooker Reflection', description: 'Use mirrors to concentrate sunlight for cooking.' }
+  ],
+  practiceQuestions: [
+    { question: 'If a light ray strikes a mirror at an angle of 30° to the normal, what is the angle of reflection?', answer: '30°', hint: 'Angle of incidence equals angle of reflection.' },
+    { question: 'Is the image in a plane mirror real or virtual?', answer: 'Virtual', hint: 'You cannot project it onto a screen.' }
+  ]
+},
+
+// ======================================================================
+// PHYSICS - FORM 3 (continued) - add Gas laws
+// ======================================================================
+{
+  subject: 'Physics',
+  form: 'Form 3',
+  topic: 'Gas Laws',
+  lessonNumber: 1,
+  lessonTitle: 'Boyle’s Law and Charles’s Law',
+  lessonId: 'physics-f3-gas-laws-1',
+  order: 61,
+  learningObjectives: [
+    'State Boyle’s law (P ∝ 1/V at constant temperature) and solve problems using P1V1 = P2V2',
+    'State Charles’s law (V ∝ T at constant pressure) and solve problems using V1/T1 = V2/T2 (using Kelvin)'
+  ],
+  introduction: 'Gases behave in predictable ways. When you compress a gas, its pressure increases. When you heat a gas, it expands. These relationships are described by the GAS LAWS. Today, we will learn Boyle’s law (pressure-volume) and Charles’s law (volume-temperature).',
+  keyPoints: [
+    'Boyle’s law: For a fixed mass of gas at constant temperature, pressure is inversely proportional to volume: P1V1 = P2V2.',
+    'Charles’s law: For a fixed mass of gas at constant pressure, volume is directly proportional to absolute temperature: V1/T1 = V2/T2 (T in Kelvin).',
+    'Convert Celsius to Kelvin: K = °C + 273.',
+    'Real-world examples: bicycle pump (Boyle), hot air balloon (Charles).'
+  ],
+  detailedContent: `Boyle’s Law
+
+If you squeeze a gas (decrease its volume), the pressure increases. If you let it expand, the pressure decreases. This is Boyle’s law.
+
+Boyle’s law states: For a fixed amount of gas at constant temperature, the pressure is inversely proportional to the volume.
+
+Mathematically: P × V = constant, or P1V1 = P2V2
+
+Example:
+A gas occupies 2 m³ at a pressure of 100,000 Pa. If the volume is reduced to 1 m³ at the same temperature, what is the new pressure?
+P1V1 = P2V2
+100,000 × 2 = P2 × 1
+200,000 = P2
+New pressure = 200,000 Pa (double because volume halved).
+
+Malawi Example: You pump air into a bicycle tyre. As you push the pump handle, you decrease the volume of air inside the pump, so its pressure increases, forcing air into the tyre.
+
+Breathing also uses Boyle’s law: When you expand your chest (increase volume of lungs), pressure inside drops below atmospheric, and air rushes in.
+
+Charles’s Law
+
+When you heat a gas, it expands if the pressure is constant. This is Charles’s law.
+
+Charles’s law states: For a fixed amount of gas at constant pressure, the volume is directly proportional to the absolute temperature (Kelvin).
+
+Mathematically: V / T = constant, or V1/T1 = V2/T2
+
+Important: Temperature must be in Kelvin.
+
+Example:
+A balloon has a volume of 2 m³ at 27°C. What will be its volume if heated to 127°C at constant pressure?
+First convert to Kelvin: T1 = 27 + 273 = 300 K, T2 = 127 + 273 = 400 K.
+V1/T1 = V2/T2
+2 / 300 = V2 / 400
+Cross multiply: 2 × 400 = 300 × V2 → 800 = 300 × V2 → V2 = 800/300 = 2.67 m³.
+
+Malawi Example: Hot air balloon. The air inside the balloon is heated by a burner. The gas expands (Charles’s law). Expanded hot air is less dense than the surrounding cool air, so the balloon rises.`,
+  summary: 'Boyle’s law: P1V1 = P2V2 (constant T). Charles’s law: V1/T1 = V2/T2 (constant P, T in Kelvin). These laws describe how gases respond to changes in pressure, volume, and temperature.',
+  estimatedTime: '25 mins',
+  malawiExamples: [
+    { title: 'Bicycle Pump', description: 'Compressing air increases pressure – Boyle’s law.' },
+    { title: 'Hot Air Balloon', description: 'Heating air increases volume – Charles’s law.' }
+  ],
+  practiceQuestions: [
+    { question: 'A gas occupies 0.6 m³ at a pressure of 150,000 Pa. If the pressure increases to 300,000 Pa at constant temperature, what is the new volume?', answer: '0.3 m³', hint: 'P1V1 = P2V2 → 150,000×0.6 = 300,000×V2 → 90,000 = 300,000×V2 → V2 = 0.3' },
+    { question: 'A gas has volume 3 L at 27°C. If heated to 127°C at constant pressure, what is the new volume?', answer: '4 L', hint: 'T1=300K, T2=400K, V2 = V1 × T2/T1 = 3 × 400/300 = 4 L' }
+  ]
 }
 ];
-
 
 async function seedLessons() {
   try {
