@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const isValidEmail = (email) => /^[^\s@]+@([^\s@]+\.)+[^\s@]+$/.test(email);
-const isStrongPassword (pwd) => pwd.length>= 8;
+const isStrongPassword = (pwd) => pwd.length>= 8;
 
 // POST /api/auth/register
 router.post('/register',
