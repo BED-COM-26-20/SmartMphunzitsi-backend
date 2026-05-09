@@ -14,3 +14,62 @@ router.get('/history', protect, async (req, res) => {
     res.status(500).json({ success: false, message: error.message });
   }
 });
+
+
+
+// POST /api/chat/session (create or update)
+router.post('/session', protect, async (req, res) => {
+  try {
+    const { sessionId, subject, topic, lessonId, messages, pinned } = req.body;
+    if (!sessionId) return res.status(400).json({ message: 'sessionId required' });
+
+    let session = await ChatSession.findOne({ userId: req.user._id, sessionId });
+    if (session) {
+      session.messages = messages;
+      session.subject = subject;
+      session.topic = topic;
+      session.lessonId = lessonId || session.lessonId;
+      if (pinned !== undefined) session.pinned = pinned;
+      session.updatedAt = Date.now();
+    } else {
+      session = new ChatSession({
+        userId: req.user._id,
+        sessionId,
+        subject,
+        topic,
+        lessonId,
+        messages,
+        pinned: pinned || false,
+      });
+    }
+    await session.save();
+    res.json({ success: true, data: session });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+// PATCH /api/chat/pin/:sessionId – toggle pin
+router.patch('/pin/:sessionId', protect, async (req, res) => {
+  try {
+    const session = await ChatSession.findOne({ userId: req.user._id, sessionId: req.params.sessionId });
+    if (!session) return res.status(404).json({ message: 'Session not found' });
+    session.pinned = !session.pinned;
+    await session.save();
+    res.json({ success: true, pinned: session.pinned });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+// DELETE /api/chat/history/:sessionId
+router.delete('/history/:sessionId', protect, async (req, res) => {
+  try {
+    await ChatSession.findOneAndDelete({ userId: req.user._id, sessionId: req.params.sessionId });
+    res.json({ success: true, message: 'Session deleted' });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+module.exports = router;
