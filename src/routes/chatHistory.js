@@ -49,7 +49,18 @@ router.post('/session', protect, async (req, res) => {
   }
 });
 
-
+// PATCH /api/chat/pin/:sessionId – toggle pin
+router.patch('/pin/:sessionId', protect, async (req, res) => {
+  try {
+    const session = await ChatSession.findOne({ userId: req.user._id, sessionId: req.params.sessionId });
+    if (!session) return res.status(404).json({ message: 'Session not found' });
+    session.pinned = !session.pinned;
+    await session.save();
+    res.json({ success: true, pinned: session.pinned });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
 
 // DELETE /api/chat/history/:sessionId
 router.delete('/history/:sessionId', protect, async (req, res) => {
