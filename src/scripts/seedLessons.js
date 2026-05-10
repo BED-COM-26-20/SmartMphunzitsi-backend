@@ -806,7 +806,7 @@ Control measures: sturdy fencing, close chicken house at night, use wire mesh, t
 
 
 // Topic: Soil fertility and fertilizers (split into 2 lessons)
-{
+ {
   subject: 'Agriculture',
   form: 'Form 2',
   topic: 'Soil Fertility and Fertilizers',
@@ -10805,7 +10805,7 @@ Malawi Example: Cooking nsima on open fire: pot gets hot by conduction; water in
     ]
   },
 
-  const englishLessons = [
+ 
   // ======================================================================
   // ENGLISH – FORM 1
   // ======================================================================
@@ -12421,10 +12421,7 @@ Now read a short scene from any play. Identify the features: dialogue, stage dir
     ]
   },
 
-  const mathematicsLessons = [
-  // ======================================================================
-  // MATHEMATICS – FORM 1
-  // ======================================================================
+ 
 
   // Topic: Number Systems (split into 2 lessons)
   {
@@ -14955,19 +14952,55 @@ Now solve: maximise 3x + 2y subject to x ≥ 0, y ≥ 0, x ≤ 4, y ≤ 3, x + y
   }
 ];
 
+// async function seedLessons() {
+//   try {
+//     await mongoose.connect(process.env.MONGODB_URI);
+//     console.log('Connected to MongoDB');
+//     await Lesson.deleteMany({});
+//     console.log('Cleared existing lessons');
+//     await Lesson.insertMany(allLessons);
+//     console.log(`Inserted ${allLessons.length} lessons`);
+//     process.exit(0);
+//   } catch (error) {
+//     console.error('Error seeding lessons:', error);
+//     process.exit(1);
+//   }
+// }
+
+//seedLessons();
+
 async function seedLessons() {
+  // Check required environment variable
+  if (!process.env.MONGODB_URI) {
+    console.error('ERROR: MONGODB_URI environment variable is not defined.');
+    process.exit(1);
+  }
+
   try {
     await mongoose.connect(process.env.MONGODB_URI);
     console.log('Connected to MongoDB');
+
+    // Optional: check if Lesson model is compiled (if not, will throw anyway)
+    if (!Lesson || typeof Lesson.deleteMany !== 'function') {
+      throw new Error('Lesson model not properly loaded. Check the path "../models/Lesson".');
+    }
+
     await Lesson.deleteMany({});
     console.log('Cleared existing lessons');
+
     await Lesson.insertMany(allLessons);
     console.log(`Inserted ${allLessons.length} lessons`);
-    process.exit(0);
+
   } catch (error) {
     console.error('Error seeding lessons:', error);
     process.exit(1);
+  } finally {
+    // Close the database connection before exiting
+    await mongoose.disconnect();
+    console.log('Disconnected from MongoDB');
   }
+
+  process.exit(0);
 }
 
 seedLessons();
