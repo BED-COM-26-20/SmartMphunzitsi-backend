@@ -5154,15 +5154,6 @@ Malawi Example: Hot air balloon. The air inside the balloon is heated by a burne
   ]
 },
 
-// ======================================================================
-// CONTINUATION: ADD MISSING LESSONS FOR BIOLOGY, CHEMISTRY, PHYSICS
-// Covers Forms 1–4 based on Malawi syllabus, each with ≤2 learning objectives.
-// Orders continue from previous maximum (61).
-// ======================================================================
-
-// ======================================================================
-// BIOLOGY - FORM 1 (continued)
-// ======================================================================
 
 // Topic: Plant diversity - flowering and non-flowering plants
 {
@@ -5883,15 +5874,7 @@ A village water pump (hand pump) uses a lever. MA reduces the force needed to li
   ]
 },
 
-// ======================================================================
-// CONTINUATION: ADD MISSING LESSONS FOR ALL SUBJECTS (Forms 1-4)
-// Includes additional topics for Agriculture, Biology, Chemistry, Physics.
-// Orders continue from previous maximum (71).
-// ======================================================================
 
-// ======================================================================
-// AGRICULTURE - FORM 1 (missing: agro-based industries, food distribution)
-// ======================================================================
 {
   subject: 'Agriculture',
   form: 'Form 1',
@@ -6007,9 +5990,7 @@ Malawi Example: During the 2015/16 drought, Malawi experienced food insecurity d
   ]
 },
 
-// ======================================================================
-// AGRICULTURE - FORM 3 (missing: mushroom production, pastures, etc.)
-// ======================================================================
+
 {
   subject: 'Agriculture',
   form: 'Form 3',
@@ -6129,9 +6110,7 @@ Malawi Example: In dairy farming areas (Mzuzu, Lilongwe), farmers grow Napier gr
   ]
 },
 
-// ======================================================================
-// BIOLOGY - FORM 2 (missing: micro-organisms)
-// ======================================================================
+
 {
   subject: 'Biology',
   form: 'Form 2',
@@ -6280,9 +6259,7 @@ Malawi Example: Many households preserve fish by sun-drying (usipa). Vegetables 
   ]
 },
 
-// ======================================================================
-// CHEMISTRY - FORM 1 (missing: separation techniques details)
-// ======================================================================
+
 {
   subject: 'Chemistry',
   form: 'Form 1',
@@ -6417,9 +6394,7 @@ Malawi Example: Distillation is used in laboratory to purify water. Chromatograp
   ]
 },
 
-// ======================================================================
-// PHYSICS - FORM 2 (missing: magnetism)
-// ======================================================================
+
 {
   subject: 'Physics',
   form: 'Form 2',
@@ -6554,9 +6529,7 @@ Malawi Example: In a school lab, you can magnetise a steel nail by stroking it w
   ]
 },
 
-// ======================================================================
-// ADD FINAL LESSON FOR PHYSICS FORM 1 (missing: scientific method)
-// ======================================================================
+
 {
   subject: 'Physics',
   form: 'Form 1',
@@ -6640,16 +6613,6 @@ Malawi Example: In a school laboratory, when preparing soap (saponification), al
   ]
 },
 
-// ======================================================================
-// SEED FILE – COMPLETE LESSONS FOR ALL SUBJECTS (FORMS 1–4)
-// Includes all previously missing topics.
-// Each lesson has ≤2 learning objectives. No tables – bullet points used.
-// ======================================================================
-
-const missingLessons = [
-  // ====================================================================
-  // AGRICULTURE – FORM 3 (missing: agricultural development agencies, farm mechanisation)
-  // ====================================================================
   {
     subject: 'Agriculture',
     form: 'Form 3',
@@ -6825,9 +6788,7 @@ Malawi Example: A farmer who owns a tractor keeps it in a shed, changes oil ever
     ]
   },
 
-  // ====================================================================
-  // AGRICULTURE – FORM 4 (missing: agricultural marketing and trading, price elasticity, mango production, cattle production)
-  // ====================================================================
+  
   {
     subject: 'Agriculture',
     form: 'Form 4',
@@ -7135,14 +7096,7 @@ Malawi Example: In Lilongwe, dairy farmers use AI with Friesian semen to upgrade
       { question: 'What is the gestation period of a cow?', answer: 'Approximately 9 months (280 days).', hint: 'Same as human.' }
     ]
   },
-  // Additional Agriculture topics (farm power, agroforestry) are covered in following subjects (Physics – farm power; Biology – agroforestry not in syllabus, but conservation agriculture in Form 4)
-  // We add one more for Farm Power as per Physics – see Physics Form 4.
-
-  // ====================================================================
-  // BIOLOGY – FORM 3 & 4 (all missing)
-  // ====================================================================
-
-  // FORM 3 – Gaseous exchange, tissue respiration, circulatory system (detailed), digestive enzymes, food absorption, liver functions, abnormal digestive conditions, reproduction (male/female, menstrual cycle, fertilisation, placenta, birth, contraception), genetics (monohybrid crosses, sex determination, cell division, DNA)
+  
   {
     subject: 'Biology',
     form: 'Form 3',
@@ -7400,26 +7354,6 @@ Malawi Example: Sickle cell anaemia is caused by recessive allele (HbS). Carrier
     ]
   },
 
-  const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const Lesson = require('../models/Lesson');
-
-dotenv.config();
-
-// ======================================================================
-// COMPLETE SEED FILE – ALL SUBJECTS, ALL FORMS, ALL TOPICS
-// Each lesson has ≤2 learning objectives. Tables converted to bullet lists.
-// Based on official Malawi secondary syllabuses (Agriculture, Biology, Chemistry, Physics),
-// Forms 1–4. All previously missing topics included.
-// ======================================================================
-
-const allLessons = [
-  // ====================================================================
-  // AGRICULTURE – COMPLETE (all forms)
-  // ====================================================================
-
-  // ----- FORM 1 -----
-  // Natural resources (3 lessons – already present? We'll ensure coverage)
   {
     subject: 'Agriculture',
     form: 'Form 1',
@@ -7472,29 +7406,7 @@ Importance:
       { question: 'Why is air important for crops?', answer: 'Plants need carbon dioxide for photosynthesis.', hint: 'Gas exchange.' }
     ]
   },
-  // (Other Form 1 lessons: Agricultural research, farm structures, factors of production, marketing, plant nutrients, vegetable production, chicken production – all previously covered or will be added. We'll add only missing ones here)
-  // ... For brevity, we continue with the pattern.
 
-  // ----- FORM 2 -----
-  // Soil composition and profile (already added – keep)
-  // Soil fertility (already added)
-  // Maize and groundnuts production (already added)
-  // Gender and agricultural production (already added)
-  // Farming systems (already added)
-  // Financing agricultural enterprises (already added)
-  // Pig production (already added)
-  // ----- FORM 3 -----
-  // Soil physical properties (already added)
-  // Soil chemical properties (already added)
-  // Farm records and budgets (already added)
-  // Cropping systems (already added)
-  // Mushroom production (already added)
-  // Pasture production (already added)
-  // Agricultural development agencies (already added)
-  // Farm mechanisation (already added)
-  // ----- FORM 4 -----
-  // Soil degradation (already added)
-  // Climate change mitigation (new – from syllabus)
   {
     subject: 'Agriculture',
     form: 'Form 4',
@@ -7634,12 +7546,7 @@ Malawi Example: In irrigated schemes (e.g., Dwangwa) sub‑surface drainage prev
     ]
   },
 
-  // ====================================================================
-  // BIOLOGY – COMPLETE (all forms, missing topics added)
-  // ====================================================================
-
-  // ----- FORM 3 (additional) -----
-  // Circulatory system – detailed (heart structure, blood vessels, blood components, role of heart)
+  
   {
     subject: 'Biology',
     form: 'Form 3',
@@ -7890,12 +7797,7 @@ Malawi Example: Queen Elizabeth Central Hospital in Blantyre has a renal unit wi
     ]
   },
 
-  // ====================================================================
-  // CHEMISTRY – COMPLETE (missing topics added)
-  // ====================================================================
-
-  // ----- FORM 3 (additional) -----
-  // Redox reactions (oxidation numbers, half‑equations)
+  
   {
     subject: 'Chemistry',
     form: 'Form 3',
@@ -8035,12 +7937,7 @@ Malawi Example: Copper used for electrical wiring in houses is purified by elect
     ]
   },
 
-  // ====================================================================
-  // PHYSICS – COMPLETE (missing topics added)
-  // ====================================================================
-
-  // ----- FORM 3 (additional) -----
-  // Linear motion (equations of motion)
+  
   {
     subject: 'Physics',
     form: 'Form 3',
@@ -8301,19 +8198,7 @@ Malawi Example: Solar phone chargers sometimes use a simple circuit with a trans
     ]
   },
 
-  // ======================================================================
-// MISSING LESSONS – ALL REMAINING TOPICS
-// This file contains lessons not yet generated in previous parts.
-// Can be appended to the main allLessons array.
-// ======================================================================
 
-const missingLessons = [
-
-  // ====================================================================
-  // BIOLOGY – FORM 4 (missing topics)
-  // ====================================================================
-
-  // Locomotion and support – skeleton and bones
   {
     subject: 'Biology',
     form: 'Form 4',
@@ -8968,7 +8853,7 @@ Malawi Example: Cichlid fish in Lake Malawi are a famous example of rapid specia
       'Benefits: large scale, avoids animal insulin (allergic reactions).',
       'Ethical concerns: safety, labelling, effect on biodiversity.'
     ],
-    detailedContent: `What is Genetic Engineering?
+    detailedContent: `What is Genetic Engineering?.'
 
 Genetic engineering is the direct manipulation of an organism’s genes using biotechnology. It allows transfer of genes between unrelated species.
 
@@ -9014,9 +8899,7 @@ Malawi: No commercial GM crops grown, but research on genetically modified cassa
     ]
   },
 
-  // ====================================================================
-  // CHEMISTRY – MISSING TOPICS
-  // ====================================================================
+ 
 
   // Isomerism (structural isomers)
   {
@@ -9531,9 +9414,7 @@ Malawi example: Plastic bags of less than 60 microns were banned. Communities ar
     ]
   },
 
-  // ====================================================================
-  // PHYSICS – MISSING TOPICS
-  // ====================================================================
+  
 
   // Moments of forces (full lesson)
   {
@@ -10112,19 +9993,11 @@ Malawi Example: The National Agriculture Policy recognises the need for gender m
     ]
   },
 
-  // ======================================================================
-// MISSING FORM 1 AND FORM 2 LESSONS – ALL SUBJECTS
-// This completes the entire secondary syllabus (Forms 1-4) for
-// Agriculture, Biology, Chemistry, Physics based on Malawi syllabuses.
-// Each lesson has ≤2 learning objectives, no tables, Malawian examples.
-// Orders continue from previous (last order used was 127).
-// ======================================================================
+  
 
-const missingLowerLessons = [
 
-  // ====================================================================
-  // BIOLOGY – FORM 1 (missing: cells, levels of organisation, osmosis/diffusion)
-  // ====================================================================
+
+ 
   {
     subject: 'Biology',
     form: 'Form 1',
@@ -10166,12 +10039,12 @@ Animal Cell
 
 Differences
 
-| Feature | Plant cell | Animal cell |
-|---------|------------|-------------|
-| Cell wall | Yes (cellulose) | No |
-| Chloroplasts | Yes (photosynthesis) | No |
-| Vacuole | Large central | Small / absent |
-| Shape | Fixed (rectangular) | Irregular / round |
+| Feature      | Plant cell           | Animal cell 
+|---------     |------------          |-------------
+| Cell wall    | Yes (cellulose)      | No
+| Chloroplasts | Yes (photosynthesis) | No 
+| Vacuole      | Large central        | Small / absent 
+| Shape        | Fixed (rectangular)  | Irregular / round 
 
 Magnification and specimen observation: using a light microscope, students can observe onion epidermal cells (plant) and cheek cells (animal) after staining.
 
@@ -10307,9 +10180,7 @@ Malawi Example: When you put a wilted vegetable in water, it becomes crisp again
     ]
   },
 
-  // ====================================================================
-  // BIOLOGY – FORM 2 (missing: blood donation, MBTS)
-  // ====================================================================
+ 
   {
     subject: 'Biology',
     form: 'Form 2',
@@ -10367,9 +10238,7 @@ Malawi Example: MBTS runs mobile clinics in schools, churches, and workplaces. E
     ]
   },
 
-  // ====================================================================
-  // CHEMISTRY – FORM 1 (missing: states of matter, solutions, crystallisation, distillation deeper)
-  // ====================================================================
+  
   {
     subject: 'Chemistry',
     form: 'Form 1',
@@ -10503,9 +10372,7 @@ Malawi Example: In Lake Chilwa, salt production uses evaporation. The lake water
     ]
   },
 
-  // ====================================================================
-  // CHEMISTRY – FORM 2 (missing: chemical symbols and formulae, relative formula mass)
-  // ====================================================================
+
   {
     subject: 'Chemistry',
     form: 'Form 2',
@@ -10638,9 +10505,7 @@ Malawi Example: Fermentation of sugar: C6H12O6 → 2C2H5OH + 2CO2. Balanced – 
     ]
   },
 
-  // ====================================================================
-  // PHYSICS – FORM 1 (missing: measuring instruments, work and energy)
-  // ====================================================================
+  
   {
     subject: 'Physics',
     form: 'Form 1',
@@ -10818,9 +10683,7 @@ Malawi Example: At Nkula Falls hydroelectric plant, GPE of water in reservoir is
     ]
   },
 
-  // ====================================================================
-  // PHYSICS – FORM 2 (missing: specific heat capacity, heat transfer)
-  // ====================================================================
+ 
   {
     subject: 'Physics',
     form: 'Form 2',
@@ -13497,12 +13360,8 @@ Malawi example: Population growth. If a village grows by 10% each year, initial 
     ]
   },
 
-  const missingMathematicsLessons = [
-  // ======================================================================
-  // MATHEMATICS – FORM 1 (remaining topics)
-  // ======================================================================
+  
 
-  // Topic: Simple linear equations in one variable
   {
     subject: 'Mathematics',
     form: 'Form 1',
