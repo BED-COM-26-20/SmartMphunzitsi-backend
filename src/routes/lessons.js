@@ -111,29 +111,7 @@ router.post('/',
   }
 );
 
-// PUT /api/lessons/:id
-router.put('/:id',
-  protect,
-  [
-    body('lessonTitle').optional().notEmpty(),
-    body('detailedContent').optional().isLength({ min: 50 })
-  ],
-  async (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) return res.status(400).json({ errors: errors.array() });
-    try {
-      const lesson = await Lesson.findByIdAndUpdate(
-        req.params.id,
-        { ...req.body, updatedAt: Date.now() },
-        { new: true, runValidators: true }
-      );
-      if (!lesson) return res.status(404).json({ success: false, message: 'Lesson not found' });
-      res.json({ success: true, message: 'Lesson updated', data: lesson });
-    } catch (error) {
-      res.status(400).json({ success: false, message: error.message });
-    }
-  }
-);
+
 
 // DELETE /api/lessons/:id
 router.delete('/:id', protect, async (req, res) => {
