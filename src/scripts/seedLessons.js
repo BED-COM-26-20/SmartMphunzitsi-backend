@@ -3,7 +3,40 @@ const dotenv = require('dotenv');
 const Lesson = require('../models/Lesson');
 
 dotenv.config();
+// ===== COPY YOUR ORIGINAL allLessons ARRAY ABOVE =====
+
+// Find duplicates before cleaning
+const ids = allLessons.map(l => l.lessonId);
+const duplicateIds = ids.filter((id, index) => ids.indexOf(id) !== index);
+const uniqueDupes = [...new Set(duplicateIds)];
+
+console.log("Found duplicate lessonIds:", uniqueDupes);
+console.log("Number of duplicate entries:", duplicateIds.length);
+
+// De‑duplicate: keep first occurrence of each lessonId
+const seen = new Set();
+const cleanLessons = allLessons.filter(lesson => {
+  if (seen.has(lesson.lessonId)) {
+    return false;
+  }
+  seen.add(lesson.lessonId);
+  return true;
+});
+
+console.log(`\nOriginal count: ${allLessons.length}`);
+console.log(`Cleaned count: ${cleanLessons.length}`);
+console.log(`Removed ${allLessons.length - cleanLessons.length} duplicate items`);
+
+// Output the cleaned array – you can copy this entire output
+console.log("\nconst allLessons = [");
+cleanLessons.forEach((lesson, index) => {
+  // Print as compact JSON (you can use util.inspect for full depth)
+  process.stdout.write(JSON.stringify(lesson));
+  if (index < cleanLessons.length - 1) process.stdout.write(",\n");
+});
+console.log("\n];");
 const allLessons = [
+
 
   {
     subject: 'Agriculture',
@@ -12435,252 +12468,252 @@ Now read a short scene from any play. Identify the features: dialogue, stage dir
     learningObjectives: [
       'Identify natural numbers and whole numbers',
       'Understand and apply place value up to millions'
-    ],
-    introduction: 'Good day, young mathematician! Have you ever counted money at the market, counted learners in your class, or told your age? You were using natural numbers! Today we explore natural numbers and whole numbers – the building blocks of all mathematics.',
-    keyPoints: [
-      'Natural numbers are counting numbers: 1, 2, 3, 4, 5, ...',
-      'Whole numbers include zero: 0, 1, 2, 3, 4, 5, ...',
-      'Place value: ones, tens, hundreds, thousands, millions, billions.',
-      'In Malawi we use numbers to count kwacha, tambala, people, livestock and crops.'
-    ],
-    detailedContent: `Let me explain natural numbers using examples from Malawi.
+//     ],
+//     introduction: 'Good day, young mathematician! Have you ever counted money at the market, counted learners in your class, or told your age? You were using natural numbers! Today we explore natural numbers and whole numbers – the building blocks of all mathematics.',
+//     keyPoints: [
+//       'Natural numbers are counting numbers: 1, 2, 3, 4, 5, ...',
+//       'Whole numbers include zero: 0, 1, 2, 3, 4, 5, ...',
+//       'Place value: ones, tens, hundreds, thousands, millions, billions.',
+//       'In Malawi we use numbers to count kwacha, tambala, people, livestock and crops.'
+//     ],
+//     detailedContent: `Let me explain natural numbers using examples from Malawi.
 
-NATURAL NUMBERS are the numbers you use when you count. When you say "I have 5 mangoes" or "There are 40 learners in my class" – these are natural numbers. They start from 1 and go upwards.
+// NATURAL NUMBERS are the numbers you use when you count. When you say "I have 5 mangoes" or "There are 40 learners in my class" – these are natural numbers. They start from 1 and go upwards.
 
-WHOLE NUMBERS are just like natural numbers, but they also include ZERO. Zero represents "nothing". If you have no money in your pocket, you have zero kwacha.
+// WHOLE NUMBERS are just like natural numbers, but they also include ZERO. Zero represents "nothing". If you have no money in your pocket, you have zero kwacha.
 
-PLACE VALUE is very important. In the number 2,345:
-- The digit 2 is in the thousands place → value 2000
-- The digit 3 is in the hundreds place → value 300
-- The digit 4 is in the tens place → value 40
-- The digit 5 is in the ones place → value 5
+// PLACE VALUE is very important. In the number 2,345:
+// - The digit 2 is in the thousands place → value 2000
+// - The digit 3 is in the hundreds place → value 300
+// - The digit 4 is in the tens place → value 40
+// - The digit 5 is in the ones place → value 5
 
-Malawi example: A farmer harvests 1,234 kg of maize. The 1 means 1,000 kg, the 2 means 200 kg, the 3 means 30 kg, the 4 means 4 kg.`,
-    summary: 'Natural numbers are counting numbers (1,2,3...). Whole numbers include zero. Place value tells the worth of each digit based on its position.',
-    estimatedTime: '18 mins',
-    malawiExamples: [
-      { title: 'Market Prices', description: 'A tomato vendor sells 1,2,3,4 tomatoes – natural numbers.' },
-      { title: 'Population', description: 'Malawi has about 20 million people – large numbers.' }
-    ],
-    practiceQuestions: [
-      { question: 'What is the place value of 7 in 7,891?', answer: 'Thousands', hint: 'Position.' },
-      { question: 'Is 0 a natural number or a whole number?', answer: 'Whole number', hint: 'Natural starts at 1.' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 2,
-    lessonTitle: 'Reading and Writing Large Numbers (Application)',
-    lessonId: 'maths-f1-number-systems-2',
-    order: 2,
-    learningObjectives: [
-      'Read and write numbers correctly up to millions',
-      'Apply number concepts to real‑life situations in Malawi'
-    ],
-    introduction: 'Now that you know place value, let’s practice reading and writing large numbers. This skill helps you understand prices, populations, and harvest quantities.',
-    keyPoints: [
-      'To read a number, group digits in threes from the right (thousands, millions).',
-      'Write numbers in words carefully (e.g., 2500 = two thousand five hundred).',
-      'Use number sense in shopping, farming, and budgeting.'
-    ],
-    detailedContent: `Reading Large Numbers
+// Malawi example: A farmer harvests 1,234 kg of maize. The 1 means 1,000 kg, the 2 means 200 kg, the 3 means 30 kg, the 4 means 4 kg.`,
+//     summary: 'Natural numbers are counting numbers (1,2,3...). Whole numbers include zero. Place value tells the worth of each digit based on its position.',
+//     estimatedTime: '18 mins',
+//     malawiExamples: [
+//       { title: 'Market Prices', description: 'A tomato vendor sells 1,2,3,4 tomatoes – natural numbers.' },
+//       { title: 'Population', description: 'Malawi has about 20 million people – large numbers.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'What is the place value of 7 in 7,891?', answer: 'Thousands', hint: 'Position.' },
+//       { question: 'Is 0 a natural number or a whole number?', answer: 'Whole number', hint: 'Natural starts at 1.' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 2,
+//     lessonTitle: 'Reading and Writing Large Numbers (Application)',
+//     lessonId: 'maths-f1-number-systems-2',
+//     order: 2,
+//     learningObjectives: [
+//       'Read and write numbers correctly up to millions',
+//       'Apply number concepts to real‑life situations in Malawi'
+//     ],
+//     introduction: 'Now that you know place value, let’s practice reading and writing large numbers. This skill helps you understand prices, populations, and harvest quantities.',
+//     keyPoints: [
+//       'To read a number, group digits in threes from the right (thousands, millions).',
+//       'Write numbers in words carefully (e.g., 2500 = two thousand five hundred).',
+//       'Use number sense in shopping, farming, and budgeting.'
+//     ],
+//     detailedContent: `Reading Large Numbers
 
-Group from right: 3,456,789
-- Millions group: three million
-- Thousands group: four hundred fifty-six thousand
-- Units: seven hundred eighty-nine
-Together: three million, four hundred fifty-six thousand, seven hundred eighty-nine.
+// Group from right: 3,456,789
+// - Millions group: three million
+// - Thousands group: four hundred fifty-six thousand
+// - Units: seven hundred eighty-nine
+// Together: three million, four hundred fifty-six thousand, seven hundred eighty-nine.
 
-Writing numbers: 5,000 kwacha = five thousand kwacha.
-1,250 kg = one thousand two hundred fifty kilograms.
+// Writing numbers: 5,000 kwacha = five thousand kwacha.
+// 1,250 kg = one thousand two hundred fifty kilograms.
 
-Application: A farmer sells 20 bags of maize at 15,000 MK each. Total = 20 × 15,000 = 300,000 MK. You need to read and write that amount correctly for records.`,
-    summary: 'Read large numbers by grouping digits. Write numbers in words for clarity. Apply number skills to daily life.',
-    estimatedTime: '15 mins',
-    malawiExamples: [
-      { title: 'Crop Harvest', description: 'A farmer harvests 2,500 kg of maize – place value helps read this number.' },
-      { title: 'Market Transactions', description: 'Calculate total cost of multiple items.' }
-    ],
-    practiceQuestions: [
-      { question: 'Write 4,502 in words.', answer: 'Four thousand five hundred two', hint: 'Separate thousands and hundreds.' },
-      { question: 'If a chicken costs 3,500 MK, how much for 5 chickens?', answer: '17,500 MK', hint: 'Multiply.' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 3,
-    lessonTitle: 'Integers and the Number Line',
-    lessonId: 'maths-f1-number-systems-3',
-    order: 3,
-    learningObjectives: [
-      'Define integers and represent them on a number line',
-      'Identify positive numbers, negative numbers, and zero'
-    ],
-    introduction: 'So far we have worked with positive numbers. But what about temperatures below zero or debts? They are represented by NEGATIVE numbers. Together with positives and zero, they form INTEGERS. Today we explore the number line.',
-    keyPoints: [
-      'Integers include positive numbers, negative numbers, and zero: ... -3, -2, -1, 0, 1, 2, 3 ...',
-      'On a number line, positive numbers are to the right, negative to the left.',
-      'Numbers increase as you move right; decrease as you move left.'
-    ],
-    detailedContent: `Integers
+// Application: A farmer sells 20 bags of maize at 15,000 MK each. Total = 20 × 15,000 = 300,000 MK. You need to read and write that amount correctly for records.`,
+//     summary: 'Read large numbers by grouping digits. Write numbers in words for clarity. Apply number skills to daily life.',
+//     estimatedTime: '15 mins',
+//     malawiExamples: [
+//       { title: 'Crop Harvest', description: 'A farmer harvests 2,500 kg of maize – place value helps read this number.' },
+//       { title: 'Market Transactions', description: 'Calculate total cost of multiple items.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Write 4,502 in words.', answer: 'Four thousand five hundred two', hint: 'Separate thousands and hundreds.' },
+//       { question: 'If a chicken costs 3,500 MK, how much for 5 chickens?', answer: '17,500 MK', hint: 'Multiply.' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 3,
+//     lessonTitle: 'Integers and the Number Line',
+//     lessonId: 'maths-f1-number-systems-3',
+//     order: 3,
+//     learningObjectives: [
+//       'Define integers and represent them on a number line',
+//       'Identify positive numbers, negative numbers, and zero'
+//     ],
+//     introduction: 'So far we have worked with positive numbers. But what about temperatures below zero or debts? They are represented by NEGATIVE numbers. Together with positives and zero, they form INTEGERS. Today we explore the number line.',
+//     keyPoints: [
+//       'Integers include positive numbers, negative numbers, and zero: ... -3, -2, -1, 0, 1, 2, 3 ...',
+//       'On a number line, positive numbers are to the right, negative to the left.',
+//       'Numbers increase as you move right; decrease as you move left.'
+//     ],
+//     detailedContent: `Integers
 
-Integers: all positive numbers, negative numbers, and zero.
+// Integers: all positive numbers, negative numbers, and zero.
 
-Number line: a straight line with zero in the middle. Positive go to the right, negative to the left.
+// Number line: a straight line with zero in the middle. Positive go to the right, negative to the left.
 
-The further right, the larger the number. The further left, the smaller.
+// The further right, the larger the number. The further left, the smaller.
 
-Example: -3 is less than -2 because -3 is further left. 0 is greater than any negative number.
+// Example: -3 is less than -2 because -3 is further left. 0 is greater than any negative number.
 
-Malawi examples: Temperature on Mulanje Mountain can drop below zero – negative integers. Bank balance: if you withdraw more than you have, your balance becomes negative (–800 MK) – an integer.`,
-    summary: 'Integers include positive, negative, and zero. Number line: right is larger, left is smaller. Negative numbers represent values below zero like debt or cold temperatures.',
-    estimatedTime: '18 mins',
-    malawiExamples: [
-      { title: 'Temperatures on Mulanje', description: 'At the peak, temperatures can drop below zero – negative integers.' },
-      { title: 'Bank Account', description: 'If you withdraw more than you have, balance becomes negative.' }
-    ],
-    practiceQuestions: [
-      { question: 'Which is greater: -5 or -10?', answer: '-5', hint: 'On a number line, -5 is to the right of -10.' },
-      { question: 'If the temperature drops from 5°C to -3°C, how many degrees did it drop?', answer: '8 degrees', hint: 'Count the steps from 5 down to -3.' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 4,
-    lessonTitle: 'Operations with Integers (Addition and Subtraction)',
-    lessonId: 'maths-f1-number-systems-4',
-    order: 4,
-    learningObjectives: [
-      'Add and subtract integers using a number line',
-      'Apply integer operations to real‑life problems'
-    ],
-    introduction: 'Now that you understand integers, let’s learn how to ADD and SUBTRACT them. Using a number line makes it easy.',
-    keyPoints: [
-      'Adding a positive number moves right on the number line.',
-      'Adding a negative number moves left (like subtracting).',
-      'Subtracting a positive number moves left.',
-      'Subtracting a negative number moves right (like adding).'
-    ],
-    detailedContent: `Addition of Integers
+// Malawi examples: Temperature on Mulanje Mountain can drop below zero – negative integers. Bank balance: if you withdraw more than you have, your balance becomes negative (–800 MK) – an integer.`,
+//     summary: 'Integers include positive, negative, and zero. Number line: right is larger, left is smaller. Negative numbers represent values below zero like debt or cold temperatures.',
+//     estimatedTime: '18 mins',
+//     malawiExamples: [
+//       { title: 'Temperatures on Mulanje', description: 'At the peak, temperatures can drop below zero – negative integers.' },
+//       { title: 'Bank Account', description: 'If you withdraw more than you have, balance becomes negative.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Which is greater: -5 or -10?', answer: '-5', hint: 'On a number line, -5 is to the right of -10.' },
+//       { question: 'If the temperature drops from 5°C to -3°C, how many degrees did it drop?', answer: '8 degrees', hint: 'Count the steps from 5 down to -3.' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 4,
+//     lessonTitle: 'Operations with Integers (Addition and Subtraction)',
+//     lessonId: 'maths-f1-number-systems-4',
+//     order: 4,
+//     learningObjectives: [
+//       'Add and subtract integers using a number line',
+//       'Apply integer operations to real‑life problems'
+//     ],
+//     introduction: 'Now that you understand integers, let’s learn how to ADD and SUBTRACT them. Using a number line makes it easy.',
+//     keyPoints: [
+//       'Adding a positive number moves right on the number line.',
+//       'Adding a negative number moves left (like subtracting).',
+//       'Subtracting a positive number moves left.',
+//       'Subtracting a negative number moves right (like adding).'
+//     ],
+//     detailedContent: `Addition of Integers
 
-- Adding a positive: move right. Example: 3 + 4 = 7. Start at 3, move 4 steps right.
-- Adding a negative: move left. Example: 5 + (-2) = 3. Start at 5, move 2 steps left (like 5 – 2).
+// - Adding a positive: move right. Example: 3 + 4 = 7. Start at 3, move 4 steps right.
+// - Adding a negative: move left. Example: 5 + (-2) = 3. Start at 5, move 2 steps left (like 5 – 2).
 
-Subtraction of Integers
+// Subtraction of Integers
 
-- Subtracting a positive: move left. Example: 7 – 3 = 4.
-- Subtracting a negative: move right. Example: 4 – (-2) = 6. (Because subtracting a negative is like adding a positive.)
+// - Subtracting a positive: move left. Example: 7 – 3 = 4.
+// - Subtracting a negative: move right. Example: 4 – (-2) = 6. (Because subtracting a negative is like adding a positive.)
 
-Real‑life example: If you owe 3 friends 4 kwacha each, total debt = –12. If each friend forgives your debt (removes the negative), you save 4 per friend.`,
-    summary: 'Adding positive moves right; adding negative moves left. Subtracting positive moves left; subtracting negative moves right. Use number line to visualise.',
-    estimatedTime: '18 mins',
-    malawiExamples: [
-      { title: 'Debt Calculation', description: 'If you borrow 500 kwacha from 3 friends, total debt = -1,500 kwacha.' },
-      { title: 'Temperature Change', description: 'If temperature drops 2 degrees each hour for 5 hours, total change = -10 degrees.' }
-    ],
-    practiceQuestions: [
-      { question: 'Calculate: -5 + (-3)', answer: '-8', hint: 'Moving left on number line.' },
-      { question: 'Calculate: 6 – (-2)', answer: '8', hint: 'Subtracting negative = adding positive.' }
-    ]
-  },
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Number Systems',
-    lessonNumber: 5,
-    lessonTitle: 'Multiplying and Dividing Integers',
-    lessonId: 'maths-f1-number-systems-5',
-    order: 5,
-    learningObjectives: [
-      'Multiply and divide integers',
-      'Apply the rule: same signs give positive, different signs give negative'
-    ],
-    introduction: 'Now that you can add and subtract integers, let’s multiply and divide them. The golden rule: same signs → positive, different signs → negative.',
-    keyPoints: [
-      'Positive × Positive = Positive (e.g., 3 × 4 = 12)',
-      'Negative × Negative = Positive (e.g., -3 × -4 = 12)',
-      'Positive × Negative = Negative (e.g., 3 × -4 = -12)',
-      'Same rules apply to division: (+) ÷ (+) = +, (-) ÷ (-) = +, (+) ÷ (-) = -, (-) ÷ (+) = -'
-    ],
-    detailedContent: `Multiplication and Division Rules
+// Real‑life example: If you owe 3 friends 4 kwacha each, total debt = –12. If each friend forgives your debt (removes the negative), you save 4 per friend.`,
+//     summary: 'Adding positive moves right; adding negative moves left. Subtracting positive moves left; subtracting negative moves right. Use number line to visualise.',
+//     estimatedTime: '18 mins',
+//     malawiExamples: [
+//       { title: 'Debt Calculation', description: 'If you borrow 500 kwacha from 3 friends, total debt = -1,500 kwacha.' },
+//       { title: 'Temperature Change', description: 'If temperature drops 2 degrees each hour for 5 hours, total change = -10 degrees.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Calculate: -5 + (-3)', answer: '-8', hint: 'Moving left on number line.' },
+//       { question: 'Calculate: 6 – (-2)', answer: '8', hint: 'Subtracting negative = adding positive.' }
+//     ]
+//   },
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Number Systems',
+//     lessonNumber: 5,
+//     lessonTitle: 'Multiplying and Dividing Integers',
+//     lessonId: 'maths-f1-number-systems-5',
+//     order: 5,
+//     learningObjectives: [
+//       'Multiply and divide integers',
+//       'Apply the rule: same signs give positive, different signs give negative'
+//     ],
+//     introduction: 'Now that you can add and subtract integers, let’s multiply and divide them. The golden rule: same signs → positive, different signs → negative.',
+//     keyPoints: [
+//       'Positive × Positive = Positive (e.g., 3 × 4 = 12)',
+//       'Negative × Negative = Positive (e.g., -3 × -4 = 12)',
+//       'Positive × Negative = Negative (e.g., 3 × -4 = -12)',
+//       'Same rules apply to division: (+) ÷ (+) = +, (-) ÷ (-) = +, (+) ÷ (-) = -, (-) ÷ (+) = -'
+//     ],
+//     detailedContent: `Multiplication and Division Rules
 
-- Same signs → positive
-- Different signs → negative
+// - Same signs → positive
+// - Different signs → negative
 
-Examples:
-- 3 × 4 = 12
-- (-3) × (-4) = 12
-- 3 × (-4) = -12
-- (-12) ÷ 3 = -4
-- (-12) ÷ (-3) = 4
+// Examples:
+// - 3 × 4 = 12
+// - (-3) × (-4) = 12
+// - 3 × (-4) = -12
+// - (-12) ÷ 3 = -4
+// - (-12) ÷ (-3) = 4
 
-Malawi example: If you owe 3 friends 4 kwacha each, total debt = -3 × 4 = -12 kwacha. If each friend forgives your debt, that is -12 ÷ (-3) = 4 kwacha saved per friend.`,
-    summary: 'Same signs → positive; different signs → negative. This rule applies to both multiplication and division.',
-    estimatedTime: '15 mins',
-    malawiExamples: [
-      { title: 'Debt Forgiveness', description: '-12 ÷ -3 = +4 (debt reduction per friend)' },
-      { title: 'Temperature Drop', description: 'Drop 2° per hour for 5 hours: -2 × 5 = -10°.' }
-    ],
-    practiceQuestions: [
-      { question: 'Calculate: -4 × (-6)', answer: '24', hint: 'Negative × Negative = Positive.' },
-      { question: 'Calculate: 20 ÷ (-5)', answer: '-4', hint: 'Positive ÷ Negative = Negative.' }
-    ]
-  },
+// Malawi example: If you owe 3 friends 4 kwacha each, total debt = -3 × 4 = -12 kwacha. If each friend forgives your debt, that is -12 ÷ (-3) = 4 kwacha saved per friend.`,
+//     summary: 'Same signs → positive; different signs → negative. This rule applies to both multiplication and division.',
+//     estimatedTime: '15 mins',
+//     malawiExamples: [
+//       { title: 'Debt Forgiveness', description: '-12 ÷ -3 = +4 (debt reduction per friend)' },
+//       { title: 'Temperature Drop', description: 'Drop 2° per hour for 5 hours: -2 × 5 = -10°.' }
+//     ],
+//     practiceQuestions: [
+//       { question: 'Calculate: -4 × (-6)', answer: '24', hint: 'Negative × Negative = Positive.' },
+//       { question: 'Calculate: 20 ÷ (-5)', answer: '-4', hint: 'Positive ÷ Negative = Negative.' }
+//     ]
+//   },
 
-  // Topic: Algebraic Expressions (split into 2 lessons)
-  {
-    subject: 'Mathematics',
-    form: 'Form 1',
-    topic: 'Algebraic Expressions',
-    lessonNumber: 1,
-    lessonTitle: 'Like Terms, Unlike Terms, and Simplification',
-    lessonId: 'maths-f1-algebraic-expressions-1',
-    order: 6,
-    learningObjectives: [
-      'Identify like and unlike terms in an algebraic expression',
-      'Combine like terms by addition and subtraction'
-    ],
-    introduction: 'Hello! In mathematics, we often use letters to represent numbers. These letters are VARIABLES, and when we combine them with numbers and operations, we get ALGEBRAIC EXPRESSIONS. Today we learn to simplify by combining like terms.',
-    keyPoints: [
-      'A term is a single number, variable, or product (e.g., 3x, 5y², -7).',
-      'Like terms have the same variable(s) raised to the same power.',
-      'Unlike terms cannot be combined.',
-      'Simplification means adding or subtracting like terms.'
-    ],
-    detailedContent: `Like Terms
+//   // Topic: Algebraic Expressions (split into 2 lessons)
+//   {
+//     subject: 'Mathematics',
+//     form: 'Form 1',
+//     topic: 'Algebraic Expressions',
+//     lessonNumber: 1,
+//     lessonTitle: 'Like Terms, Unlike Terms, and Simplification',
+//     lessonId: 'maths-f1-algebraic-expressions-1',
+//     order: 6,
+//     learningObjectives: [
+//       'Identify like and unlike terms in an algebraic expression',
+//       'Combine like terms by addition and subtraction'
+//     ],
+//     introduction: 'Hello! In mathematics, we often use letters to represent numbers. These letters are VARIABLES, and when we combine them with numbers and operations, we get ALGEBRAIC EXPRESSIONS. Today we learn to simplify by combining like terms.',
+//     keyPoints: [
+//       'A term is a single number, variable, or product (e.g., 3x, 5y², -7).',
+//       'Like terms have the same variable(s) raised to the same power.',
+//       'Unlike terms cannot be combined.',
+//       'Simplification means adding or subtracting like terms.'
+//     ],
+//     detailedContent: `Like Terms
 
-Like terms have identical variable parts.
+// Like terms have identical variable parts.
 
-| Like Terms | Why they are like |
-|------------|-------------------|
-| 3x and 5x | Both have x |
-| 4y² and 7y² | Both have y² |
-| 2ab and 6ab | Both have ab |
+// | Like Terms | Why they are like |
+// |------------|-------------------|
+// | 3x and 5x | Both have x |
+// | 4y² and 7y² | Both have y² |
+// | 2ab and 6ab | Both have ab |
 
-| Unlike Terms | Why they are unlike |
-|--------------|---------------------|
-| 3x and 3y | Different variables |
-| 4x and 4x² | Different powers |
-| 2ab and 2a | Different variables |
+// | Unlike Terms | Why they are unlike |
+// |--------------|---------------------|
+// | 3x and 3y | Different variables |
+// | 4x and 4x² | Different powers |
+// | 2ab and 2a | Different variables |
 
-Simplification
+// Simplification
 
-- 3x + 5x = (3+5)x = 8x
-- 7y – 2y = 5y
-- 4a + 3b + 2a – b = (4a+2a) + (3b–b) = 6a + 2b
+// - 3x + 5x = (3+5)x = 8x
+// - 7y – 2y = 5y
+// - 4a + 3b + 2a – b = (4a+2a) + (3b–b) = 6a + 2b
 
-Malawi example: A farmer harvests 5 baskets of maize (m) and 3 baskets of groundnuts (g) in the morning, and 2 baskets of maize and 4 baskets of groundnuts in the afternoon. Total = 5m+3g+2m+4g = 7m+7g.`,
-    summary: 'Like terms have identical variable parts. Only like terms can be added or subtracted. Simplifying makes expressions shorter and easier to work with.',
-    estimatedTime: '18 mins',
-    malawiExamples: [
-      { title: 'Harvest Collection', description: 'Combine maize and groundnuts from two harvests.' },
-      { title: 'Market Purchase', description: 'Calculate total cost by combining like items.' }
+// Malawi example: A farmer harvests 5 baskets of maize (m) and 3 baskets of groundnuts (g) in the morning, and 2 baskets of maize and 4 baskets of groundnuts in the afternoon. Total = 5m+3g+2m+4g = 7m+7g.`,
+//     summary: 'Like terms have identical variable parts. Only like terms can be added or subtracted. Simplifying makes expressions shorter and easier to work with.',
+//     estimatedTime: '18 mins',
+//     malawiExamples: [
+//       { title: 'Harvest Collection', description: 'Combine maize and groundnuts from two harvests.' },
+//       { title: 'Market Purchase', description: 'Calculate total cost by combining like items.' }
     ],
     practiceQuestions: [
       { question: 'Simplify: 8p – 3p', answer: '5p', hint: 'Subtract coefficients.' },
