@@ -62,6 +62,14 @@ router.patch('/pin/:sessionId', protect, async (req, res) => {
   }
 });
 
-
+// DELETE /api/chat/history/:sessionId
+router.delete('/history/:sessionId', protect, async (req, res) => {
+  try {
+    await ChatSession.findOneAndDelete({ userId: req.user._id, sessionId: req.params.sessionId });
+    res.json({ success: true, message: 'Session deleted' });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
 
 module.exports = router;
