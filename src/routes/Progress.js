@@ -105,7 +105,18 @@ router.get('/overview/all', protect, async (req, res) => {
       });
     });
 
-    
+    // 4. Build overview for all subjects
+    const subjects = ['Mathematics', 'Physics', 'Biology', 'Chemistry', 'English', 'Agriculture'];
+    const overview = subjects.map(subject => {
+      const totalLessons = lessonMap.get(subject) || 0;
+      const prog = progressMap.get(subject) || { completedLessons: [], overallProgress: 0 };
+      return {
+        subject,
+        completedLessons: prog.completedLessons,
+        totalLessons,
+        overallProgress: totalLessons > 0 ? Math.round((prog.completedLessons.length / totalLessons) * 100) : 0
+      };
+    });
 
     res.json(overview);
   } catch (error) {
