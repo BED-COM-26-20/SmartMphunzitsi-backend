@@ -6,6 +6,63 @@ const { protect } = require('../middleware/auth');
 
 const router = express.Router();
 
+// POST /api/progress/complete – record a completed lesson with score
+router.post('/complete',
+  protect,
+  [
+    body('subject').notEmpty(),
+    body('lessonId').notEmpty(),
+    body('score').isInt({ min: 0, max: 100 })
+  ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return res.status(400).json({ errors: errors.array() });
+
+    try {
+      const { subject, lessonId, lessonTitle, topic, score } = req.body;
+      const userId = req.user._id;
+
+      // Get total number of lessons for this subject
+      const totalLessons = await Lesson.countDocuments({ subject });
+
+      let progress = await Progress.findOne({ userId, subject });
+      if (!progress) {
+        progress = new Progress({
+          userId,
+          subject,
+          totalLessons,
+          completedLessons: []
+        });
+      } else {
+        progress.totalLessons = totalLessons;
+      }
+
+      // Update or add the completed lesson
+      const existingIndex = progress.completedLessons.findIndex(l => l.lessonId === lessonId);
+      if (existingIndex !== -1) {
+        progress.completedLessons[existingIndex].score = score;
+        progress.completedLessons[existingIndex].completedAt = Date.now();
+      } else {
+        progress.completedLessons.push({
+          lessonId,
+          lessonTitle: lessonTitle || 'Untitled',
+          score,
+          completedAt: Date.now()
+        });
+      }
+
+      // Update overall progress percentage
+      progress.overallProgress = (progress.completedLessons.length / totalLessons) * 100;
+      progress.updatedAt = Date.now();
+
+      await progress.save();
+      res.json({ success: true, data: progress });
+    } catch (error) {
+      console.error('Error saving progress:', error);
+      res.status(500).json({ message: error.message });
+    }
+  }
+);
 
 // GET /api/progress/:subject – get progress for a specific subject
 router.get('/:subject', protect, async (req, res) => {
