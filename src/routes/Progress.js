@@ -64,7 +64,23 @@ router.post('/complete',
   }
 );
 
+// GET /api/progress/:subject – get progress for a specific subject
+router.get('/:subject', protect, async (req, res) => {
+  try {
+    const { subject } = req.params;
+    const userId = req.user._id;
+    let progress = await Progress.findOne({ userId, subject });
 
+    const totalLessons = await Lesson.countDocuments({ subject });
+    if (!progress) {
+      return res.json({ subject, completedLessons: [], totalLessons, overallProgress: 0 });
+    }
+    progress.totalLessons = totalLessons;
+    res.json(progress);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
 
 // GET /api/progress/overview/all – optimised with aggregation
 router.get('/overview/all', protect, async (req, res) => {
