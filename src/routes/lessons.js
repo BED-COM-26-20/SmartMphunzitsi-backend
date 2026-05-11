@@ -77,7 +77,39 @@ router.get('/my-subjects', protect, async (req, res) => {
   }
 });
 
-
+// POST /api/lessons
+router.post('/',
+  protect,
+  [
+    body('subject').notEmpty(),
+    body('form').notEmpty(),
+    body('topic').notEmpty(),
+    body('lessonTitle').notEmpty(),
+    body('detailedContent').isLength({ min: 50 }).withMessage('Content too short (min 50 chars)')
+  ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return res.status(400).json({ errors: errors.array() });
+    try {
+      const lessonData = { ...req.body };
+      if (!lessonData.lessonId || lessonData.lessonId.trim() === '') {
+        const subjectCode = lessonData.subject.substring(0, 3).toLowerCase();
+        const formCode = lessonData.form.replace(' ', '').toLowerCase();
+        const topicCode = (lessonData.topic || 'general').substring(0, 8).toLowerCase().replace(/\s/g, '-');
+        const lessonNum = lessonData.lessonNumber || 1;
+        lessonData.lessonId = `${subjectCode}-${formCode}-${topicCode}-${lessonNum}`;
+      }
+      const lesson = new Lesson(lessonData);
+      const savedLesson = await lesson.save();
+      res.status(201).json({ success: true, message: 'Lesson created', data: savedLesson });
+    } catch (error) {
+      if (error.code === 11000) {
+        return res.status(400).json({ success: false, message: 'Duplicate lessonId.' });
+      }
+      res.status(400).json({ success: false, message: error.message });
+    }
+  }
+);
 
 // PUT /api/lessons/:id
 router.put('/:id',
