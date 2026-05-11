@@ -17,10 +17,7 @@ router.post('/generate',
     const { subject, topic, lessonContent } = req.body;
 
     try {
-      if (!process.env.GROQ_API_KEY) {
-        return res.status(500).json({ error: 'AI service not configured' });
-      }
-
+     
       const prompt = `Generate exactly 5 multiple-choice quiz questions for a student studying ${subject} – topic: "${topic}". 
       Each question must have:
       - "question": text,
