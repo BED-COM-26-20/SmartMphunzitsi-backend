@@ -137,6 +137,16 @@ router.get('/dashboard', protect, async (req, res) => {
 // @route   DELETE /api/users/account
 // @desc    Delete user account and all their progress
 // @access  Private
+router.delete('/account', protect, async (req, res) => {
+  try {
+    await Progress.deleteMany({ userId: req.user._id });
+    await User.findByIdAndDelete(req.user._id);
 
+    res.json({ success: true, message: 'Account deleted successfully' });
+  } catch (error) {
+    console.error('Delete account error:', error);
+    res.status(500).json({ message: error.message });
+  }
+});
 
 module.exports = router;
