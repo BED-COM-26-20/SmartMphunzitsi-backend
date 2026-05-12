@@ -24,7 +24,32 @@ router.get('/profile', protect, async (req, res) => {
 // @route   PUT /api/users/profile
 // @desc    Update current user profile (name, form, learningStyle)
 // @access  Private
+router.put('/profile', protect, async (req, res) => {
+  try {
+    const { name, form, learningStyle } = req.body;
+    const user = await User.findById(req.user._id);
 
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    if (name) user.name = name;
+    if (form) user.form = form;
+    if (learningStyle) user.learningStyle = learningStyle;
+
+    await user.save();
+
+    res.json({
+      success: true,
+      message: 'Profile updated successfully',
+      data: {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        form: user.form,
+        learningStyle: user.learningStyle
+      }
+    });
   } catch (error) {
     console.error('Update profile error:', error);
     res.status(500).json({ message: error.message });
