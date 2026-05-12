@@ -8,7 +8,18 @@ const router = express.Router();
 // @route   GET /api/users/profile
 // @desc    Get current user profile
 // @access  Private
-
+router.get('/profile', protect, async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id).select('-password');
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+    res.json({ success: true, data: user });
+  } catch (error) {
+    console.error('Get profile error:', error);
+    res.status(500).json({ message: error.message });
+  }
+});
 
 // @route   PUT /api/users/profile
 // @desc    Update current user profile (name, form, learningStyle)
