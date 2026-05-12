@@ -43,12 +43,7 @@ router.post('/generate',
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${process.env.GROQ_API_KEY}`
         },
-        body: JSON.stringify({
-          model: 'llama-3.3-70b-versatile',
-          messages: [{ role: 'system', content: 'You are an exam creator.' }, { role: 'user', content: prompt }],
-          temperature: 0.7,
-          max_tokens: 2048
-        })
+        
       });
 
       if (!response.ok) throw new Error('Groq API error');
