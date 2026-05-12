@@ -50,10 +50,7 @@ router.put('/profile', protect, async (req, res) => {
         learningStyle: user.learningStyle
       }
     });
-  } catch (error) {
-    console.error('Update profile error:', error);
-    res.status(500).json({ message: error.message });
-  }
+ 
 });
 
 // @route   PUT /api/users/change-password
