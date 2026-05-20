@@ -88,26 +88,6 @@ router.put('/change-password', protect, async (req, res) => {
   }
 });
 
-// @route   GET /api/users/dashboard
-// @desc    Get user dashboard data (profile + progress overview)
-// @access  Private
-router.get('/dashboard', protect, async (req, res) => {
-  try {
-    const user = await User.findById(req.user._id).select('-password');
-    const subjects = ['Mathematics', 'Physics', 'Biology', 'Chemistry', 'English', 'Agriculture'];
-
-    // Get progress for all subjects
-    const progressData = await Promise.all(
-      subjects.map(async (subject) => {
-        const progress = await Progress.findOne({ userId: req.user._id, subject });
-        return {
-          subject,
-          completedLessons: progress?.completedLessons.length || 0,
-          totalLessons: progress?.totalLessons || 0,
-          overallProgress: progress?.overallProgress || 0
-        };
-      })
-    );
 
     // Calculate total stats
     const totalCompleted = progressData.reduce((sum, p) => sum + p.completedLessons, 0);
