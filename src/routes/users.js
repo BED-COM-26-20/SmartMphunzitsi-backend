@@ -109,30 +109,7 @@ router.get('/dashboard', protect, async (req, res) => {
       })
     );
 
-    // Calculate total stats
-    const totalCompleted = progressData.reduce((sum, p) => sum + p.completedLessons, 0);
-    const totalLessons = progressData.reduce((sum, p) => sum + p.totalLessons, 0);
-    const overallProgress = totalLessons > 0
-      ? Math.round((totalCompleted / totalLessons) * 100)
-      : 0;
-
-    res.json({
-      success: true,
-      data: {
-        user,
-        stats: {
-          totalCompleted,
-          totalLessons,
-          overallProgress
-        },
-        progress: progressData
-      }
-    });
-  } catch (error) {
-    console.error('Dashboard error:', error);
-    res.status(500).json({ message: error.message });
-  }
-});
+   
 
 // @route   DELETE /api/users/account
 // @desc    Delete user account and all their progress
