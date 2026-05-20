@@ -1,6 +1,7 @@
+require('dotenv').config();
 const app = require('./src/App');
 const mongoose = require('mongoose');
-require('dotenv').config();
+
 
 console.log('\n Environment Check:');
 console.log('  MONGODB_URI:', process.env.MONGODB_URI ? ' Set' : ' Missing');
@@ -33,3 +34,4 @@ const startServer = async () => {
 };
 
 startServer();
+
