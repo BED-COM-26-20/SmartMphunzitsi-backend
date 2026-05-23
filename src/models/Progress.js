@@ -38,4 +38,4 @@ const progressSchema = new mongoose.Schema({
 
 progressSchema.index({ userId: 1, subject: 1 }, { unique: true });
 
-module.exports = mongoose.model('Progress', progressSchema);  
+module.exports = mongoose.model('Progress', progressSchema);
