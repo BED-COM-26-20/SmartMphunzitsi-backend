@@ -5,12 +5,34 @@ require('dotenv').config();
 
 const app = express();
 
+//  CORS CONFIGURATION 
+const allowedOrigins = [
+  process.env.CLIENT_URL,           
+  'http://localhost:3000',
+  'http://localhost:3001'
+].filter(Boolean);                  
 
-// MIDDLEWARE
-app.use(cors());
+app.use(cors({
+  origin: function(origin, callback) {
+    // Allow requests with no origin (like mobile apps, curl, Postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.indexOf(origin) === -1) {
+      const msg = 'CORS policy does not allow access from this origin.';
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  },
+  credentials: true,                
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
+
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
+
+// Chat history routes
 const chatHistoryRoutes = require('./routes/chatHistory');
 app.use('/api/chat', chatHistoryRoutes);
 
@@ -22,8 +44,7 @@ if (process.env.NODE_ENV === 'development') {
   });
 }
 
-// ROUTES
-
+// Auth routes
 try {
   const authRouter = require('./routes/auth');
   app.use('/api/auth', authRouter);
@@ -32,6 +53,7 @@ try {
   console.log(' Auth routes not loaded:', error.message);
 }
 
+// Users routes
 try {
   const usersRouter = require('./routes/users');
   app.use('/api/users', usersRouter);
@@ -40,6 +62,7 @@ try {
   console.log(' Users routes not loaded:', error.message);
 }
 
+// Lessons routes
 try {
   const lessonsRouter = require('./routes/lessons');
   app.use('/api/lessons', lessonsRouter);
@@ -48,6 +71,7 @@ try {
   console.log(' Lessons routes not loaded:', error.message);
 }
 
+// Progress routes
 try {
   const progressRouter = require('./routes/Progress');
   app.use('/api/progress', progressRouter);
@@ -56,6 +80,7 @@ try {
   console.log(' Progress routes not loaded:', error.message);
 }
 
+// Chat routes
 try {
   const chatRouter = require('./routes/Chat');
   app.use('/api/chat', chatRouter);
@@ -64,7 +89,7 @@ try {
   console.log(' Chat routes not loaded:', error.message);
 }
 
-//   QUIZ ROUTE 
+// Quiz routes
 try {
   const quizRoutes = require('./routes/quiz');
   app.use('/api/quiz', quizRoutes);
@@ -73,18 +98,15 @@ try {
   console.log(' Quiz routes not loaded:', error.message);
 }
 
-// DEFAULT ROUTES
-
-// Root
+// DEFAULT ROUTES 
 app.get('/', (req, res) => {
   res.json({
-    message: ' Smart Mphunzitsi API is running',
+    message: 'Smart Mphunzitsi API is running',
     version: '1.0.0',
     status: 'OK'
   });
 });
 
-// API info 
 app.get('/api', (req, res) => {
   res.json({
     message: 'Smart Mphunzitsi API',
@@ -124,7 +146,6 @@ app.get('/api', (req, res) => {
   });
 });
 
-// Health check
 app.get('/health', (req, res) => {
   res.json({
     status: 'OK',
@@ -134,9 +155,7 @@ app.get('/health', (req, res) => {
   });
 });
 
-
-// ERROR HANDLING
-
+// ========== ERROR HANDLING ==========
 // 404 - Route not found
 app.use((req, res) => {
   res.status(404).json({
@@ -147,7 +166,7 @@ app.use((req, res) => {
 
 // Global error handler
 app.use((err, req, res, next) => {
-  console.error(' Server Error:', err.stack);
+  console.error('Server Error:', err.stack);
   res.status(err.status || 500).json({
     success: false,
     message: process.env.NODE_ENV === 'development' ? err.message : 'Something went wrong!'
