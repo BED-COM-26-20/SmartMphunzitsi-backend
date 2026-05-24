@@ -5,26 +5,45 @@ require('dotenv').config();
 
 const app = express();
 
-//  CORS CONFIGURATION 
+
+// Handle preflight OPTIONS requests first — before anything else
+app.options('*', (req, res) => {
+  res.header('Access-Control-Allow-Origin', 'https://ai-tutor-new-backup.vercel.app');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.sendStatus(200);
+});
+
+// Apply CORS headers to every request
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://ai-tutor-new-backup.vercel.app');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
+
+// Also use cors() package as a backup
 const allowedOrigins = [
-  process.env.CLIENT_URL,           
+  'https://ai-tutor-new-backup.vercel.app',
+  process.env.CLIENT_URL,
   'http://localhost:3000',
-  'http://localhost:3001'
-].filter(Boolean);                  
+  'http://localhost:3001',
+].filter(Boolean);
 
 app.use(cors({
-  origin: function(origin, callback) {
-    // Allow requests with no origin (like mobile apps, curl, Postman)
+  origin: function (origin, callback) {
+    // Allow requests with no origin (mobile apps, curl, Postman)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.indexOf(origin) === -1) {
-      const msg = 'CORS policy does not allow access from this origin.';
-      return callback(new Error(msg), false);
+    if (allowedOrigins.indexOf(origin) !== -1) {
+      return callback(null, true);
     }
-    return callback(null, true);
+    return callback(new Error('CORS policy does not allow access from: ' + origin), false);
   },
-  credentials: true,                
+  credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
 
@@ -32,11 +51,6 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 
-// Chat history routes
-const chatHistoryRoutes = require('./routes/chatHistory');
-app.use('/api/chat', chatHistoryRoutes);
-
-// Request logger (development only)
 if (process.env.NODE_ENV === 'development') {
   app.use((req, res, next) => {
     console.log(`${req.method} ${req.originalUrl}`);
@@ -44,13 +58,19 @@ if (process.env.NODE_ENV === 'development') {
   });
 }
 
+
+
+// Chat history routes
+const chatHistoryRoutes = require('./routes/chatHistory');
+app.use('/api/chat', chatHistoryRoutes);
+
 // Auth routes
 try {
   const authRouter = require('./routes/auth');
   app.use('/api/auth', authRouter);
   console.log(' Auth routes loaded');
 } catch (error) {
-  console.log(' Auth routes not loaded:', error.message);
+  console.log('Auth routes not loaded:', error.message);
 }
 
 // Users routes
@@ -59,7 +79,7 @@ try {
   app.use('/api/users', usersRouter);
   console.log(' Users routes loaded');
 } catch (error) {
-  console.log(' Users routes not loaded:', error.message);
+  console.log('Users routes not loaded:', error.message);
 }
 
 // Lessons routes
@@ -75,7 +95,7 @@ try {
 try {
   const progressRouter = require('./routes/Progress');
   app.use('/api/progress', progressRouter);
-  console.log(' Progress routes loaded');
+  console.log('Progress routes loaded');
 } catch (error) {
   console.log(' Progress routes not loaded:', error.message);
 }
@@ -93,17 +113,17 @@ try {
 try {
   const quizRoutes = require('./routes/quiz');
   app.use('/api/quiz', quizRoutes);
-  console.log(' Quiz routes loaded');
+  console.log('Quiz routes loaded');
 } catch (error) {
   console.log(' Quiz routes not loaded:', error.message);
 }
 
-// DEFAULT ROUTES 
+
 app.get('/', (req, res) => {
   res.json({
     message: 'Smart Mphunzitsi API is running',
     version: '1.0.0',
-    status: 'OK'
+    status: 'OK',
   });
 });
 
@@ -115,34 +135,34 @@ app.get('/api', (req, res) => {
       auth: {
         register: 'POST /api/auth/register',
         login: 'POST /api/auth/login',
-        me: 'GET /api/auth/me'
+        me: 'GET /api/auth/me',
       },
       users: {
         profile: 'GET /api/users/profile',
         updateProfile: 'PUT /api/users/profile',
         changePassword: 'PUT /api/users/change-password',
         dashboard: 'GET /api/users/dashboard',
-        deleteAccount: 'DELETE /api/users/account'
+        deleteAccount: 'DELETE /api/users/account',
       },
       lessons: {
         bySubject: 'GET /api/lessons/subject/:subject',
         bySubjectAndForm: 'GET /api/lessons/subject/:subject?form=Form 1',
         topics: 'GET /api/lessons/topics/:subject/:form',
         single: 'GET /api/lessons/:subject/:lessonId',
-        mySubjects: 'GET /api/lessons/my-subjects'
+        mySubjects: 'GET /api/lessons/my-subjects',
       },
       progress: {
         complete: 'POST /api/progress/complete',
         bySubject: 'GET /api/progress/:subject',
-        overview: 'GET /api/progress/overview/all'
+        overview: 'GET /api/progress/overview/all',
       },
       chat: {
-        message: 'POST /api/chat'
+        message: 'POST /api/chat',
       },
       quiz: {
-        generate: 'POST /api/quiz/generate'
-      }
-    }
+        generate: 'POST /api/quiz/generate',
+      },
+    },
   });
 });
 
@@ -151,16 +171,16 @@ app.get('/health', (req, res) => {
     status: 'OK',
     timestamp: new Date().toISOString(),
     mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
-    environment: process.env.NODE_ENV || 'development'
+    environment: process.env.NODE_ENV || 'development',
+    allowedOrigins, // helpful for debugging
   });
 });
 
-// ========== ERROR HANDLING ==========
 // 404 - Route not found
 app.use((req, res) => {
   res.status(404).json({
     success: false,
-    message: `Route ${req.originalUrl} not found`
+    message: `Route ${req.originalUrl} not found`,
   });
 });
 
@@ -169,7 +189,7 @@ app.use((err, req, res, next) => {
   console.error('Server Error:', err.stack);
   res.status(err.status || 500).json({
     success: false,
-    message: process.env.NODE_ENV === 'development' ? err.message : 'Something went wrong!'
+    message: process.env.NODE_ENV === 'development' ? err.message : 'Something went wrong!',
   });
 });
 
