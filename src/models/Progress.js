@@ -6,4 +6,8 @@ const progressSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
- 
+  subject: {
+    type: String,
+    required: true
+  },
+  
