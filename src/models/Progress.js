@@ -17,4 +17,17 @@ const progressSchema = new mongoose.Schema({
       type: Date,
       default: Date.now
     },
-   
+    score: {
+      type: Number,
+      default: 0
+    }
+  }],
+  overallProgress: {
+    type: Number,
+    default: 0
+  },
+ 
+
+progressSchema.index({ userId: 1, subject: 1 }, { unique: true });
+
+module.exports = mongoose.model('Progress', progressSchema);
