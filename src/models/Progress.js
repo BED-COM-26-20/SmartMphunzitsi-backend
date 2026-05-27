@@ -10,4 +10,11 @@ const progressSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  
+  completedLessons: [{
+    lessonId: String,
+    lessonTitle: String,
+    completedAt: {
+      type: Date,
+      default: Date.now
+    },
+   
